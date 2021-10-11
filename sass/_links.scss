@@ -1,0 +1,39 @@
+a {
+  text-align: center;
+  font-family: $english;
+  text-decoration: none;
+  font-style: normal;
+  transition: background-color 0.1s ease-out;
+  border: none;
+}
+.link {
+  &-primary {
+    &:link {
+      color: $negative-white;
+      background-color: $primary-main;
+    }
+    &:visited {
+      color: $negative-white;
+      background-color: $primary-main;
+    }
+    &:hover {
+      background-color: $primary-hover;
+    }
+    &:active {
+      color: $negative-white;
+      background-color: $primary-main;
+      border: $pd-8 solid $secondary-focus;
+    }
+    &:focus {
+      border: $pd-8 solid $secondary-focus;
+    }
+    &-mini {
+      font-size: $pd-14;
+      font-weight: $semi-bold;
+      line-height: $pd-24;
+      padding: $pd-4;
+      letter-spacing: 0.6px;
+      border-radius: $pd-8;
+    }
+  }
+}

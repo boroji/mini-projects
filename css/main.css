@@ -13,4 +13,60 @@ body {
   font-size: 16px;
   font-family: sans-serif;
 }
+
+a {
+  text-align: center;
+  font-family: "Noto Sans Display", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  border: none;
+}
+
+.link-primary:link {
+  color: white;
+  background-color: #007a76;
+}
+
+.link-primary:visited {
+  color: white;
+  background-color: #007a76;
+}
+
+.link-primary:hover {
+  background-color: #006663;
+}
+
+.link-primary:active {
+  color: white;
+  background-color: #007a76;
+  border: 0.5rem solid #e7efee;
+}
+
+.link-primary:focus {
+  border: 0.5rem solid #e7efee;
+}
+
+.link-primary-mini {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.25rem;
+  letter-spacing: 0.6px;
+  border-radius: 0.5rem;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
