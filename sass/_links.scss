@@ -9,6 +9,18 @@ a {
   outline: none;
   font-weight: $semi-bold;
   line-height: $pd-24;
+  .link-text {
+    display: inline-block;
+    &-right {
+      margin-right: $pd-8;
+    }
+    &-left {
+      margin-left: $pd-8;
+    }
+    &-both {
+      margin: 0 $pd-8;
+    }
+  }
 }
 
 .link {
@@ -19,6 +31,13 @@ a {
     font-family: $english;
   }
   &-primary {
+    svg {
+      transform: rotate(0deg);
+      transition: transform 180ms ease-out;
+      path {
+        fill: $negative-white;
+      }
+    }
     &:link {
       color: $negative-white;
       background-color: $primary-main;
@@ -29,6 +48,12 @@ a {
     }
     &:hover {
       background-color: $primary-hover;
+      svg {
+        transform: rotate(360deg);
+        path {
+          fill: $negative-white;
+        }
+      }
     }
     &:active {
       color: $negative-white;
