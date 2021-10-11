@@ -1,7 +1,5 @@
 a {
   text-align: center;
-  font-family: $english;
-  font-family: $arabic;
   text-decoration: none;
   font-style: normal;
   transition: background-color 0.1s ease-out;
@@ -9,7 +7,14 @@ a {
   font-weight: $semi-bold;
   line-height: $pd-24;
 }
+
 .link {
+  &-arabic {
+    font-family: $arabic;
+  }
+  &-english {
+    font-family: $english;
+  }
   &-primary {
     &:link {
       color: $negative-white;
