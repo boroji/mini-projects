@@ -5,6 +5,8 @@ a {
   font-style: normal;
   transition: background-color 0.1s ease-out;
   border: none;
+  font-weight: $semi-bold;
+  line-height: $pd-24;
 }
 .link {
   &-primary {
@@ -22,18 +24,25 @@ a {
     &:active {
       color: $negative-white;
       background-color: $primary-main;
-      border: $pd-8 solid $secondary-focus;
     }
-    &:focus {
-      border: $pd-8 solid $secondary-focus;
+    &-small {
+      font-size: $pd-16;
+      padding: $pd-12;
+      border-radius: $pd-18;
+      &:focus {
+        border: $pd-8 solid $secondary-focus;
+        border-radius: $pd-24;
+      }
     }
     &-mini {
       font-size: $pd-14;
-      font-weight: $semi-bold;
-      line-height: $pd-24;
       padding: $pd-4;
       letter-spacing: 0.6px;
       border-radius: $pd-8;
+      &:focus {
+        border: $pd-8 solid $secondary-focus;
+        border-radius: $pd-16;
+      }
     }
   }
 }

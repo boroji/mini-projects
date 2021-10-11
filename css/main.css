@@ -22,6 +22,8 @@ a {
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   border: none;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
 
 .link-primary:link {
@@ -41,20 +43,29 @@ a {
 .link-primary:active {
   color: white;
   background-color: #007a76;
-  border: 0.5rem solid #e7efee;
 }
 
-.link-primary:focus {
+.link-primary-small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.link-primary-small:focus {
   border: 0.5rem solid #e7efee;
+  border-radius: 1.5rem;
 }
 
 .link-primary-mini {
   font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.5rem;
   padding: 0.25rem;
   letter-spacing: 0.6px;
   border-radius: 0.5rem;
+}
+
+.link-primary-mini:focus {
+  border: 0.5rem solid #e7efee;
+  border-radius: 1rem;
 }
 
 body {
