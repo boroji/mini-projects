@@ -1,6 +1,7 @@
 a {
   text-align: center;
   font-family: $english;
+  font-family: $arabic;
   text-decoration: none;
   font-style: normal;
   transition: background-color 0.1s ease-out;
@@ -24,6 +25,16 @@ a {
     &:active {
       color: $negative-white;
       background-color: $primary-main;
+      border: $pd-8 solid $secondary-focus;
+    }
+    &-regular {
+      font-size: $pd-18;
+      padding: $pd-24;
+      border-radius: $pd-28;
+      &:focus {
+        border: $pd-8 solid $secondary-focus;
+        border-radius: $pd-36;
+      }
     }
     &-small {
       font-size: $pd-16;
@@ -37,7 +48,6 @@ a {
     &-mini {
       font-size: $pd-14;
       padding: $pd-4;
-      letter-spacing: 0.6px;
       border-radius: $pd-8;
       &:focus {
         border: $pd-8 solid $secondary-focus;

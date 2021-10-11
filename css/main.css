@@ -17,6 +17,7 @@ body {
 a {
   text-align: center;
   font-family: "Noto Sans Display", sans-serif;
+  font-family: "Noto Sans Arabic", sans-serif;
   text-decoration: none;
   font-style: normal;
   -webkit-transition: background-color 0.1s ease-out;
@@ -43,6 +44,18 @@ a {
 .link-primary:active {
   color: white;
   background-color: #007a76;
+  border: 0.5rem solid #e7efee;
+}
+
+.link-primary-regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.link-primary-regular:focus {
+  border: 0.5rem solid #e7efee;
+  border-radius: 2.25rem;
 }
 
 .link-primary-small {
@@ -59,7 +72,6 @@ a {
 .link-primary-mini {
   font-size: 0.875rem;
   padding: 0.25rem;
-  letter-spacing: 0.6px;
   border-radius: 0.5rem;
 }
 
