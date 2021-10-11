@@ -21,6 +21,7 @@ a {
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   border: none;
+  outline: none;
   font-weight: 600;
   line-height: 1.5rem;
 }
@@ -50,7 +51,7 @@ a {
 .link-primary:active {
   color: white;
   background-color: #007a76;
-  border: 0.5rem solid #e7efee;
+  outline: 0.5rem solid #e7efee;
 }
 
 .link-primary-regular {
@@ -60,8 +61,7 @@ a {
 }
 
 .link-primary-regular:focus {
-  border: 0.5rem solid #e7efee;
-  border-radius: 2.25rem;
+  outline: 0.5rem solid #e7efee;
 }
 
 .link-primary-small {
@@ -71,8 +71,7 @@ a {
 }
 
 .link-primary-small:focus {
-  border: 0.5rem solid #e7efee;
-  border-radius: 1.5rem;
+  outline: 0.5rem solid #e7efee;
 }
 
 .link-primary-mini {
@@ -82,8 +81,7 @@ a {
 }
 
 .link-primary-mini:focus {
-  border: 0.5rem solid #e7efee;
-  border-radius: 1rem;
+  outline: 0.5rem solid #e7efee;
 }
 
 body {
