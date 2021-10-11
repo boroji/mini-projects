@@ -54,6 +54,16 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-primary-large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.link-primary-large:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
 .link-primary-regular {
   font-size: 1.125rem;
   padding: 1.5rem;
@@ -61,7 +71,7 @@ a {
 }
 
 .link-primary-regular:focus {
-  outline: 0.5rem solid #e7efee;
+  outline: 0.75rem solid #e7efee;
 }
 
 .link-primary-small {
