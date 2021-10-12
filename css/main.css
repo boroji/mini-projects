@@ -588,8 +588,16 @@ a {
   outline: 0.75rem solid #e7efee;
 }
 
+.link-large-dark:focus, .link-regular-dark:focus {
+  outline: 0.75rem solid rgba(255, 255, 255, 0.25);
+}
+
 .link-small:focus, .link-mini:focus {
   outline: 0.5rem solid #e7efee;
+}
+
+.link-small-dark:focus, .link-mini-dark:focus {
+  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
 }
 
 .link-large {

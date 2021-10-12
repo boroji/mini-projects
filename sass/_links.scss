@@ -186,12 +186,22 @@ a {
     &:focus {
       outline: $pd-12 solid $secondary-focus;
     }
+    &-dark {
+      &:focus {
+        outline: $pd-12 solid $negative-white-hover;
+      }
+    }
   }
 
   &-small,
   &-mini {
     &:focus {
       outline: $pd-8 solid $secondary-focus;
+    }
+    &-dark {
+      &:focus {
+        outline: $pd-8 solid $negative-white-hover;
+      }
     }
   }
 
