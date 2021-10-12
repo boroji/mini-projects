@@ -56,6 +56,46 @@ a .link-text-both {
   font-family: "Noto Sans Display", sans-serif;
 }
 
+.link-large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.link-large:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.link-regular:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.link-small:focus {
+  outline: 0.5rem solid #e7efee;
+}
+
+.link-mini {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.link-mini:focus {
+  outline: 0.5rem solid #e7efee;
+}
+
 .link-primary svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -98,46 +138,6 @@ a .link-text-both {
   outline: 0.5rem solid #e7efee;
 }
 
-.link-primary-large {
-  font-size: 1.25rem;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-
-.link-primary-large:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-primary-regular {
-  font-size: 1.125rem;
-  padding: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.link-primary-regular:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-primary-small {
-  font-size: 1rem;
-  padding: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.link-primary-small:focus {
-  outline: 0.5rem solid #e7efee;
-}
-
-.link-primary-mini {
-  font-size: 0.875rem;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
-}
-
-.link-primary-mini:focus {
-  outline: 0.5rem solid #e7efee;
-}
-
 .link-secondary svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -177,46 +177,6 @@ a .link-text-both {
 .link-secondary:active {
   color: #007a76;
   background-color: #f6f9f9;
-  outline: 0.5rem solid #e7efee;
-}
-
-.link-secondary-large {
-  font-size: 1.25rem;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-
-.link-secondary-large:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-secondary-regular {
-  font-size: 1.125rem;
-  padding: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.link-secondary-regular:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-secondary-small {
-  font-size: 1rem;
-  padding: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.link-secondary-small:focus {
-  outline: 0.5rem solid #e7efee;
-}
-
-.link-secondary-mini {
-  font-size: 0.875rem;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
-}
-
-.link-secondary-mini:focus {
   outline: 0.5rem solid #e7efee;
 }
 
