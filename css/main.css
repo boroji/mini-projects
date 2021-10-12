@@ -206,6 +206,198 @@ body {
   margin-left: 3rem;
 }
 
+.padding-top-4 {
+  padding-top: 0.25rem;
+}
+
+.padding-top-8 {
+  padding-top: 0.5rem;
+}
+
+.padding-top-12 {
+  padding-top: 0.75rem;
+}
+
+.padding-top-16 {
+  padding-top: 1rem;
+}
+
+.padding-top-20 {
+  padding-top: 1.25rem;
+}
+
+.padding-top-24 {
+  padding-top: 1.5rem;
+}
+
+.padding-top-28 {
+  padding-top: 1.75rem;
+}
+
+.padding-top-32 {
+  padding-top: 2rem;
+}
+
+.padding-top-36 {
+  padding-top: 2.25rem;
+}
+
+.padding-top-40 {
+  padding-top: 2.5rem;
+}
+
+.padding-top-44 {
+  padding-top: 2.75rem;
+}
+
+.padding-top-48 {
+  padding-top: 3rem;
+}
+
+.padding-right-4 {
+  padding-right: 0.25rem;
+}
+
+.padding-right-8 {
+  padding-right: 0.5rem;
+}
+
+.padding-right-12 {
+  padding-right: 0.75rem;
+}
+
+.padding-right-16 {
+  padding-right: 1rem;
+}
+
+.padding-right-20 {
+  padding-right: 1.25rem;
+}
+
+.padding-right-24 {
+  padding-right: 1.5rem;
+}
+
+.padding-right-28 {
+  padding-right: 1.75rem;
+}
+
+.padding-right-32 {
+  padding-right: 2rem;
+}
+
+.padding-right-36 {
+  padding-right: 2.25rem;
+}
+
+.padding-right-40 {
+  padding-right: 2.5rem;
+}
+
+.padding-right-44 {
+  padding-right: 2.75rem;
+}
+
+.padding-right-48 {
+  padding-right: 3rem;
+}
+
+.padding-bottom-4 {
+  padding-bottom: 0.25rem;
+}
+
+.padding-bottom-8 {
+  padding-bottom: 0.5rem;
+}
+
+.padding-bottom-12 {
+  padding-bottom: 0.75rem;
+}
+
+.padding-bottom-16 {
+  padding-bottom: 1rem;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 1.25rem;
+}
+
+.padding-bottom-24 {
+  padding-bottom: 1.5rem;
+}
+
+.padding-bottom-28 {
+  padding-bottom: 1.75rem;
+}
+
+.padding-bottom-32 {
+  padding-bottom: 2rem;
+}
+
+.padding-bottom-36 {
+  padding-bottom: 2.25rem;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 2.5rem;
+}
+
+.padding-bottom-44 {
+  padding-bottom: 2.75rem;
+}
+
+.padding-bottom-48 {
+  padding-bottom: 3rem;
+}
+
+.padding-left-4 {
+  padding-left: 0.25rem;
+}
+
+.padding-left-8 {
+  padding-left: 0.5rem;
+}
+
+.padding-left-12 {
+  padding-left: 0.75rem;
+}
+
+.padding-left-16 {
+  padding-left: 1rem;
+}
+
+.padding-left-20 {
+  padding-left: 1.25rem;
+}
+
+.padding-left-24 {
+  padding-left: 1.5rem;
+}
+
+.padding-left-28 {
+  padding-left: 1.75rem;
+}
+
+.padding-left-32 {
+  padding-left: 2rem;
+}
+
+.padding-left-36 {
+  padding-left: 2.25rem;
+}
+
+.padding-left-40 {
+  padding-left: 2.5rem;
+}
+
+.padding-left-44 {
+  padding-left: 2.75rem;
+}
+
+.padding-left-48 {
+  padding-left: 3rem;
+}
+
 a {
   display: -webkit-box;
   display: -ms-flexbox;

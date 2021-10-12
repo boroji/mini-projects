@@ -205,3 +205,158 @@ $pd-96-negative: -6rem;
     }
   }
 }
+
+.padding {
+  &-top {
+    &-4 {
+      padding-top: $pd-4;
+    }
+    &-8 {
+      padding-top: $pd-8;
+    }
+    &-12 {
+      padding-top: $pd-12;
+    }
+    &-16 {
+      padding-top: $pd-16;
+    }
+    &-20 {
+      padding-top: $pd-20;
+    }
+    &-24 {
+      padding-top: $pd-24;
+    }
+    &-28 {
+      padding-top: $pd-28;
+    }
+    &-32 {
+      padding-top: $pd-32;
+    }
+    &-36 {
+      padding-top: $pd-36;
+    }
+    &-40 {
+      padding-top: $pd-40;
+    }
+    &-44 {
+      padding-top: $pd-44;
+    }
+    &-48 {
+      padding-top: $pd-48;
+    }
+  }
+  &-right {
+    &-4 {
+      padding-right: $pd-4;
+    }
+    &-8 {
+      padding-right: $pd-8;
+    }
+    &-12 {
+      padding-right: $pd-12;
+    }
+    &-16 {
+      padding-right: $pd-16;
+    }
+    &-20 {
+      padding-right: $pd-20;
+    }
+    &-24 {
+      padding-right: $pd-24;
+    }
+    &-28 {
+      padding-right: $pd-28;
+    }
+    &-32 {
+      padding-right: $pd-32;
+    }
+    &-36 {
+      padding-right: $pd-36;
+    }
+    &-40 {
+      padding-right: $pd-40;
+    }
+    &-44 {
+      padding-right: $pd-44;
+    }
+    &-48 {
+      padding-right: $pd-48;
+    }
+  }
+  &-bottom {
+    &-4 {
+      padding-bottom: $pd-4;
+    }
+    &-8 {
+      padding-bottom: $pd-8;
+    }
+    &-12 {
+      padding-bottom: $pd-12;
+    }
+    &-16 {
+      padding-bottom: $pd-16;
+    }
+    &-20 {
+      padding-bottom: $pd-20;
+    }
+    &-24 {
+      padding-bottom: $pd-24;
+    }
+    &-28 {
+      padding-bottom: $pd-28;
+    }
+    &-32 {
+      padding-bottom: $pd-32;
+    }
+    &-36 {
+      padding-bottom: $pd-36;
+    }
+    &-40 {
+      padding-bottom: $pd-40;
+    }
+    &-44 {
+      padding-bottom: $pd-44;
+    }
+    &-48 {
+      padding-bottom: $pd-48;
+    }
+  }
+  &-left {
+    &-4 {
+      padding-left: $pd-4;
+    }
+    &-8 {
+      padding-left: $pd-8;
+    }
+    &-12 {
+      padding-left: $pd-12;
+    }
+    &-16 {
+      padding-left: $pd-16;
+    }
+    &-20 {
+      padding-left: $pd-20;
+    }
+    &-24 {
+      padding-left: $pd-24;
+    }
+    &-28 {
+      padding-left: $pd-28;
+    }
+    &-32 {
+      padding-left: $pd-32;
+    }
+    &-36 {
+      padding-left: $pd-36;
+    }
+    &-40 {
+      padding-left: $pd-40;
+    }
+    &-44 {
+      padding-left: $pd-44;
+    }
+    &-48 {
+      padding-left: $pd-48;
+    }
+  }
+}
