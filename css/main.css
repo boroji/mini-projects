@@ -574,11 +574,13 @@ a {
 }
 
 .link-outline:hover {
-  background-color: #f6f9f9;
+  color: #006663;
+  background-color: #eaf1f0;
+  outline: 2px solid #006663;
 }
 
 .link-outline:hover svg path {
-  fill: #007a76;
+  fill: #006663;
 }
 
 .link-outline:active {

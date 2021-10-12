@@ -170,10 +170,12 @@ a {
       background-color: $negative-white-hide;
     }
     &:hover {
-      background-color: $secondary-highlight;
+      color: $primary-hover;
+      background-color: $secondary-hover;
+      outline: 2px solid $primary-hover;
       svg {
         path {
-          fill: $primary-main;
+          fill: $primary-hover;
         }
       }
     }
