@@ -544,11 +544,12 @@ a {
 }
 
 .link-ghost:hover {
+  color: #006663;
   background-color: #f6f9f9;
 }
 
 .link-ghost:hover svg path {
-  fill: #007a76;
+  fill: #006663;
 }
 
 .link-ghost:active {

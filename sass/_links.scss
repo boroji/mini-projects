@@ -140,10 +140,11 @@ a {
       background-color: $negative-white-hide;
     }
     &:hover {
+      color: $primary-hover;
       background-color: $secondary-highlight;
       svg {
         path {
-          fill: $primary-main;
+          fill: $primary-hover;
         }
       }
     }
