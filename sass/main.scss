@@ -6,7 +6,6 @@
 @import "links";
 
 body {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,5 +16,9 @@ body {
     align-items: center;
     gap: $pd-24;
     margin-top: $pd-24;
+    padding: $pd-24;
+    &-dark {
+      background-color: $secondary-background;
+    }
   }
 }

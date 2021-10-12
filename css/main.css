@@ -510,6 +510,35 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-primary-dark svg path {
+  fill: #00524f;
+}
+
+.link-primary-dark:link {
+  color: #00524f;
+  background-color: #70dbd8;
+}
+
+.link-primary-dark:visited {
+  color: #00524f;
+  background-color: #70dbd8;
+}
+
+.link-primary-dark:hover {
+  color: #1f2e2d;
+  background-color: #2eb8b3;
+}
+
+.link-primary-dark:hover svg path {
+  fill: #1f2e2d;
+}
+
+.link-primary-dark:active {
+  color: #00524f;
+  background-color: #70dbd8;
+  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+}
+
 .link-secondary svg path {
   fill: #007a76;
 }
@@ -596,7 +625,6 @@ a {
 }
 
 body {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -624,5 +652,10 @@ body .container {
           align-items: center;
   gap: 1.5rem;
   margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+body .container-dark {
+  background-color: #1f2e2d;
 }
 /*# sourceMappingURL=main.css.map */

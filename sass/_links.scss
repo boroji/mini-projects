@@ -98,6 +98,35 @@ a {
       background-color: $primary-main;
       outline: $pd-8 solid $secondary-focus;
     }
+    &-dark {
+      svg {
+        path {
+          fill: $primary-text;
+        }
+      }
+      &:link {
+        color: $primary-text;
+        background-color: $tertiary-main;
+      }
+      &:visited {
+        color: $primary-text;
+        background-color: $tertiary-main;
+      }
+      &:hover {
+        color: $secondary-background;
+        background-color: $tertiary-hover;
+        svg {
+          path {
+            fill: $secondary-background;
+          }
+        }
+      }
+      &:active {
+        color: $primary-text;
+        background-color: $tertiary-main;
+        outline: $pd-8 solid $negative-white-hover;
+      }
+    }
   }
   &-secondary {
     svg {
