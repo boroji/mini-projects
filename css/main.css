@@ -420,18 +420,6 @@ a {
   display: inline-block;
 }
 
-.link-right {
-  margin-right: 0.5rem;
-}
-
-.link-left {
-  margin-left: 0.5rem;
-}
-
-.link-both {
-  margin: 0 0.5rem;
-}
-
 .link-arabic {
   font-family: "Noto Sans Arabic", sans-serif;
 }
