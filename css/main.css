@@ -222,6 +222,49 @@ a .link-text-both {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.link-outline svg path {
+  fill: #007a76;
+}
+
+.link-outline:link {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 2px solid #007a76;
+}
+
+.link-outline:visited {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.link-outline:hover {
+  background-color: #f6f9f9;
+}
+
+.link-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.link-outline:hover svg path {
+  fill: #007a76;
+}
+
+.link-outline:active {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 0.5rem solid #e7efee;
+}
+
 body {
   height: 100vh;
   display: -webkit-box;

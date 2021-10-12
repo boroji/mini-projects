@@ -157,4 +157,36 @@ a {
       outline: $pd-8 solid $secondary-focus;
     }
   }
+  &-outline {
+    svg {
+      transform: rotate(0deg);
+      transition: transform 180ms ease-out;
+      path {
+        fill: $primary-main;
+      }
+    }
+    &:link {
+      color: $primary-main;
+      background-color: $negative-white-hide;
+      outline: 2px solid $primary-main;
+    }
+    &:visited {
+      color: $primary-main;
+      background-color: $negative-white-hide;
+    }
+    &:hover {
+      background-color: $secondary-highlight;
+      svg {
+        transform: rotate(360deg);
+        path {
+          fill: $primary-main;
+        }
+      }
+    }
+    &:active {
+      color: $primary-main;
+      background-color: $negative-white-hide;
+      outline: $pd-8 solid $secondary-focus;
+    }
+  }
 }
