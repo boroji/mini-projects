@@ -32,19 +32,19 @@ a {
   line-height: 1.5rem;
 }
 
-a .link-text {
+.link-text {
   display: inline-block;
 }
 
-a .link-text-right {
+.link-right {
   margin-right: 0.5rem;
 }
 
-a .link-text-left {
+.link-left {
   margin-left: 0.5rem;
 }
 
-a .link-text-both {
+.link-both {
   margin: 0 0.5rem;
 }
 
