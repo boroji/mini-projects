@@ -428,46 +428,6 @@ a {
   font-family: "Noto Sans Display", sans-serif;
 }
 
-.link-large {
-  font-size: 1.25rem;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-
-.link-large:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-regular {
-  font-size: 1.125rem;
-  padding: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.link-regular:focus {
-  outline: 0.75rem solid #e7efee;
-}
-
-.link-small {
-  font-size: 1rem;
-  padding: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.link-small:focus {
-  outline: 0.5rem solid #e7efee;
-}
-
-.link-mini {
-  font-size: 0.875rem;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
-}
-
-.link-mini:focus {
-  outline: 0.5rem solid #e7efee;
-}
-
 .link-primary svg, .link-secondary svg, .link-ghost svg, .link-outline svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
@@ -621,6 +581,46 @@ a {
 .link-outline:active {
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: 0.5rem solid #e7efee;
+}
+
+.link-large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.link-large:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.link-regular:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.link-small:focus {
+  outline: 0.5rem solid #e7efee;
+}
+
+.link-mini {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.link-mini:focus {
   outline: 0.5rem solid #e7efee;
 }
 
