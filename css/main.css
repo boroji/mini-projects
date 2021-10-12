@@ -468,7 +468,7 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
-.link-primary svg {
+.link-primary svg, .link-secondary svg, .link-ghost svg, .link-outline svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: -webkit-transform 180ms ease-out;
@@ -510,15 +510,6 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
-.link-secondary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
 .link-secondary svg path {
   fill: #007a76;
 }
@@ -552,15 +543,6 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
-.link-ghost svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
 .link-ghost svg path {
   fill: #007a76;
 }
@@ -592,15 +574,6 @@ a {
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
   outline: 0.5rem solid #e7efee;
-}
-
-.link-outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
 }
 
 .link-outline svg path {

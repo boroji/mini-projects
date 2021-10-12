@@ -56,10 +56,18 @@ a {
     }
   }
 
-  &-primary {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
     svg {
       transform: rotate(0deg);
       transition: transform 180ms ease-out;
+    }
+  }
+
+  &-primary {
+    svg {
       path {
         fill: $negative-white;
       }
@@ -89,8 +97,6 @@ a {
   }
   &-secondary {
     svg {
-      transform: rotate(0deg);
-      transition: transform 180ms ease-out;
       path {
         fill: $primary-main;
       }
@@ -120,8 +126,6 @@ a {
   }
   &-ghost {
     svg {
-      transform: rotate(0deg);
-      transition: transform 180ms ease-out;
       path {
         fill: $primary-main;
       }
@@ -151,8 +155,6 @@ a {
   }
   &-outline {
     svg {
-      transform: rotate(0deg);
-      transition: transform 180ms ease-out;
       path {
         fill: $primary-main;
       }
