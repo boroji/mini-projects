@@ -477,6 +477,11 @@ a {
   transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
 }
 
+.link-primary:hover svg, .link-secondary:hover svg, .link-ghost:hover svg, .link-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .link-primary svg path {
   fill: white;
 }
@@ -493,11 +498,6 @@ a {
 
 .link-primary:hover {
   background-color: #006663;
-}
-
-.link-primary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .link-primary:hover svg path {
@@ -528,11 +528,6 @@ a {
   background-color: #eaf1f0;
 }
 
-.link-secondary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
 .link-secondary:hover svg path {
   fill: #007a76;
 }
@@ -559,11 +554,6 @@ a {
 
 .link-ghost:hover {
   background-color: #f6f9f9;
-}
-
-.link-ghost:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .link-ghost:hover svg path {
@@ -593,11 +583,6 @@ a {
 
 .link-outline:hover {
   background-color: #f6f9f9;
-}
-
-.link-outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .link-outline:hover svg path {

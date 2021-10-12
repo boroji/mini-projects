@@ -64,6 +64,11 @@ a {
       transform: rotate(0deg);
       transition: transform 180ms ease-out;
     }
+    &:hover {
+      svg {
+        transform: rotate(360deg);
+      }
+    }
   }
 
   &-primary {
@@ -83,7 +88,6 @@ a {
     &:hover {
       background-color: $primary-hover;
       svg {
-        transform: rotate(360deg);
         path {
           fill: $negative-white;
         }
@@ -112,7 +116,6 @@ a {
     &:hover {
       background-color: $secondary-hover;
       svg {
-        transform: rotate(360deg);
         path {
           fill: $primary-main;
         }
@@ -141,7 +144,6 @@ a {
     &:hover {
       background-color: $secondary-highlight;
       svg {
-        transform: rotate(360deg);
         path {
           fill: $primary-main;
         }
@@ -171,7 +173,6 @@ a {
     &:hover {
       background-color: $secondary-highlight;
       svg {
-        transform: rotate(360deg);
         path {
           fill: $primary-main;
         }
