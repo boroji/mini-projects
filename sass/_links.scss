@@ -111,10 +111,11 @@ a {
       background-color: $secondary-highlight;
     }
     &:hover {
+      color: $primary-hover;
       background-color: $secondary-hover;
       svg {
         path {
-          fill: $primary-main;
+          fill: $primary-hover;
         }
       }
     }

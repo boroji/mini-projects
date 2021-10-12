@@ -515,11 +515,12 @@ a {
 }
 
 .link-secondary:hover {
+  color: #006663;
   background-color: #eaf1f0;
 }
 
 .link-secondary:hover svg path {
-  fill: #007a76;
+  fill: #006663;
 }
 
 .link-secondary:active {
