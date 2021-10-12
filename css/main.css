@@ -138,6 +138,88 @@ a .link-text-both {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.link-secondary svg path {
+  fill: #007a76;
+}
+
+.link-secondary:link {
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.link-secondary:visited {
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.link-secondary:hover {
+  background-color: #eaf1f0;
+}
+
+.link-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.link-secondary:hover svg path {
+  fill: #007a76;
+}
+
+.link-secondary:active {
+  color: #007a76;
+  background-color: #f6f9f9;
+  outline: 0.5rem solid #e7efee;
+}
+
+.link-secondary-large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.link-secondary-large:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-secondary-regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.link-secondary-regular:focus {
+  outline: 0.75rem solid #e7efee;
+}
+
+.link-secondary-small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.link-secondary-small:focus {
+  outline: 0.5rem solid #e7efee;
+}
+
+.link-secondary-mini {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.link-secondary-mini:focus {
+  outline: 0.5rem solid #e7efee;
+}
+
 body {
   height: 100vh;
   display: -webkit-box;
@@ -165,6 +247,7 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 16px;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
