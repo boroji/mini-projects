@@ -158,6 +158,54 @@ body {
   margin-bottom: 3rem;
 }
 
+.margin-left-4 {
+  margin-left: 0.25rem;
+}
+
+.margin-left-8 {
+  margin-left: 0.5rem;
+}
+
+.margin-left-12 {
+  margin-left: 0.75rem;
+}
+
+.margin-left-16 {
+  margin-left: 1rem;
+}
+
+.margin-left-20 {
+  margin-left: 1.25rem;
+}
+
+.margin-left-24 {
+  margin-left: 1.5rem;
+}
+
+.margin-left-28 {
+  margin-left: 1.75rem;
+}
+
+.margin-left-32 {
+  margin-left: 2rem;
+}
+
+.margin-left-36 {
+  margin-left: 2.25rem;
+}
+
+.margin-left-40 {
+  margin-left: 2.5rem;
+}
+
+.margin-left-44 {
+  margin-left: 2.75rem;
+}
+
+.margin-left-48 {
+  margin-left: 3rem;
+}
+
 a {
   display: -webkit-box;
   display: -ms-flexbox;
