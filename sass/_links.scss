@@ -53,10 +53,11 @@ a {
       background-color: $primary-main;
     }
     &:hover {
+      color: $grey-hover;
       background-color: $primary-hover;
       svg {
         path {
-          fill: $negative-white;
+          fill: $grey-hover;
         }
       }
     }

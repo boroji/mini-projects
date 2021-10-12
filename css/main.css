@@ -457,11 +457,12 @@ a {
 }
 
 .link-primary:hover {
+  color: #ededed;
   background-color: #006663;
 }
 
 .link-primary:hover svg path {
-  fill: white;
+  fill: #ededed;
 }
 
 .link-primary:active {
