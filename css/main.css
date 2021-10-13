@@ -460,12 +460,7 @@ a {
   fill: white;
 }
 
-.link-primary:link {
-  color: white;
-  background-color: #007a76;
-}
-
-.link-primary:visited {
+.link-primary:link, .link-primary:visited {
   color: white;
   background-color: #007a76;
 }
@@ -489,12 +484,7 @@ a {
   fill: #00524f;
 }
 
-.link-primary-dark:link {
-  color: #00524f;
-  background-color: #4dfff9;
-}
-
-.link-primary-dark:visited {
+.link-primary-dark:link, .link-primary-dark:visited {
   color: #00524f;
   background-color: #4dfff9;
 }
@@ -518,12 +508,7 @@ a {
   fill: #007a76;
 }
 
-.link-secondary:link {
-  color: #007a76;
-  background-color: #f6f9f9;
-}
-
-.link-secondary:visited {
+.link-secondary:link, .link-secondary:visited {
   color: #007a76;
   background-color: #f6f9f9;
 }
@@ -547,12 +532,7 @@ a {
   fill: #4dfff9;
 }
 
-.link-secondary-dark:link {
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.link-secondary-dark:visited {
+.link-secondary-dark:link, .link-secondary-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
 }
@@ -576,12 +556,7 @@ a {
   fill: #007a76;
 }
 
-.link-ghost:link {
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.link-ghost:visited {
+.link-ghost:link, .link-ghost:visited {
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -605,12 +580,7 @@ a {
   fill: #4dfff9;
 }
 
-.link-ghost-dark:link {
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.link-ghost-dark:visited {
+.link-ghost-dark:link, .link-ghost-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
 }
@@ -634,15 +604,10 @@ a {
   fill: #007a76;
 }
 
-.link-outline:link {
+.link-outline:link, .link-outline:visited {
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
   outline: 2px solid #007a76;
-}
-
-.link-outline:visited {
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
 }
 
 .link-outline:hover {
@@ -665,15 +630,10 @@ a {
   fill: #4dfff9;
 }
 
-.link-outline-dark:link {
+.link-outline-dark:link, .link-outline-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
   outline: 2px solid #4dfff9;
-}
-
-.link-outline-dark:visited {
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
 }
 
 .link-outline-dark:hover {

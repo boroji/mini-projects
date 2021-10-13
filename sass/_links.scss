@@ -63,9 +63,7 @@ a {
 
   &-primary {
     @include svg-fill($negative-white);
-    &:link {
-      @include text-background($negative-white, $primary-main);
-    }
+    &:link,
     &:visited {
       @include text-background($negative-white, $primary-main);
     }
@@ -79,9 +77,7 @@ a {
     }
     &-dark {
       @include svg-fill($primary-text);
-      &:link {
-        @include text-background($primary-text, $tertiary-main);
-      }
+      &:link,
       &:visited {
         @include text-background($primary-text, $tertiary-main);
       }
@@ -97,9 +93,7 @@ a {
   }
   &-secondary {
     @include svg-fill($primary-main);
-    &:link {
-      @include text-background($primary-main, $secondary-highlight);
-    }
+    &:link,
     &:visited {
       @include text-background($primary-main, $secondary-highlight);
     }
@@ -113,9 +107,7 @@ a {
     }
     &-dark {
       @include svg-fill($tertiary-main);
-      &:link {
-        @include text-background($tertiary-main, $negative-white-main);
-      }
+      &:link,
       &:visited {
         @include text-background($tertiary-main, $negative-white-main);
       }
@@ -131,9 +123,7 @@ a {
   }
   &-ghost {
     @include svg-fill($primary-main);
-    &:link {
-      @include text-background($primary-main, $negative-white-hide);
-    }
+    &:link,
     &:visited {
       @include text-background($primary-main, $negative-white-hide);
     }
@@ -147,9 +137,7 @@ a {
     }
     &-dark {
       @include svg-fill($tertiary-main);
-      &:link {
-        @include text-background($tertiary-main, $negative-white-hide);
-      }
+      &:link,
       &:visited {
         @include text-background($tertiary-main, $negative-white-hide);
       }
@@ -165,12 +153,10 @@ a {
   }
   &-outline {
     @include svg-fill($primary-main);
-    &:link {
-      @include text-background($primary-main, $negative-white-hide);
-      outline: 2px solid $primary-main;
-    }
+    &:link,
     &:visited {
       @include text-background($primary-main, $negative-white-hide);
+      outline: 2px solid $primary-main;
     }
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
@@ -183,12 +169,10 @@ a {
     }
     &-dark {
       @include svg-fill($tertiary-main);
-      &:link {
-        @include text-background($tertiary-main, $negative-white-hide);
-        outline: 2px solid $tertiary-main;
-      }
+      &:link,
       &:visited {
         @include text-background($tertiary-main, $negative-white-hide);
+        outline: 2px solid $tertiary-main;
       }
       &:hover {
         @include text-background($tertiary-hover, $negative-white-main);
