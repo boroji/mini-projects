@@ -36,6 +36,17 @@ a {
         transform: rotate(360deg);
       }
     }
+    &-dark {
+      svg {
+        transform: rotate(0deg);
+        transition: transform 180ms ease-out;
+      }
+      &:hover {
+        svg {
+          transform: rotate(360deg);
+        }
+      }
+    }
   }
 
   &-primary {

@@ -442,6 +442,20 @@ a {
           transform: rotate(360deg);
 }
 
+.link-primary-dark svg, .link-secondary-dark svg, .link-ghost-dark svg, .link-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.link-primary-dark:hover svg, .link-secondary-dark:hover svg, .link-ghost-dark:hover svg, .link-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .link-primary svg path {
   fill: white;
 }
