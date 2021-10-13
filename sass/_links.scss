@@ -182,6 +182,35 @@ a {
       background-color: $negative-white-hide;
       outline: $pd-8 solid $secondary-focus;
     }
+    &-dark {
+      svg {
+        path {
+          fill: $tertiary-main;
+        }
+      }
+      &:link {
+        color: $tertiary-main;
+        background-color: $negative-white-hide;
+      }
+      &:visited {
+        color: $tertiary-main;
+        background-color: $negative-white-hide;
+      }
+      &:hover {
+        color: $tertiary-hover;
+        background-color: $negative-white-main;
+        svg {
+          path {
+            fill: $tertiary-hover;
+          }
+        }
+      }
+      &:active {
+        color: $tertiary-main;
+        background-color: $negative-white-hide;
+        outline: $pd-8 solid $negative-white-hover;
+      }
+    }
   }
   &-outline {
     svg {

@@ -587,6 +587,35 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.link-ghost-dark:link {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.link-ghost-dark:visited {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.link-ghost-dark:hover {
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.link-ghost-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.link-ghost-dark:active {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+}
+
 .link-outline svg path {
   fill: #007a76;
 }
