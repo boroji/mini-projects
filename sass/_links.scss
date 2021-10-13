@@ -124,6 +124,35 @@ a {
       background-color: $secondary-highlight;
       outline: $pd-8 solid $secondary-focus;
     }
+    &-dark {
+      svg {
+        path {
+          fill: $tertiary-main;
+        }
+      }
+      &:link {
+        color: $tertiary-main;
+        background-color: $negative-white-main;
+      }
+      &:visited {
+        color: $tertiary-main;
+        background-color: $negative-white-main;
+      }
+      &:hover {
+        color: $negative-white;
+        background-color: $negative-white-hover;
+        svg {
+          path {
+            fill: $negative-white;
+          }
+        }
+      }
+      &:active {
+        color: $tertiary-main;
+        background-color: $negative-white-main;
+        outline: $pd-8 solid $negative-white-hover;
+      }
+    }
   }
   &-ghost {
     svg {

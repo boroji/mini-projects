@@ -529,6 +529,35 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.link-secondary-dark:link {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.link-secondary-dark:visited {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.link-secondary-dark:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.link-secondary-dark:hover svg path {
+  fill: white;
+}
+
+.link-secondary-dark:active {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+}
+
 .link-ghost svg path {
   fill: #007a76;
 }
@@ -643,6 +672,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 6rem 0;
 }
 
 body .container {
