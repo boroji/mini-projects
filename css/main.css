@@ -477,26 +477,26 @@ a {
 
 .link-primary-dark:link {
   color: #00524f;
-  background-color: #70dbd8;
+  background-color: #4dfff9;
 }
 
 .link-primary-dark:visited {
   color: #00524f;
-  background-color: #70dbd8;
+  background-color: #4dfff9;
 }
 
 .link-primary-dark:hover {
-  color: #1f2e2d;
-  background-color: #2eb8b3;
+  color: #334d4c;
+  background-color: #00e6de;
 }
 
 .link-primary-dark:hover svg path {
-  fill: #1f2e2d;
+  fill: #334d4c;
 }
 
 .link-primary-dark:active {
   color: #00524f;
-  background-color: #70dbd8;
+  background-color: #4dfff9;
   outline: 0.5rem solid rgba(255, 255, 255, 0.25);
 }
 
@@ -661,6 +661,6 @@ body .container {
 }
 
 body .container-dark {
-  background-color: #1f2e2d;
+  background-color: #334d4c;
 }
 /*# sourceMappingURL=main.css.map */
