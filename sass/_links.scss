@@ -22,6 +22,17 @@ a {
     }
   }
 }
+@mixin svg-animation-hover {
+  svg {
+    transform: rotate(0deg);
+    transition: transform 180ms ease-out;
+  }
+  &:hover {
+    svg {
+      transform: rotate(360deg);
+    }
+  }
+}
 
 .link {
   &-text {
@@ -39,25 +50,9 @@ a {
   &-secondary,
   &-ghost,
   &-outline {
-    svg {
-      transform: rotate(0deg);
-      transition: transform 180ms ease-out;
-    }
-    &:hover {
-      svg {
-        transform: rotate(360deg);
-      }
-    }
+    @include svg-animation-hover();
     &-dark {
-      svg {
-        transform: rotate(0deg);
-        transition: transform 180ms ease-out;
-      }
-      &:hover {
-        svg {
-          transform: rotate(360deg);
-        }
-      }
+      @include svg-animation-hover();
     }
   }
 
