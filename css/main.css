@@ -481,27 +481,27 @@ a {
 }
 
 .link-primary-dark svg path {
-  fill: #00524f;
+  fill: white;
 }
 
 .link-primary-dark:link, .link-primary-dark:visited {
-  color: #00524f;
-  background-color: #4dfff9;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .link-primary-dark:hover {
-  color: #334d4c;
-  background-color: #00e6de;
+  color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .link-primary-dark:hover svg path {
-  fill: #334d4c;
+  fill: #f7f7f7;
 }
 
 .link-primary-dark:active {
-  color: #00524f;
-  background-color: #4dfff9;
-  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
 .link-secondary svg path {
@@ -538,18 +538,18 @@ a {
 }
 
 .link-secondary-dark:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.25);
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .link-secondary-dark:hover svg path {
-  fill: white;
+  fill: #00e6de;
 }
 
 .link-secondary-dark:active {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
-  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
 .link-ghost svg path {
@@ -597,7 +597,7 @@ a {
 .link-ghost-dark:active {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
-  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
 .link-outline svg path {
@@ -649,7 +649,7 @@ a {
 .link-outline-dark:active {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
-  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
 .large {
@@ -683,7 +683,7 @@ a {
 
 .large-dark:focus,
 .regular-dark:focus {
-  outline: 0.75rem solid rgba(255, 255, 255, 0.25);
+  outline: 0.75rem solid rgba(255, 255, 255, 0.2);
 }
 
 .small:focus,
@@ -693,7 +693,7 @@ a {
 
 .small-dark:focus,
 .mini-dark:focus {
-  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
 body {

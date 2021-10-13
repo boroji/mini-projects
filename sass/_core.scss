@@ -26,7 +26,7 @@
   }
   &-dark {
     &:focus {
-      outline: $pd-12 solid $negative-white-hover;
+      outline: $pd-12 solid $negative-white-20;
     }
   }
 }
@@ -38,7 +38,7 @@
   }
   &-dark {
     &:focus {
-      outline: $pd-8 solid $negative-white-hover;
+      outline: $pd-8 solid $negative-white-20;
     }
   }
 }
