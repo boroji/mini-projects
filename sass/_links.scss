@@ -39,13 +39,6 @@ a {
     display: inline-block;
   }
 
-  &-arabic {
-    font-family: $arabic;
-  }
-  &-english {
-    font-family: $english;
-  }
-
   &-primary,
   &-secondary,
   &-ghost,
@@ -176,30 +169,6 @@ a {
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-hide);
-        outline: $pd-8 solid $negative-white-hover;
-      }
-    }
-  }
-
-  &-large,
-  &-regular {
-    &:focus {
-      outline: $pd-12 solid $secondary-focus;
-    }
-    &-dark {
-      &:focus {
-        outline: $pd-12 solid $negative-white-hover;
-      }
-    }
-  }
-
-  &-small,
-  &-mini {
-    &:focus {
-      outline: $pd-8 solid $secondary-focus;
-    }
-    &-dark {
-      &:focus {
         outline: $pd-8 solid $negative-white-hover;
       }
     }

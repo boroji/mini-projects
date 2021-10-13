@@ -1,0 +1,44 @@
+.large {
+  font-size: $pd-20;
+  padding: $pd-32;
+  border-radius: $pd-32;
+}
+.regular {
+  font-size: $pd-18;
+  padding: $pd-24;
+  border-radius: $pd-28;
+}
+.small {
+  font-size: $pd-16;
+  padding: $pd-12;
+  border-radius: $pd-18;
+}
+.mini {
+  font-size: $pd-14;
+  padding: $pd-4;
+  border-radius: $pd-8;
+}
+
+.large,
+.regular {
+  &:focus {
+    outline: $pd-12 solid $secondary-focus;
+  }
+  &-dark {
+    &:focus {
+      outline: $pd-12 solid $negative-white-hover;
+    }
+  }
+}
+
+.small,
+.mini {
+  &:focus {
+    outline: $pd-8 solid $secondary-focus;
+  }
+  &-dark {
+    &:focus {
+      outline: $pd-8 solid $negative-white-hover;
+    }
+  }
+}

@@ -398,28 +398,12 @@ body {
   padding-left: 3rem;
 }
 
-.large {
-  font-size: 1.25rem;
-  padding: 2rem;
-  border-radius: 2rem;
+.arabic {
+  font-family: "Noto Sans Arabic", sans-serif;
 }
 
-.regular {
-  font-size: 1.125rem;
-  padding: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.small {
-  font-size: 1rem;
-  padding: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.mini {
-  font-size: 0.875rem;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
+.english {
+  font-family: "Noto Sans Display", sans-serif;
 }
 
 a {
@@ -442,14 +426,6 @@ a {
 
 .link-text {
   display: inline-block;
-}
-
-.link-arabic {
-  font-family: "Noto Sans Arabic", sans-serif;
-}
-
-.link-english {
-  font-family: "Noto Sans Display", sans-serif;
 }
 
 .link-primary svg, .link-secondary svg, .link-ghost svg, .link-outline svg {
@@ -676,19 +652,47 @@ a {
   outline: 0.5rem solid rgba(255, 255, 255, 0.25);
 }
 
-.link-large:focus, .link-regular:focus {
+.large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.mini {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.large:focus,
+.regular:focus {
   outline: 0.75rem solid #e7efee;
 }
 
-.link-large-dark:focus, .link-regular-dark:focus {
+.large-dark:focus,
+.regular-dark:focus {
   outline: 0.75rem solid rgba(255, 255, 255, 0.25);
 }
 
-.link-small:focus, .link-mini:focus {
+.small:focus,
+.mini:focus {
   outline: 0.5rem solid #e7efee;
 }
 
-.link-small-dark:focus, .link-mini-dark:focus {
+.small-dark:focus,
+.mini-dark:focus {
   outline: 0.5rem solid rgba(255, 255, 255, 0.25);
 }
 
