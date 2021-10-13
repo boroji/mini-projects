@@ -70,7 +70,7 @@ a {
         @include text-background($negative-white, $negative-white-25);
       }
       &:hover {
-        @include text-background($grey-highlight, $negative-white-20);
+        @include text-background($grey-highlight, $negative-white-15);
         @include svg-fill($grey-highlight);
       }
       &:active {
