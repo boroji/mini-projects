@@ -647,6 +647,37 @@ a {
   outline: 0.5rem solid #e7efee;
 }
 
+.link-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.link-outline-dark:link {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 2px solid #4dfff9;
+}
+
+.link-outline-dark:visited {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.link-outline-dark:hover {
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+  outline: 2px solid #00e6de;
+}
+
+.link-outline-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.link-outline-dark:active {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 0.5rem solid rgba(255, 255, 255, 0.25);
+}
+
 .link-large:focus, .link-regular:focus {
   outline: 0.75rem solid #e7efee;
 }
