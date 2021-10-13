@@ -151,11 +151,11 @@ a {
     &:link,
     &:visited {
       @include text-background($primary-main, $negative-white-hide);
-      outline: 2px solid $primary-main;
+      outline: $pd-2 solid $primary-main;
     }
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
-      outline: 2px solid $primary-hover;
+      outline: $pd-2 solid $primary-hover;
       @include svg-fill($primary-hover);
     }
     &:active {
@@ -167,11 +167,11 @@ a {
       &:link,
       &:visited {
         @include text-background($tertiary-main, $negative-white-hide);
-        outline: 2px solid $tertiary-main;
+        outline: $pd-2 solid $tertiary-main;
       }
       &:hover {
         @include text-background($tertiary-hover, $negative-white-main);
-        outline: 2px solid $tertiary-hover;
+        outline: $pd-2 solid $tertiary-hover;
         @include svg-fill($tertiary-hover);
       }
       &:active {

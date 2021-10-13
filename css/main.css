@@ -607,13 +607,13 @@ a {
 .link-outline:link, .link-outline:visited {
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
-  outline: 2px solid #007a76;
+  outline: 0.125rem solid #007a76;
 }
 
 .link-outline:hover {
   color: #006663;
   background-color: #eaf1f0;
-  outline: 2px solid #006663;
+  outline: 0.125rem solid #006663;
 }
 
 .link-outline:hover svg path {
@@ -633,13 +633,13 @@ a {
 .link-outline-dark:link, .link-outline-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
-  outline: 2px solid #4dfff9;
+  outline: 0.125rem solid #4dfff9;
 }
 
 .link-outline-dark:hover {
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.05);
-  outline: 2px solid #00e6de;
+  outline: 0.125rem solid #00e6de;
 }
 
 .link-outline-dark:hover svg path {
