@@ -398,6 +398,30 @@ body {
   padding-left: 3rem;
 }
 
+.large {
+  font-size: 1.25rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.regular {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.small {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.mini {
+  font-size: 0.875rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
 a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -666,30 +690,6 @@ a {
 
 .link-small-dark:focus, .link-mini-dark:focus {
   outline: 0.5rem solid rgba(255, 255, 255, 0.25);
-}
-
-.link-large {
-  font-size: 1.25rem;
-  padding: 2rem;
-  border-radius: 2rem;
-}
-
-.link-regular {
-  font-size: 1.125rem;
-  padding: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.link-small {
-  font-size: 1rem;
-  padding: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.link-mini {
-  font-size: 0.875rem;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
 }
 
 body {
