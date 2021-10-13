@@ -15,6 +15,13 @@ a {
   color: $first-text-color;
   background-color: $second-background-color;
 }
+@mixin svg-fill($svg-fill-color) {
+  svg {
+    path {
+      fill: $svg-fill-color;
+    }
+  }
+}
 
 .link {
   &-text {
@@ -55,11 +62,7 @@ a {
   }
 
   &-primary {
-    svg {
-      path {
-        fill: $negative-white;
-      }
-    }
+    @include svg-fill($negative-white);
     &:link {
       @include text-background($negative-white, $primary-main);
     }
@@ -68,22 +71,14 @@ a {
     }
     &:hover {
       @include text-background($grey-hover, $primary-hover);
-      svg {
-        path {
-          fill: $grey-hover;
-        }
-      }
+      @include svg-fill($grey-hover);
     }
     &:active {
       @include text-background($negative-white, $primary-main);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
-      svg {
-        path {
-          fill: $primary-text;
-        }
-      }
+      @include svg-fill($primary-text);
       &:link {
         @include text-background($primary-text, $tertiary-main);
       }
@@ -92,11 +87,7 @@ a {
       }
       &:hover {
         @include text-background($secondary-background, $tertiary-hover);
-        svg {
-          path {
-            fill: $secondary-background;
-          }
-        }
+        @include svg-fill($secondary-background);
       }
       &:active {
         @include text-background($primary-text, $tertiary-main);
@@ -105,11 +96,7 @@ a {
     }
   }
   &-secondary {
-    svg {
-      path {
-        fill: $primary-main;
-      }
-    }
+    @include svg-fill($primary-main);
     &:link {
       @include text-background($primary-main, $secondary-highlight);
     }
@@ -118,22 +105,14 @@ a {
     }
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
-      svg {
-        path {
-          fill: $primary-hover;
-        }
-      }
+      @include svg-fill($primary-hover);
     }
     &:active {
       @include text-background($primary-main, $secondary-highlight);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
-      svg {
-        path {
-          fill: $tertiary-main;
-        }
-      }
+      @include svg-fill($tertiary-main);
       &:link {
         @include text-background($tertiary-main, $negative-white-main);
       }
@@ -142,11 +121,7 @@ a {
       }
       &:hover {
         @include text-background($negative-white, $negative-white-hover);
-        svg {
-          path {
-            fill: $negative-white;
-          }
-        }
+        @include svg-fill($negative-white);
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-main);
@@ -155,11 +130,7 @@ a {
     }
   }
   &-ghost {
-    svg {
-      path {
-        fill: $primary-main;
-      }
-    }
+    @include svg-fill($primary-main);
     &:link {
       @include text-background($primary-main, $negative-white-hide);
     }
@@ -168,22 +139,14 @@ a {
     }
     &:hover {
       @include text-background($primary-hover, $secondary-highlight);
-      svg {
-        path {
-          fill: $primary-hover;
-        }
-      }
+      @include svg-fill($primary-hover);
     }
     &:active {
       @include text-background($primary-main, $negative-white-hide);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
-      svg {
-        path {
-          fill: $tertiary-main;
-        }
-      }
+      @include svg-fill($tertiary-main);
       &:link {
         @include text-background($tertiary-main, $negative-white-hide);
       }
@@ -192,11 +155,7 @@ a {
       }
       &:hover {
         @include text-background($tertiary-hover, $negative-white-main);
-        svg {
-          path {
-            fill: $tertiary-hover;
-          }
-        }
+        @include svg-fill($tertiary-hover);
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-hide);
@@ -205,11 +164,7 @@ a {
     }
   }
   &-outline {
-    svg {
-      path {
-        fill: $primary-main;
-      }
-    }
+    @include svg-fill($primary-main);
     &:link {
       @include text-background($primary-main, $negative-white-hide);
       outline: 2px solid $primary-main;
@@ -220,22 +175,14 @@ a {
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
       outline: 2px solid $primary-hover;
-      svg {
-        path {
-          fill: $primary-hover;
-        }
-      }
+      @include svg-fill($primary-hover);
     }
     &:active {
       @include text-background($primary-main, $negative-white-hide);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
-      svg {
-        path {
-          fill: $tertiary-main;
-        }
-      }
+      @include svg-fill($tertiary-main);
       &:link {
         @include text-background($tertiary-main, $negative-white-hide);
         outline: 2px solid $tertiary-main;
@@ -246,11 +193,7 @@ a {
       &:hover {
         @include text-background($tertiary-hover, $negative-white-main);
         outline: 2px solid $tertiary-hover;
-        svg {
-          path {
-            fill: $tertiary-hover;
-          }
-        }
+        @include svg-fill($tertiary-hover);
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-hide);
