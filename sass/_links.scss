@@ -11,6 +11,11 @@ a {
   line-height: $pd-24;
 }
 
+@mixin text-background($first-text-color, $second-background-color) {
+  color: $first-text-color;
+  background-color: $second-background-color;
+}
+
 .link {
   &-text {
     display: inline-block;
@@ -56,16 +61,13 @@ a {
       }
     }
     &:link {
-      color: $negative-white;
-      background-color: $primary-main;
+      @include text-background($negative-white, $primary-main);
     }
     &:visited {
-      color: $negative-white;
-      background-color: $primary-main;
+      @include text-background($negative-white, $primary-main);
     }
     &:hover {
-      color: $grey-hover;
-      background-color: $primary-hover;
+      @include text-background($grey-hover, $primary-hover);
       svg {
         path {
           fill: $grey-hover;
@@ -73,8 +75,7 @@ a {
       }
     }
     &:active {
-      color: $negative-white;
-      background-color: $primary-main;
+      @include text-background($negative-white, $primary-main);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
@@ -84,16 +85,13 @@ a {
         }
       }
       &:link {
-        color: $primary-text;
-        background-color: $tertiary-main;
+        @include text-background($primary-text, $tertiary-main);
       }
       &:visited {
-        color: $primary-text;
-        background-color: $tertiary-main;
+        @include text-background($primary-text, $tertiary-main);
       }
       &:hover {
-        color: $secondary-background;
-        background-color: $tertiary-hover;
+        @include text-background($secondary-background, $tertiary-hover);
         svg {
           path {
             fill: $secondary-background;
@@ -101,8 +99,7 @@ a {
         }
       }
       &:active {
-        color: $primary-text;
-        background-color: $tertiary-main;
+        @include text-background($primary-text, $tertiary-main);
         outline: $pd-8 solid $negative-white-hover;
       }
     }
@@ -114,16 +111,13 @@ a {
       }
     }
     &:link {
-      color: $primary-main;
-      background-color: $secondary-highlight;
+      @include text-background($primary-main, $secondary-highlight);
     }
     &:visited {
-      color: $primary-main;
-      background-color: $secondary-highlight;
+      @include text-background($primary-main, $secondary-highlight);
     }
     &:hover {
-      color: $primary-hover;
-      background-color: $secondary-hover;
+      @include text-background($primary-hover, $secondary-hover);
       svg {
         path {
           fill: $primary-hover;
@@ -131,8 +125,7 @@ a {
       }
     }
     &:active {
-      color: $primary-main;
-      background-color: $secondary-highlight;
+      @include text-background($primary-main, $secondary-highlight);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
@@ -142,16 +135,13 @@ a {
         }
       }
       &:link {
-        color: $tertiary-main;
-        background-color: $negative-white-main;
+        @include text-background($tertiary-main, $negative-white-main);
       }
       &:visited {
-        color: $tertiary-main;
-        background-color: $negative-white-main;
+        @include text-background($tertiary-main, $negative-white-main);
       }
       &:hover {
-        color: $negative-white;
-        background-color: $negative-white-hover;
+        @include text-background($negative-white, $negative-white-hover);
         svg {
           path {
             fill: $negative-white;
@@ -159,8 +149,7 @@ a {
         }
       }
       &:active {
-        color: $tertiary-main;
-        background-color: $negative-white-main;
+        @include text-background($tertiary-main, $negative-white-main);
         outline: $pd-8 solid $negative-white-hover;
       }
     }
@@ -172,16 +161,13 @@ a {
       }
     }
     &:link {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
     }
     &:visited {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
     }
     &:hover {
-      color: $primary-hover;
-      background-color: $secondary-highlight;
+      @include text-background($primary-hover, $secondary-highlight);
       svg {
         path {
           fill: $primary-hover;
@@ -189,8 +175,7 @@ a {
       }
     }
     &:active {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
@@ -200,16 +185,13 @@ a {
         }
       }
       &:link {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
       }
       &:visited {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
       }
       &:hover {
-        color: $tertiary-hover;
-        background-color: $negative-white-main;
+        @include text-background($tertiary-hover, $negative-white-main);
         svg {
           path {
             fill: $tertiary-hover;
@@ -217,8 +199,7 @@ a {
         }
       }
       &:active {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
         outline: $pd-8 solid $negative-white-hover;
       }
     }
@@ -230,17 +211,14 @@ a {
       }
     }
     &:link {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
       outline: 2px solid $primary-main;
     }
     &:visited {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
     }
     &:hover {
-      color: $primary-hover;
-      background-color: $secondary-hover;
+      @include text-background($primary-hover, $secondary-hover);
       outline: 2px solid $primary-hover;
       svg {
         path {
@@ -249,8 +227,7 @@ a {
       }
     }
     &:active {
-      color: $primary-main;
-      background-color: $negative-white-hide;
+      @include text-background($primary-main, $negative-white-hide);
       outline: $pd-8 solid $secondary-focus;
     }
     &-dark {
@@ -260,17 +237,14 @@ a {
         }
       }
       &:link {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
         outline: 2px solid $tertiary-main;
       }
       &:visited {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
       }
       &:hover {
-        color: $tertiary-hover;
-        background-color: $negative-white-main;
+        @include text-background($tertiary-hover, $negative-white-main);
         outline: 2px solid $tertiary-hover;
         svg {
           path {
@@ -279,8 +253,7 @@ a {
         }
       }
       &:active {
-        color: $tertiary-main;
-        background-color: $negative-white-hide;
+        @include text-background($tertiary-main, $negative-white-hide);
         outline: $pd-8 solid $negative-white-hover;
       }
     }
