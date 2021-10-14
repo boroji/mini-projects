@@ -280,7 +280,30 @@ input {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    @include svg-fill($negative-white);
+    &-primary {
+      @include svg-fill($negative-white);
+      &-dark {
+        @include svg-fill($negative-white);
+      }
+    }
+    &-secondary {
+      @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
+    }
+    &-ghost {
+      @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
+    }
+    &-outline {
+      @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
+    }
   }
 
   &-large,
@@ -321,7 +344,6 @@ input {
       &::placeholder {
         color: $negative-white;
       }
-      @include svg-fill($negative-white);
       @include text-background($negative-white, $negative-white-25);
       &:hover {
         @include text-background($grey-highlight, $negative-white-15);
@@ -333,7 +355,6 @@ input {
     &::placeholder {
       color: $primary-main;
     }
-    @include svg-fill($primary-main);
     @include text-background($primary-main, $secondary-highlight);
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
@@ -343,7 +364,6 @@ input {
       &::placeholder {
         color: $tertiary-main;
       }
-      @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-5);
       &:hover {
         @include text-background($tertiary-hover, $negative-white-15);
@@ -355,7 +375,6 @@ input {
     &::placeholder {
       color: $primary-main;
     }
-    @include svg-fill($primary-main);
     @include text-background($primary-main, $negative-white-0);
     &:hover {
       @include text-background($primary-hover, $secondary-highlight);
@@ -365,7 +384,6 @@ input {
       &::placeholder {
         color: $tertiary-main;
       }
-      @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       &:hover {
         @include text-background($tertiary-hover, $negative-white-5);
@@ -377,7 +395,6 @@ input {
     &::placeholder {
       color: $primary-main;
     }
-    @include svg-fill($primary-main);
     @include text-background($primary-main, $negative-white-0);
     outline: $pd-2 solid $primary-main;
     &:hover {
@@ -389,7 +406,6 @@ input {
       &::placeholder {
         color: $tertiary-main;
       }
-      @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       outline: $pd-2 solid $tertiary-main;
       &:hover {
