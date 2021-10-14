@@ -1,4 +1,5 @@
-a {
+a,
+button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -9,6 +10,7 @@ a {
   outline: none;
   font-weight: $semi-bold;
   line-height: $pd-24;
+  box-shadow: none;
 }
 
 @mixin text-background($first-text-color, $second-background-color) {

@@ -406,7 +406,8 @@ body {
   font-family: "Noto Sans Display", sans-serif;
 }
 
-a {
+a,
+button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,6 +423,8 @@ a {
   outline: none;
   font-weight: 600;
   line-height: 1.5rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .link-text {
