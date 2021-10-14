@@ -470,12 +470,40 @@ input {
   fill: white;
 }
 
+.input-group-primary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-primary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .input-group-primary:hover svg path {
   fill: #ededed;
 }
 
 .input-group-primary-dark svg path {
   fill: white;
+}
+
+.input-group-primary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-primary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .input-group-primary-dark:hover svg path {
@@ -486,12 +514,40 @@ input {
   fill: #007a76;
 }
 
+.input-group-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .input-group-secondary:hover svg path {
   fill: #006663;
 }
 
 .input-group-secondary-dark svg path {
   fill: #4dfff9;
+}
+
+.input-group-secondary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-secondary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .input-group-secondary-dark:hover svg path {
@@ -502,12 +558,40 @@ input {
   fill: #007a76;
 }
 
+.input-group-ghost svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-ghost:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .input-group-ghost:hover svg path {
   fill: #006663;
 }
 
 .input-group-ghost-dark svg path {
   fill: #4dfff9;
+}
+
+.input-group-ghost-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-ghost-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .input-group-ghost-dark:hover svg path {
@@ -518,12 +602,40 @@ input {
   fill: #007a76;
 }
 
+.input-group-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .input-group-outline:hover svg path {
   fill: #006663;
 }
 
 .input-group-outline-dark svg path {
   fill: #4dfff9;
+}
+
+.input-group-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-group-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .input-group-outline-dark:hover svg path {
