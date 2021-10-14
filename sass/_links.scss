@@ -271,14 +271,23 @@ input {
     position: relative;
     @include svg-fill($negative-white);
   }
+  &-large,
+  &-regular,
+  &-small,
+  &-mini {
+    svg {
+      &:first-child,
+      &:last-child {
+        position: absolute;
+      }
+    }
+  }
   &-large {
     svg {
       &:first-child {
-        position: absolute;
         left: $pd-32;
       }
       &:last-child {
-        position: absolute;
         right: $pd-32;
       }
     }
@@ -286,11 +295,9 @@ input {
   &-regular {
     svg {
       &:first-child {
-        position: absolute;
         left: $pd-24;
       }
       &:last-child {
-        position: absolute;
         right: $pd-24;
       }
     }
@@ -298,11 +305,9 @@ input {
   &-small {
     svg {
       &:first-child {
-        position: absolute;
         left: $pd-12;
       }
       &:last-child {
-        position: absolute;
         right: $pd-12;
       }
     }
@@ -310,11 +315,9 @@ input {
   &-mini {
     svg {
       &:first-child {
-        position: absolute;
         left: $pd-4;
       }
       &:last-child {
-        position: absolute;
         right: $pd-4;
       }
     }

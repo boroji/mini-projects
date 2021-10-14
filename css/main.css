@@ -470,43 +470,39 @@ input {
   fill: white;
 }
 
-.input-large svg:first-child {
+.input-large svg:first-child, .input-large svg:last-child, .input-regular svg:first-child, .input-regular svg:last-child, .input-small svg:first-child, .input-small svg:last-child, .input-mini svg:first-child, .input-mini svg:last-child {
   position: absolute;
+}
+
+.input-large svg:first-child {
   left: 2rem;
 }
 
 .input-large svg:last-child {
-  position: absolute;
   right: 2rem;
 }
 
 .input-regular svg:first-child {
-  position: absolute;
   left: 1.5rem;
 }
 
 .input-regular svg:last-child {
-  position: absolute;
   right: 1.5rem;
 }
 
 .input-small svg:first-child {
-  position: absolute;
   left: 0.75rem;
 }
 
 .input-small svg:last-child {
-  position: absolute;
   right: 0.75rem;
 }
 
 .input-mini svg:first-child {
-  position: absolute;
   left: 0.25rem;
 }
 
 .input-mini svg:last-child {
-  position: absolute;
   right: 0.25rem;
 }
 
