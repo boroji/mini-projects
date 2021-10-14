@@ -274,6 +274,12 @@ input {
   }
 }
 
+@mixin placeholder-text-color($placeholder-text-color) {
+  &::placeholder {
+    color: $placeholder-text-color;
+  }
+}
+
 .input {
   &-group {
     display: flex;
@@ -364,76 +370,68 @@ input {
   }
 
   &-primary {
-    &::placeholder {
-      color: $negative-white;
-    }
+    @include placeholder-text-color($negative-white);
     @include text-background($negative-white, $primary-main);
     &:hover {
       @include text-background($grey-hover, $primary-hover);
+      @include placeholder-text-color($grey-hover);
     }
     &-dark {
-      &::placeholder {
-        color: $negative-white;
-      }
+      @include placeholder-text-color($negative-white);
       @include text-background($negative-white, $negative-white-25);
       &:hover {
+        @include placeholder-text-color($grey-highlight);
         @include text-background($grey-highlight, $negative-white-15);
       }
     }
   }
   &-secondary {
-    &::placeholder {
-      color: $primary-main;
-    }
+    @include placeholder-text-color($primary-main);
     @include text-background($primary-main, $secondary-highlight);
     &:hover {
+      @include placeholder-text-color($primary-hover);
       @include text-background($primary-hover, $secondary-hover);
     }
     &-dark {
-      &::placeholder {
-        color: $tertiary-main;
-      }
+      @include placeholder-text-color($tertiary-main);
       @include text-background($tertiary-main, $negative-white-5);
       &:hover {
+        @include placeholder-text-color($tertiary-hover);
         @include text-background($tertiary-hover, $negative-white-15);
       }
     }
   }
   &-ghost {
-    &::placeholder {
-      color: $primary-main;
-    }
+    @include placeholder-text-color($primary-main);
     @include text-background($primary-main, $negative-white-0);
     &:hover {
+      @include placeholder-text-color($primary-hover);
       @include text-background($primary-hover, $secondary-highlight);
     }
     &-dark {
-      &::placeholder {
-        color: $tertiary-main;
-      }
+      @include placeholder-text-color($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       &:hover {
+        @include placeholder-text-color($tertiary-hover);
         @include text-background($tertiary-hover, $negative-white-5);
       }
     }
   }
   &-outline {
-    &::placeholder {
-      color: $primary-main;
-    }
+    @include placeholder-text-color($primary-main);
     @include text-background($primary-main, $negative-white-0);
     outline: $pd-2 solid $primary-main;
     &:hover {
+      @include placeholder-text-color($primary-hover);
       @include text-background($primary-hover, $secondary-hover);
       outline: $pd-2 solid $primary-hover;
     }
     &-dark {
-      &::placeholder {
-        color: $tertiary-main;
-      }
+      @include placeholder-text-color($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       outline: $pd-2 solid $tertiary-main;
       &:hover {
+        @include placeholder-text-color($tertiary-hover);
         @include text-background($tertiary-hover, $negative-white-5);
         outline: $pd-2 solid $tertiary-hover;
       }

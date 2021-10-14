@@ -704,6 +704,22 @@ input {
   background-color: #006663;
 }
 
+.input-primary:hover::-webkit-input-placeholder {
+  color: #ededed;
+}
+
+.input-primary:hover:-ms-input-placeholder {
+  color: #ededed;
+}
+
+.input-primary:hover::-ms-input-placeholder {
+  color: #ededed;
+}
+
+.input-primary:hover::placeholder {
+  color: #ededed;
+}
+
 .input-primary-dark {
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
@@ -728,6 +744,22 @@ input {
 .input-primary-dark:hover {
   color: #f7f7f7;
   background-color: rgba(255, 255, 255, 0.15);
+}
+
+.input-primary-dark:hover::-webkit-input-placeholder {
+  color: #f7f7f7;
+}
+
+.input-primary-dark:hover:-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.input-primary-dark:hover::-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.input-primary-dark:hover::placeholder {
+  color: #f7f7f7;
 }
 
 .input-secondary {
@@ -756,6 +788,22 @@ input {
   background-color: #eaf1f0;
 }
 
+.input-secondary:hover::-webkit-input-placeholder {
+  color: #006663;
+}
+
+.input-secondary:hover:-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-secondary:hover::-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-secondary:hover::placeholder {
+  color: #006663;
+}
+
 .input-secondary-dark {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
@@ -780,6 +828,22 @@ input {
 .input-secondary-dark:hover {
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.15);
+}
+
+.input-secondary-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.input-secondary-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-secondary-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-secondary-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .input-ghost {
@@ -808,6 +872,22 @@ input {
   background-color: #f6f9f9;
 }
 
+.input-ghost:hover::-webkit-input-placeholder {
+  color: #006663;
+}
+
+.input-ghost:hover:-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-ghost:hover::-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-ghost:hover::placeholder {
+  color: #006663;
+}
+
 .input-ghost-dark {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
@@ -832,6 +912,22 @@ input {
 .input-ghost-dark:hover {
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.05);
+}
+
+.input-ghost-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.input-ghost-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-ghost-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-ghost-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .input-outline {
@@ -862,6 +958,22 @@ input {
   outline: 0.125rem solid #006663;
 }
 
+.input-outline:hover::-webkit-input-placeholder {
+  color: #006663;
+}
+
+.input-outline:hover:-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-outline:hover::-ms-input-placeholder {
+  color: #006663;
+}
+
+.input-outline:hover::placeholder {
+  color: #006663;
+}
+
 .input-outline-dark {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
@@ -888,6 +1000,22 @@ input {
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.05);
   outline: 0.125rem solid #00e6de;
+}
+
+.input-outline-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.input-outline-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-outline-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.input-outline-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .large {
