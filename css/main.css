@@ -837,8 +837,31 @@ input {
   fill: #00e6de;
 }
 
-.input-text {
-  display: inline-block;
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-group svg path {
+  fill: white;
+}
+
+.input-group svg:first-child {
+  position: absolute;
+  left: 0.25rem;
+}
+
+.input-group svg:last-child {
+  position: absolute;
+  right: 0.25rem;
 }
 
 .input-primary {
@@ -860,10 +883,6 @@ input {
 
 .input-primary::placeholder {
   color: white;
-}
-
-.input-primary svg path {
-  fill: white;
 }
 
 .input-primary:hover {

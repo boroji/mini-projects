@@ -264,15 +264,28 @@ input {
 }
 
 .input {
-  &-text {
-    display: inline-block;
+  &-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    @include svg-fill($negative-white);
+    svg {
+      &:first-child {
+        position: absolute;
+        left: $pd-4;
+      }
+      &:last-child {
+        position: absolute;
+        right: $pd-4;
+      }
+    }
   }
 
   &-primary {
     &::placeholder {
       color: $negative-white;
     }
-    @include svg-fill($negative-white);
     @include text-background($negative-white, $primary-main);
     &:hover {
       @include text-background($grey-hover, $primary-hover);
