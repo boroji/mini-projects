@@ -11,6 +11,7 @@ button {
   font-weight: $semi-bold;
   line-height: $pd-24;
   box-shadow: none;
+  cursor: pointer;
 }
 
 @mixin text-background($first-text-color, $second-background-color) {
@@ -172,6 +173,87 @@ button {
       &:active {
         @include text-background($tertiary-main, $negative-white-0);
         outline: $pd-8 solid $negative-white-20;
+      }
+    }
+  }
+}
+
+.button {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include svg-animation-hover();
+    &-dark {
+      @include svg-animation-hover();
+    }
+  }
+
+  &-primary {
+    @include svg-fill($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include text-background($grey-hover, $primary-hover);
+      @include svg-fill($grey-hover);
+    }
+    &-dark {
+      @include svg-fill($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include text-background($grey-highlight, $negative-white-15);
+        @include svg-fill($grey-highlight);
+      }
+    }
+  }
+  &-secondary {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include text-background($primary-hover, $secondary-hover);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-15);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-ghost {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include text-background($primary-hover, $secondary-highlight);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-5);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-outline {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    outline: $pd-2 solid $primary-main;
+    &:hover {
+      @include text-background($primary-hover, $secondary-hover);
+      outline: $pd-2 solid $primary-hover;
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      outline: $pd-2 solid $tertiary-main;
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-5);
+        outline: $pd-2 solid $tertiary-hover;
+        @include svg-fill($tertiary-hover);
       }
     }
   }

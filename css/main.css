@@ -425,6 +425,7 @@ button {
   line-height: 1.5rem;
   -webkit-box-shadow: none;
           box-shadow: none;
+  cursor: pointer;
 }
 
 .link-text {
@@ -653,6 +654,182 @@ button {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
   outline: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+.button-primary svg, .button-secondary svg, .button-ghost svg, .button-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.button-primary:hover svg, .button-secondary:hover svg, .button-ghost:hover svg, .button-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.button-primary-dark svg, .button-secondary-dark svg, .button-ghost-dark svg, .button-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.button-primary-dark:hover svg, .button-secondary-dark:hover svg, .button-ghost-dark:hover svg, .button-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.button-primary {
+  color: white;
+  background-color: #007a76;
+}
+
+.button-primary svg path {
+  fill: white;
+}
+
+.button-primary:hover {
+  color: #ededed;
+  background-color: #006663;
+}
+
+.button-primary:hover svg path {
+  fill: #ededed;
+}
+
+.button-primary-dark {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.button-primary-dark svg path {
+  fill: white;
+}
+
+.button-primary-dark:hover {
+  color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.button-primary-dark:hover svg path {
+  fill: #f7f7f7;
+}
+
+.button-secondary {
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.button-secondary svg path {
+  fill: #007a76;
+}
+
+.button-secondary:hover {
+  color: #006663;
+  background-color: #eaf1f0;
+}
+
+.button-secondary:hover svg path {
+  fill: #006663;
+}
+
+.button-secondary-dark {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.button-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.button-secondary-dark:hover {
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.button-secondary-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.button-ghost {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button-ghost svg path {
+  fill: #007a76;
+}
+
+.button-ghost:hover {
+  color: #006663;
+  background-color: #f6f9f9;
+}
+
+.button-ghost:hover svg path {
+  fill: #006663;
+}
+
+.button-ghost-dark {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.button-ghost-dark:hover {
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.button-ghost-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.button-outline {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 0.125rem solid #007a76;
+}
+
+.button-outline svg path {
+  fill: #007a76;
+}
+
+.button-outline:hover {
+  color: #006663;
+  background-color: #eaf1f0;
+  outline: 0.125rem solid #006663;
+}
+
+.button-outline:hover svg path {
+  fill: #006663;
+}
+
+.button-outline-dark {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: 0.125rem solid #4dfff9;
+}
+
+.button-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.button-outline-dark:hover {
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+  outline: 0.125rem solid #00e6de;
+}
+
+.button-outline-dark:hover svg path {
+  fill: #00e6de;
 }
 
 .large {
