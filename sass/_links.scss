@@ -179,6 +179,10 @@ button {
 }
 
 .button {
+  &-text {
+    display: inline-block;
+  }
+
   &-primary,
   &-secondary,
   &-ghost,

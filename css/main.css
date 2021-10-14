@@ -656,6 +656,10 @@ button {
   outline: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
+.button-text {
+  display: inline-block;
+}
+
 .button-primary svg, .button-secondary svg, .button-ghost svg, .button-outline svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
