@@ -263,6 +263,17 @@ input {
   }
 }
 
+@mixin input-icon-padding($input-icon-padding) {
+  svg {
+    &:first-child {
+      left: $input-icon-padding;
+    }
+    &:last-child {
+      right: $input-icon-padding;
+    }
+  }
+}
+
 .input {
   &-group {
     display: flex;
@@ -271,6 +282,7 @@ input {
     position: relative;
     @include svg-fill($negative-white);
   }
+
   &-large,
   &-regular,
   &-small,
@@ -282,45 +294,18 @@ input {
       }
     }
   }
+
   &-large {
-    svg {
-      &:first-child {
-        left: $pd-32;
-      }
-      &:last-child {
-        right: $pd-32;
-      }
-    }
+    @include input-icon-padding($pd-32);
   }
   &-regular {
-    svg {
-      &:first-child {
-        left: $pd-24;
-      }
-      &:last-child {
-        right: $pd-24;
-      }
-    }
+    @include input-icon-padding($pd-24);
   }
   &-small {
-    svg {
-      &:first-child {
-        left: $pd-12;
-      }
-      &:last-child {
-        right: $pd-12;
-      }
-    }
+    @include input-icon-padding($pd-12);
   }
   &-mini {
-    svg {
-      &:first-child {
-        left: $pd-4;
-      }
-      &:last-child {
-        right: $pd-4;
-      }
-    }
+    @include input-icon-padding($pd-4);
   }
 
   &-primary {
