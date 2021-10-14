@@ -270,6 +270,44 @@ input {
     justify-content: space-between;
     position: relative;
     @include svg-fill($negative-white);
+  }
+  &-large {
+    svg {
+      &:first-child {
+        position: absolute;
+        left: $pd-32;
+      }
+      &:last-child {
+        position: absolute;
+        right: $pd-32;
+      }
+    }
+  }
+  &-regular {
+    svg {
+      &:first-child {
+        position: absolute;
+        left: $pd-24;
+      }
+      &:last-child {
+        position: absolute;
+        right: $pd-24;
+      }
+    }
+  }
+  &-small {
+    svg {
+      &:first-child {
+        position: absolute;
+        left: $pd-12;
+      }
+      &:last-child {
+        position: absolute;
+        right: $pd-12;
+      }
+    }
+  }
+  &-mini {
     svg {
       &:first-child {
         position: absolute;
