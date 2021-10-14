@@ -282,26 +282,50 @@ input {
     position: relative;
     &-primary {
       @include svg-fill($negative-white);
+      &:hover {
+        @include svg-fill($grey-hover);
+      }
       &-dark {
         @include svg-fill($negative-white);
+        &:hover {
+          @include svg-fill($grey-highlight);
+        }
       }
     }
     &-secondary {
       @include svg-fill($primary-main);
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
       &-dark {
         @include svg-fill($tertiary-main);
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
       }
     }
     &-ghost {
       @include svg-fill($primary-main);
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
       &-dark {
         @include svg-fill($tertiary-main);
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
       }
     }
     &-outline {
       @include svg-fill($primary-main);
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
       &-dark {
         @include svg-fill($tertiary-main);
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
       }
     }
   }
@@ -338,7 +362,6 @@ input {
     @include text-background($negative-white, $primary-main);
     &:hover {
       @include text-background($grey-hover, $primary-hover);
-      @include svg-fill($grey-hover);
     }
     &-dark {
       &::placeholder {
@@ -347,7 +370,6 @@ input {
       @include text-background($negative-white, $negative-white-25);
       &:hover {
         @include text-background($grey-highlight, $negative-white-15);
-        @include svg-fill($grey-highlight);
       }
     }
   }
@@ -358,7 +380,6 @@ input {
     @include text-background($primary-main, $secondary-highlight);
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
-      @include svg-fill($primary-hover);
     }
     &-dark {
       &::placeholder {
@@ -367,7 +388,6 @@ input {
       @include text-background($tertiary-main, $negative-white-5);
       &:hover {
         @include text-background($tertiary-hover, $negative-white-15);
-        @include svg-fill($tertiary-hover);
       }
     }
   }
@@ -378,7 +398,6 @@ input {
     @include text-background($primary-main, $negative-white-0);
     &:hover {
       @include text-background($primary-hover, $secondary-highlight);
-      @include svg-fill($primary-hover);
     }
     &-dark {
       &::placeholder {
@@ -387,7 +406,6 @@ input {
       @include text-background($tertiary-main, $negative-white-0);
       &:hover {
         @include text-background($tertiary-hover, $negative-white-5);
-        @include svg-fill($tertiary-hover);
       }
     }
   }
@@ -400,7 +418,6 @@ input {
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
       outline: $pd-2 solid $primary-hover;
-      @include svg-fill($primary-hover);
     }
     &-dark {
       &::placeholder {
@@ -411,7 +428,6 @@ input {
       &:hover {
         @include text-background($tertiary-hover, $negative-white-5);
         outline: $pd-2 solid $tertiary-hover;
-        @include svg-fill($tertiary-hover);
       }
     }
   }
