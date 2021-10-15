@@ -34,11 +34,13 @@
 .large,
 .regular {
   &:focus {
-    outline: $pd-12 solid $secondary-focus;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
   }
   &-dark {
     &:focus {
-      outline: $pd-12 solid $negative-white-20;
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
     }
   }
 }
@@ -46,11 +48,13 @@
 .small,
 .mini {
   &:focus {
-    outline: $pd-8 solid $secondary-focus;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
   }
   &-dark {
     &:focus {
-      outline: $pd-8 solid $negative-white-20;
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
     }
   }
 }

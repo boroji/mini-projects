@@ -1160,22 +1160,30 @@ input {
 
 .large:focus,
 .regular:focus {
-  outline: 0.75rem solid #e7efee;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .large-dark:focus,
 .regular-dark:focus {
-  outline: 0.75rem solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .small:focus,
 .mini:focus {
-  outline: 0.5rem solid #e7efee;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
 .small-dark:focus,
 .mini-dark:focus {
-  outline: 0.5rem solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
 .margin-top-4 {
