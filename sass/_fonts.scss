@@ -28,3 +28,60 @@ $thick: 900;
 .english {
   font-family: $english;
 }
+
+@mixin typography(
+  $type-size,
+  $type-weight,
+  $type-height,
+  $type-kerning,
+  $type-spacing
+) {
+  font-size: $type-size;
+  font-weight: $type-weight;
+  line-height: $type-height;
+  letter-spacing: $type-kerning;
+  word-spacing: $type-spacing;
+}
+
+.headline {
+  @include typography($headline, $thick, $pd-96, $pd-050-negative, $pd-1);
+}
+.lead {
+  font-size: $lead;
+  // @include typography($thick, $pd-92, $pd-075-negative);
+}
+h1 {
+  font-size: $h1;
+  // @include typography($thick, $pd-72, $pd-1-negative);
+}
+h2 {
+  font-size: $h2;
+}
+h3 {
+  font-size: $h3;
+}
+h4 {
+  font-size: $h4;
+}
+h5 {
+  font-size: $h5;
+}
+h6 {
+  font-size: $h6;
+}
+.title {
+  font-size: $title;
+}
+p {
+  font-size: $body;
+}
+small {
+  font-size: $caption;
+}
+ul,
+ol {
+  font-size: $title;
+}
+li {
+  font-size: $caption;
+}
