@@ -64,7 +64,7 @@ input {
     }
     &:active {
       @include text-background($negative-white, $primary-main);
-      outline: $pd-8 solid $secondary-focus;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
       @include svg-fill($negative-white);
@@ -78,7 +78,7 @@ input {
       }
       &:active {
         @include text-background($negative-white, $negative-white-25);
-        outline: $pd-8 solid $negative-white-20;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
   }
@@ -94,7 +94,7 @@ input {
     }
     &:active {
       @include text-background($primary-main, $secondary-highlight);
-      outline: $pd-8 solid $secondary-focus;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
       @include svg-fill($tertiary-main);
@@ -108,7 +108,7 @@ input {
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-5);
-        outline: $pd-8 solid $negative-white-20;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
   }
@@ -124,7 +124,7 @@ input {
     }
     &:active {
       @include text-background($primary-main, $negative-white-0);
-      outline: $pd-8 solid $secondary-focus;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
       @include svg-fill($tertiary-main);
@@ -138,7 +138,7 @@ input {
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-0);
-        outline: $pd-8 solid $negative-white-20;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
   }
@@ -147,32 +147,32 @@ input {
     &:link,
     &:visited {
       @include text-background($primary-main, $negative-white-0);
-      outline: $pd-2 solid $primary-main;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
     }
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
-      outline: $pd-2 solid $primary-hover;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
       @include svg-fill($primary-hover);
     }
     &:active {
       @include text-background($primary-main, $negative-white-0);
-      outline: $pd-8 solid $secondary-focus;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
         @include text-background($tertiary-main, $negative-white-0);
-        outline: $pd-2 solid $tertiary-main;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
       }
       &:hover {
         @include text-background($tertiary-hover, $negative-white-5);
-        outline: $pd-2 solid $tertiary-hover;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
         @include svg-fill($tertiary-hover);
       }
       &:active {
         @include text-background($tertiary-main, $negative-white-0);
-        outline: $pd-8 solid $negative-white-20;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
   }
@@ -244,19 +244,19 @@ input {
   &-outline {
     @include svg-fill($primary-main);
     @include text-background($primary-main, $negative-white-0);
-    outline: $pd-2 solid $primary-main;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
     &:hover {
       @include text-background($primary-hover, $secondary-hover);
-      outline: $pd-2 solid $primary-hover;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
       @include svg-fill($primary-hover);
     }
     &-dark {
       @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
-      outline: $pd-2 solid $tertiary-main;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
       &:hover {
         @include text-background($tertiary-hover, $negative-white-5);
-        outline: $pd-2 solid $tertiary-hover;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
         @include svg-fill($tertiary-hover);
       }
     }
@@ -420,20 +420,20 @@ input {
   &-outline {
     @include placeholder-text-color($primary-main);
     @include text-background($primary-main, $negative-white-0);
-    outline: $pd-2 solid $primary-main;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
     &:hover {
       @include placeholder-text-color($primary-hover);
       @include text-background($primary-hover, $secondary-hover);
-      outline: $pd-2 solid $primary-hover;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
     }
     &-dark {
       @include placeholder-text-color($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
-      outline: $pd-2 solid $tertiary-main;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
       &:hover {
         @include placeholder-text-color($tertiary-hover);
         @include text-background($tertiary-hover, $negative-white-5);
-        outline: $pd-2 solid $tertiary-hover;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
       }
     }
   }
