@@ -23,5 +23,9 @@ body {
     &-dark {
       background-color: $secondary-background;
     }
+    &-type {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 }

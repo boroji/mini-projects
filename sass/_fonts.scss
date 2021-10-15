@@ -24,9 +24,11 @@ $thick: 900;
 .arabic {
   font-family: $arabic;
   direction: rtl;
+  text-align: start;
 }
 .english {
   font-family: $english;
+  text-align: start;
 }
 
 @mixin typography(
@@ -34,28 +36,56 @@ $thick: 900;
   $type-weight,
   $type-height,
   $type-kerning,
-  $type-spacing
+  $type-spacing,
+  $type-color
 ) {
   font-size: $type-size;
   font-weight: $type-weight;
   line-height: $type-height;
   letter-spacing: $type-kerning;
   word-spacing: $type-spacing;
+  color: $type-color;
 }
 
 .headline {
-  @include typography($headline, $thick, $pd-96, $pd-050-negative, $pd-1);
+  @include typography(
+    $headline,
+    $thick,
+    $pd-100,
+    $pd-1-negative,
+    $pd-4,
+    $content-heading
+  );
 }
 .lead {
-  font-size: $lead;
-  // @include typography($thick, $pd-92, $pd-075-negative);
+  @include typography(
+    $lead,
+    $light,
+    $pd-92,
+    $pd-075-negative,
+    $pd-050,
+    $content-text
+  );
 }
 h1 {
-  font-size: $h1;
-  // @include typography($thick, $pd-72, $pd-1-negative);
+  @include typography(
+    $h1,
+    $thick,
+    $pd-72,
+    $pd-050-negative,
+    $pd-025,
+    $content-heading
+  );
 }
 h2 {
-  font-size: $h2;
+  @include typography(
+    $h2,
+    $regular,
+    $pd-64,
+    $pd-025-negative,
+    $pd-050,
+    $content-text
+  );
 }
 h3 {
   font-size: $h3;
