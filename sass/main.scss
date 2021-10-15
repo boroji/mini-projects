@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   padding: $pd-96 0;
   .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

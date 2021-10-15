@@ -31,7 +31,7 @@ $thick: 900;
   text-align: start;
 }
 
-@mixin typography(
+@mixin size-weight-height-kerning-spacing-color(
   $type-size,
   $type-weight,
   $type-height,
@@ -48,7 +48,7 @@ $thick: 900;
 }
 
 .headline {
-  @include typography(
+  @include size-weight-height-kerning-spacing-color(
     $headline,
     $thick,
     $pd-100,
@@ -58,7 +58,7 @@ $thick: 900;
   );
 }
 .lead {
-  @include typography(
+  @include size-weight-height-kerning-spacing-color(
     $lead,
     $light,
     $pd-92,
@@ -68,7 +68,7 @@ $thick: 900;
   );
 }
 h1 {
-  @include typography(
+  @include size-weight-height-kerning-spacing-color(
     $h1,
     $thick,
     $pd-72,
@@ -78,7 +78,7 @@ h1 {
   );
 }
 h2 {
-  @include typography(
+  @include size-weight-height-kerning-spacing-color(
     $h2,
     $regular,
     $pd-64,
@@ -88,30 +88,75 @@ h2 {
   );
 }
 h3 {
-  font-size: $h3;
+  @include size-weight-height-kerning-spacing-color(
+    $h3,
+    $thick,
+    $pd-52,
+    $pd-025-negative,
+    $pd-050,
+    $content-heading
+  );
 }
 h4 {
-  font-size: $h4;
+  @include size-weight-height-kerning-spacing-color(
+    $h4,
+    $regular,
+    $pd-48,
+    $pd-025-negative,
+    $pd-075,
+    $content-text
+  );
 }
 h5 {
-  font-size: $h5;
+  @include size-weight-height-kerning-spacing-color(
+    $h5,
+    $thick,
+    $pd-32,
+    $pd-025-negative,
+    $pd-025,
+    $content-heading
+  );
 }
 h6 {
-  font-size: $h6;
+  @include size-weight-height-kerning-spacing-color(
+    $h6,
+    $medium,
+    $pd-32,
+    $pd-025,
+    $pd-1,
+    $content-text
+  );
 }
-.title {
-  font-size: $title;
-}
-p {
-  font-size: $body;
-}
-small {
-  font-size: $caption;
-}
+.title,
 ul,
 ol {
-  font-size: $title;
+  @include size-weight-height-kerning-spacing-color(
+    $title,
+    $semi-bold,
+    $pd-24,
+    $pd-025,
+    $pd-025,
+    $content-heading
+  );
 }
+p {
+  @include size-weight-height-kerning-spacing-color(
+    $body,
+    $medium,
+    $pd-28,
+    $pd-1,
+    $pd-2,
+    $content-text
+  );
+}
+small,
 li {
-  font-size: $caption;
+  @include size-weight-height-kerning-spacing-color(
+    $caption,
+    $medium,
+    $pd-32,
+    $pd-1,
+    $pd-4,
+    $content-text
+  );
 }

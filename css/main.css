@@ -63,39 +63,68 @@ h2 {
 
 h3 {
   font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3.25rem;
+  letter-spacing: -0.01562rem;
+  word-spacing: 0.03125rem;
+  color: #343d3c;
 }
 
 h4 {
   font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  letter-spacing: -0.01562rem;
+  word-spacing: 0.04688rem;
+  color: #637473;
 }
 
 h5 {
   font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 2rem;
+  letter-spacing: -0.01562rem;
+  word-spacing: 0.01562rem;
+  color: #343d3c;
 }
 
 h6 {
   font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.01562rem;
+  word-spacing: 0.0625rem;
+  color: #637473;
 }
 
-.title {
+.title,
+ul,
+ol {
   font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.01562rem;
+  word-spacing: 0.01562rem;
+  color: #343d3c;
 }
 
 p {
   font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.125rem;
+  color: #637473;
 }
 
-small {
-  font-size: 0.875rem;
-}
-
-ul,
-ol {
-  font-size: 1.125rem;
-}
-
+small,
 li {
   font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.25rem;
+  color: #637473;
 }
 
 a,
@@ -2127,6 +2156,7 @@ body {
 }
 
 body .container {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
