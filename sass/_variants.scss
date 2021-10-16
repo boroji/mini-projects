@@ -854,6 +854,7 @@
       @include input-icon-padding($pd-32);
       @include svg-animation-hover();
       @include svg-fill($negative-white);
+      @include english-placeholder-padding($pd-64);
     }
     &-secondary {
       @include input-position();
@@ -861,6 +862,7 @@
       @include input-icon-padding($pd-32);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-64);
     }
     &-ghost {
       @include input-position();
@@ -868,6 +870,7 @@
       @include input-icon-padding($pd-32);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-64);
     }
     &-outline {
       @include input-position();
@@ -875,6 +878,7 @@
       @include input-icon-padding($pd-32);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-64);
     }
   }
   &-regular {
@@ -884,6 +888,7 @@
       @include input-icon-padding($pd-24);
       @include svg-animation-hover();
       @include svg-fill($negative-white);
+      @include english-placeholder-padding($pd-56);
     }
     &-secondary {
       @include input-position();
@@ -891,6 +896,7 @@
       @include input-icon-padding($pd-24);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-56);
     }
     &-ghost {
       @include input-position();
@@ -898,6 +904,7 @@
       @include input-icon-padding($pd-24);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-56);
     }
     &-outline {
       @include input-position();
@@ -905,6 +912,7 @@
       @include input-icon-padding($pd-24);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-56);
     }
   }
   &-small {
@@ -914,6 +922,7 @@
       @include input-icon-padding($pd-12);
       @include svg-animation-hover();
       @include svg-fill($negative-white);
+      @include english-placeholder-padding($pd-40);
     }
     &-secondary {
       @include input-position();
@@ -921,6 +930,7 @@
       @include input-icon-padding($pd-12);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-40);
     }
     &-ghost {
       @include input-position();
@@ -928,6 +938,7 @@
       @include input-icon-padding($pd-12);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-40);
     }
     &-outline {
       @include input-position();
@@ -935,6 +946,7 @@
       @include input-icon-padding($pd-12);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-40);
     }
   }
   &-mini {
@@ -944,6 +956,7 @@
       @include input-icon-padding($pd-4);
       @include svg-animation-hover();
       @include svg-fill($negative-white);
+      @include english-placeholder-padding($pd-32);
     }
     &-secondary {
       @include input-position();
@@ -951,6 +964,7 @@
       @include input-icon-padding($pd-4);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-32);
     }
     &-ghost {
       @include input-position();
@@ -958,6 +972,7 @@
       @include input-icon-padding($pd-4);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-32);
     }
     &-outline {
       @include input-position();
@@ -965,6 +980,7 @@
       @include input-icon-padding($pd-4);
       @include svg-animation-hover();
       @include svg-fill($primary-main);
+      @include english-placeholder-padding($pd-32);
     }
   }
 }

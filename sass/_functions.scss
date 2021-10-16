@@ -29,6 +29,15 @@
   }
 }
 
+@mixin english-placeholder-padding($english-placeholder-padding) {
+  input {
+    padding-left: $english-placeholder-padding;
+    &:hover {
+      padding-left: $english-placeholder-padding;
+    }
+  }
+}
+
 @mixin input-icon-padding($input-icon-padding) {
   svg {
     &:first-child {
