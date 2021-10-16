@@ -26,6 +26,10 @@
       @include text-background($negative-white, $primary-main);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($negative-white);
       &:link,
@@ -42,6 +46,10 @@
         @include large-size();
         @include text-background($negative-white, $negative-white-25);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -62,6 +70,10 @@
       @include text-background($primary-main, $secondary-highlight);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -78,6 +90,10 @@
         @include large-size();
         @include text-background($tertiary-main, $negative-white-5);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -98,6 +114,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -114,6 +134,10 @@
         @include large-size();
         @include text-background($tertiary-main, $negative-white-0);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -136,6 +160,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -154,6 +182,10 @@
         @include large-size();
         @include text-background($tertiary-main, $negative-white-0);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -177,6 +209,10 @@
       @include text-background($negative-white, $primary-main);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($negative-white);
       &:link,
@@ -193,6 +229,10 @@
         @include regular-size();
         @include text-background($negative-white, $negative-white-25);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -213,6 +253,10 @@
       @include text-background($primary-main, $secondary-highlight);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -229,6 +273,10 @@
         @include regular-size();
         @include text-background($tertiary-main, $negative-white-5);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -249,6 +297,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -265,6 +317,10 @@
         @include regular-size();
         @include text-background($tertiary-main, $negative-white-0);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -287,6 +343,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -305,6 +365,10 @@
         @include regular-size();
         @include text-background($tertiary-main, $negative-white-0);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
       }
     }
   }
@@ -328,6 +392,10 @@
       @include text-background($negative-white, $primary-main);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($negative-white);
       &:link,
@@ -343,6 +411,10 @@
       &:active {
         @include small-size();
         @include text-background($negative-white, $negative-white-25);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -364,6 +436,10 @@
       @include text-background($primary-main, $secondary-highlight);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -379,6 +455,10 @@
       &:active {
         @include small-size();
         @include text-background($tertiary-main, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -400,6 +480,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -415,6 +499,10 @@
       &:active {
         @include small-size();
         @include text-background($tertiary-main, $negative-white-0);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -438,6 +526,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -455,6 +547,10 @@
       &:active {
         @include small-size();
         @include text-background($tertiary-main, $negative-white-0);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -479,6 +575,10 @@
       @include text-background($negative-white, $primary-main);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($negative-white);
       &:link,
@@ -494,6 +594,10 @@
       &:active {
         @include mini-size();
         @include text-background($negative-white, $negative-white-25);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -515,6 +619,10 @@
       @include text-background($primary-main, $secondary-highlight);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -530,6 +638,10 @@
       &:active {
         @include mini-size();
         @include text-background($tertiary-main, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -551,6 +663,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -566,6 +682,10 @@
       &:active {
         @include mini-size();
         @include text-background($tertiary-main, $negative-white-0);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }
@@ -589,6 +709,10 @@
       @include text-background($primary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
+    &:focus {
+      outline: none;
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+    }
     &-dark {
       @include svg-fill($tertiary-main);
       &:link,
@@ -606,6 +730,10 @@
       &:active {
         @include mini-size();
         @include text-background($tertiary-main, $negative-white-0);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+      }
+      &:focus {
+        outline: none;
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
       }
     }

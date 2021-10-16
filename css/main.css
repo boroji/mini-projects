@@ -365,6 +365,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.large-primary:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .large-primary-dark svg path {
   fill: white;
 }
@@ -406,6 +412,12 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.large-primary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .large-secondary svg path {
@@ -451,6 +463,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.large-secondary:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .large-secondary-dark svg path {
   fill: #4dfff9;
 }
@@ -492,6 +510,12 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.large-secondary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .large-ghost svg path {
@@ -537,6 +561,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.large-ghost:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .large-ghost-dark svg path {
   fill: #4dfff9;
 }
@@ -578,6 +608,12 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.large-ghost-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .large-outline svg path {
@@ -627,6 +663,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.large-outline:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .large-outline-dark svg path {
   fill: #4dfff9;
 }
@@ -674,6 +716,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.large-outline-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
 .regular-primary svg path {
   fill: white;
 }
@@ -715,6 +763,12 @@ input {
   background-color: #007a76;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-primary:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .regular-primary-dark svg path {
@@ -760,6 +814,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.regular-primary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
 .regular-secondary svg path {
   fill: #007a76;
 }
@@ -801,6 +861,12 @@ input {
   background-color: #f6f9f9;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-secondary:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .regular-secondary-dark svg path {
@@ -846,6 +912,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.regular-secondary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
 .regular-ghost svg path {
   fill: #007a76;
 }
@@ -889,6 +961,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.regular-ghost:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .regular-ghost-dark svg path {
   fill: #4dfff9;
 }
@@ -930,6 +1008,12 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-ghost-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .regular-outline svg path {
@@ -979,6 +1063,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.regular-outline:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
+}
+
 .regular-outline-dark svg path {
   fill: #4dfff9;
 }
@@ -1026,6 +1116,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.regular-outline-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
 .small-primary svg path {
   fill: white;
 }
@@ -1065,6 +1161,12 @@ input {
   border-radius: 1.125rem;
   color: white;
   background-color: #007a76;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-primary:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1112,6 +1214,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.small-primary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
 .small-secondary svg path {
   fill: #007a76;
 }
@@ -1151,6 +1259,12 @@ input {
   border-radius: 1.125rem;
   color: #007a76;
   background-color: #f6f9f9;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-secondary:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1198,6 +1312,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.small-secondary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
 .small-ghost svg path {
   fill: #007a76;
 }
@@ -1241,6 +1361,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.small-ghost:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
 .small-ghost-dark svg path {
   fill: #4dfff9;
 }
@@ -1280,6 +1406,12 @@ input {
   border-radius: 1.125rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.small-ghost-dark:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1331,6 +1463,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.small-outline:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
 .small-outline-dark svg path {
   fill: #4dfff9;
 }
@@ -1378,6 +1516,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.small-outline-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
 .mini-primary svg path {
   fill: white;
 }
@@ -1417,6 +1561,12 @@ input {
   border-radius: 0.5rem;
   color: white;
   background-color: #007a76;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-primary:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1464,6 +1614,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.mini-primary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
 .mini-secondary svg path {
   fill: #007a76;
 }
@@ -1503,6 +1659,12 @@ input {
   border-radius: 0.5rem;
   color: #007a76;
   background-color: #f6f9f9;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-secondary:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1550,6 +1712,12 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
+.mini-secondary-dark:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
 .mini-ghost svg path {
   fill: #007a76;
 }
@@ -1593,6 +1761,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.mini-ghost:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
 .mini-ghost-dark svg path {
   fill: #4dfff9;
 }
@@ -1632,6 +1806,12 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-ghost-dark:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1683,6 +1863,12 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
+.mini-outline:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
 .mini-outline-dark svg path {
   fill: #4dfff9;
 }
@@ -1726,6 +1912,12 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-outline-dark:focus {
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -3329,34 +3521,6 @@ input {
 
 .input-outline-dark:hover::placeholder {
   color: #00e6de;
-}
-
-.large:focus,
-.regular:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
-          box-shadow: 0 0 0 0.75rem #e7efee;
-}
-
-.large-dark:focus,
-.regular-dark:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
-}
-
-.small:focus,
-.mini:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
-}
-
-.small-dark:focus,
-.mini-dark:focus {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
 .margin-top-4 {
