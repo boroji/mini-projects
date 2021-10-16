@@ -1,0 +1,8 @@
+@mixin large-size {
+  font-size: $pd-20;
+  padding-top: $pd-32;
+  padding-right: $pd-32;
+  padding-bottom: $pd-32;
+  padding-left: $pd-32;
+  border-radius: $pd-32;
+}

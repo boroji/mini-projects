@@ -1,0 +1,8 @@
+@mixin regular-size {
+  font-size: $pd-18;
+  padding-top: $pd-24;
+  padding-right: $pd-24;
+  padding-bottom: $pd-24;
+  padding-left: $pd-24;
+  border-radius: $pd-28;
+}

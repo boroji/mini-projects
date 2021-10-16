@@ -5,12 +5,16 @@
 @import "shadows";
 @import "functions";
 @import "foundation";
+@import "./sizes/large";
+@import "./sizes/regular";
+@import "./sizes/small";
+@import "./sizes/mini";
 @import "./styles/primary";
 @import "./styles/secondary";
 @import "./styles/ghost";
 @import "./styles/outline";
 @import "./styles/focus";
-@import "core";
+@import "variants";
 @import "inputs";
 @import "utilities";
 
