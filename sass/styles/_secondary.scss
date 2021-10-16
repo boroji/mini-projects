@@ -1,19 +1,23 @@
 @mixin secondary-styles {
   color: $primary-main;
   background-color: $secondary-highlight;
+  @include svg-fill($primary-main);
 }
 
 @mixin secondary-styles-hover {
   color: $primary-hover;
   background-color: $secondary-hover;
+  @include svg-fill($primary-hover);
 }
 
 @mixin secondary-styles-dark {
   color: $tertiary-main;
   background-color: $negative-white-5;
+  @include svg-fill($tertiary-main);
 }
 
 @mixin secondary-styles-hover-dark {
   color: $tertiary-hover;
   background-color: $negative-white-15;
+  @include svg-fill($tertiary-hover);
 }

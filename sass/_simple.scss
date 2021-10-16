@@ -1,0 +1,32 @@
+// General size starts here
+
+// General styles starts here
+.large,
+.regular,
+.small,
+.mini {
+  &-primary {
+    @include primary-styles();
+    &-dark {
+      @include primary-styles-dark();
+    }
+  }
+  &-secondary {
+    @include secondary-styles();
+    &-dark {
+      @include secondary-styles-dark();
+    }
+  }
+  &-ghost {
+    @include ghost-styles();
+    &-dark {
+      @include ghost-styles-dark();
+    }
+  }
+  &-outline {
+    @include outline-styles();
+    &-dark {
+      @include outline-styles-dark();
+    }
+  }
+}

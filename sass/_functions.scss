@@ -1,8 +1,3 @@
-@mixin text-background($first-text-color, $second-background-color) {
-  color: $first-text-color;
-  background-color: $second-background-color;
-}
-
 @mixin svg-fill($svg-fill-color) {
   svg {
     path {

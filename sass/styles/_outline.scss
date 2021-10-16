@@ -1,15 +1,19 @@
 @mixin outline-styles {
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+  @include svg-fill($primary-main);
 }
 
 @mixin outline-styles-hover {
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+  @include svg-fill($primary-hover);
 }
 
 @mixin outline-styles-dark {
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+  @include svg-fill($tertiary-main);
 }
 
 @mixin outline-styles-hover-dark {
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+  @include svg-fill($tertiary-hover);
 }
