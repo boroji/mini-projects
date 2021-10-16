@@ -52,33 +52,41 @@
   &-primary {
     @include primary-styles();
     @include primary-styles-hover();
+    @include primary-styles-active();
     &-dark {
       @include primary-styles-dark();
       @include primary-styles-hover-dark();
+      @include primary-styles-active-dark();
     }
   }
   &-secondary {
     @include secondary-styles();
     @include secondary-styles-hover();
+    @include secondary-styles-active();
     &-dark {
       @include secondary-styles-dark();
       @include secondary-styles-hover-dark();
+      @include secondary-styles-active-dark();
     }
   }
   &-ghost {
     @include ghost-styles();
     @include ghost-styles-hover();
+    @include ghost-styles-active();
     &-dark {
       @include ghost-styles-dark();
       @include ghost-styles-hover-dark();
+      @include ghost-styles-active-dark();
     }
   }
   &-outline {
     @include outline-styles();
     @include outline-styles-hover();
+    @include outline-styles-active();
     &-dark {
       @include outline-styles-dark();
       @include outline-styles-hover-dark();
+      @include outline-styles-active-dark();
     }
   }
 }

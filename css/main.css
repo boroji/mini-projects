@@ -395,6 +395,20 @@ input {
   fill: #ededed;
 }
 
+.large-primary:active, .large-primary:focus,
+.regular-primary:active,
+.regular-primary:focus,
+.small-primary:active,
+.small-primary:focus,
+.mini-primary:active,
+.mini-primary:focus {
+  color: white;
+  background-color: #007a76;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
+          box-shadow: 0 0 0 0.25rem #e7efee;
+}
+
 .large-primary-dark,
 .regular-primary-dark,
 .small-primary-dark,
@@ -434,6 +448,20 @@ input {
 .small-primary-dark:hover svg path,
 .mini-primary-dark:hover svg path {
   fill: #f7f7f7;
+}
+
+.large-primary-dark:active, .large-primary-dark:focus,
+.regular-primary-dark:active,
+.regular-primary-dark:focus,
+.small-primary-dark:active,
+.small-primary-dark:focus,
+.mini-primary-dark:active,
+.mini-primary-dark:focus {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
 }
 
 .large-secondary,
@@ -477,6 +505,20 @@ input {
   fill: #006663;
 }
 
+.large-secondary:active, .large-secondary:focus,
+.regular-secondary:active,
+.regular-secondary:focus,
+.small-secondary:active,
+.small-secondary:focus,
+.mini-secondary:active,
+.mini-secondary:focus {
+  color: #007a76;
+  background-color: #f6f9f9;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
+          box-shadow: 0 0 0 0.25rem #e7efee;
+}
+
 .large-secondary-dark,
 .regular-secondary-dark,
 .small-secondary-dark,
@@ -516,6 +558,20 @@ input {
 .small-secondary-dark:hover svg path,
 .mini-secondary-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-secondary-dark:active, .large-secondary-dark:focus,
+.regular-secondary-dark:active,
+.regular-secondary-dark:focus,
+.small-secondary-dark:active,
+.small-secondary-dark:focus,
+.mini-secondary-dark:active,
+.mini-secondary-dark:focus {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
 }
 
 .large-ghost,
@@ -559,6 +615,20 @@ input {
   fill: #006663;
 }
 
+.large-ghost:active, .large-ghost:focus,
+.regular-ghost:active,
+.regular-ghost:focus,
+.small-ghost:active,
+.small-ghost:focus,
+.mini-ghost:active,
+.mini-ghost:focus {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
+          box-shadow: 0 0 0 0.25rem #e7efee;
+}
+
 .large-ghost-dark,
 .regular-ghost-dark,
 .small-ghost-dark,
@@ -598,6 +668,20 @@ input {
 .small-ghost-dark:hover svg path,
 .mini-ghost-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-ghost-dark:active, .large-ghost-dark:focus,
+.regular-ghost-dark:active,
+.regular-ghost-dark:focus,
+.small-ghost-dark:active,
+.small-ghost-dark:focus,
+.mini-ghost-dark:active,
+.mini-ghost-dark:focus {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
 }
 
 .large-outline,
@@ -647,6 +731,20 @@ input {
   fill: #006663;
 }
 
+.large-outline:active, .large-outline:focus,
+.regular-outline:active,
+.regular-outline:focus,
+.small-outline:active,
+.small-outline:focus,
+.mini-outline:active,
+.mini-outline:focus {
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
+          box-shadow: 0 0 0 0.25rem #e7efee;
+}
+
 .large-outline-dark,
 .regular-outline-dark,
 .small-outline-dark,
@@ -692,6 +790,20 @@ input {
 .small-outline-dark:hover svg path,
 .mini-outline-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-outline-dark:active, .large-outline-dark:focus,
+.regular-outline-dark:active,
+.regular-outline-dark:focus,
+.small-outline-dark:active,
+.small-outline-dark:focus,
+.mini-outline-dark:active,
+.mini-outline-dark:focus {
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
 }
 
 .margin-top-4 {

@@ -17,6 +17,16 @@
   }
 }
 
+@mixin primary-styles-active {
+  &:active,
+  &:focus {
+    color: $negative-white;
+    background-color: $primary-main;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
 @mixin primary-styles-dark {
   color: $negative-white;
   background-color: $negative-white-25;
@@ -33,5 +43,15 @@
     color: $grey-highlight;
     background-color: $negative-white-15;
     @include svg-fill($grey-highlight);
+  }
+}
+
+@mixin primary-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $negative-white;
+    background-color: $negative-white-25;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
   }
 }

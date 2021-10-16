@@ -20,6 +20,16 @@
   }
 }
 
+@mixin outline-styles-active {
+  &:active,
+  &:focus {
+    color: $primary-main;
+    background-color: $negative-white-0;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
 @mixin outline-styles-dark {
   color: $tertiary-main;
   background-color: $negative-white-0;
@@ -39,5 +49,15 @@
     background-color: $negative-white-5;
     @include svg-fill($tertiary-hover);
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+  }
+}
+
+@mixin outline-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $tertiary-main;
+    background-color: $negative-white-0;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
   }
 }

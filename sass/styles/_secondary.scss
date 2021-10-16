@@ -17,6 +17,16 @@
   }
 }
 
+@mixin secondary-styles-active {
+  &:active,
+  &:focus {
+    color: $primary-main;
+    background-color: $secondary-highlight;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
 @mixin secondary-styles-dark {
   color: $tertiary-main;
   background-color: $negative-white-5;
@@ -33,5 +43,15 @@
     color: $tertiary-hover;
     background-color: $negative-white-15;
     @include svg-fill($tertiary-hover);
+  }
+}
+
+@mixin secondary-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $tertiary-main;
+    background-color: $negative-white-5;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
   }
 }
