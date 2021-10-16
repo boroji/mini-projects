@@ -1,19 +1,19 @@
-@mixin large-regular-focus {
+@mixin giant-focus {
   outline: none;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
 }
 
-@mixin large-regular-focus-dark {
+@mixin giant-focus-dark {
   outline: none;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
 }
 
-@mixin small-mini-link-styles {
+@mixin tiny-focus {
   outline: none;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
 }
 
-@mixin small-mini-link-styles-dark {
+@mixin tiny-focus-dark {
   outline: none;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
 }

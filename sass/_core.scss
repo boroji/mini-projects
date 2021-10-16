@@ -11,6 +11,7 @@
 .large {
   &-primary {
     @include large-size();
+    @include primary-styles();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
@@ -25,13 +26,14 @@
     &:active {
       @include large-size();
       @include primary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include large-size();
+      @include primary-styles-dark();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -46,15 +48,16 @@
       &:active {
         @include large-size();
         @include primary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-secondary {
     @include large-size();
+    @include secondary-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -69,13 +72,14 @@
     &:active {
       @include large-size();
       @include secondary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include large-size();
+      @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -90,15 +94,16 @@
       &:active {
         @include large-size();
         @include secondary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-ghost {
     @include large-size();
+    @include ghost-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -113,13 +118,14 @@
     &:active {
       @include large-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include large-size();
+      @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -134,15 +140,17 @@
       &:active {
         @include large-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-outline {
     @include large-size();
+    @include ghost-styles();
+    @include outline-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -159,13 +167,15 @@
     &:active {
       @include large-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include large-size();
+      @include ghost-styles-dark();
+      @include outline-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -182,10 +192,10 @@
       &:active {
         @include large-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
@@ -194,6 +204,7 @@
 .regular {
   &-primary {
     @include regular-size();
+    @include primary-styles();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
@@ -208,13 +219,14 @@
     &:active {
       @include regular-size();
       @include primary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include regular-size();
+      @include primary-styles-dark();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -229,15 +241,16 @@
       &:active {
         @include regular-size();
         @include primary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-secondary {
     @include regular-size();
+    @include secondary-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -252,13 +265,14 @@
     &:active {
       @include regular-size();
       @include secondary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include regular-size();
+      @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -273,15 +287,16 @@
       &:active {
         @include regular-size();
         @include secondary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-ghost {
     @include regular-size();
+    @include ghost-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -296,13 +311,14 @@
     &:active {
       @include regular-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include regular-size();
+      @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -317,15 +333,17 @@
       &:active {
         @include regular-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-outline {
     @include regular-size();
+    @include ghost-styles();
+    @include outline-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -342,13 +360,15 @@
     &:active {
       @include regular-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include large-regular-focus();
+      @include giant-focus();
     }
     &-dark {
       @include regular-size();
+      @include ghost-styles-dark();
+      @include outline-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -365,10 +385,10 @@
       &:active {
         @include regular-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include large-regular-focus-dark();
+        @include giant-focus-dark();
       }
     }
   }
@@ -377,6 +397,7 @@
 .small {
   &-primary {
     @include small-size();
+    @include primary-styles();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
@@ -391,13 +412,14 @@
     &:active {
       @include small-size();
       @include primary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include small-size();
+      @include primary-styles-dark();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -412,15 +434,16 @@
       &:active {
         @include small-size();
         @include primary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-secondary {
     @include small-size();
+    @include secondary-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -435,13 +458,14 @@
     &:active {
       @include small-size();
       @include secondary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include small-size();
+      @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -456,15 +480,16 @@
       &:active {
         @include small-size();
         @include secondary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-ghost {
     @include small-size();
+    @include ghost-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -479,13 +504,14 @@
     &:active {
       @include small-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include small-size();
+      @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -500,15 +526,17 @@
       &:active {
         @include small-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-outline {
     @include small-size();
+    @include ghost-styles();
+    @include outline-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -525,13 +553,15 @@
     &:active {
       @include small-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include small-size();
+      @include ghost-styles-dark();
+      @include outline-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -548,10 +578,10 @@
       &:active {
         @include small-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
@@ -560,6 +590,7 @@
 .mini {
   &-primary {
     @include mini-size();
+    @include primary-styles();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
@@ -574,13 +605,14 @@
     &:active {
       @include mini-size();
       @include primary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include mini-size();
+      @include primary-styles-dark();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -595,15 +627,16 @@
       &:active {
         @include mini-size();
         @include primary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-secondary {
     @include mini-size();
+    @include secondary-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -618,13 +651,14 @@
     &:active {
       @include mini-size();
       @include secondary-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include mini-size();
+      @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -639,15 +673,16 @@
       &:active {
         @include mini-size();
         @include secondary-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-ghost {
     @include mini-size();
+    @include ghost-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -662,13 +697,14 @@
     &:active {
       @include mini-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include mini-size();
+      @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -683,15 +719,17 @@
       &:active {
         @include mini-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }
   &-outline {
     @include mini-size();
+    @include ghost-styles();
+    @include outline-styles();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
@@ -708,13 +746,15 @@
     &:active {
       @include mini-size();
       @include ghost-styles();
-      @include small-mini-link-styles();
+      @include tiny-focus();
     }
     &:focus {
-      @include small-mini-link-styles();
+      @include giant-focus();
     }
     &-dark {
       @include mini-size();
+      @include ghost-styles-dark();
+      @include outline-styles-dark();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -731,10 +771,10 @@
       &:active {
         @include mini-size();
         @include ghost-styles-dark();
-        @include small-mini-link-styles-dark();
+        @include tiny-focus-dark();
       }
       &:focus {
-        @include small-mini-link-styles-dark();
+        @include giant-focus-dark();
       }
     }
   }

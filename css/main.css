@@ -329,6 +329,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: white;
+  background-color: #007a76;
 }
 
 .large-primary svg path {
@@ -388,6 +390,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .large-primary-dark svg path {
@@ -447,6 +451,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #007a76;
+  background-color: #f6f9f9;
 }
 
 .large-secondary svg path {
@@ -506,6 +512,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .large-secondary-dark svg path {
@@ -565,6 +573,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .large-ghost svg path {
@@ -624,6 +634,8 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .large-ghost-dark svg path {
@@ -683,6 +695,10 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
 }
 
 .large-outline svg path {
@@ -746,6 +762,10 @@ input {
   padding-bottom: 2rem;
   padding-left: 2rem;
   border-radius: 2rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
 .large-outline-dark svg path {
@@ -809,6 +829,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: white;
+  background-color: #007a76;
 }
 
 .regular-primary svg path {
@@ -868,6 +890,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .regular-primary-dark svg path {
@@ -927,6 +951,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #007a76;
+  background-color: #f6f9f9;
 }
 
 .regular-secondary svg path {
@@ -986,6 +1012,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .regular-secondary-dark svg path {
@@ -1045,6 +1073,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .regular-ghost svg path {
@@ -1104,6 +1134,8 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .regular-ghost-dark svg path {
@@ -1163,6 +1195,10 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
 }
 
 .regular-outline svg path {
@@ -1226,6 +1262,10 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
 .regular-outline-dark svg path {
@@ -1289,6 +1329,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: white;
+  background-color: #007a76;
 }
 
 .small-primary svg path {
@@ -1337,8 +1379,8 @@ input {
 
 .small-primary:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .small-primary-dark {
@@ -1348,6 +1390,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .small-primary-dark svg path {
@@ -1396,8 +1440,8 @@ input {
 
 .small-primary-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .small-secondary {
@@ -1407,6 +1451,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #007a76;
+  background-color: #f6f9f9;
 }
 
 .small-secondary svg path {
@@ -1455,8 +1501,8 @@ input {
 
 .small-secondary:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .small-secondary-dark {
@@ -1466,6 +1512,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .small-secondary-dark svg path {
@@ -1514,8 +1562,8 @@ input {
 
 .small-secondary-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .small-ghost {
@@ -1525,6 +1573,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .small-ghost svg path {
@@ -1573,8 +1623,8 @@ input {
 
 .small-ghost:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .small-ghost-dark {
@@ -1584,6 +1634,8 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .small-ghost-dark svg path {
@@ -1632,8 +1684,8 @@ input {
 
 .small-ghost-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .small-outline {
@@ -1643,6 +1695,10 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
 }
 
 .small-outline svg path {
@@ -1695,8 +1751,8 @@ input {
 
 .small-outline:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .small-outline-dark {
@@ -1706,6 +1762,10 @@ input {
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
   border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
 .small-outline-dark svg path {
@@ -1758,8 +1818,8 @@ input {
 
 .small-outline-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .mini-primary {
@@ -1769,6 +1829,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: white;
+  background-color: #007a76;
 }
 
 .mini-primary svg path {
@@ -1817,8 +1879,8 @@ input {
 
 .mini-primary:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .mini-primary-dark {
@@ -1828,6 +1890,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .mini-primary-dark svg path {
@@ -1876,8 +1940,8 @@ input {
 
 .mini-primary-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .mini-secondary {
@@ -1887,6 +1951,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #007a76;
+  background-color: #f6f9f9;
 }
 
 .mini-secondary svg path {
@@ -1935,8 +2001,8 @@ input {
 
 .mini-secondary:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .mini-secondary-dark {
@@ -1946,6 +2012,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .mini-secondary-dark svg path {
@@ -1994,8 +2062,8 @@ input {
 
 .mini-secondary-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .mini-ghost {
@@ -2005,6 +2073,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .mini-ghost svg path {
@@ -2053,8 +2123,8 @@ input {
 
 .mini-ghost:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .mini-ghost-dark {
@@ -2064,6 +2134,8 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .mini-ghost-dark svg path {
@@ -2112,8 +2184,8 @@ input {
 
 .mini-ghost-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .mini-outline {
@@ -2123,6 +2195,10 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
 }
 
 .mini-outline svg path {
@@ -2175,8 +2251,8 @@ input {
 
 .mini-outline:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
-          box-shadow: 0 0 0 0.5rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.75rem #e7efee;
+          box-shadow: 0 0 0 0.75rem #e7efee;
 }
 
 .mini-outline-dark {
@@ -2186,6 +2262,10 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
 .mini-outline-dark svg path {
@@ -2238,1040 +2318,8 @@ input {
 
 .mini-outline-dark:focus {
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
-}
-
-.primary svg,
-.secondary svg,
-.ghost svg,
-.outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.primary:hover svg,
-.secondary:hover svg,
-.ghost:hover svg,
-.outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.primary-dark svg,
-.secondary-dark svg,
-.ghost-dark svg,
-.outline-dark svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.primary-dark:hover svg,
-.secondary-dark:hover svg,
-.ghost-dark:hover svg,
-.outline-dark:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.large-primary {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: white;
-  background-color: #007a76;
-}
-
-.large-primary svg path {
-  fill: white;
-}
-
-.large-primary:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #ededed;
-  background-color: #006663;
-}
-
-.large-primary:hover svg path {
-  fill: #ededed;
-}
-
-.large-primary-dark {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.large-primary-dark svg path {
-  fill: white;
-}
-
-.large-primary-dark:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #f7f7f7;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.large-primary-dark:hover svg path {
-  fill: #f7f7f7;
-}
-
-.large-secondary {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #007a76;
-  background-color: #f6f9f9;
-}
-
-.large-secondary svg path {
-  fill: #007a76;
-}
-
-.large-secondary:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #006663;
-  background-color: #eaf1f0;
-}
-
-.large-secondary:hover svg path {
-  fill: #006663;
-}
-
-.large-secondary-dark {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.large-secondary-dark svg path {
-  fill: #4dfff9;
-}
-
-.large-secondary-dark:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.large-secondary-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.large-ghost {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.large-ghost svg path {
-  fill: #007a76;
-}
-
-.large-ghost:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #006663;
-  background-color: #f6f9f9;
-}
-
-.large-ghost:hover svg path {
-  fill: #006663;
-}
-
-.large-ghost-dark {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.large-ghost-dark svg path {
-  fill: #4dfff9;
-}
-
-.large-ghost-dark:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.large-ghost-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.large-outline {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
-}
-
-.large-outline svg path {
-  fill: #007a76;
-}
-
-.large-outline:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #006663;
-  background-color: #eaf1f0;
-  -webkit-box-shadow: 0 0 0 0.125rem #006663;
-          box-shadow: 0 0 0 0.125rem #006663;
-}
-
-.large-outline:hover svg path {
-  fill: #006663;
-}
-
-.large-outline-dark {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
-}
-
-.large-outline-dark svg path {
-  fill: #4dfff9;
-}
-
-.large-outline-dark:hover {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
-}
-
-.large-outline-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.regular-primary {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: white;
-  background-color: #007a76;
-}
-
-.regular-primary svg path {
-  fill: white;
-}
-
-.regular-primary:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #ededed;
-  background-color: #006663;
-}
-
-.regular-primary:hover svg path {
-  fill: #ededed;
-}
-
-.regular-primary-dark {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.regular-primary-dark svg path {
-  fill: white;
-}
-
-.regular-primary-dark:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #f7f7f7;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.regular-primary-dark:hover svg path {
-  fill: #f7f7f7;
-}
-
-.regular-secondary {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #007a76;
-  background-color: #f6f9f9;
-}
-
-.regular-secondary svg path {
-  fill: #007a76;
-}
-
-.regular-secondary:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #006663;
-  background-color: #eaf1f0;
-}
-
-.regular-secondary:hover svg path {
-  fill: #006663;
-}
-
-.regular-secondary-dark {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.regular-secondary-dark svg path {
-  fill: #4dfff9;
-}
-
-.regular-secondary-dark:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.regular-secondary-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.regular-ghost {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.regular-ghost svg path {
-  fill: #007a76;
-}
-
-.regular-ghost:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #006663;
-  background-color: #f6f9f9;
-}
-
-.regular-ghost:hover svg path {
-  fill: #006663;
-}
-
-.regular-ghost-dark {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.regular-ghost-dark svg path {
-  fill: #4dfff9;
-}
-
-.regular-ghost-dark:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.regular-ghost-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.regular-outline {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
-}
-
-.regular-outline svg path {
-  fill: #007a76;
-}
-
-.regular-outline:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #006663;
-  background-color: #eaf1f0;
-  -webkit-box-shadow: 0 0 0 0.125rem #006663;
-          box-shadow: 0 0 0 0.125rem #006663;
-}
-
-.regular-outline:hover svg path {
-  fill: #006663;
-}
-
-.regular-outline-dark {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
-}
-
-.regular-outline-dark svg path {
-  fill: #4dfff9;
-}
-
-.regular-outline-dark:hover {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
-}
-
-.regular-outline-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.small-primary {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: white;
-  background-color: #007a76;
-}
-
-.small-primary svg path {
-  fill: white;
-}
-
-.small-primary:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #ededed;
-  background-color: #006663;
-}
-
-.small-primary:hover svg path {
-  fill: #ededed;
-}
-
-.small-primary-dark {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.small-primary-dark svg path {
-  fill: white;
-}
-
-.small-primary-dark:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #f7f7f7;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.small-primary-dark:hover svg path {
-  fill: #f7f7f7;
-}
-
-.small-secondary {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #007a76;
-  background-color: #f6f9f9;
-}
-
-.small-secondary svg path {
-  fill: #007a76;
-}
-
-.small-secondary:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #006663;
-  background-color: #eaf1f0;
-}
-
-.small-secondary:hover svg path {
-  fill: #006663;
-}
-
-.small-secondary-dark {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.small-secondary-dark svg path {
-  fill: #4dfff9;
-}
-
-.small-secondary-dark:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.small-secondary-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.small-ghost {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.small-ghost svg path {
-  fill: #007a76;
-}
-
-.small-ghost:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #006663;
-  background-color: #f6f9f9;
-}
-
-.small-ghost:hover svg path {
-  fill: #006663;
-}
-
-.small-ghost-dark {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.small-ghost-dark svg path {
-  fill: #4dfff9;
-}
-
-.small-ghost-dark:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.small-ghost-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.small-outline {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
-}
-
-.small-outline svg path {
-  fill: #007a76;
-}
-
-.small-outline:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #006663;
-  background-color: #eaf1f0;
-  -webkit-box-shadow: 0 0 0 0.125rem #006663;
-          box-shadow: 0 0 0 0.125rem #006663;
-}
-
-.small-outline:hover svg path {
-  fill: #006663;
-}
-
-.small-outline-dark {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
-}
-
-.small-outline-dark svg path {
-  fill: #4dfff9;
-}
-
-.small-outline-dark:hover {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
-}
-
-.small-outline-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.mini-primary {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: white;
-  background-color: #007a76;
-}
-
-.mini-primary svg path {
-  fill: white;
-}
-
-.mini-primary:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #ededed;
-  background-color: #006663;
-}
-
-.mini-primary:hover svg path {
-  fill: #ededed;
-}
-
-.mini-primary-dark {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.mini-primary-dark svg path {
-  fill: white;
-}
-
-.mini-primary-dark:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #f7f7f7;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.mini-primary-dark:hover svg path {
-  fill: #f7f7f7;
-}
-
-.mini-secondary {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #007a76;
-  background-color: #f6f9f9;
-}
-
-.mini-secondary svg path {
-  fill: #007a76;
-}
-
-.mini-secondary:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #006663;
-  background-color: #eaf1f0;
-}
-
-.mini-secondary:hover svg path {
-  fill: #006663;
-}
-
-.mini-secondary-dark {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.mini-secondary-dark svg path {
-  fill: #4dfff9;
-}
-
-.mini-secondary-dark:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
-.mini-secondary-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.mini-ghost {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.mini-ghost svg path {
-  fill: #007a76;
-}
-
-.mini-ghost:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #006663;
-  background-color: #f6f9f9;
-}
-
-.mini-ghost:hover svg path {
-  fill: #006663;
-}
-
-.mini-ghost-dark {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-}
-
-.mini-ghost-dark svg path {
-  fill: #4dfff9;
-}
-
-.mini-ghost-dark:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-}
-
-.mini-ghost-dark:hover svg path {
-  fill: #00e6de;
-}
-
-.mini-outline {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #007a76;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
-}
-
-.mini-outline svg path {
-  fill: #007a76;
-}
-
-.mini-outline:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #006663;
-  background-color: #eaf1f0;
-  -webkit-box-shadow: 0 0 0 0.125rem #006663;
-          box-shadow: 0 0 0 0.125rem #006663;
-}
-
-.mini-outline:hover svg path {
-  fill: #006663;
-}
-
-.mini-outline-dark {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #4dfff9;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
-}
-
-.mini-outline-dark svg path {
-  fill: #4dfff9;
-}
-
-.mini-outline-dark:hover {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
-  color: #00e6de;
-  background-color: rgba(255, 255, 255, 0.05);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
-}
-
-.mini-outline-dark:hover svg path {
-  fill: #00e6de;
+  -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
 .input-group {
