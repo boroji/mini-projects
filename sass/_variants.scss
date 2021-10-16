@@ -847,140 +847,131 @@
 }
 
 .input {
+  // Basic input SVG positioning
+  &-large,
+  &-regular,
+  &-small,
+  &-mini {
+    &-primary,
+    &-secondary,
+    &-ghost,
+    &-outline {
+      @include input-position();
+      @include input-svg-position();
+      @include svg-animation-hover();
+      &-dark {
+        @include input-position();
+        @include input-svg-position();
+        @include svg-animation-hover();
+      }
+    }
+  }
+
+  // Input paddings
+  &-large {
+    &-primary,
+    &-secondary,
+    &-ghost,
+    &-outline {
+      @include input-icon-padding($pd-32);
+      @include english-placeholder-padding($pd-64);
+      &-dark {
+        @include input-icon-padding($pd-32);
+        @include english-placeholder-padding($pd-64);
+      }
+    }
+  }
+
+  // Input paddings
+  &-regular {
+    &-primary,
+    &-secondary,
+    &-ghost,
+    &-outline {
+      @include input-icon-padding($pd-24);
+      @include english-placeholder-padding($pd-56);
+      &-dark {
+        @include input-icon-padding($pd-24);
+        @include english-placeholder-padding($pd-56);
+      }
+    }
+  }
+
+  // Input paddings
+  &-small {
+    &-primary,
+    &-secondary,
+    &-ghost,
+    &-outline {
+      @include input-icon-padding($pd-12);
+      @include english-placeholder-padding($pd-40);
+      &-dark {
+        @include input-icon-padding($pd-12);
+        @include english-placeholder-padding($pd-40);
+      }
+    }
+  }
+
+  // Input paddings
+  &-mini {
+    &-primary,
+    &-secondary,
+    &-ghost,
+    &-outline {
+      @include input-icon-padding($pd-4);
+      @include english-placeholder-padding($pd-32);
+      &-dark {
+        @include input-icon-padding($pd-4);
+        @include english-placeholder-padding($pd-32);
+      }
+    }
+  }
+
+  // Input svg fill color
   &-large {
     &-primary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-32);
-      @include svg-animation-hover();
       @include svg-fill($negative-white);
-      @include english-placeholder-padding($pd-64);
     }
-    &-secondary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-32);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-64);
-    }
-    &-ghost {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-32);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-64);
-    }
+    &-secondary,
+    &-ghost,
     &-outline {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-32);
-      @include svg-animation-hover();
       @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-64);
     }
   }
+
+  // Input svg fill color
   &-regular {
     &-primary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-24);
-      @include svg-animation-hover();
       @include svg-fill($negative-white);
-      @include english-placeholder-padding($pd-56);
     }
-    &-secondary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-24);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-56);
-    }
-    &-ghost {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-24);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-56);
-    }
+    &-secondary,
+    &-ghost,
     &-outline {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-24);
-      @include svg-animation-hover();
       @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-56);
     }
   }
+
+  // Input svg fill color
   &-small {
     &-primary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-12);
-      @include svg-animation-hover();
       @include svg-fill($negative-white);
-      @include english-placeholder-padding($pd-40);
     }
-    &-secondary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-12);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-40);
-    }
-    &-ghost {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-12);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-40);
-    }
+    &-secondary,
+    &-ghost,
     &-outline {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-12);
-      @include svg-animation-hover();
       @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-40);
     }
   }
+
+  // Input svg fill color
   &-mini {
     &-primary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-4);
-      @include svg-animation-hover();
       @include svg-fill($negative-white);
-      @include english-placeholder-padding($pd-32);
     }
-    &-secondary {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-4);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-32);
-    }
-    &-ghost {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-4);
-      @include svg-animation-hover();
-      @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-32);
-    }
+    &-secondary,
+    &-ghost,
     &-outline {
-      @include input-position();
-      @include input-svg-position();
-      @include input-icon-padding($pd-4);
-      @include svg-animation-hover();
       @include svg-fill($primary-main);
-      @include english-placeholder-padding($pd-32);
     }
   }
 }

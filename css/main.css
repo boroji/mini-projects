@@ -3278,7 +3278,7 @@ input {
   line-height: 1.5rem;
 }
 
-.input-large-primary {
+.input-large-primary, .input-large-secondary, .input-large-ghost, .input-large-outline, .input-regular-primary, .input-regular-secondary, .input-regular-ghost, .input-regular-outline, .input-small-primary, .input-small-secondary, .input-small-ghost, .input-small-outline, .input-mini-primary, .input-mini-secondary, .input-mini-ghost, .input-mini-outline {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3291,19 +3291,11 @@ input {
   position: relative;
 }
 
-.input-large-primary svg:first-child, .input-large-primary svg:last-child {
+.input-large-primary svg:first-child, .input-large-primary svg:last-child, .input-large-secondary svg:first-child, .input-large-secondary svg:last-child, .input-large-ghost svg:first-child, .input-large-ghost svg:last-child, .input-large-outline svg:first-child, .input-large-outline svg:last-child, .input-regular-primary svg:first-child, .input-regular-primary svg:last-child, .input-regular-secondary svg:first-child, .input-regular-secondary svg:last-child, .input-regular-ghost svg:first-child, .input-regular-ghost svg:last-child, .input-regular-outline svg:first-child, .input-regular-outline svg:last-child, .input-small-primary svg:first-child, .input-small-primary svg:last-child, .input-small-secondary svg:first-child, .input-small-secondary svg:last-child, .input-small-ghost svg:first-child, .input-small-ghost svg:last-child, .input-small-outline svg:first-child, .input-small-outline svg:last-child, .input-mini-primary svg:first-child, .input-mini-primary svg:last-child, .input-mini-secondary svg:first-child, .input-mini-secondary svg:last-child, .input-mini-ghost svg:first-child, .input-mini-ghost svg:last-child, .input-mini-outline svg:first-child, .input-mini-outline svg:last-child {
   position: absolute;
 }
 
-.input-large-primary svg:first-child {
-  left: 2rem;
-}
-
-.input-large-primary svg:last-child {
-  right: 2rem;
-}
-
-.input-large-primary svg {
+.input-large-primary svg, .input-large-secondary svg, .input-large-ghost svg, .input-large-outline svg, .input-regular-primary svg, .input-regular-secondary svg, .input-regular-ghost svg, .input-regular-outline svg, .input-small-primary svg, .input-small-secondary svg, .input-small-ghost svg, .input-small-outline svg, .input-mini-primary svg, .input-mini-secondary svg, .input-mini-ghost svg, .input-mini-outline svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: -webkit-transform 180ms ease-out;
@@ -3312,786 +3304,200 @@ input {
   transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
 }
 
-.input-large-primary:hover svg {
+.input-large-primary:hover svg, .input-large-secondary:hover svg, .input-large-ghost:hover svg, .input-large-outline:hover svg, .input-regular-primary:hover svg, .input-regular-secondary:hover svg, .input-regular-ghost:hover svg, .input-regular-outline:hover svg, .input-small-primary:hover svg, .input-small-secondary:hover svg, .input-small-ghost:hover svg, .input-small-outline:hover svg, .input-mini-primary:hover svg, .input-mini-secondary:hover svg, .input-mini-ghost:hover svg, .input-mini-outline:hover svg {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+
+.input-large-primary-dark, .input-large-secondary-dark, .input-large-ghost-dark, .input-large-outline-dark, .input-regular-primary-dark, .input-regular-secondary-dark, .input-regular-ghost-dark, .input-regular-outline-dark, .input-small-primary-dark, .input-small-secondary-dark, .input-small-ghost-dark, .input-small-outline-dark, .input-mini-primary-dark, .input-mini-secondary-dark, .input-mini-ghost-dark, .input-mini-outline-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-large-primary-dark svg:first-child, .input-large-primary-dark svg:last-child, .input-large-secondary-dark svg:first-child, .input-large-secondary-dark svg:last-child, .input-large-ghost-dark svg:first-child, .input-large-ghost-dark svg:last-child, .input-large-outline-dark svg:first-child, .input-large-outline-dark svg:last-child, .input-regular-primary-dark svg:first-child, .input-regular-primary-dark svg:last-child, .input-regular-secondary-dark svg:first-child, .input-regular-secondary-dark svg:last-child, .input-regular-ghost-dark svg:first-child, .input-regular-ghost-dark svg:last-child, .input-regular-outline-dark svg:first-child, .input-regular-outline-dark svg:last-child, .input-small-primary-dark svg:first-child, .input-small-primary-dark svg:last-child, .input-small-secondary-dark svg:first-child, .input-small-secondary-dark svg:last-child, .input-small-ghost-dark svg:first-child, .input-small-ghost-dark svg:last-child, .input-small-outline-dark svg:first-child, .input-small-outline-dark svg:last-child, .input-mini-primary-dark svg:first-child, .input-mini-primary-dark svg:last-child, .input-mini-secondary-dark svg:first-child, .input-mini-secondary-dark svg:last-child, .input-mini-ghost-dark svg:first-child, .input-mini-ghost-dark svg:last-child, .input-mini-outline-dark svg:first-child, .input-mini-outline-dark svg:last-child {
+  position: absolute;
+}
+
+.input-large-primary-dark svg, .input-large-secondary-dark svg, .input-large-ghost-dark svg, .input-large-outline-dark svg, .input-regular-primary-dark svg, .input-regular-secondary-dark svg, .input-regular-ghost-dark svg, .input-regular-outline-dark svg, .input-small-primary-dark svg, .input-small-secondary-dark svg, .input-small-ghost-dark svg, .input-small-outline-dark svg, .input-mini-primary-dark svg, .input-mini-secondary-dark svg, .input-mini-ghost-dark svg, .input-mini-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-large-primary-dark:hover svg, .input-large-secondary-dark:hover svg, .input-large-ghost-dark:hover svg, .input-large-outline-dark:hover svg, .input-regular-primary-dark:hover svg, .input-regular-secondary-dark:hover svg, .input-regular-ghost-dark:hover svg, .input-regular-outline-dark:hover svg, .input-small-primary-dark:hover svg, .input-small-secondary-dark:hover svg, .input-small-ghost-dark:hover svg, .input-small-outline-dark:hover svg, .input-mini-primary-dark:hover svg, .input-mini-secondary-dark:hover svg, .input-mini-ghost-dark:hover svg, .input-mini-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-large-primary svg:first-child, .input-large-secondary svg:first-child, .input-large-ghost svg:first-child, .input-large-outline svg:first-child {
+  left: 2rem;
+}
+
+.input-large-primary svg:last-child, .input-large-secondary svg:last-child, .input-large-ghost svg:last-child, .input-large-outline svg:last-child {
+  right: 2rem;
+}
+
+.input-large-primary input, .input-large-secondary input, .input-large-ghost input, .input-large-outline input {
+  padding-left: 4rem;
+}
+
+.input-large-primary input:hover, .input-large-secondary input:hover, .input-large-ghost input:hover, .input-large-outline input:hover {
+  padding-left: 4rem;
+}
+
+.input-large-primary-dark svg:first-child, .input-large-secondary-dark svg:first-child, .input-large-ghost-dark svg:first-child, .input-large-outline-dark svg:first-child {
+  left: 2rem;
+}
+
+.input-large-primary-dark svg:last-child, .input-large-secondary-dark svg:last-child, .input-large-ghost-dark svg:last-child, .input-large-outline-dark svg:last-child {
+  right: 2rem;
+}
+
+.input-large-primary-dark input, .input-large-secondary-dark input, .input-large-ghost-dark input, .input-large-outline-dark input {
+  padding-left: 4rem;
+}
+
+.input-large-primary-dark input:hover, .input-large-secondary-dark input:hover, .input-large-ghost-dark input:hover, .input-large-outline-dark input:hover {
+  padding-left: 4rem;
+}
+
+.input-regular-primary svg:first-child, .input-regular-secondary svg:first-child, .input-regular-ghost svg:first-child, .input-regular-outline svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-primary svg:last-child, .input-regular-secondary svg:last-child, .input-regular-ghost svg:last-child, .input-regular-outline svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-primary input, .input-regular-secondary input, .input-regular-ghost input, .input-regular-outline input {
+  padding-left: 3.5rem;
+}
+
+.input-regular-primary input:hover, .input-regular-secondary input:hover, .input-regular-ghost input:hover, .input-regular-outline input:hover {
+  padding-left: 3.5rem;
+}
+
+.input-regular-primary-dark svg:first-child, .input-regular-secondary-dark svg:first-child, .input-regular-ghost-dark svg:first-child, .input-regular-outline-dark svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-primary-dark svg:last-child, .input-regular-secondary-dark svg:last-child, .input-regular-ghost-dark svg:last-child, .input-regular-outline-dark svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-primary-dark input, .input-regular-secondary-dark input, .input-regular-ghost-dark input, .input-regular-outline-dark input {
+  padding-left: 3.5rem;
+}
+
+.input-regular-primary-dark input:hover, .input-regular-secondary-dark input:hover, .input-regular-ghost-dark input:hover, .input-regular-outline-dark input:hover {
+  padding-left: 3.5rem;
+}
+
+.input-small-primary svg:first-child, .input-small-secondary svg:first-child, .input-small-ghost svg:first-child, .input-small-outline svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-primary svg:last-child, .input-small-secondary svg:last-child, .input-small-ghost svg:last-child, .input-small-outline svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-primary input, .input-small-secondary input, .input-small-ghost input, .input-small-outline input {
+  padding-left: 2.5rem;
+}
+
+.input-small-primary input:hover, .input-small-secondary input:hover, .input-small-ghost input:hover, .input-small-outline input:hover {
+  padding-left: 2.5rem;
+}
+
+.input-small-primary-dark svg:first-child, .input-small-secondary-dark svg:first-child, .input-small-ghost-dark svg:first-child, .input-small-outline-dark svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-primary-dark svg:last-child, .input-small-secondary-dark svg:last-child, .input-small-ghost-dark svg:last-child, .input-small-outline-dark svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-primary-dark input, .input-small-secondary-dark input, .input-small-ghost-dark input, .input-small-outline-dark input {
+  padding-left: 2.5rem;
+}
+
+.input-small-primary-dark input:hover, .input-small-secondary-dark input:hover, .input-small-ghost-dark input:hover, .input-small-outline-dark input:hover {
+  padding-left: 2.5rem;
+}
+
+.input-mini-primary svg:first-child, .input-mini-secondary svg:first-child, .input-mini-ghost svg:first-child, .input-mini-outline svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-primary svg:last-child, .input-mini-secondary svg:last-child, .input-mini-ghost svg:last-child, .input-mini-outline svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-primary input, .input-mini-secondary input, .input-mini-ghost input, .input-mini-outline input {
+  padding-left: 2rem;
+}
+
+.input-mini-primary input:hover, .input-mini-secondary input:hover, .input-mini-ghost input:hover, .input-mini-outline input:hover {
+  padding-left: 2rem;
+}
+
+.input-mini-primary-dark svg:first-child, .input-mini-secondary-dark svg:first-child, .input-mini-ghost-dark svg:first-child, .input-mini-outline-dark svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-primary-dark svg:last-child, .input-mini-secondary-dark svg:last-child, .input-mini-ghost-dark svg:last-child, .input-mini-outline-dark svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-primary-dark input, .input-mini-secondary-dark input, .input-mini-ghost-dark input, .input-mini-outline-dark input {
+  padding-left: 2rem;
+}
+
+.input-mini-primary-dark input:hover, .input-mini-secondary-dark input:hover, .input-mini-ghost-dark input:hover, .input-mini-outline-dark input:hover {
+  padding-left: 2rem;
 }
 
 .input-large-primary svg path {
   fill: white;
 }
 
-.input-large-primary input {
-  padding-left: 4rem;
-}
-
-.input-large-primary input:hover {
-  padding-left: 4rem;
-}
-
-.input-large-secondary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-large-secondary svg:first-child, .input-large-secondary svg:last-child {
-  position: absolute;
-}
-
-.input-large-secondary svg:first-child {
-  left: 2rem;
-}
-
-.input-large-secondary svg:last-child {
-  right: 2rem;
-}
-
-.input-large-secondary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-large-secondary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-large-secondary svg path {
+.input-large-secondary svg path, .input-large-ghost svg path, .input-large-outline svg path {
   fill: #007a76;
-}
-
-.input-large-secondary input {
-  padding-left: 4rem;
-}
-
-.input-large-secondary input:hover {
-  padding-left: 4rem;
-}
-
-.input-large-ghost {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-large-ghost svg:first-child, .input-large-ghost svg:last-child {
-  position: absolute;
-}
-
-.input-large-ghost svg:first-child {
-  left: 2rem;
-}
-
-.input-large-ghost svg:last-child {
-  right: 2rem;
-}
-
-.input-large-ghost svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-large-ghost:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-large-ghost svg path {
-  fill: #007a76;
-}
-
-.input-large-ghost input {
-  padding-left: 4rem;
-}
-
-.input-large-ghost input:hover {
-  padding-left: 4rem;
-}
-
-.input-large-outline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-large-outline svg:first-child, .input-large-outline svg:last-child {
-  position: absolute;
-}
-
-.input-large-outline svg:first-child {
-  left: 2rem;
-}
-
-.input-large-outline svg:last-child {
-  right: 2rem;
-}
-
-.input-large-outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-large-outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-large-outline svg path {
-  fill: #007a76;
-}
-
-.input-large-outline input {
-  padding-left: 4rem;
-}
-
-.input-large-outline input:hover {
-  padding-left: 4rem;
-}
-
-.input-regular-primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-regular-primary svg:first-child, .input-regular-primary svg:last-child {
-  position: absolute;
-}
-
-.input-regular-primary svg:first-child {
-  left: 1.5rem;
-}
-
-.input-regular-primary svg:last-child {
-  right: 1.5rem;
-}
-
-.input-regular-primary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-regular-primary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .input-regular-primary svg path {
   fill: white;
 }
 
-.input-regular-primary input {
-  padding-left: 3.5rem;
-}
-
-.input-regular-primary input:hover {
-  padding-left: 3.5rem;
-}
-
-.input-regular-secondary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-regular-secondary svg:first-child, .input-regular-secondary svg:last-child {
-  position: absolute;
-}
-
-.input-regular-secondary svg:first-child {
-  left: 1.5rem;
-}
-
-.input-regular-secondary svg:last-child {
-  right: 1.5rem;
-}
-
-.input-regular-secondary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-regular-secondary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-regular-secondary svg path {
+.input-regular-secondary svg path, .input-regular-ghost svg path, .input-regular-outline svg path {
   fill: #007a76;
-}
-
-.input-regular-secondary input {
-  padding-left: 3.5rem;
-}
-
-.input-regular-secondary input:hover {
-  padding-left: 3.5rem;
-}
-
-.input-regular-ghost {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-regular-ghost svg:first-child, .input-regular-ghost svg:last-child {
-  position: absolute;
-}
-
-.input-regular-ghost svg:first-child {
-  left: 1.5rem;
-}
-
-.input-regular-ghost svg:last-child {
-  right: 1.5rem;
-}
-
-.input-regular-ghost svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-regular-ghost:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-regular-ghost svg path {
-  fill: #007a76;
-}
-
-.input-regular-ghost input {
-  padding-left: 3.5rem;
-}
-
-.input-regular-ghost input:hover {
-  padding-left: 3.5rem;
-}
-
-.input-regular-outline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-regular-outline svg:first-child, .input-regular-outline svg:last-child {
-  position: absolute;
-}
-
-.input-regular-outline svg:first-child {
-  left: 1.5rem;
-}
-
-.input-regular-outline svg:last-child {
-  right: 1.5rem;
-}
-
-.input-regular-outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-regular-outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-regular-outline svg path {
-  fill: #007a76;
-}
-
-.input-regular-outline input {
-  padding-left: 3.5rem;
-}
-
-.input-regular-outline input:hover {
-  padding-left: 3.5rem;
-}
-
-.input-small-primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-small-primary svg:first-child, .input-small-primary svg:last-child {
-  position: absolute;
-}
-
-.input-small-primary svg:first-child {
-  left: 0.75rem;
-}
-
-.input-small-primary svg:last-child {
-  right: 0.75rem;
-}
-
-.input-small-primary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-small-primary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .input-small-primary svg path {
   fill: white;
 }
 
-.input-small-primary input {
-  padding-left: 2.5rem;
-}
-
-.input-small-primary input:hover {
-  padding-left: 2.5rem;
-}
-
-.input-small-secondary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-small-secondary svg:first-child, .input-small-secondary svg:last-child {
-  position: absolute;
-}
-
-.input-small-secondary svg:first-child {
-  left: 0.75rem;
-}
-
-.input-small-secondary svg:last-child {
-  right: 0.75rem;
-}
-
-.input-small-secondary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-small-secondary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-small-secondary svg path {
+.input-small-secondary svg path, .input-small-ghost svg path, .input-small-outline svg path {
   fill: #007a76;
-}
-
-.input-small-secondary input {
-  padding-left: 2.5rem;
-}
-
-.input-small-secondary input:hover {
-  padding-left: 2.5rem;
-}
-
-.input-small-ghost {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-small-ghost svg:first-child, .input-small-ghost svg:last-child {
-  position: absolute;
-}
-
-.input-small-ghost svg:first-child {
-  left: 0.75rem;
-}
-
-.input-small-ghost svg:last-child {
-  right: 0.75rem;
-}
-
-.input-small-ghost svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-small-ghost:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-small-ghost svg path {
-  fill: #007a76;
-}
-
-.input-small-ghost input {
-  padding-left: 2.5rem;
-}
-
-.input-small-ghost input:hover {
-  padding-left: 2.5rem;
-}
-
-.input-small-outline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-small-outline svg:first-child, .input-small-outline svg:last-child {
-  position: absolute;
-}
-
-.input-small-outline svg:first-child {
-  left: 0.75rem;
-}
-
-.input-small-outline svg:last-child {
-  right: 0.75rem;
-}
-
-.input-small-outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-small-outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-small-outline svg path {
-  fill: #007a76;
-}
-
-.input-small-outline input {
-  padding-left: 2.5rem;
-}
-
-.input-small-outline input:hover {
-  padding-left: 2.5rem;
-}
-
-.input-mini-primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-mini-primary svg:first-child, .input-mini-primary svg:last-child {
-  position: absolute;
-}
-
-.input-mini-primary svg:first-child {
-  left: 0.25rem;
-}
-
-.input-mini-primary svg:last-child {
-  right: 0.25rem;
-}
-
-.input-mini-primary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-mini-primary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .input-mini-primary svg path {
   fill: white;
 }
 
-.input-mini-primary input {
-  padding-left: 2rem;
-}
-
-.input-mini-primary input:hover {
-  padding-left: 2rem;
-}
-
-.input-mini-secondary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-mini-secondary svg:first-child, .input-mini-secondary svg:last-child {
-  position: absolute;
-}
-
-.input-mini-secondary svg:first-child {
-  left: 0.25rem;
-}
-
-.input-mini-secondary svg:last-child {
-  right: 0.25rem;
-}
-
-.input-mini-secondary svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-mini-secondary:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-mini-secondary svg path {
+.input-mini-secondary svg path, .input-mini-ghost svg path, .input-mini-outline svg path {
   fill: #007a76;
-}
-
-.input-mini-secondary input {
-  padding-left: 2rem;
-}
-
-.input-mini-secondary input:hover {
-  padding-left: 2rem;
-}
-
-.input-mini-ghost {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-mini-ghost svg:first-child, .input-mini-ghost svg:last-child {
-  position: absolute;
-}
-
-.input-mini-ghost svg:first-child {
-  left: 0.25rem;
-}
-
-.input-mini-ghost svg:last-child {
-  right: 0.25rem;
-}
-
-.input-mini-ghost svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-mini-ghost:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-mini-ghost svg path {
-  fill: #007a76;
-}
-
-.input-mini-ghost input {
-  padding-left: 2rem;
-}
-
-.input-mini-ghost input:hover {
-  padding-left: 2rem;
-}
-
-.input-mini-outline {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  position: relative;
-}
-
-.input-mini-outline svg:first-child, .input-mini-outline svg:last-child {
-  position: absolute;
-}
-
-.input-mini-outline svg:first-child {
-  left: 0.25rem;
-}
-
-.input-mini-outline svg:last-child {
-  right: 0.25rem;
-}
-
-.input-mini-outline svg {
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: -webkit-transform 180ms ease-out;
-  transition: -webkit-transform 180ms ease-out;
-  transition: transform 180ms ease-out;
-  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
-}
-
-.input-mini-outline:hover svg {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.input-mini-outline svg path {
-  fill: #007a76;
-}
-
-.input-mini-outline input {
-  padding-left: 2rem;
-}
-
-.input-mini-outline input:hover {
-  padding-left: 2rem;
 }
 
 .margin-top-4 {
