@@ -1,0 +1,9 @@
+@mixin secondary-styles {
+  color: $primary-main;
+  background-color: $secondary-highlight;
+}
+
+@mixin secondary-styles-hover {
+  color: $primary-hover;
+  background-color: $secondary-hover;
+}

@@ -1,0 +1,9 @@
+@mixin primary-styles {
+  color: $negative-white;
+  background-color: $primary-main;
+}
+
+@mixin primary-styles-hover {
+  color: $grey-hover;
+  background-color: $primary-hover;
+}

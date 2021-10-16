@@ -5,10 +5,13 @@
 @import "shadows";
 @import "functions";
 @import "foundation";
+@import "./styles/primary";
+@import "./styles/secondary";
+@import "./styles/ghost";
+@import "./styles/outline";
 @import "links";
 @import "buttons";
 @import "inputs";
-@import "core";
 @import "utilities";
 
 @mixin container {

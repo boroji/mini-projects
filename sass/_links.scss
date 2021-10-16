@@ -10,20 +10,21 @@
 
 .large {
   &-primary {
+    @include large-size();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
       @include large-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
     }
     &:hover {
       @include large-size();
-      @include text-background($grey-hover, $primary-hover);
+      @include primary-styles-hover();
       @include svg-fill($grey-hover);
     }
     &:active {
       @include large-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -31,6 +32,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include large-size();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -54,20 +56,21 @@
     }
   }
   &-secondary {
+    @include large-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include large-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
     }
     &:hover {
       @include large-size();
-      @include text-background($primary-hover, $secondary-hover);
+      @include secondary-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include large-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -75,6 +78,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -98,20 +102,21 @@
     }
   }
   &-ghost {
+    @include large-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include large-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
     }
     &:hover {
       @include large-size();
-      @include text-background($primary-hover, $secondary-highlight);
+      @include ghost-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include large-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -119,6 +124,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -142,22 +148,23 @@
     }
   }
   &-outline {
+    @include large-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include large-size();
-      @include text-background($primary-main, $negative-white-0);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+      @include ghost-styles();
+      @include outline-styles();
     }
     &:hover {
       @include large-size();
-      @include text-background($primary-hover, $secondary-hover);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include secondary-styles-hover();
+      @include outline-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include large-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -165,6 +172,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -193,20 +201,21 @@
 
 .regular {
   &-primary {
+    @include regular-size();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
       @include regular-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
     }
     &:hover {
       @include regular-size();
-      @include text-background($grey-hover, $primary-hover);
+      @include primary-styles-hover();
       @include svg-fill($grey-hover);
     }
     &:active {
       @include regular-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -214,6 +223,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include regular-size();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -237,20 +247,21 @@
     }
   }
   &-secondary {
+    @include regular-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include regular-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
     }
     &:hover {
       @include regular-size();
-      @include text-background($primary-hover, $secondary-hover);
+      @include secondary-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include regular-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -258,6 +269,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include regular-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -281,20 +293,21 @@
     }
   }
   &-ghost {
+    @include regular-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include regular-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
     }
     &:hover {
       @include regular-size();
-      @include text-background($primary-hover, $secondary-highlight);
+      @include ghost-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include regular-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -302,6 +315,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include regular-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -325,22 +339,23 @@
     }
   }
   &-outline {
+    @include regular-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include regular-size();
-      @include text-background($primary-main, $negative-white-0);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+      @include ghost-styles();
+      @include outline-styles();
     }
     &:hover {
       @include regular-size();
-      @include text-background($primary-hover, $secondary-hover);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include secondary-styles-hover();
+      @include outline-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include regular-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -348,6 +363,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
     }
     &-dark {
+      @include regular-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -376,20 +392,21 @@
 
 .small {
   &-primary {
+    @include small-size();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
       @include small-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
     }
     &:hover {
       @include small-size();
-      @include text-background($grey-hover, $primary-hover);
+      @include primary-styles-hover();
       @include svg-fill($grey-hover);
     }
     &:active {
       @include small-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -397,6 +414,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include small-size();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -420,20 +438,21 @@
     }
   }
   &-secondary {
+    @include small-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include small-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
     }
     &:hover {
       @include small-size();
-      @include text-background($primary-hover, $secondary-hover);
+      @include secondary-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include small-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -441,6 +460,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include small-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -464,20 +484,21 @@
     }
   }
   &-ghost {
+    @include small-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include small-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
     }
     &:hover {
       @include small-size();
-      @include text-background($primary-hover, $secondary-highlight);
+      @include ghost-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include small-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -485,6 +506,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include small-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -508,22 +530,23 @@
     }
   }
   &-outline {
+    @include small-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include small-size();
-      @include text-background($primary-main, $negative-white-0);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+      @include ghost-styles();
+      @include outline-styles();
     }
     &:hover {
       @include small-size();
-      @include text-background($primary-hover, $secondary-hover);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include secondary-styles-hover();
+      @include outline-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include small-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -531,6 +554,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include small-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -559,20 +583,21 @@
 
 .mini {
   &-primary {
+    @include mini-size();
     @include svg-fill($negative-white);
     &:link,
     &:visited {
       @include mini-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
     }
     &:hover {
       @include mini-size();
-      @include text-background($grey-hover, $primary-hover);
+      @include primary-styles-hover();
       @include svg-fill($grey-hover);
     }
     &:active {
       @include mini-size();
-      @include text-background($negative-white, $primary-main);
+      @include primary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -580,6 +605,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include mini-size();
       @include svg-fill($negative-white);
       &:link,
       &:visited {
@@ -603,20 +629,21 @@
     }
   }
   &-secondary {
+    @include mini-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include mini-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
     }
     &:hover {
       @include mini-size();
-      @include text-background($primary-hover, $secondary-hover);
+      @include secondary-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include mini-size();
-      @include text-background($primary-main, $secondary-highlight);
+      @include secondary-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -624,6 +651,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include mini-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -647,20 +675,21 @@
     }
   }
   &-ghost {
+    @include mini-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include mini-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
     }
     &:hover {
       @include mini-size();
-      @include text-background($primary-hover, $secondary-highlight);
+      @include ghost-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include mini-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -668,6 +697,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include mini-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
@@ -691,22 +721,23 @@
     }
   }
   &-outline {
+    @include mini-size();
     @include svg-fill($primary-main);
     &:link,
     &:visited {
       @include mini-size();
-      @include text-background($primary-main, $negative-white-0);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+      @include ghost-styles();
+      @include outline-styles();
     }
     &:hover {
       @include mini-size();
-      @include text-background($primary-hover, $secondary-hover);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include secondary-styles-hover();
+      @include outline-styles-hover();
       @include svg-fill($primary-hover);
     }
     &:active {
       @include mini-size();
-      @include text-background($primary-main, $negative-white-0);
+      @include ghost-styles();
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &:focus {
@@ -714,6 +745,7 @@
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
     }
     &-dark {
+      @include mini-size();
       @include svg-fill($tertiary-main);
       &:link,
       &:visited {
