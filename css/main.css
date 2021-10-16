@@ -313,50 +313,86 @@ input {
           transform: rotate(360deg);
 }
 
-.link-primary svg path {
+.link-large-primary svg path {
   fill: white;
 }
 
-.link-primary:link, .link-primary:visited {
+.link-large-primary:link, .link-large-primary:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: white;
   background-color: #007a76;
 }
 
-.link-primary:hover {
+.link-large-primary:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #ededed;
   background-color: #006663;
 }
 
-.link-primary:hover svg path {
+.link-large-primary:hover svg path {
   fill: #ededed;
 }
 
-.link-primary:active {
+.link-large-primary:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: white;
   background-color: #007a76;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
-.link-primary-dark svg path {
+.link-large-primary-dark svg path {
   fill: white;
 }
 
-.link-primary-dark:link, .link-primary-dark:visited {
+.link-large-primary-dark:link, .link-large-primary-dark:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.link-primary-dark:hover {
+.link-large-primary-dark:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #f7f7f7;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.link-primary-dark:hover svg path {
+.link-large-primary-dark:hover svg path {
   fill: #f7f7f7;
 }
 
-.link-primary-dark:active {
+.link-large-primary-dark:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
@@ -1272,42 +1308,6 @@ input {
 
 .input-outline-dark:hover::placeholder {
   color: #00e6de;
-}
-
-.large {
-  font-size: 1.25rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  border-radius: 2rem;
-}
-
-.regular {
-  font-size: 1.125rem;
-  padding-top: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-radius: 1.75rem;
-}
-
-.small {
-  font-size: 1rem;
-  padding-top: 0.75rem;
-  padding-right: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0.75rem;
-  border-radius: 1.125rem;
-}
-
-.mini {
-  font-size: 0.875rem;
-  padding-top: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 0.25rem;
-  border-radius: 0.5rem;
 }
 
 .large:focus,

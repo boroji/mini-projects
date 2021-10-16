@@ -14,6 +14,42 @@ input {
   cursor: pointer;
 }
 
+@mixin large-size {
+  font-size: $pd-20;
+  padding-top: $pd-32;
+  padding-right: $pd-32;
+  padding-bottom: $pd-32;
+  padding-left: $pd-32;
+  border-radius: $pd-32;
+}
+
+@mixin regular-size {
+  font-size: $pd-18;
+  padding-top: $pd-24;
+  padding-right: $pd-24;
+  padding-bottom: $pd-24;
+  padding-left: $pd-24;
+  border-radius: $pd-28;
+}
+
+@mixin small-size {
+  font-size: $pd-16;
+  padding-top: $pd-12;
+  padding-right: $pd-12;
+  padding-bottom: $pd-12;
+  padding-left: $pd-12;
+  border-radius: $pd-18;
+}
+
+@mixin mini-size {
+  font-size: $pd-14;
+  padding-top: $pd-4;
+  padding-right: $pd-4;
+  padding-bottom: $pd-4;
+  padding-left: $pd-4;
+  border-radius: $pd-8;
+}
+
 @mixin text-background($first-text-color, $second-background-color) {
   color: $first-text-color;
   background-color: $second-background-color;
@@ -52,33 +88,41 @@ input {
     }
   }
 
-  &-primary {
-    @include svg-fill($negative-white);
-    &:link,
-    &:visited {
-      @include text-background($negative-white, $primary-main);
-    }
-    &:hover {
-      @include text-background($grey-hover, $primary-hover);
-      @include svg-fill($grey-hover);
-    }
-    &:active {
-      @include text-background($negative-white, $primary-main);
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
-    }
-    &-dark {
+  &-large {
+    &-primary {
       @include svg-fill($negative-white);
       &:link,
       &:visited {
-        @include text-background($negative-white, $negative-white-25);
+        @include large-size();
+        @include text-background($negative-white, $primary-main);
       }
       &:hover {
-        @include text-background($grey-highlight, $negative-white-15);
-        @include svg-fill($grey-highlight);
+        @include large-size();
+        @include text-background($grey-hover, $primary-hover);
+        @include svg-fill($grey-hover);
       }
       &:active {
-        @include text-background($negative-white, $negative-white-25);
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+        @include large-size();
+        @include text-background($negative-white, $primary-main);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+      }
+      &-dark {
+        @include svg-fill($negative-white);
+        &:link,
+        &:visited {
+          @include large-size();
+          @include text-background($negative-white, $negative-white-25);
+        }
+        &:hover {
+          @include large-size();
+          @include text-background($grey-highlight, $negative-white-15);
+          @include svg-fill($grey-highlight);
+        }
+        &:active {
+          @include large-size();
+          @include text-background($negative-white, $negative-white-25);
+          box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+        }
       }
     }
   }

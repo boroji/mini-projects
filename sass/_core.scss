@@ -1,36 +1,3 @@
-.large {
-  font-size: $pd-20;
-  padding-top: $pd-32;
-  padding-right: $pd-32;
-  padding-bottom: $pd-32;
-  padding-left: $pd-32;
-  border-radius: $pd-32;
-}
-.regular {
-  font-size: $pd-18;
-  padding-top: $pd-24;
-  padding-right: $pd-24;
-  padding-bottom: $pd-24;
-  padding-left: $pd-24;
-  border-radius: $pd-28;
-}
-.small {
-  font-size: $pd-16;
-  padding-top: $pd-12;
-  padding-right: $pd-12;
-  padding-bottom: $pd-12;
-  padding-left: $pd-12;
-  border-radius: $pd-18;
-}
-.mini {
-  font-size: $pd-14;
-  padding-top: $pd-4;
-  padding-right: $pd-4;
-  padding-bottom: $pd-4;
-  padding-left: $pd-4;
-  border-radius: $pd-8;
-}
-
 .large,
 .regular {
   &:focus {
