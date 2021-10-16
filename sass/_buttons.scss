@@ -1,80 +1,353 @@
-.button {
-  &-text {
-    display: inline-block;
-  }
-
-  &-primary,
-  &-secondary,
-  &-ghost,
-  &-outline {
+.primary,
+.secondary,
+.ghost,
+.outline {
+  @include svg-animation-hover();
+  &-dark {
     @include svg-animation-hover();
-    &-dark {
-      @include svg-animation-hover();
-    }
   }
+}
 
+.large {
   &-primary {
+    @include large-size();
     @include svg-fill($negative-white);
     @include text-background($negative-white, $primary-main);
     &:hover {
+      @include large-size();
       @include text-background($grey-hover, $primary-hover);
       @include svg-fill($grey-hover);
     }
     &-dark {
+      @include large-size();
       @include svg-fill($negative-white);
       @include text-background($negative-white, $negative-white-25);
       &:hover {
+        @include large-size();
         @include text-background($grey-highlight, $negative-white-15);
         @include svg-fill($grey-highlight);
       }
     }
   }
   &-secondary {
+    @include large-size();
     @include svg-fill($primary-main);
     @include text-background($primary-main, $secondary-highlight);
     &:hover {
+      @include large-size();
       @include text-background($primary-hover, $secondary-hover);
       @include svg-fill($primary-hover);
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-5);
       &:hover {
+        @include large-size();
         @include text-background($tertiary-hover, $negative-white-15);
         @include svg-fill($tertiary-hover);
       }
     }
   }
   &-ghost {
+    @include large-size();
     @include svg-fill($primary-main);
     @include text-background($primary-main, $negative-white-0);
     &:hover {
+      @include large-size();
       @include text-background($primary-hover, $secondary-highlight);
       @include svg-fill($primary-hover);
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       &:hover {
+        @include large-size();
         @include text-background($tertiary-hover, $negative-white-5);
         @include svg-fill($tertiary-hover);
       }
     }
   }
   &-outline {
+    @include large-size();
     @include svg-fill($primary-main);
     @include text-background($primary-main, $negative-white-0);
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
     &:hover {
+      @include large-size();
       @include text-background($primary-hover, $secondary-hover);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
       @include svg-fill($primary-hover);
     }
     &-dark {
+      @include large-size();
       @include svg-fill($tertiary-main);
       @include text-background($tertiary-main, $negative-white-0);
       box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
       &:hover {
+        @include large-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+}
+
+.regular {
+  &-primary {
+    @include regular-size();
+    @include svg-fill($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include regular-size();
+      @include text-background($grey-hover, $primary-hover);
+      @include svg-fill($grey-hover);
+    }
+    &-dark {
+      @include regular-size();
+      @include svg-fill($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include regular-size();
+        @include text-background($grey-highlight, $negative-white-15);
+        @include svg-fill($grey-highlight);
+      }
+    }
+  }
+  &-secondary {
+    @include regular-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include regular-size();
+      @include text-background($primary-hover, $secondary-hover);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include regular-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include regular-size();
+        @include text-background($tertiary-hover, $negative-white-15);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-ghost {
+    @include regular-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include regular-size();
+      @include text-background($primary-hover, $secondary-highlight);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include regular-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include regular-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-outline {
+    @include regular-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+    &:hover {
+      @include regular-size();
+      @include text-background($primary-hover, $secondary-hover);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include regular-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+      &:hover {
+        @include regular-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+}
+
+.small {
+  &-primary {
+    @include small-size();
+    @include svg-fill($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include small-size();
+      @include text-background($grey-hover, $primary-hover);
+      @include svg-fill($grey-hover);
+    }
+    &-dark {
+      @include small-size();
+      @include svg-fill($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include small-size();
+        @include text-background($grey-highlight, $negative-white-15);
+        @include svg-fill($grey-highlight);
+      }
+    }
+  }
+  &-secondary {
+    @include small-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include small-size();
+      @include text-background($primary-hover, $secondary-hover);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include small-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include small-size();
+        @include text-background($tertiary-hover, $negative-white-15);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-ghost {
+    @include small-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include small-size();
+      @include text-background($primary-hover, $secondary-highlight);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include small-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include small-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-outline {
+    @include small-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+    &:hover {
+      @include small-size();
+      @include text-background($primary-hover, $secondary-hover);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include small-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+      &:hover {
+        @include small-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+}
+
+.mini {
+  &-primary {
+    @include mini-size();
+    @include svg-fill($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include mini-size();
+      @include text-background($grey-hover, $primary-hover);
+      @include svg-fill($grey-hover);
+    }
+    &-dark {
+      @include mini-size();
+      @include svg-fill($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include mini-size();
+        @include text-background($grey-highlight, $negative-white-15);
+        @include svg-fill($grey-highlight);
+      }
+    }
+  }
+  &-secondary {
+    @include mini-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include mini-size();
+      @include text-background($primary-hover, $secondary-hover);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include mini-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include mini-size();
+        @include text-background($tertiary-hover, $negative-white-15);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-ghost {
+    @include mini-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include mini-size();
+      @include text-background($primary-hover, $secondary-highlight);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include mini-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include mini-size();
+        @include text-background($tertiary-hover, $negative-white-5);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-outline {
+    @include mini-size();
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+    &:hover {
+      @include mini-size();
+      @include text-background($primary-hover, $secondary-hover);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include mini-size();
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+      &:hover {
+        @include mini-size();
         @include text-background($tertiary-hover, $negative-white-5);
         box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
         @include svg-fill($tertiary-hover);
