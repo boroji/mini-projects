@@ -3,7 +3,11 @@
 @import "colors";
 @import "fonts";
 @import "shadows";
+@import "functions";
+@import "foundation";
 @import "links";
+@import "buttons";
+@import "inputs";
 @import "core";
 @import "utilities";
 
@@ -12,12 +16,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: $pd-96 0;
+  padding: $pd-8;
   .container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: $pd-24;
     margin-top: $pd-24;
     padding: $pd-24;

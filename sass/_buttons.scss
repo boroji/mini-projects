@@ -1,0 +1,84 @@
+.button {
+  &-text {
+    display: inline-block;
+  }
+
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include svg-animation-hover();
+    &-dark {
+      @include svg-animation-hover();
+    }
+  }
+
+  &-primary {
+    @include svg-fill($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include text-background($grey-hover, $primary-hover);
+      @include svg-fill($grey-hover);
+    }
+    &-dark {
+      @include svg-fill($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include text-background($grey-highlight, $negative-white-15);
+        @include svg-fill($grey-highlight);
+      }
+    }
+  }
+  &-secondary {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include text-background($primary-hover, $secondary-hover);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-15);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-ghost {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include text-background($primary-hover, $secondary-highlight);
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-5);
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+  &-outline {
+    @include svg-fill($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+    &:hover {
+      @include text-background($primary-hover, $secondary-hover);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+      @include svg-fill($primary-hover);
+    }
+    &-dark {
+      @include svg-fill($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+      &:hover {
+        @include text-background($tertiary-hover, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+        @include svg-fill($tertiary-hover);
+      }
+    }
+  }
+}

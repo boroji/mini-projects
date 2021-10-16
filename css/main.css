@@ -279,13 +279,13 @@ input {
   -webkit-box-shadow: none;
           box-shadow: none;
   cursor: pointer;
+  font-family: "Noto Sans Display", sans-serif;
 }
 
-.link-text {
-  display: inline-block;
-}
-
-.link-primary svg, .link-secondary svg, .link-ghost svg, .link-outline svg {
+.primary svg,
+.secondary svg,
+.ghost svg,
+.outline svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: -webkit-transform 180ms ease-out;
@@ -294,12 +294,18 @@ input {
   transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
 }
 
-.link-primary:hover svg, .link-secondary:hover svg, .link-ghost:hover svg, .link-outline:hover svg {
+.primary:hover svg,
+.secondary:hover svg,
+.ghost:hover svg,
+.outline:hover svg {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-.link-primary-dark svg, .link-secondary-dark svg, .link-ghost-dark svg, .link-outline-dark svg {
+.primary-dark svg,
+.secondary-dark svg,
+.ghost-dark svg,
+.outline-dark svg {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: -webkit-transform 180ms ease-out;
@@ -308,16 +314,19 @@ input {
   transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
 }
 
-.link-primary-dark:hover svg, .link-secondary-dark:hover svg, .link-ghost-dark:hover svg, .link-outline-dark:hover svg {
+.primary-dark:hover svg,
+.secondary-dark:hover svg,
+.ghost-dark:hover svg,
+.outline-dark:hover svg {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
-.link-large-primary svg path {
+.large-primary svg path {
   fill: white;
 }
 
-.link-large-primary:link, .link-large-primary:visited {
+.large-primary:link, .large-primary:visited {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -328,7 +337,7 @@ input {
   background-color: #007a76;
 }
 
-.link-large-primary:hover {
+.large-primary:hover {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -339,11 +348,11 @@ input {
   background-color: #006663;
 }
 
-.link-large-primary:hover svg path {
+.large-primary:hover svg path {
   fill: #ededed;
 }
 
-.link-large-primary:active {
+.large-primary:active {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -356,11 +365,11 @@ input {
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
-.link-large-primary-dark svg path {
+.large-primary-dark svg path {
   fill: white;
 }
 
-.link-large-primary-dark:link, .link-large-primary-dark:visited {
+.large-primary-dark:link, .large-primary-dark:visited {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -371,7 +380,7 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.link-large-primary-dark:hover {
+.large-primary-dark:hover {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -382,11 +391,11 @@ input {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.link-large-primary-dark:hover svg path {
+.large-primary-dark:hover svg path {
   fill: #f7f7f7;
 }
 
-.link-large-primary-dark:active {
+.large-primary-dark:active {
   font-size: 1.25rem;
   padding-top: 2rem;
   padding-right: 2rem;
@@ -399,158 +408,1322 @@ input {
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
-.link-secondary svg path {
+.large-secondary svg path {
   fill: #007a76;
 }
 
-.link-secondary:link, .link-secondary:visited {
+.large-secondary:link, .large-secondary:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: #f6f9f9;
 }
 
-.link-secondary:hover {
+.large-secondary:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #006663;
   background-color: #eaf1f0;
 }
 
-.link-secondary:hover svg path {
+.large-secondary:hover svg path {
   fill: #006663;
 }
 
-.link-secondary:active {
+.large-secondary:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: #f6f9f9;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
-.link-secondary-dark svg path {
+.large-secondary-dark svg path {
   fill: #4dfff9;
 }
 
-.link-secondary-dark:link, .link-secondary-dark:visited {
+.large-secondary-dark:link, .large-secondary-dark:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.link-secondary-dark:hover {
+.large-secondary-dark:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.link-secondary-dark:hover svg path {
+.large-secondary-dark:hover svg path {
   fill: #00e6de;
 }
 
-.link-secondary-dark:active {
+.large-secondary-dark:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
-.link-ghost svg path {
+.large-ghost svg path {
   fill: #007a76;
 }
 
-.link-ghost:link, .link-ghost:visited {
+.large-ghost:link, .large-ghost:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
 }
 
-.link-ghost:hover {
+.large-ghost:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #006663;
   background-color: #f6f9f9;
 }
 
-.link-ghost:hover svg path {
+.large-ghost:hover svg path {
   fill: #006663;
 }
 
-.link-ghost:active {
+.large-ghost:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
-.link-ghost-dark svg path {
+.large-ghost-dark svg path {
   fill: #4dfff9;
 }
 
-.link-ghost-dark:link, .link-ghost-dark:visited {
+.large-ghost-dark:link, .large-ghost-dark:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
 }
 
-.link-ghost-dark:hover {
+.large-ghost-dark:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.link-ghost-dark:hover svg path {
+.large-ghost-dark:hover svg path {
   fill: #00e6de;
 }
 
-.link-ghost-dark:active {
+.large-ghost-dark:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
 
-.link-outline svg path {
+.large-outline svg path {
   fill: #007a76;
 }
 
-.link-outline:link, .link-outline:visited {
+.large-outline:link, .large-outline:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #007a76;
           box-shadow: 0 0 0 0.125rem #007a76;
 }
 
-.link-outline:hover {
+.large-outline:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #006663;
   background-color: #eaf1f0;
   -webkit-box-shadow: 0 0 0 0.125rem #006663;
           box-shadow: 0 0 0 0.125rem #006663;
 }
 
-.link-outline:hover svg path {
+.large-outline:hover svg path {
   fill: #006663;
 }
 
-.link-outline:active {
+.large-outline:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
 
-.link-outline-dark svg path {
+.large-outline-dark svg path {
   fill: #4dfff9;
 }
 
-.link-outline-dark:link, .link-outline-dark:visited {
+.large-outline-dark:link, .large-outline-dark:visited {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
-.link-outline-dark:hover {
+.large-outline-dark:hover {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
   color: #00e6de;
   background-color: rgba(255, 255, 255, 0.05);
   -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
           box-shadow: 0 0 0 0.125rem #00e6de;
 }
 
-.link-outline-dark:hover svg path {
+.large-outline-dark:hover svg path {
   fill: #00e6de;
 }
 
-.link-outline-dark:active {
+.large-outline-dark:active {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-primary svg path {
+  fill: white;
+}
+
+.regular-primary:link, .regular-primary:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: white;
+  background-color: #007a76;
+}
+
+.regular-primary:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #ededed;
+  background-color: #006663;
+}
+
+.regular-primary:hover svg path {
+  fill: #ededed;
+}
+
+.regular-primary:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: white;
+  background-color: #007a76;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-primary-dark svg path {
+  fill: white;
+}
+
+.regular-primary-dark:link, .regular-primary-dark:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.regular-primary-dark:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.regular-primary-dark:hover svg path {
+  fill: #f7f7f7;
+}
+
+.regular-primary-dark:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-secondary svg path {
+  fill: #007a76;
+}
+
+.regular-secondary:link, .regular-secondary:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.regular-secondary:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #006663;
+  background-color: #eaf1f0;
+}
+
+.regular-secondary:hover svg path {
+  fill: #006663;
+}
+
+.regular-secondary:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.regular-secondary-dark:link, .regular-secondary-dark:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.regular-secondary-dark:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.regular-secondary-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.regular-secondary-dark:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-ghost svg path {
+  fill: #007a76;
+}
+
+.regular-ghost:link, .regular-ghost:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.regular-ghost:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #006663;
+  background-color: #f6f9f9;
+}
+
+.regular-ghost:hover svg path {
+  fill: #006663;
+}
+
+.regular-ghost:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.regular-ghost-dark:link, .regular-ghost-dark:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.regular-ghost-dark:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.regular-ghost-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.regular-ghost-dark:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-outline svg path {
+  fill: #007a76;
+}
+
+.regular-outline:link, .regular-outline:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
+}
+
+.regular-outline:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #006663;
+  background-color: #eaf1f0;
+  -webkit-box-shadow: 0 0 0 0.125rem #006663;
+          box-shadow: 0 0 0 0.125rem #006663;
+}
+
+.regular-outline:hover svg path {
+  fill: #006663;
+}
+
+.regular-outline:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.regular-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.regular-outline-dark:link, .regular-outline-dark:visited {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.regular-outline-dark:hover {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
+          box-shadow: 0 0 0 0.125rem #00e6de;
+}
+
+.regular-outline-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.regular-outline-dark:active {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.small-primary svg path {
+  fill: white;
+}
+
+.small-primary:link, .small-primary:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: white;
+  background-color: #007a76;
+}
+
+.small-primary:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #ededed;
+  background-color: #006663;
+}
+
+.small-primary:hover svg path {
+  fill: #ededed;
+}
+
+.small-primary:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: white;
+  background-color: #007a76;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-primary-dark svg path {
+  fill: white;
+}
+
+.small-primary-dark:link, .small-primary-dark:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.small-primary-dark:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.small-primary-dark:hover svg path {
+  fill: #f7f7f7;
+}
+
+.small-primary-dark:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.small-secondary svg path {
+  fill: #007a76;
+}
+
+.small-secondary:link, .small-secondary:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.small-secondary:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #006663;
+  background-color: #eaf1f0;
+}
+
+.small-secondary:hover svg path {
+  fill: #006663;
+}
+
+.small-secondary:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.small-secondary-dark:link, .small-secondary-dark:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.small-secondary-dark:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.small-secondary-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.small-secondary-dark:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.small-ghost svg path {
+  fill: #007a76;
+}
+
+.small-ghost:link, .small-ghost:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.small-ghost:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #006663;
+  background-color: #f6f9f9;
+}
+
+.small-ghost:hover svg path {
+  fill: #006663;
+}
+
+.small-ghost:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.small-ghost-dark:link, .small-ghost-dark:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.small-ghost-dark:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.small-ghost-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.small-ghost-dark:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.small-outline svg path {
+  fill: #007a76;
+}
+
+.small-outline:link, .small-outline:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
+}
+
+.small-outline:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #006663;
+  background-color: #eaf1f0;
+  -webkit-box-shadow: 0 0 0 0.125rem #006663;
+          box-shadow: 0 0 0 0.125rem #006663;
+}
+
+.small-outline:hover svg path {
+  fill: #006663;
+}
+
+.small-outline:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.small-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.small-outline-dark:link, .small-outline-dark:visited {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.small-outline-dark:hover {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
+          box-shadow: 0 0 0 0.125rem #00e6de;
+}
+
+.small-outline-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.small-outline-dark:active {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-primary svg path {
+  fill: white;
+}
+
+.mini-primary:link, .mini-primary:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #007a76;
+}
+
+.mini-primary:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #ededed;
+  background-color: #006663;
+}
+
+.mini-primary:hover svg path {
+  fill: #ededed;
+}
+
+.mini-primary:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: #007a76;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-primary-dark svg path {
+  fill: white;
+}
+
+.mini-primary-dark:link, .mini-primary-dark:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.mini-primary-dark:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #f7f7f7;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mini-primary-dark:hover svg path {
+  fill: #f7f7f7;
+}
+
+.mini-primary-dark:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-secondary svg path {
+  fill: #007a76;
+}
+
+.mini-secondary:link, .mini-secondary:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+}
+
+.mini-secondary:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #006663;
+  background-color: #eaf1f0;
+}
+
+.mini-secondary:hover svg path {
+  fill: #006663;
+}
+
+.mini-secondary:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: #f6f9f9;
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.mini-secondary-dark:link, .mini-secondary-dark:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mini-secondary-dark:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.mini-secondary-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.mini-secondary-dark:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-ghost svg path {
+  fill: #007a76;
+}
+
+.mini-ghost:link, .mini-ghost:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.mini-ghost:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #006663;
+  background-color: #f6f9f9;
+}
+
+.mini-ghost:hover svg path {
+  fill: #006663;
+}
+
+.mini-ghost:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.mini-ghost-dark:link, .mini-ghost-dark:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.mini-ghost-dark:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.mini-ghost-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.mini-ghost-dark:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-outline svg path {
+  fill: #007a76;
+}
+
+.mini-outline:link, .mini-outline:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
+          box-shadow: 0 0 0 0.125rem #007a76;
+}
+
+.mini-outline:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #006663;
+  background-color: #eaf1f0;
+  -webkit-box-shadow: 0 0 0 0.125rem #006663;
+          box-shadow: 0 0 0 0.125rem #006663;
+}
+
+.mini-outline:hover svg path {
+  fill: #006663;
+}
+
+.mini-outline:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #007a76;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
+          box-shadow: 0 0 0 0.5rem #e7efee;
+}
+
+.mini-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.mini-outline-dark:link, .mini-outline-dark:visited {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #4dfff9;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
+          box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.mini-outline-dark:hover {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+  color: #00e6de;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
+          box-shadow: 0 0 0 0.125rem #00e6de;
+}
+
+.mini-outline-dark:hover svg path {
+  fill: #00e6de;
+}
+
+.mini-outline-dark:active {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
@@ -2312,7 +3485,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 6rem 0;
+  padding: 0.5rem;
 }
 
 body .container {
@@ -2326,6 +3499,10 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 1.5rem;
   margin-top: 1.5rem;
   padding: 1.5rem;

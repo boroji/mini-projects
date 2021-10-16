@@ -1,0 +1,175 @@
+@mixin input-icon-padding($input-icon-padding) {
+  svg {
+    &:first-child {
+      left: $input-icon-padding;
+    }
+    &:last-child {
+      right: $input-icon-padding;
+    }
+  }
+}
+
+@mixin placeholder-text-color($placeholder-text-color) {
+  &::placeholder {
+    color: $placeholder-text-color;
+  }
+}
+
+.input {
+  &-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    &-primary {
+      @include svg-fill($negative-white);
+      @include svg-animation-hover();
+      &:hover {
+        @include svg-fill($grey-hover);
+      }
+      &-dark {
+        @include svg-fill($negative-white);
+        @include svg-animation-hover();
+        &:hover {
+          @include svg-fill($grey-highlight);
+        }
+      }
+    }
+    &-secondary {
+      @include svg-fill($primary-main);
+      @include svg-animation-hover();
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
+      &-dark {
+        @include svg-fill($tertiary-main);
+        @include svg-animation-hover();
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
+      }
+    }
+    &-ghost {
+      @include svg-fill($primary-main);
+      @include svg-animation-hover();
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
+      &-dark {
+        @include svg-fill($tertiary-main);
+        @include svg-animation-hover();
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
+      }
+    }
+    &-outline {
+      @include svg-fill($primary-main);
+      @include svg-animation-hover();
+      &:hover {
+        @include svg-fill($primary-hover);
+      }
+      &-dark {
+        @include svg-fill($tertiary-main);
+        @include svg-animation-hover();
+        &:hover {
+          @include svg-fill($tertiary-hover);
+        }
+      }
+    }
+  }
+
+  &-large,
+  &-regular,
+  &-small,
+  &-mini {
+    svg {
+      &:first-child,
+      &:last-child {
+        position: absolute;
+      }
+    }
+  }
+
+  &-large {
+    @include input-icon-padding($pd-32);
+  }
+  &-regular {
+    @include input-icon-padding($pd-24);
+  }
+  &-small {
+    @include input-icon-padding($pd-12);
+  }
+  &-mini {
+    @include input-icon-padding($pd-4);
+  }
+
+  &-primary {
+    @include placeholder-text-color($negative-white);
+    @include text-background($negative-white, $primary-main);
+    &:hover {
+      @include text-background($grey-hover, $primary-hover);
+      @include placeholder-text-color($grey-hover);
+    }
+    &-dark {
+      @include placeholder-text-color($negative-white);
+      @include text-background($negative-white, $negative-white-25);
+      &:hover {
+        @include placeholder-text-color($grey-highlight);
+        @include text-background($grey-highlight, $negative-white-15);
+      }
+    }
+  }
+  &-secondary {
+    @include placeholder-text-color($primary-main);
+    @include text-background($primary-main, $secondary-highlight);
+    &:hover {
+      @include placeholder-text-color($primary-hover);
+      @include text-background($primary-hover, $secondary-hover);
+    }
+    &-dark {
+      @include placeholder-text-color($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-5);
+      &:hover {
+        @include placeholder-text-color($tertiary-hover);
+        @include text-background($tertiary-hover, $negative-white-15);
+      }
+    }
+  }
+  &-ghost {
+    @include placeholder-text-color($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    &:hover {
+      @include placeholder-text-color($primary-hover);
+      @include text-background($primary-hover, $secondary-highlight);
+    }
+    &-dark {
+      @include placeholder-text-color($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      &:hover {
+        @include placeholder-text-color($tertiary-hover);
+        @include text-background($tertiary-hover, $negative-white-5);
+      }
+    }
+  }
+  &-outline {
+    @include placeholder-text-color($primary-main);
+    @include text-background($primary-main, $negative-white-0);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
+    &:hover {
+      @include placeholder-text-color($primary-hover);
+      @include text-background($primary-hover, $secondary-hover);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
+    }
+    &-dark {
+      @include placeholder-text-color($tertiary-main);
+      @include text-background($tertiary-main, $negative-white-0);
+      box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+      &:hover {
+        @include placeholder-text-color($tertiary-hover);
+        @include text-background($tertiary-hover, $negative-white-5);
+        box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+      }
+    }
+  }
+}
