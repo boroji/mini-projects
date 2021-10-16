@@ -25,11 +25,10 @@
     &:active {
       @include large-size();
       @include primary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include large-size();
@@ -47,11 +46,10 @@
       &:active {
         @include large-size();
         @include primary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -71,11 +69,10 @@
     &:active {
       @include large-size();
       @include secondary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include large-size();
@@ -93,11 +90,10 @@
       &:active {
         @include large-size();
         @include secondary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -117,11 +113,10 @@
     &:active {
       @include large-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include large-size();
@@ -139,11 +134,10 @@
       &:active {
         @include large-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -165,11 +159,10 @@
     &:active {
       @include large-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include large-size();
@@ -189,11 +182,10 @@
       &:active {
         @include large-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -216,11 +208,10 @@
     &:active {
       @include regular-size();
       @include primary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include regular-size();
@@ -238,11 +229,10 @@
       &:active {
         @include regular-size();
         @include primary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -262,11 +252,10 @@
     &:active {
       @include regular-size();
       @include secondary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include regular-size();
@@ -284,11 +273,10 @@
       &:active {
         @include regular-size();
         @include secondary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -308,11 +296,10 @@
     &:active {
       @include regular-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include regular-size();
@@ -330,11 +317,10 @@
       &:active {
         @include regular-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -356,11 +342,10 @@
     &:active {
       @include regular-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+      @include large-regular-focus();
     }
     &-dark {
       @include regular-size();
@@ -380,11 +365,10 @@
       &:active {
         @include regular-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+        @include large-regular-focus-dark();
       }
     }
   }
@@ -407,11 +391,10 @@
     &:active {
       @include small-size();
       @include primary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include small-size();
@@ -429,11 +412,10 @@
       &:active {
         @include small-size();
         @include primary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -453,11 +435,10 @@
     &:active {
       @include small-size();
       @include secondary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include small-size();
@@ -475,11 +456,10 @@
       &:active {
         @include small-size();
         @include secondary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -499,11 +479,10 @@
     &:active {
       @include small-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include small-size();
@@ -521,11 +500,10 @@
       &:active {
         @include small-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -547,11 +525,10 @@
     &:active {
       @include small-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include small-size();
@@ -571,11 +548,10 @@
       &:active {
         @include small-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -598,11 +574,10 @@
     &:active {
       @include mini-size();
       @include primary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include mini-size();
@@ -620,11 +595,10 @@
       &:active {
         @include mini-size();
         @include primary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -644,11 +618,10 @@
     &:active {
       @include mini-size();
       @include secondary-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include mini-size();
@@ -666,11 +639,10 @@
       &:active {
         @include mini-size();
         @include secondary-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -690,11 +662,10 @@
     &:active {
       @include mini-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include mini-size();
@@ -712,11 +683,10 @@
       &:active {
         @include mini-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }
@@ -738,11 +708,10 @@
     &:active {
       @include mini-size();
       @include ghost-styles();
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &:focus {
-      outline: none;
-      @include active-link-styles();
+      @include small-mini-link-styles();
     }
     &-dark {
       @include mini-size();
@@ -762,11 +731,10 @@
       &:active {
         @include mini-size();
         @include ghost-styles-dark();
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
       &:focus {
-        outline: none;
-        @include active-link-styles-dark();
+        @include small-mini-link-styles-dark();
       }
     }
   }

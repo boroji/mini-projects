@@ -1,7 +1,0 @@
-@mixin active-link-styles {
-  box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
-}
-
-@mixin active-link-styles-dark {
-  box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
-}

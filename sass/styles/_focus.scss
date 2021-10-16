@@ -1,0 +1,19 @@
+@mixin large-regular-focus {
+  outline: none;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $secondary-focus;
+}
+
+@mixin large-regular-focus-dark {
+  outline: none;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-12 $negative-white-20;
+}
+
+@mixin small-mini-link-styles {
+  outline: none;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $secondary-focus;
+}
+
+@mixin small-mini-link-styles-dark {
+  outline: none;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-8 $negative-white-20;
+}

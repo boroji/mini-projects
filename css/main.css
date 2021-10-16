@@ -370,6 +370,7 @@ input {
   border-radius: 2rem;
   color: white;
   background-color: #007a76;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -428,6 +429,7 @@ input {
   border-radius: 2rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -486,6 +488,7 @@ input {
   border-radius: 2rem;
   color: #007a76;
   background-color: #f6f9f9;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -544,6 +547,7 @@ input {
   border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -602,6 +606,7 @@ input {
   border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -660,6 +665,7 @@ input {
   border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -722,6 +728,7 @@ input {
   border-radius: 2rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -784,6 +791,7 @@ input {
   border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -842,6 +850,7 @@ input {
   border-radius: 1.75rem;
   color: white;
   background-color: #007a76;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -900,6 +909,7 @@ input {
   border-radius: 1.75rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -958,6 +968,7 @@ input {
   border-radius: 1.75rem;
   color: #007a76;
   background-color: #f6f9f9;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1016,6 +1027,7 @@ input {
   border-radius: 1.75rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1074,6 +1086,7 @@ input {
   border-radius: 1.75rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1132,6 +1145,7 @@ input {
   border-radius: 1.75rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1194,6 +1208,7 @@ input {
   border-radius: 1.75rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1256,6 +1271,7 @@ input {
   border-radius: 1.75rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1314,6 +1330,7 @@ input {
   border-radius: 1.125rem;
   color: white;
   background-color: #007a76;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1372,6 +1389,7 @@ input {
   border-radius: 1.125rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1430,6 +1448,7 @@ input {
   border-radius: 1.125rem;
   color: #007a76;
   background-color: #f6f9f9;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1488,6 +1507,7 @@ input {
   border-radius: 1.125rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1546,6 +1566,7 @@ input {
   border-radius: 1.125rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1604,6 +1625,7 @@ input {
   border-radius: 1.125rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1666,6 +1688,7 @@ input {
   border-radius: 1.125rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1728,6 +1751,7 @@ input {
   border-radius: 1.125rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1786,6 +1810,7 @@ input {
   border-radius: 0.5rem;
   color: white;
   background-color: #007a76;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1844,6 +1869,7 @@ input {
   border-radius: 0.5rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -1902,6 +1928,7 @@ input {
   border-radius: 0.5rem;
   color: #007a76;
   background-color: #f6f9f9;
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -1960,6 +1987,7 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -2018,6 +2046,7 @@ input {
   border-radius: 0.5rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -2076,6 +2105,7 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
@@ -2138,6 +2168,7 @@ input {
   border-radius: 0.5rem;
   color: #007a76;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem #e7efee;
           box-shadow: 0 0 0 0.5rem #e7efee;
 }
@@ -2200,6 +2231,7 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+  outline: none;
   -webkit-box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.2);
 }
