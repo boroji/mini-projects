@@ -1,851 +1,129 @@
-.large {
-  &-primary {
-    @include svg-animation-hover();
-    @include large-size();
-    @include primary-styles();
-    @include svg-fill($negative-white);
-    &:link,
-    &:visited {
-      @include large-size();
-      @include primary-styles();
-    }
-    &:hover {
-      @include large-size();
-      @include primary-styles-hover();
-      @include svg-fill($grey-hover);
-    }
-    &:active {
-      @include large-size();
-      @include primary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($negative-white);
-    &-dark {
-      @include svg-animation-hover();
-      @include large-size();
-      @include primary-styles-dark();
-      @include svg-fill($negative-white);
-      &:link,
-      &:visited {
-        @include large-size();
-        @include primary-styles-dark();
-      }
-      &:hover {
-        @include large-size();
-        @include primary-styles-hover-dark();
-        @include svg-fill($grey-highlight);
-      }
-      &:active {
-        @include large-size();
-        @include primary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($negative-white);
-    }
-  }
-  &-secondary {
-    @include svg-animation-hover();
-    @include large-size();
-    @include secondary-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include large-size();
-      @include secondary-styles();
-    }
-    &:hover {
-      @include large-size();
-      @include secondary-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include large-size();
-      @include secondary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include large-size();
-      @include secondary-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include large-size();
-        @include secondary-styles-dark();
-      }
-      &:hover {
-        @include large-size();
-        @include secondary-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include large-size();
-        @include secondary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
-  &-ghost {
-    @include svg-animation-hover();
-    @include large-size();
-    @include ghost-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include large-size();
-      @include ghost-styles();
-    }
-    &:hover {
-      @include large-size();
-      @include ghost-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include large-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include large-size();
-      @include ghost-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include large-size();
-        @include ghost-styles-dark();
-      }
-      &:hover {
-        @include large-size();
-        @include ghost-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include large-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
+// Add SVG animation hover for all variants
+.large,
+.regular,
+.small,
+.mini {
+  &-primary,
+  &-secondary,
+  &-ghost,
   &-outline {
     @include svg-animation-hover();
-    @include large-size();
-    @include ghost-styles();
-    @include outline-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include large-size();
-      @include ghost-styles();
-      @include outline-styles();
-    }
-    &:hover {
-      @include large-size();
-      @include secondary-styles-hover();
-      @include outline-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include large-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
-      @include large-size();
-      @include ghost-styles-dark();
-      @include outline-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include large-size();
-        @include ghost-styles-dark();
-        @include outline-styles-dark();
-      }
-      &:hover {
-        @include large-size();
-        @include ghost-styles-hover-dark();
-        @include outline-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include large-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
     }
   }
+}
+
+// Size variants starts here for input, button, links
+.large {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include large-size();
+    &-dark {
+      @include large-size();
+    }
+  }
+  // CTA wrapper class for SVG padding
   &-cta {
     @include large-cta();
   }
 }
-
 .regular {
-  &-primary {
-    @include svg-animation-hover();
-    @include regular-size();
-    @include primary-styles();
-    @include svg-fill($negative-white);
-    &:link,
-    &:visited {
-      @include regular-size();
-      @include primary-styles();
-    }
-    &:hover {
-      @include regular-size();
-      @include primary-styles-hover();
-      @include svg-fill($grey-hover);
-    }
-    &:active {
-      @include regular-size();
-      @include primary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($negative-white);
-    &-dark {
-      @include svg-animation-hover();
-      @include regular-size();
-      @include primary-styles-dark();
-      @include svg-fill($negative-white);
-      &:link,
-      &:visited {
-        @include regular-size();
-        @include primary-styles-dark();
-      }
-      &:hover {
-        @include regular-size();
-        @include primary-styles-hover-dark();
-        @include svg-fill($grey-highlight);
-      }
-      &:active {
-        @include regular-size();
-        @include primary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($negative-white);
-    }
-  }
-  &-secondary {
-    @include svg-animation-hover();
-    @include regular-size();
-    @include secondary-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include regular-size();
-      @include secondary-styles();
-    }
-    &:hover {
-      @include regular-size();
-      @include secondary-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include regular-size();
-      @include secondary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include regular-size();
-      @include secondary-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include regular-size();
-        @include secondary-styles-dark();
-      }
-      &:hover {
-        @include regular-size();
-        @include secondary-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include regular-size();
-        @include secondary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
-  &-ghost {
-    @include svg-animation-hover();
-    @include regular-size();
-    @include ghost-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include regular-size();
-      @include ghost-styles();
-    }
-    &:hover {
-      @include regular-size();
-      @include ghost-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include regular-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include regular-size();
-      @include ghost-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include regular-size();
-        @include ghost-styles-dark();
-      }
-      &:hover {
-        @include regular-size();
-        @include ghost-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include regular-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
+  &-primary,
+  &-secondary,
+  &-ghost,
   &-outline {
-    @include svg-animation-hover();
     @include regular-size();
-    @include ghost-styles();
-    @include outline-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include regular-size();
-      @include ghost-styles();
-      @include outline-styles();
-    }
-    &:hover {
-      @include regular-size();
-      @include secondary-styles-hover();
-      @include outline-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include regular-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
     &-dark {
-      @include svg-animation-hover();
       @include regular-size();
-      @include ghost-styles-dark();
-      @include outline-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include regular-size();
-        @include ghost-styles-dark();
-        @include outline-styles-dark();
-      }
-      &:hover {
-        @include regular-size();
-        @include ghost-styles-hover-dark();
-        @include outline-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include regular-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
     }
   }
+  // CTA wrapper class for SVG padding
   &-cta {
     @include regular-cta();
   }
 }
-
 .small {
-  &-primary {
-    @include svg-animation-hover();
-    @include small-size();
-    @include primary-styles();
-    @include svg-fill($negative-white);
-    &:link,
-    &:visited {
-      @include small-size();
-      @include primary-styles();
-    }
-    &:hover {
-      @include small-size();
-      @include primary-styles-hover();
-      @include svg-fill($grey-hover);
-    }
-    &:active {
-      @include small-size();
-      @include primary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($negative-white);
-    &-dark {
-      @include svg-animation-hover();
-      @include small-size();
-      @include primary-styles-dark();
-      @include svg-fill($negative-white);
-      &:link,
-      &:visited {
-        @include small-size();
-        @include primary-styles-dark();
-      }
-      &:hover {
-        @include small-size();
-        @include primary-styles-hover-dark();
-        @include svg-fill($grey-highlight);
-      }
-      &:active {
-        @include small-size();
-        @include primary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($negative-white);
-    }
-  }
-  &-secondary {
-    @include svg-animation-hover();
-    @include small-size();
-    @include secondary-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include small-size();
-      @include secondary-styles();
-    }
-    &:hover {
-      @include small-size();
-      @include secondary-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include small-size();
-      @include secondary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include small-size();
-      @include secondary-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include small-size();
-        @include secondary-styles-dark();
-      }
-      &:hover {
-        @include small-size();
-        @include secondary-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include small-size();
-        @include secondary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
-  &-ghost {
-    @include svg-animation-hover();
-    @include small-size();
-    @include ghost-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include small-size();
-      @include ghost-styles();
-    }
-    &:hover {
-      @include small-size();
-      @include ghost-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include small-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include small-size();
-      @include ghost-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include small-size();
-        @include ghost-styles-dark();
-      }
-      &:hover {
-        @include small-size();
-        @include ghost-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include small-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
+  &-primary,
+  &-secondary,
+  &-ghost,
   &-outline {
-    @include svg-animation-hover();
     @include small-size();
-    @include ghost-styles();
-    @include outline-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include small-size();
-      @include ghost-styles();
-      @include outline-styles();
-    }
-    &:hover {
-      @include small-size();
-      @include secondary-styles-hover();
-      @include outline-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include small-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
     &-dark {
-      @include svg-animation-hover();
       @include small-size();
-      @include ghost-styles-dark();
-      @include outline-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include small-size();
-        @include ghost-styles-dark();
-        @include outline-styles-dark();
-      }
-      &:hover {
-        @include small-size();
-        @include ghost-styles-hover-dark();
-        @include outline-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include small-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
     }
   }
+  // CTA wrapper class for SVG padding
   &-cta {
     @include small-cta();
   }
 }
-
 .mini {
-  &-primary {
-    @include svg-animation-hover();
-    @include mini-size();
-    @include primary-styles();
-    @include svg-fill($negative-white);
-    &:link,
-    &:visited {
-      @include mini-size();
-      @include primary-styles();
-    }
-    &:hover {
-      @include mini-size();
-      @include primary-styles-hover();
-      @include svg-fill($grey-hover);
-    }
-    &:active {
-      @include mini-size();
-      @include primary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($negative-white);
-    &-dark {
-      @include svg-animation-hover();
-      @include mini-size();
-      @include primary-styles-dark();
-      @include svg-fill($negative-white);
-      &:link,
-      &:visited {
-        @include mini-size();
-        @include primary-styles-dark();
-      }
-      &:hover {
-        @include mini-size();
-        @include primary-styles-hover-dark();
-        @include svg-fill($grey-highlight);
-      }
-      &:active {
-        @include mini-size();
-        @include primary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($negative-white);
-    }
-  }
-  &-secondary {
-    @include svg-animation-hover();
-    @include mini-size();
-    @include secondary-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include mini-size();
-      @include secondary-styles();
-    }
-    &:hover {
-      @include mini-size();
-      @include secondary-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include mini-size();
-      @include secondary-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include mini-size();
-      @include secondary-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include mini-size();
-        @include secondary-styles-dark();
-      }
-      &:hover {
-        @include mini-size();
-        @include secondary-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include mini-size();
-        @include secondary-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
-  &-ghost {
-    @include svg-animation-hover();
-    @include mini-size();
-    @include ghost-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include mini-size();
-      @include ghost-styles();
-    }
-    &:hover {
-      @include mini-size();
-      @include ghost-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include mini-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
-    &-dark {
-      @include svg-animation-hover();
-      @include mini-size();
-      @include ghost-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include mini-size();
-        @include ghost-styles-dark();
-      }
-      &:hover {
-        @include mini-size();
-        @include ghost-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include mini-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
-    }
-  }
+  &-primary,
+  &-secondary,
+  &-ghost,
   &-outline {
-    @include svg-animation-hover();
     @include mini-size();
-    @include ghost-styles();
-    @include outline-styles();
-    @include svg-fill($primary-main);
-    &:link,
-    &:visited {
-      @include mini-size();
-      @include ghost-styles();
-      @include outline-styles();
-    }
-    &:hover {
-      @include mini-size();
-      @include secondary-styles-hover();
-      @include outline-styles-hover();
-      @include svg-fill($primary-hover);
-    }
-    &:active {
-      @include mini-size();
-      @include ghost-styles();
-      @include tiny-focus();
-    }
-    &:focus {
-      @include giant-focus();
-    }
-    @include placeholder-text-color($primary-main);
     &-dark {
-      @include svg-animation-hover();
       @include mini-size();
-      @include ghost-styles-dark();
-      @include outline-styles-dark();
-      @include svg-fill($tertiary-main);
-      &:link,
-      &:visited {
-        @include mini-size();
-        @include ghost-styles-dark();
-        @include outline-styles-dark();
-      }
-      &:hover {
-        @include mini-size();
-        @include ghost-styles-hover-dark();
-        @include outline-styles-hover-dark();
-        @include svg-fill($tertiary-hover);
-      }
-      &:active {
-        @include mini-size();
-        @include ghost-styles-dark();
-        @include tiny-focus-dark();
-      }
-      &:focus {
-        @include giant-focus-dark();
-      }
-      @include placeholder-text-color($tertiary-main);
     }
   }
+  // CTA wrapper class for SVG padding
   &-cta {
     @include mini-cta();
   }
 }
 
+// Color variants starts here for input, button, links
+.large,
+.regular,
+.small,
+.mini {
+  &-primary {
+    @include primary-styles();
+    @include primary-styles-hover();
+    @include primary-styles-active();
+    &-dark {
+      @include primary-styles-dark();
+      @include primary-styles-hover-dark();
+      @include primary-styles-active-dark();
+    }
+  }
+  &-secondary {
+    @include secondary-styles();
+    @include secondary-styles-hover();
+    @include secondary-styles-active();
+    &-dark {
+      @include secondary-styles-dark();
+      @include secondary-styles-hover-dark();
+      @include secondary-styles-active-dark();
+    }
+  }
+  &-ghost {
+    @include ghost-styles();
+    @include ghost-styles-hover();
+    @include ghost-styles-active();
+    &-dark {
+      @include ghost-styles-dark();
+      @include ghost-styles-hover-dark();
+      @include ghost-styles-active-dark();
+    }
+  }
+  &-outline {
+    @include outline-styles();
+    @include outline-styles-hover();
+    @include outline-styles-active();
+    &-dark {
+      @include outline-styles-dark();
+      @include outline-styles-hover-dark();
+      @include outline-styles-active-dark();
+    }
+  }
+}
+
+// Input group SVG icon positioning
 .input {
   // Basic input SVG positioning
   &-large,
@@ -922,59 +200,26 @@
   }
 
   // Input svg fill color starts here
-  &-large {
-    &-primary,
-    &-primary-dark {
-      @include svg-fill($negative-white);
-    }
-    &-secondary,
-    &-ghost,
-    &-outline {
-      @include svg-fill($primary-main);
-      &-dark {
-        @include svg-fill($tertiary-main);
-      }
-    }
-  }
-  &-regular {
-    &-primary,
-    &-primary-dark {
-      @include svg-fill($negative-white);
-    }
-    &-secondary,
-    &-ghost,
-    &-outline {
-      @include svg-fill($primary-main);
-      &-dark {
-        @include svg-fill($tertiary-main);
-      }
-    }
-  }
-  &-small {
-    &-primary,
-    &-primary-dark {
-      @include svg-fill($negative-white);
-    }
-    &-secondary,
-    &-ghost,
-    &-outline {
-      @include svg-fill($primary-main);
-      &-dark {
-        @include svg-fill($tertiary-main);
-      }
-    }
-  }
+  &-large,
+  &-regular,
+  &-small,
   &-mini {
-    &-primary,
-    &-primary-dark {
+    &-primary {
       @include svg-fill($negative-white);
+      @include svg-fill-hover($grey-hover);
+      &-dark {
+        @include svg-fill($negative-white);
+        @include svg-fill-hover($grey-highlight);
+      }
     }
     &-secondary,
     &-ghost,
     &-outline {
       @include svg-fill($primary-main);
+      @include svg-fill-hover($primary-hover);
       &-dark {
         @include svg-fill($tertiary-main);
+        @include svg-fill-hover($tertiary-hover);
       }
     }
   }

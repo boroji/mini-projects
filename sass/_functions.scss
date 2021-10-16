@@ -6,6 +6,16 @@
   }
 }
 
+@mixin svg-fill-hover($svg-fill-hover) {
+  &:hover {
+    svg {
+      path {
+        fill: $svg-fill-hover;
+      }
+    }
+  }
+}
+
 @mixin svg-animation-hover {
   svg {
     transform: rotate(0deg);
