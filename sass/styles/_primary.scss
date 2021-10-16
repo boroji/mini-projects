@@ -7,3 +7,13 @@
   color: $grey-hover;
   background-color: $primary-hover;
 }
+
+@mixin primary-styles-dark {
+  color: $negative-white;
+  background-color: $negative-white-25;
+}
+
+@mixin primary-styles-hover-dark {
+  color: $grey-highlight;
+  background-color: $negative-white-15;
+}

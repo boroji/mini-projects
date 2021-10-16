@@ -5,3 +5,11 @@
 @mixin outline-styles-hover {
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
 }
+
+@mixin outline-styles-dark {
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+}
+
+@mixin outline-styles-hover-dark {
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
+}

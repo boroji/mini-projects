@@ -7,3 +7,13 @@
   color: $primary-hover;
   background-color: $secondary-highlight;
 }
+
+@mixin ghost-styles-dark {
+  color: $tertiary-main;
+  background-color: $negative-white-0;
+}
+
+@mixin ghost-styles-hover-dark {
+  color: $tertiary-hover;
+  background-color: $negative-white-5;
+}
