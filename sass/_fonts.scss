@@ -21,11 +21,6 @@ $bold: 700;
 $extra-bold: 800;
 $thick: 900;
 
-.arabic {
-  font-family: $arabic;
-  direction: rtl;
-  text-align: start;
-}
 .english {
   font-family: $english;
   text-align: start;
@@ -159,4 +154,138 @@ li {
     $pd-4,
     $content-text
   );
+}
+
+@mixin arabic-font {
+  font-family: $arabic;
+  direction: rtl;
+  text-align: start;
+}
+
+.persian {
+  @include arabic-font();
+  &-headline {
+    @include size-weight-height-kerning-spacing-color(
+      $headline,
+      $thick,
+      $pd-120,
+      $pd-0,
+      $pd-4,
+      $content-heading
+    );
+    @include arabic-font();
+  }
+  &-lead {
+    @include size-weight-height-kerning-spacing-color(
+      $lead,
+      $light,
+      $pd-100,
+      $pd-0,
+      $pd-0,
+      $content-text
+    );
+    @include arabic-font();
+  }
+  &-h1 {
+    @include size-weight-height-kerning-spacing-color(
+      $h1,
+      $thick,
+      $pd-88,
+      $pd-0,
+      $pd-1,
+      $content-heading
+    );
+    @include arabic-font();
+  }
+  &-h2 {
+    @include size-weight-height-kerning-spacing-color(
+      $h2,
+      $regular,
+      $pd-64,
+      $pd-0,
+      $pd-1,
+      $content-text
+    );
+    @include arabic-font();
+  }
+  &-h3 {
+    @include size-weight-height-kerning-spacing-color(
+      $h3,
+      $thick,
+      $pd-56,
+      $pd-0,
+      $pd-1,
+      $content-heading
+    );
+    @include arabic-font();
+  }
+  &-h4 {
+    @include size-weight-height-kerning-spacing-color(
+      $h4,
+      $regular,
+      $pd-48,
+      $pd-0,
+      $pd-1,
+      $content-text
+    );
+    @include arabic-font();
+  }
+  &-h5 {
+    @include size-weight-height-kerning-spacing-color(
+      $h5,
+      $thick,
+      $pd-36,
+      $pd-0,
+      $pd-1,
+      $content-heading
+    );
+    @include arabic-font();
+  }
+  &-h6 {
+    @include size-weight-height-kerning-spacing-color(
+      $h6,
+      $medium,
+      $pd-36,
+      $pd-0,
+      $pd-1,
+      $content-text
+    );
+    @include arabic-font();
+  }
+  &-title,
+  &-ul,
+  &-ol {
+    @include size-weight-height-kerning-spacing-color(
+      $title,
+      $semi-bold,
+      $pd-32,
+      $pd-0,
+      $pd-2,
+      $content-heading
+    );
+    @include arabic-font();
+  }
+  &-p {
+    @include size-weight-height-kerning-spacing-color(
+      $body,
+      $medium,
+      $pd-36,
+      $pd-0,
+      $pd-4,
+      $content-text
+    );
+    @include arabic-font();
+  }
+  &-small,
+  &-li {
+    @include size-weight-height-kerning-spacing-color(
+      $caption,
+      $medium,
+      $pd-40,
+      $pd-0,
+      $pd-4,
+      $content-text
+    );
+    @include arabic-font();
+  }
 }

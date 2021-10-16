@@ -28,5 +28,9 @@ body {
       flex-direction: column;
       align-items: flex-start;
     }
+    &-arabic {
+      flex-direction: column;
+      align-items: flex-end;
+    }
   }
 }
