@@ -22,3 +22,9 @@
     }
   }
 }
+
+@mixin placeholder-text-color($placeholder-text-color) {
+  &::placeholder {
+    color: $placeholder-text-color;
+  }
+}

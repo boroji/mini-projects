@@ -22,6 +22,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($negative-white);
     &-dark {
       @include svg-animation-hover();
       @include large-size();
@@ -45,6 +46,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($negative-white);
     }
   }
   &-secondary {
@@ -70,6 +72,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include large-size();
@@ -93,6 +96,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-ghost {
@@ -118,6 +122,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include large-size();
@@ -141,6 +146,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-outline {
@@ -169,6 +175,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include large-size();
@@ -195,6 +202,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-cta {
@@ -226,6 +234,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($negative-white);
     &-dark {
       @include svg-animation-hover();
       @include regular-size();
@@ -249,6 +258,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($negative-white);
     }
   }
   &-secondary {
@@ -274,6 +284,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include regular-size();
@@ -297,6 +308,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-ghost {
@@ -322,6 +334,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include regular-size();
@@ -345,6 +358,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-outline {
@@ -373,6 +387,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include regular-size();
@@ -399,6 +414,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-cta {
@@ -430,6 +446,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($negative-white);
     &-dark {
       @include svg-animation-hover();
       @include small-size();
@@ -453,6 +470,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($negative-white);
     }
   }
   &-secondary {
@@ -478,6 +496,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include small-size();
@@ -501,6 +520,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-ghost {
@@ -526,6 +546,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include small-size();
@@ -549,6 +570,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-outline {
@@ -577,6 +599,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include small-size();
@@ -603,6 +626,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-cta {
@@ -634,6 +658,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($negative-white);
     &-dark {
       @include svg-animation-hover();
       @include mini-size();
@@ -657,6 +682,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($negative-white);
     }
   }
   &-secondary {
@@ -682,6 +708,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include mini-size();
@@ -705,6 +732,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-ghost {
@@ -730,6 +758,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include mini-size();
@@ -753,6 +782,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-outline {
@@ -781,6 +811,7 @@
     &:focus {
       @include giant-focus();
     }
+    @include placeholder-text-color($primary-main);
     &-dark {
       @include svg-animation-hover();
       @include mini-size();
@@ -807,6 +838,7 @@
       &:focus {
         @include giant-focus-dark();
       }
+      @include placeholder-text-color($tertiary-main);
     }
   }
   &-cta {
