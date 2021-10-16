@@ -300,6 +300,15 @@ input {
   border-radius: 2rem;
 }
 
+.large-cta {
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
+}
+
 .regular-primary, .regular-secondary, .regular-ghost, .regular-outline {
   font-size: 1.125rem;
   padding-top: 1.5rem;
@@ -316,6 +325,15 @@ input {
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
   border-radius: 1.75rem;
+}
+
+.regular-cta {
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
 }
 
 .small-primary, .small-secondary, .small-ghost, .small-outline {
@@ -336,6 +354,15 @@ input {
   border-radius: 1.125rem;
 }
 
+.small-cta {
+  font-size: 1rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
+}
+
 .mini-primary, .mini-secondary, .mini-ghost, .mini-outline {
   font-size: 0.875rem;
   padding-top: 0.25rem;
@@ -352,6 +379,15 @@ input {
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
   border-radius: 0.5rem;
+}
+
+.mini-cta {
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
 }
 
 .large-primary,

@@ -9,6 +9,10 @@
       @include large-size();
     }
   }
+  // CTA wrapper class for SVG padding
+  &-cta {
+    @include large-cta();
+  }
 }
 .regular {
   &-primary,
@@ -19,6 +23,10 @@
     &-dark {
       @include regular-size();
     }
+  }
+  // CTA wrapper class for SVG padding
+  &-cta {
+    @include regular-cta();
   }
 }
 .small {
@@ -31,6 +39,10 @@
       @include small-size();
     }
   }
+  // CTA wrapper class for SVG padding
+  &-cta {
+    @include small-cta();
+  }
 }
 .mini {
   &-primary,
@@ -41,6 +53,10 @@
     &-dark {
       @include mini-size();
     }
+  }
+  // CTA wrapper class for SVG padding
+  &-cta {
+    @include mini-cta();
   }
 }
 
