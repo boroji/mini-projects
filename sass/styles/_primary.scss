@@ -2,22 +2,36 @@
   color: $negative-white;
   background-color: $primary-main;
   @include svg-fill($negative-white);
+  &:link,
+  &:visited {
+    color: $negative-white;
+    background-color: $primary-main;
+  }
 }
 
 @mixin primary-styles-hover {
-  color: $grey-hover;
-  background-color: $primary-hover;
-  @include svg-fill($grey-hover);
+  &:hover {
+    color: $grey-hover;
+    background-color: $primary-hover;
+    @include svg-fill($grey-hover);
+  }
 }
 
 @mixin primary-styles-dark {
   color: $negative-white;
   background-color: $negative-white-25;
+  &:link,
+  &:visited {
+    color: $negative-white;
+    background-color: $negative-white-25;
+  }
   @include svg-fill($negative-white);
 }
 
 @mixin primary-styles-hover-dark {
-  color: $grey-highlight;
-  background-color: $negative-white-15;
-  @include svg-fill($grey-highlight);
+  &:hover {
+    color: $grey-highlight;
+    background-color: $negative-white-15;
+    @include svg-fill($grey-highlight);
+  }
 }

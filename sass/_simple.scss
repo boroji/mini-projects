@@ -51,26 +51,34 @@
 .mini {
   &-primary {
     @include primary-styles();
+    @include primary-styles-hover();
     &-dark {
       @include primary-styles-dark();
+      @include primary-styles-hover-dark();
     }
   }
   &-secondary {
     @include secondary-styles();
+    @include secondary-styles-hover();
     &-dark {
       @include secondary-styles-dark();
+      @include secondary-styles-hover-dark();
     }
   }
   &-ghost {
     @include ghost-styles();
+    @include ghost-styles-hover();
     &-dark {
       @include ghost-styles-dark();
+      @include ghost-styles-hover-dark();
     }
   }
   &-outline {
     @include outline-styles();
+    @include outline-styles-hover();
     &-dark {
       @include outline-styles-dark();
+      @include outline-styles-hover-dark();
     }
   }
 }
