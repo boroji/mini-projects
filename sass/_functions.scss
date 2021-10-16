@@ -28,3 +28,30 @@
     color: $placeholder-text-color;
   }
 }
+
+@mixin input-icon-padding($input-icon-padding) {
+  svg {
+    &:first-child {
+      left: $input-icon-padding;
+    }
+    &:last-child {
+      right: $input-icon-padding;
+    }
+  }
+}
+
+@mixin input-position {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+@mixin input-svg-position {
+  svg {
+    &:first-child,
+    &:last-child {
+      position: absolute;
+    }
+  }
+}

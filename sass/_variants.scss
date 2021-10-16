@@ -845,3 +845,126 @@
     @include mini-cta();
   }
 }
+
+.input {
+  &-large {
+    &-primary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-32);
+      @include svg-animation-hover();
+      @include svg-fill($negative-white);
+    }
+    &-secondary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-32);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-ghost {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-32);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-outline {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-32);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+  }
+  &-regular {
+    &-primary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-24);
+      @include svg-animation-hover();
+      @include svg-fill($negative-white);
+    }
+    &-secondary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-24);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-ghost {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-24);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-outline {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-24);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+  }
+  &-small {
+    &-primary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-12);
+      @include svg-animation-hover();
+      @include svg-fill($negative-white);
+    }
+    &-secondary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-12);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-ghost {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-12);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-outline {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-12);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+  }
+  &-mini {
+    &-primary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-4);
+      @include svg-animation-hover();
+      @include svg-fill($negative-white);
+    }
+    &-secondary {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-4);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-ghost {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-4);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+    &-outline {
+      @include input-position();
+      @include input-svg-position();
+      @include input-icon-padding($pd-4);
+      @include svg-animation-hover();
+      @include svg-fill($primary-main);
+    }
+  }
+}

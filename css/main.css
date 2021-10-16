@@ -3278,6 +3278,694 @@ input {
   line-height: 1.5rem;
 }
 
+.input-large-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-large-primary svg:first-child, .input-large-primary svg:last-child {
+  position: absolute;
+}
+
+.input-large-primary svg:first-child {
+  left: 2rem;
+}
+
+.input-large-primary svg:last-child {
+  right: 2rem;
+}
+
+.input-large-primary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-large-primary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-large-primary svg path {
+  fill: white;
+}
+
+.input-large-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-large-secondary svg:first-child, .input-large-secondary svg:last-child {
+  position: absolute;
+}
+
+.input-large-secondary svg:first-child {
+  left: 2rem;
+}
+
+.input-large-secondary svg:last-child {
+  right: 2rem;
+}
+
+.input-large-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-large-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-large-secondary svg path {
+  fill: #007a76;
+}
+
+.input-large-ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-large-ghost svg:first-child, .input-large-ghost svg:last-child {
+  position: absolute;
+}
+
+.input-large-ghost svg:first-child {
+  left: 2rem;
+}
+
+.input-large-ghost svg:last-child {
+  right: 2rem;
+}
+
+.input-large-ghost svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-large-ghost:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-large-ghost svg path {
+  fill: #007a76;
+}
+
+.input-large-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-large-outline svg:first-child, .input-large-outline svg:last-child {
+  position: absolute;
+}
+
+.input-large-outline svg:first-child {
+  left: 2rem;
+}
+
+.input-large-outline svg:last-child {
+  right: 2rem;
+}
+
+.input-large-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-large-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-large-outline svg path {
+  fill: #007a76;
+}
+
+.input-regular-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-regular-primary svg:first-child, .input-regular-primary svg:last-child {
+  position: absolute;
+}
+
+.input-regular-primary svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-primary svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-primary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-regular-primary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-regular-primary svg path {
+  fill: white;
+}
+
+.input-regular-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-regular-secondary svg:first-child, .input-regular-secondary svg:last-child {
+  position: absolute;
+}
+
+.input-regular-secondary svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-secondary svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-regular-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-regular-secondary svg path {
+  fill: #007a76;
+}
+
+.input-regular-ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-regular-ghost svg:first-child, .input-regular-ghost svg:last-child {
+  position: absolute;
+}
+
+.input-regular-ghost svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-ghost svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-ghost svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-regular-ghost:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-regular-ghost svg path {
+  fill: #007a76;
+}
+
+.input-regular-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-regular-outline svg:first-child, .input-regular-outline svg:last-child {
+  position: absolute;
+}
+
+.input-regular-outline svg:first-child {
+  left: 1.5rem;
+}
+
+.input-regular-outline svg:last-child {
+  right: 1.5rem;
+}
+
+.input-regular-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-regular-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-regular-outline svg path {
+  fill: #007a76;
+}
+
+.input-small-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-small-primary svg:first-child, .input-small-primary svg:last-child {
+  position: absolute;
+}
+
+.input-small-primary svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-primary svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-primary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-small-primary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-small-primary svg path {
+  fill: white;
+}
+
+.input-small-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-small-secondary svg:first-child, .input-small-secondary svg:last-child {
+  position: absolute;
+}
+
+.input-small-secondary svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-secondary svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-small-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-small-secondary svg path {
+  fill: #007a76;
+}
+
+.input-small-ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-small-ghost svg:first-child, .input-small-ghost svg:last-child {
+  position: absolute;
+}
+
+.input-small-ghost svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-ghost svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-ghost svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-small-ghost:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-small-ghost svg path {
+  fill: #007a76;
+}
+
+.input-small-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-small-outline svg:first-child, .input-small-outline svg:last-child {
+  position: absolute;
+}
+
+.input-small-outline svg:first-child {
+  left: 0.75rem;
+}
+
+.input-small-outline svg:last-child {
+  right: 0.75rem;
+}
+
+.input-small-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-small-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-small-outline svg path {
+  fill: #007a76;
+}
+
+.input-mini-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-mini-primary svg:first-child, .input-mini-primary svg:last-child {
+  position: absolute;
+}
+
+.input-mini-primary svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-primary svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-primary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-mini-primary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-mini-primary svg path {
+  fill: white;
+}
+
+.input-mini-secondary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-mini-secondary svg:first-child, .input-mini-secondary svg:last-child {
+  position: absolute;
+}
+
+.input-mini-secondary svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-secondary svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-secondary svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-mini-secondary:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-mini-secondary svg path {
+  fill: #007a76;
+}
+
+.input-mini-ghost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-mini-ghost svg:first-child, .input-mini-ghost svg:last-child {
+  position: absolute;
+}
+
+.input-mini-ghost svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-ghost svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-ghost svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-mini-ghost:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-mini-ghost svg path {
+  fill: #007a76;
+}
+
+.input-mini-outline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.input-mini-outline svg:first-child, .input-mini-outline svg:last-child {
+  position: absolute;
+}
+
+.input-mini-outline svg:first-child {
+  left: 0.25rem;
+}
+
+.input-mini-outline svg:last-child {
+  right: 0.25rem;
+}
+
+.input-mini-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.input-mini-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.input-mini-outline svg path {
+  fill: #007a76;
+}
+
 .margin-top-4 {
   margin-top: 0.25rem;
 }
