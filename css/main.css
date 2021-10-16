@@ -368,6 +368,20 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.large-primary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-primary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .large-primary-dark svg path {
   fill: white;
 }
@@ -504,6 +518,20 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.large-secondary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-secondary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .large-secondary-dark svg path {
   fill: #4dfff9;
 }
@@ -638,6 +666,20 @@ input {
   border-radius: 2rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.large-ghost-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-ghost-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .large-ghost-dark svg path {
@@ -782,6 +824,20 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.large-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .large-outline-dark svg path {
@@ -933,6 +989,20 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.regular-primary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.regular-primary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .regular-primary-dark svg path {
   fill: white;
 }
@@ -1069,6 +1139,20 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.regular-secondary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.regular-secondary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .regular-secondary-dark svg path {
   fill: #4dfff9;
 }
@@ -1203,6 +1287,20 @@ input {
   border-radius: 1.75rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.regular-ghost-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.regular-ghost-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .regular-ghost-dark svg path {
@@ -1347,6 +1445,20 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.regular-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.regular-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .regular-outline-dark svg path {
@@ -1498,6 +1610,20 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.small-primary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.small-primary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .small-primary-dark svg path {
   fill: white;
 }
@@ -1634,6 +1760,20 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.small-secondary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.small-secondary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .small-secondary-dark svg path {
   fill: #4dfff9;
 }
@@ -1768,6 +1908,20 @@ input {
   border-radius: 1.125rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.small-ghost-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.small-ghost-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .small-ghost-dark svg path {
@@ -1912,6 +2066,20 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.small-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.small-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .small-outline-dark svg path {
@@ -2063,6 +2231,20 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.mini-primary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.mini-primary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .mini-primary-dark svg path {
   fill: white;
 }
@@ -2199,6 +2381,20 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.mini-secondary-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.mini-secondary-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .mini-secondary-dark svg path {
   fill: #4dfff9;
 }
@@ -2333,6 +2529,20 @@ input {
   border-radius: 0.5rem;
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
+}
+
+.mini-ghost-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.mini-ghost-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .mini-ghost-dark svg path {
@@ -2477,6 +2687,20 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
+}
+
+.mini-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.mini-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .mini-outline-dark svg path {

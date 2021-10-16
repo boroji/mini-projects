@@ -23,6 +23,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include large-size();
       @include primary-styles-dark();
       @include svg-fill($negative-white);
@@ -70,6 +71,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include large-size();
       @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
@@ -117,6 +119,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include large-size();
       @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
@@ -167,6 +170,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include large-size();
       @include ghost-styles-dark();
       @include outline-styles-dark();
@@ -223,6 +227,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include regular-size();
       @include primary-styles-dark();
       @include svg-fill($negative-white);
@@ -270,6 +275,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include regular-size();
       @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
@@ -317,6 +323,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include regular-size();
       @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
@@ -367,6 +374,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include regular-size();
       @include ghost-styles-dark();
       @include outline-styles-dark();
@@ -423,6 +431,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include small-size();
       @include primary-styles-dark();
       @include svg-fill($negative-white);
@@ -470,6 +479,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include small-size();
       @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
@@ -517,6 +527,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include small-size();
       @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
@@ -567,6 +578,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include small-size();
       @include ghost-styles-dark();
       @include outline-styles-dark();
@@ -623,6 +635,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include mini-size();
       @include primary-styles-dark();
       @include svg-fill($negative-white);
@@ -670,6 +683,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include mini-size();
       @include secondary-styles-dark();
       @include svg-fill($tertiary-main);
@@ -717,6 +731,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include mini-size();
       @include ghost-styles-dark();
       @include svg-fill($tertiary-main);
@@ -767,6 +782,7 @@
       @include giant-focus();
     }
     &-dark {
+      @include svg-animation-hover();
       @include mini-size();
       @include ghost-styles-dark();
       @include outline-styles-dark();
