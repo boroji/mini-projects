@@ -3,6 +3,7 @@
   background-color: $negative-white-0;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-main;
   @include svg-fill($primary-main);
+  @include placeholder-text-color($primary-main);
   &:link,
   &:visited {
     color: $primary-main;
@@ -16,6 +17,7 @@
     color: $primary-hover;
     background-color: $secondary-highlight;
     @include svg-fill($primary-hover);
+    @include placeholder-text-color($primary-hover);
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $primary-hover;
   }
 }
@@ -34,13 +36,14 @@
   color: $tertiary-main;
   background-color: $negative-white-0;
   box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
+  @include svg-fill($tertiary-main);
+  @include placeholder-text-color($tertiary-main);
   &:link,
   &:visited {
     color: $tertiary-main;
     background-color: $negative-white-0;
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
   }
-  @include svg-fill($tertiary-main);
 }
 
 @mixin outline-styles-hover-dark {
@@ -48,6 +51,7 @@
     color: $tertiary-hover;
     background-color: $negative-white-5;
     @include svg-fill($tertiary-hover);
+    @include placeholder-text-color($tertiary-hover);
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
   }
 }

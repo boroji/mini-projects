@@ -2,6 +2,7 @@
   color: $primary-main;
   background-color: $negative-white-0;
   @include svg-fill($primary-main);
+  @include placeholder-text-color($primary-main);
   &:link,
   &:visited {
     color: $primary-main;
@@ -14,6 +15,7 @@
     color: $primary-hover;
     background-color: $secondary-highlight;
     @include svg-fill($primary-hover);
+    @include placeholder-text-color($primary-main);
   }
 }
 
@@ -30,12 +32,13 @@
 @mixin ghost-styles-dark {
   color: $tertiary-main;
   background-color: $negative-white-0;
+  @include svg-fill($tertiary-main);
+  @include placeholder-text-color($tertiary-main);
   &:link,
   &:visited {
     color: $tertiary-main;
     background-color: $negative-white-0;
   }
-  @include svg-fill($tertiary-main);
 }
 
 @mixin ghost-styles-hover-dark {
@@ -43,6 +46,7 @@
     color: $tertiary-hover;
     background-color: $negative-white-5;
     @include svg-fill($tertiary-hover);
+    @include placeholder-text-color($tertiary-hover);
   }
 }
 

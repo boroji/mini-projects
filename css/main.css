@@ -481,6 +481,34 @@ input {
   fill: white;
 }
 
+.large-primary::-webkit-input-placeholder,
+.regular-primary::-webkit-input-placeholder,
+.small-primary::-webkit-input-placeholder,
+.mini-primary::-webkit-input-placeholder {
+  color: white;
+}
+
+.large-primary:-ms-input-placeholder,
+.regular-primary:-ms-input-placeholder,
+.small-primary:-ms-input-placeholder,
+.mini-primary:-ms-input-placeholder {
+  color: white;
+}
+
+.large-primary::-ms-input-placeholder,
+.regular-primary::-ms-input-placeholder,
+.small-primary::-ms-input-placeholder,
+.mini-primary::-ms-input-placeholder {
+  color: white;
+}
+
+.large-primary::placeholder,
+.regular-primary::placeholder,
+.small-primary::placeholder,
+.mini-primary::placeholder {
+  color: white;
+}
+
 .large-primary:link, .large-primary:visited,
 .regular-primary:link,
 .regular-primary:visited,
@@ -507,6 +535,34 @@ input {
   fill: #ededed;
 }
 
+.large-primary:hover::-webkit-input-placeholder,
+.regular-primary:hover::-webkit-input-placeholder,
+.small-primary:hover::-webkit-input-placeholder,
+.mini-primary:hover::-webkit-input-placeholder {
+  color: #ededed;
+}
+
+.large-primary:hover:-ms-input-placeholder,
+.regular-primary:hover:-ms-input-placeholder,
+.small-primary:hover:-ms-input-placeholder,
+.mini-primary:hover:-ms-input-placeholder {
+  color: #ededed;
+}
+
+.large-primary:hover::-ms-input-placeholder,
+.regular-primary:hover::-ms-input-placeholder,
+.small-primary:hover::-ms-input-placeholder,
+.mini-primary:hover::-ms-input-placeholder {
+  color: #ededed;
+}
+
+.large-primary:hover::placeholder,
+.regular-primary:hover::placeholder,
+.small-primary:hover::placeholder,
+.mini-primary:hover::placeholder {
+  color: #ededed;
+}
+
 .large-primary:active, .large-primary:focus,
 .regular-primary:active,
 .regular-primary:focus,
@@ -529,6 +585,41 @@ input {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+.large-primary-dark svg path,
+.regular-primary-dark svg path,
+.small-primary-dark svg path,
+.mini-primary-dark svg path {
+  fill: white;
+}
+
+.large-primary-dark::-webkit-input-placeholder,
+.regular-primary-dark::-webkit-input-placeholder,
+.small-primary-dark::-webkit-input-placeholder,
+.mini-primary-dark::-webkit-input-placeholder {
+  color: white;
+}
+
+.large-primary-dark:-ms-input-placeholder,
+.regular-primary-dark:-ms-input-placeholder,
+.small-primary-dark:-ms-input-placeholder,
+.mini-primary-dark:-ms-input-placeholder {
+  color: white;
+}
+
+.large-primary-dark::-ms-input-placeholder,
+.regular-primary-dark::-ms-input-placeholder,
+.small-primary-dark::-ms-input-placeholder,
+.mini-primary-dark::-ms-input-placeholder {
+  color: white;
+}
+
+.large-primary-dark::placeholder,
+.regular-primary-dark::placeholder,
+.small-primary-dark::placeholder,
+.mini-primary-dark::placeholder {
+  color: white;
+}
+
 .large-primary-dark:link, .large-primary-dark:visited,
 .regular-primary-dark:link,
 .regular-primary-dark:visited,
@@ -538,13 +629,6 @@ input {
 .mini-primary-dark:visited {
   color: white;
   background-color: rgba(255, 255, 255, 0.25);
-}
-
-.large-primary-dark svg path,
-.regular-primary-dark svg path,
-.small-primary-dark svg path,
-.mini-primary-dark svg path {
-  fill: white;
 }
 
 .large-primary-dark:hover,
@@ -560,6 +644,34 @@ input {
 .small-primary-dark:hover svg path,
 .mini-primary-dark:hover svg path {
   fill: #f7f7f7;
+}
+
+.large-primary-dark:hover::-webkit-input-placeholder,
+.regular-primary-dark:hover::-webkit-input-placeholder,
+.small-primary-dark:hover::-webkit-input-placeholder,
+.mini-primary-dark:hover::-webkit-input-placeholder {
+  color: #f7f7f7;
+}
+
+.large-primary-dark:hover:-ms-input-placeholder,
+.regular-primary-dark:hover:-ms-input-placeholder,
+.small-primary-dark:hover:-ms-input-placeholder,
+.mini-primary-dark:hover:-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.large-primary-dark:hover::-ms-input-placeholder,
+.regular-primary-dark:hover::-ms-input-placeholder,
+.small-primary-dark:hover::-ms-input-placeholder,
+.mini-primary-dark:hover::-ms-input-placeholder {
+  color: #f7f7f7;
+}
+
+.large-primary-dark:hover::placeholder,
+.regular-primary-dark:hover::placeholder,
+.small-primary-dark:hover::placeholder,
+.mini-primary-dark:hover::placeholder {
+  color: #f7f7f7;
 }
 
 .large-primary-dark:active, .large-primary-dark:focus,
@@ -591,6 +703,34 @@ input {
   fill: #007a76;
 }
 
+.large-secondary::-webkit-input-placeholder,
+.regular-secondary::-webkit-input-placeholder,
+.small-secondary::-webkit-input-placeholder,
+.mini-secondary::-webkit-input-placeholder {
+  color: #007a76;
+}
+
+.large-secondary:-ms-input-placeholder,
+.regular-secondary:-ms-input-placeholder,
+.small-secondary:-ms-input-placeholder,
+.mini-secondary:-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-secondary::-ms-input-placeholder,
+.regular-secondary::-ms-input-placeholder,
+.small-secondary::-ms-input-placeholder,
+.mini-secondary::-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-secondary::placeholder,
+.regular-secondary::placeholder,
+.small-secondary::placeholder,
+.mini-secondary::placeholder {
+  color: #007a76;
+}
+
 .large-secondary:link, .large-secondary:visited,
 .regular-secondary:link,
 .regular-secondary:visited,
@@ -617,6 +757,34 @@ input {
   fill: #006663;
 }
 
+.large-secondary:hover::-webkit-input-placeholder,
+.regular-secondary:hover::-webkit-input-placeholder,
+.small-secondary:hover::-webkit-input-placeholder,
+.mini-secondary:hover::-webkit-input-placeholder {
+  color: #006663;
+}
+
+.large-secondary:hover:-ms-input-placeholder,
+.regular-secondary:hover:-ms-input-placeholder,
+.small-secondary:hover:-ms-input-placeholder,
+.mini-secondary:hover:-ms-input-placeholder {
+  color: #006663;
+}
+
+.large-secondary:hover::-ms-input-placeholder,
+.regular-secondary:hover::-ms-input-placeholder,
+.small-secondary:hover::-ms-input-placeholder,
+.mini-secondary:hover::-ms-input-placeholder {
+  color: #006663;
+}
+
+.large-secondary:hover::placeholder,
+.regular-secondary:hover::placeholder,
+.small-secondary:hover::placeholder,
+.mini-secondary:hover::placeholder {
+  color: #006663;
+}
+
 .large-secondary:active, .large-secondary:focus,
 .regular-secondary:active,
 .regular-secondary:focus,
@@ -639,6 +807,41 @@ input {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.large-secondary-dark svg path,
+.regular-secondary-dark svg path,
+.small-secondary-dark svg path,
+.mini-secondary-dark svg path {
+  fill: #4dfff9;
+}
+
+.large-secondary-dark::-webkit-input-placeholder,
+.regular-secondary-dark::-webkit-input-placeholder,
+.small-secondary-dark::-webkit-input-placeholder,
+.mini-secondary-dark::-webkit-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-secondary-dark:-ms-input-placeholder,
+.regular-secondary-dark:-ms-input-placeholder,
+.small-secondary-dark:-ms-input-placeholder,
+.mini-secondary-dark:-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-secondary-dark::-ms-input-placeholder,
+.regular-secondary-dark::-ms-input-placeholder,
+.small-secondary-dark::-ms-input-placeholder,
+.mini-secondary-dark::-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-secondary-dark::placeholder,
+.regular-secondary-dark::placeholder,
+.small-secondary-dark::placeholder,
+.mini-secondary-dark::placeholder {
+  color: #4dfff9;
+}
+
 .large-secondary-dark:link, .large-secondary-dark:visited,
 .regular-secondary-dark:link,
 .regular-secondary-dark:visited,
@@ -648,13 +851,6 @@ input {
 .mini-secondary-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0.05);
-}
-
-.large-secondary-dark svg path,
-.regular-secondary-dark svg path,
-.small-secondary-dark svg path,
-.mini-secondary-dark svg path {
-  fill: #4dfff9;
 }
 
 .large-secondary-dark:hover,
@@ -670,6 +866,34 @@ input {
 .small-secondary-dark:hover svg path,
 .mini-secondary-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-secondary-dark:hover::-webkit-input-placeholder,
+.regular-secondary-dark:hover::-webkit-input-placeholder,
+.small-secondary-dark:hover::-webkit-input-placeholder,
+.mini-secondary-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.large-secondary-dark:hover:-ms-input-placeholder,
+.regular-secondary-dark:hover:-ms-input-placeholder,
+.small-secondary-dark:hover:-ms-input-placeholder,
+.mini-secondary-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-secondary-dark:hover::-ms-input-placeholder,
+.regular-secondary-dark:hover::-ms-input-placeholder,
+.small-secondary-dark:hover::-ms-input-placeholder,
+.mini-secondary-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-secondary-dark:hover::placeholder,
+.regular-secondary-dark:hover::placeholder,
+.small-secondary-dark:hover::placeholder,
+.mini-secondary-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .large-secondary-dark:active, .large-secondary-dark:focus,
@@ -701,6 +925,34 @@ input {
   fill: #007a76;
 }
 
+.large-ghost::-webkit-input-placeholder,
+.regular-ghost::-webkit-input-placeholder,
+.small-ghost::-webkit-input-placeholder,
+.mini-ghost::-webkit-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost:-ms-input-placeholder,
+.regular-ghost:-ms-input-placeholder,
+.small-ghost:-ms-input-placeholder,
+.mini-ghost:-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost::-ms-input-placeholder,
+.regular-ghost::-ms-input-placeholder,
+.small-ghost::-ms-input-placeholder,
+.mini-ghost::-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost::placeholder,
+.regular-ghost::placeholder,
+.small-ghost::placeholder,
+.mini-ghost::placeholder {
+  color: #007a76;
+}
+
 .large-ghost:link, .large-ghost:visited,
 .regular-ghost:link,
 .regular-ghost:visited,
@@ -727,6 +979,34 @@ input {
   fill: #006663;
 }
 
+.large-ghost:hover::-webkit-input-placeholder,
+.regular-ghost:hover::-webkit-input-placeholder,
+.small-ghost:hover::-webkit-input-placeholder,
+.mini-ghost:hover::-webkit-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost:hover:-ms-input-placeholder,
+.regular-ghost:hover:-ms-input-placeholder,
+.small-ghost:hover:-ms-input-placeholder,
+.mini-ghost:hover:-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost:hover::-ms-input-placeholder,
+.regular-ghost:hover::-ms-input-placeholder,
+.small-ghost:hover::-ms-input-placeholder,
+.mini-ghost:hover::-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-ghost:hover::placeholder,
+.regular-ghost:hover::placeholder,
+.small-ghost:hover::placeholder,
+.mini-ghost:hover::placeholder {
+  color: #007a76;
+}
+
 .large-ghost:active, .large-ghost:focus,
 .regular-ghost:active,
 .regular-ghost:focus,
@@ -749,6 +1029,41 @@ input {
   background-color: rgba(255, 255, 255, 0);
 }
 
+.large-ghost-dark svg path,
+.regular-ghost-dark svg path,
+.small-ghost-dark svg path,
+.mini-ghost-dark svg path {
+  fill: #4dfff9;
+}
+
+.large-ghost-dark::-webkit-input-placeholder,
+.regular-ghost-dark::-webkit-input-placeholder,
+.small-ghost-dark::-webkit-input-placeholder,
+.mini-ghost-dark::-webkit-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-ghost-dark:-ms-input-placeholder,
+.regular-ghost-dark:-ms-input-placeholder,
+.small-ghost-dark:-ms-input-placeholder,
+.mini-ghost-dark:-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-ghost-dark::-ms-input-placeholder,
+.regular-ghost-dark::-ms-input-placeholder,
+.small-ghost-dark::-ms-input-placeholder,
+.mini-ghost-dark::-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-ghost-dark::placeholder,
+.regular-ghost-dark::placeholder,
+.small-ghost-dark::placeholder,
+.mini-ghost-dark::placeholder {
+  color: #4dfff9;
+}
+
 .large-ghost-dark:link, .large-ghost-dark:visited,
 .regular-ghost-dark:link,
 .regular-ghost-dark:visited,
@@ -758,13 +1073,6 @@ input {
 .mini-ghost-dark:visited {
   color: #4dfff9;
   background-color: rgba(255, 255, 255, 0);
-}
-
-.large-ghost-dark svg path,
-.regular-ghost-dark svg path,
-.small-ghost-dark svg path,
-.mini-ghost-dark svg path {
-  fill: #4dfff9;
 }
 
 .large-ghost-dark:hover,
@@ -780,6 +1088,34 @@ input {
 .small-ghost-dark:hover svg path,
 .mini-ghost-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-ghost-dark:hover::-webkit-input-placeholder,
+.regular-ghost-dark:hover::-webkit-input-placeholder,
+.small-ghost-dark:hover::-webkit-input-placeholder,
+.mini-ghost-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.large-ghost-dark:hover:-ms-input-placeholder,
+.regular-ghost-dark:hover:-ms-input-placeholder,
+.small-ghost-dark:hover:-ms-input-placeholder,
+.mini-ghost-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-ghost-dark:hover::-ms-input-placeholder,
+.regular-ghost-dark:hover::-ms-input-placeholder,
+.small-ghost-dark:hover::-ms-input-placeholder,
+.mini-ghost-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-ghost-dark:hover::placeholder,
+.regular-ghost-dark:hover::placeholder,
+.small-ghost-dark:hover::placeholder,
+.mini-ghost-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .large-ghost-dark:active, .large-ghost-dark:focus,
@@ -813,6 +1149,34 @@ input {
   fill: #007a76;
 }
 
+.large-outline::-webkit-input-placeholder,
+.regular-outline::-webkit-input-placeholder,
+.small-outline::-webkit-input-placeholder,
+.mini-outline::-webkit-input-placeholder {
+  color: #007a76;
+}
+
+.large-outline:-ms-input-placeholder,
+.regular-outline:-ms-input-placeholder,
+.small-outline:-ms-input-placeholder,
+.mini-outline:-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-outline::-ms-input-placeholder,
+.regular-outline::-ms-input-placeholder,
+.small-outline::-ms-input-placeholder,
+.mini-outline::-ms-input-placeholder {
+  color: #007a76;
+}
+
+.large-outline::placeholder,
+.regular-outline::placeholder,
+.small-outline::placeholder,
+.mini-outline::placeholder {
+  color: #007a76;
+}
+
 .large-outline:link, .large-outline:visited,
 .regular-outline:link,
 .regular-outline:visited,
@@ -843,6 +1207,34 @@ input {
   fill: #006663;
 }
 
+.large-outline:hover::-webkit-input-placeholder,
+.regular-outline:hover::-webkit-input-placeholder,
+.small-outline:hover::-webkit-input-placeholder,
+.mini-outline:hover::-webkit-input-placeholder {
+  color: #006663;
+}
+
+.large-outline:hover:-ms-input-placeholder,
+.regular-outline:hover:-ms-input-placeholder,
+.small-outline:hover:-ms-input-placeholder,
+.mini-outline:hover:-ms-input-placeholder {
+  color: #006663;
+}
+
+.large-outline:hover::-ms-input-placeholder,
+.regular-outline:hover::-ms-input-placeholder,
+.small-outline:hover::-ms-input-placeholder,
+.mini-outline:hover::-ms-input-placeholder {
+  color: #006663;
+}
+
+.large-outline:hover::placeholder,
+.regular-outline:hover::placeholder,
+.small-outline:hover::placeholder,
+.mini-outline:hover::placeholder {
+  color: #006663;
+}
+
 .large-outline:active, .large-outline:focus,
 .regular-outline:active,
 .regular-outline:focus,
@@ -867,6 +1259,41 @@ input {
           box-shadow: 0 0 0 0.125rem #4dfff9;
 }
 
+.large-outline-dark svg path,
+.regular-outline-dark svg path,
+.small-outline-dark svg path,
+.mini-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.large-outline-dark::-webkit-input-placeholder,
+.regular-outline-dark::-webkit-input-placeholder,
+.small-outline-dark::-webkit-input-placeholder,
+.mini-outline-dark::-webkit-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-outline-dark:-ms-input-placeholder,
+.regular-outline-dark:-ms-input-placeholder,
+.small-outline-dark:-ms-input-placeholder,
+.mini-outline-dark:-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-outline-dark::-ms-input-placeholder,
+.regular-outline-dark::-ms-input-placeholder,
+.small-outline-dark::-ms-input-placeholder,
+.mini-outline-dark::-ms-input-placeholder {
+  color: #4dfff9;
+}
+
+.large-outline-dark::placeholder,
+.regular-outline-dark::placeholder,
+.small-outline-dark::placeholder,
+.mini-outline-dark::placeholder {
+  color: #4dfff9;
+}
+
 .large-outline-dark:link, .large-outline-dark:visited,
 .regular-outline-dark:link,
 .regular-outline-dark:visited,
@@ -878,13 +1305,6 @@ input {
   background-color: rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
           box-shadow: 0 0 0 0.125rem #4dfff9;
-}
-
-.large-outline-dark svg path,
-.regular-outline-dark svg path,
-.small-outline-dark svg path,
-.mini-outline-dark svg path {
-  fill: #4dfff9;
 }
 
 .large-outline-dark:hover,
@@ -902,6 +1322,34 @@ input {
 .small-outline-dark:hover svg path,
 .mini-outline-dark:hover svg path {
   fill: #00e6de;
+}
+
+.large-outline-dark:hover::-webkit-input-placeholder,
+.regular-outline-dark:hover::-webkit-input-placeholder,
+.small-outline-dark:hover::-webkit-input-placeholder,
+.mini-outline-dark:hover::-webkit-input-placeholder {
+  color: #00e6de;
+}
+
+.large-outline-dark:hover:-ms-input-placeholder,
+.regular-outline-dark:hover:-ms-input-placeholder,
+.small-outline-dark:hover:-ms-input-placeholder,
+.mini-outline-dark:hover:-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-outline-dark:hover::-ms-input-placeholder,
+.regular-outline-dark:hover::-ms-input-placeholder,
+.small-outline-dark:hover::-ms-input-placeholder,
+.mini-outline-dark:hover::-ms-input-placeholder {
+  color: #00e6de;
+}
+
+.large-outline-dark:hover::placeholder,
+.regular-outline-dark:hover::placeholder,
+.small-outline-dark:hover::placeholder,
+.mini-outline-dark:hover::placeholder {
+  color: #00e6de;
 }
 
 .large-outline-dark:active, .large-outline-dark:focus,
