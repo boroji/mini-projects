@@ -6,3 +6,12 @@
   padding-left: $pd-32;
   border-radius: $pd-32;
 }
+
+@mixin large-cta {
+  font-size: $pd-20;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: $semi-bold;
+  font-family: $english;
+  line-height: $pd-24;
+}

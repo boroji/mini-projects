@@ -6,3 +6,12 @@
   padding-left: $pd-4;
   border-radius: $pd-8;
 }
+
+@mixin mini-cta {
+  font-size: $pd-14;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: $semi-bold;
+  font-family: $english;
+  line-height: $pd-24;
+}

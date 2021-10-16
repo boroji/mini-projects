@@ -270,16 +270,16 @@ input {
           align-items: center;
   text-decoration: none;
   font-style: normal;
-  -webkit-transition: background-color 0.1s ease-out;
-  transition: background-color 0.1s ease-out;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
   border: none;
   outline: none;
-  font-weight: 600;
-  line-height: 1.5rem;
   -webkit-box-shadow: none;
           box-shadow: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
   cursor: pointer;
-  font-family: "Noto Sans Display", sans-serif;
 }
 
 .primary svg,

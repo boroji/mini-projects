@@ -5,12 +5,12 @@ input {
   align-items: center;
   text-decoration: none;
   font-style: normal;
-  transition: background-color 0.1s ease-out;
+  font-weight: $semi-bold;
+  font-family: $english;
+  line-height: $pd-24;
   border: none;
   outline: none;
-  font-weight: $semi-bold;
-  line-height: $pd-24;
   box-shadow: none;
+  transition: background-color 0.1s ease-out;
   cursor: pointer;
-  font-family: $english;
 }
