@@ -867,7 +867,7 @@
     }
   }
 
-  // Input paddings
+  // Input padding starts here
   &-large {
     &-primary,
     &-secondary,
@@ -881,8 +881,6 @@
       }
     }
   }
-
-  // Input paddings
   &-regular {
     &-primary,
     &-secondary,
@@ -896,8 +894,6 @@
       }
     }
   }
-
-  // Input paddings
   &-small {
     &-primary,
     &-secondary,
@@ -911,8 +907,6 @@
       }
     }
   }
-
-  // Input paddings
   &-mini {
     &-primary,
     &-secondary,
@@ -927,51 +921,61 @@
     }
   }
 
-  // Input svg fill color
+  // Input svg fill color starts here
   &-large {
-    &-primary {
+    &-primary,
+    &-primary-dark {
       @include svg-fill($negative-white);
     }
     &-secondary,
     &-ghost,
     &-outline {
       @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
     }
   }
-
-  // Input svg fill color
   &-regular {
-    &-primary {
+    &-primary,
+    &-primary-dark {
       @include svg-fill($negative-white);
     }
     &-secondary,
     &-ghost,
     &-outline {
       @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
     }
   }
-
-  // Input svg fill color
   &-small {
-    &-primary {
+    &-primary,
+    &-primary-dark {
       @include svg-fill($negative-white);
     }
     &-secondary,
     &-ghost,
     &-outline {
       @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
     }
   }
-
-  // Input svg fill color
   &-mini {
-    &-primary {
+    &-primary,
+    &-primary-dark {
       @include svg-fill($negative-white);
     }
     &-secondary,
     &-ghost,
     &-outline {
       @include svg-fill($primary-main);
+      &-dark {
+        @include svg-fill($tertiary-main);
+      }
     }
   }
 }

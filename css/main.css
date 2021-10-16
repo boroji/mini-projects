@@ -3468,7 +3468,7 @@ input {
   padding-left: 2rem;
 }
 
-.input-large-primary svg path {
+.input-large-primary svg path, .input-large-primary-dark svg path {
   fill: white;
 }
 
@@ -3476,7 +3476,11 @@ input {
   fill: #007a76;
 }
 
-.input-regular-primary svg path {
+.input-large-secondary-dark svg path, .input-large-ghost-dark svg path, .input-large-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.input-regular-primary svg path, .input-regular-primary-dark svg path {
   fill: white;
 }
 
@@ -3484,7 +3488,11 @@ input {
   fill: #007a76;
 }
 
-.input-small-primary svg path {
+.input-regular-secondary-dark svg path, .input-regular-ghost-dark svg path, .input-regular-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.input-small-primary svg path, .input-small-primary-dark svg path {
   fill: white;
 }
 
@@ -3492,12 +3500,20 @@ input {
   fill: #007a76;
 }
 
-.input-mini-primary svg path {
+.input-small-secondary-dark svg path, .input-small-ghost-dark svg path, .input-small-outline-dark svg path {
+  fill: #4dfff9;
+}
+
+.input-mini-primary svg path, .input-mini-primary-dark svg path {
   fill: white;
 }
 
 .input-mini-secondary svg path, .input-mini-ghost svg path, .input-mini-outline svg path {
   fill: #007a76;
+}
+
+.input-mini-secondary-dark svg path, .input-mini-ghost-dark svg path, .input-mini-outline-dark svg path {
+  fill: #4dfff9;
 }
 
 .margin-top-4 {
