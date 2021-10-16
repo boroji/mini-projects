@@ -822,6 +822,15 @@ input {
           box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
+.large-cta {
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
+}
+
 .regular-primary {
   font-size: 1.125rem;
   padding-top: 1.5rem;
@@ -1320,6 +1329,15 @@ input {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
+.regular-cta {
+  font-size: 1.125rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
 }
 
 .small-primary {
@@ -1822,6 +1840,15 @@ input {
           box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
 }
 
+.small-cta {
+  font-size: 1rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
+}
+
 .mini-primary {
   font-size: 0.875rem;
   padding-top: 0.25rem;
@@ -2320,6 +2347,15 @@ input {
   outline: none;
   -webkit-box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
           box-shadow: 0 0 0 0.75rem rgba(255, 255, 255, 0.2);
+}
+
+.mini-cta {
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
 }
 
 .input-group {

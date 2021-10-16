@@ -199,6 +199,9 @@
       }
     }
   }
+  &-cta {
+    @include large-cta();
+  }
 }
 
 .regular {
@@ -391,6 +394,9 @@
         @include giant-focus-dark();
       }
     }
+  }
+  &-cta {
+    @include regular-cta();
   }
 }
 
@@ -585,6 +591,9 @@
       }
     }
   }
+  &-cta {
+    @include small-cta();
+  }
 }
 
 .mini {
@@ -777,5 +786,8 @@
         @include giant-focus-dark();
       }
     }
+  }
+  &-cta {
+    @include mini-cta();
   }
 }
