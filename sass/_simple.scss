@@ -1,3 +1,19 @@
+// Add SVG animation hover
+.large,
+.regular,
+.small,
+.mini {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include svg-animation-hover();
+    &-dark {
+      @include svg-animation-hover();
+    }
+  }
+}
+
 // General size starts here
 .large {
   &-primary,

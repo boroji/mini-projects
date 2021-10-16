@@ -282,6 +282,82 @@ input {
   cursor: pointer;
 }
 
+.large-primary svg, .large-secondary svg, .large-ghost svg, .large-outline svg,
+.regular-primary svg,
+.regular-secondary svg,
+.regular-ghost svg,
+.regular-outline svg,
+.small-primary svg,
+.small-secondary svg,
+.small-ghost svg,
+.small-outline svg,
+.mini-primary svg,
+.mini-secondary svg,
+.mini-ghost svg,
+.mini-outline svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-primary:hover svg, .large-secondary:hover svg, .large-ghost:hover svg, .large-outline:hover svg,
+.regular-primary:hover svg,
+.regular-secondary:hover svg,
+.regular-ghost:hover svg,
+.regular-outline:hover svg,
+.small-primary:hover svg,
+.small-secondary:hover svg,
+.small-ghost:hover svg,
+.small-outline:hover svg,
+.mini-primary:hover svg,
+.mini-secondary:hover svg,
+.mini-ghost:hover svg,
+.mini-outline:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.large-primary-dark svg, .large-secondary-dark svg, .large-ghost-dark svg, .large-outline-dark svg,
+.regular-primary-dark svg,
+.regular-secondary-dark svg,
+.regular-ghost-dark svg,
+.regular-outline-dark svg,
+.small-primary-dark svg,
+.small-secondary-dark svg,
+.small-ghost-dark svg,
+.small-outline-dark svg,
+.mini-primary-dark svg,
+.mini-secondary-dark svg,
+.mini-ghost-dark svg,
+.mini-outline-dark svg {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 180ms ease-out;
+  transition: -webkit-transform 180ms ease-out;
+  transition: transform 180ms ease-out;
+  transition: transform 180ms ease-out, -webkit-transform 180ms ease-out;
+}
+
+.large-primary-dark:hover svg, .large-secondary-dark:hover svg, .large-ghost-dark:hover svg, .large-outline-dark:hover svg,
+.regular-primary-dark:hover svg,
+.regular-secondary-dark:hover svg,
+.regular-ghost-dark:hover svg,
+.regular-outline-dark:hover svg,
+.small-primary-dark:hover svg,
+.small-secondary-dark:hover svg,
+.small-ghost-dark:hover svg,
+.small-outline-dark:hover svg,
+.mini-primary-dark:hover svg,
+.mini-secondary-dark:hover svg,
+.mini-ghost-dark:hover svg,
+.mini-outline-dark:hover svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .large-primary, .large-secondary, .large-ghost, .large-outline {
   font-size: 1.25rem;
   padding-top: 2rem;
