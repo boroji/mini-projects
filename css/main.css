@@ -3488,6 +3488,27 @@ body {
   padding: 0.5rem;
 }
 
+body .container-dark {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: #334d4c;
+}
+
 body .container {
   width: 100%;
   display: -webkit-box;
@@ -3506,10 +3527,7 @@ body .container {
   gap: 1.5rem;
   margin-top: 1.5rem;
   padding: 1.5rem;
-}
-
-body .container-dark {
-  background-color: #334d4c;
+  background-color: white;
 }
 
 body .container-type {
