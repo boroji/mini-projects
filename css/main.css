@@ -4124,6 +4124,78 @@ input {
   fill: #4dfff9;
 }
 
+.large-primary, .large-secondary, .large-ghost, .large-outline {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+}
+
+.large-primary-dark, .large-secondary-dark, .large-ghost-dark, .large-outline-dark {
+  font-size: 1.25rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 2rem;
+}
+
+.regular-primary, .regular-secondary, .regular-ghost, .regular-outline {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.regular-primary-dark, .regular-secondary-dark, .regular-ghost-dark, .regular-outline-dark {
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 1.75rem;
+}
+
+.small-primary, .small-secondary, .small-ghost, .small-outline {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.small-primary-dark, .small-secondary-dark, .small-ghost-dark, .small-outline-dark {
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 1.125rem;
+}
+
+.mini-primary, .mini-secondary, .mini-ghost, .mini-outline {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.mini-primary-dark, .mini-secondary-dark, .mini-ghost-dark, .mini-outline-dark {
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  border-radius: 0.5rem;
+}
+
 .large-primary,
 .regular-primary,
 .small-primary,

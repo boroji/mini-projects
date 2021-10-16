@@ -1,4 +1,48 @@
 // General size starts here
+.large {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include large-size();
+    &-dark {
+      @include large-size();
+    }
+  }
+}
+.regular {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include regular-size();
+    &-dark {
+      @include regular-size();
+    }
+  }
+}
+.small {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include small-size();
+    &-dark {
+      @include small-size();
+    }
+  }
+}
+.mini {
+  &-primary,
+  &-secondary,
+  &-ghost,
+  &-outline {
+    @include mini-size();
+    &-dark {
+      @include mini-size();
+    }
+  }
+}
 
 // General styles starts here
 .large,
