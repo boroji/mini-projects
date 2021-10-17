@@ -14,6 +14,96 @@ body {
   font-family: sans-serif;
 }
 
+.headline,
+.lead,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+ul,
+ol,
+li,
+p,
+small {
+  font-family: "Noto Sans Display", sans-serif;
+  text-align: left;
+  width: 90ch;
+  max-width: 100%;
+}
+
+.headline,
+.lead,
+h1,
+h3,
+h5,
+.title,
+ul,
+ol {
+  color: #343d3c;
+}
+
+h2,
+h4,
+h6,
+li,
+p,
+small {
+  color: #637473;
+}
+
+.headline-dark,
+.lead-dark,
+.title-dark {
+  color: #fcfdfd;
+}
+
+.h1-dark,
+.h3-dark,
+.h5-dark,
+.ul-dark,
+.ol-dark {
+  color: #fcfdfd;
+}
+
+.h2-dark,
+.h4-dark,
+.h6-dark,
+.li-dark,
+.p-dark,
+.small-dark {
+  color: #dbe1e0;
+}
+
+.headline,
+h1,
+h3,
+h5 {
+  font-weight: 900;
+}
+
+.lead {
+  font-weight: 300;
+}
+
+h2,
+h4 {
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 600;
+}
+
+h6,
+p,
+small,
+li {
+  font-weight: 500;
+}
+
 .persian,
 .arabic {
   font-family: "Noto Sans Arabic", sans-serif;
