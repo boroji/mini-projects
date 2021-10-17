@@ -1,3 +1,4 @@
+// Changing SVG fill color
 @mixin svg-fill($svg-fill-color) {
   svg {
     path {
@@ -6,6 +7,7 @@
   }
 }
 
+// Changing SVG fill color on hover
 @mixin svg-fill-hover($svg-fill-hover) {
   &:hover {
     svg {
@@ -16,6 +18,7 @@
   }
 }
 
+// Adding SVG animation fot CTA on hover
 @mixin svg-animation-hover {
   svg {
     transform: rotate(0deg);
@@ -28,12 +31,14 @@
   }
 }
 
+// Changing input placeholder text color
 @mixin placeholder-text-color($placeholder-text-color) {
   &::placeholder {
     color: $placeholder-text-color;
   }
 }
 
+// Adding left padding for english inputs when icon is used
 @mixin english-placeholder-padding($english-placeholder-padding) {
   input {
     padding-left: $english-placeholder-padding;
@@ -43,6 +48,7 @@
   }
 }
 
+// Adding inner padding for icons within inputs
 @mixin input-icon-padding($input-icon-padding) {
   svg {
     &:first-child {
@@ -54,6 +60,7 @@
   }
 }
 
+// Adding position relative to parent input
 @mixin input-position {
   display: flex;
   align-items: center;
@@ -61,6 +68,7 @@
   position: relative;
 }
 
+// Adjusting inner position of icons within inputs
 @mixin input-svg-position {
   svg {
     &:first-child,
