@@ -168,7 +168,7 @@ li.persian {
 
 .lead {
   font-size: 4.75rem;
-  line-height: 5.75rem;
+  line-height: 5.25rem;
   letter-spacing: -0.04688rem;
   word-spacing: 0.03125rem;
 }
@@ -211,7 +211,7 @@ h1.arabic {
 
 h2 {
   font-size: 3rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
   letter-spacing: -0.01562rem;
   word-spacing: 0.03125rem;
 }
@@ -277,7 +277,7 @@ h4.arabic {
 
 h5 {
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.25rem;
   letter-spacing: 0;
   word-spacing: 0.01562rem;
 }
@@ -300,7 +300,7 @@ h5.arabic {
 
 h6 {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2.5rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.03125rem;
 }
@@ -323,7 +323,7 @@ h6.arabic {
 
 .title {
   font-size: 1.125rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.0625rem;
 }
@@ -345,7 +345,7 @@ h6.arabic {
 
 p {
   font-size: 1rem;
-  line-height: 1.75rem;
+  line-height: 2.75rem;
   letter-spacing: 0.0625rem;
   word-spacing: 0.125rem;
 }
@@ -369,7 +369,7 @@ p.arabic {
 small,
 li {
   font-size: 0.875rem;
-  line-height: 2rem;
+  line-height: 3rem;
   letter-spacing: 0.0625rem;
   word-spacing: 0.25rem;
 }
