@@ -1,0 +1,6 @@
+// font properties for arabic
+@mixin arabic-font-properties {
+  font-family: $arabic;
+  text-align: right;
+  direction: rtl;
+}

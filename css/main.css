@@ -14,106 +14,6 @@ body {
   font-family: sans-serif;
 }
 
-.headline,
-.lead,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.title,
-ul,
-ol,
-li,
-p,
-small {
-  font-family: "Noto Sans Display", sans-serif;
-  text-align: left;
-  width: 90ch;
-  max-width: 100%;
-}
-
-.headline,
-.lead,
-h1,
-h3,
-h5,
-.title,
-ul,
-ol {
-  color: #343d3c;
-}
-
-h2,
-h4,
-h6,
-li,
-p,
-small {
-  color: #637473;
-}
-
-.headline-dark,
-.lead-dark,
-.title-dark {
-  color: #fcfdfd;
-}
-
-.h1-dark,
-.h3-dark,
-.h5-dark,
-.ul-dark,
-.ol-dark {
-  color: #fcfdfd;
-}
-
-.h2-dark,
-.h4-dark,
-.h6-dark,
-.li-dark,
-.p-dark,
-.small-dark {
-  color: #dbe1e0;
-}
-
-.headline,
-h1,
-h3,
-h5 {
-  font-weight: 900;
-}
-
-.lead {
-  font-weight: 300;
-}
-
-h2,
-h4 {
-  font-weight: 400;
-}
-
-.title {
-  font-weight: 600;
-}
-
-h6,
-p,
-small,
-li {
-  font-weight: 500;
-}
-
-.headline-persian, .headline-arabic,
-.lead-persian,
-.lead-arabic,
-.title-persian,
-.title-arabic {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-}
-
 .persian,
 .arabic {
   font-family: "Noto Sans Arabic", sans-serif;
@@ -126,6 +26,9 @@ li {
 .lead-arabic,
 .title-persian,
 .title-arabic {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
   color: #343d3c;
 }
 
@@ -134,6 +37,9 @@ li {
 .lead-arabic-dark,
 .title-persian-dark,
 .title-arabic-dark {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
   color: #fcfdfd;
 }
 
@@ -148,6 +54,19 @@ h3.persian,
 h5.arabic,
 h5.persian {
   font-weight: 900;
+  color: #343d3c;
+}
+
+h1.arabic-dark,
+h1.persian-dark,
+h3.arabic-dark,
+h3.persian-dark,
+h5.arabic-dark,
+h5.persian-dark {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
+  color: #fcfdfd;
 }
 
 h2.arabic,
@@ -155,6 +74,17 @@ h2.persian,
 h4.arabic,
 h4.persian {
   font-weight: 400;
+  color: #637473;
+}
+
+h2.arabic-dark,
+h2.persian-dark,
+h4.arabic-dark,
+h4.persian-dark {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
+  color: #dbe1e0;
 }
 
 h6.arabic,
@@ -166,6 +96,21 @@ small.persian,
 li.arabic,
 li.persian {
   font-weight: 500;
+  color: #637473;
+}
+
+h6.arabic-dark,
+h6.persian-dark,
+p.arabic-dark,
+p.persian-dark,
+small.arabic-dark,
+small.persian-dark,
+li.arabic-dark,
+li.persian-dark {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
+  color: #dbe1e0;
 }
 
 .lead-persian, .lead-arabic {

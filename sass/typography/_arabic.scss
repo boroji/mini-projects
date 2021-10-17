@@ -1,20 +1,8 @@
 // Font family
-.headline,
-.lead,
-.title {
-  &-persian,
-  &-arabic {
-    font-family: $arabic;
-    text-align: right;
-    direction: rtl;
-  }
-}
 
 .persian,
 .arabic {
-  font-family: $arabic;
-  text-align: right;
-  direction: rtl;
+  @include arabic-font-properties();
 }
 
 // Text color
@@ -23,8 +11,10 @@
 .title {
   &-persian,
   &-arabic {
+    @include arabic-font-properties();
     color: $content-heading;
     &-dark {
+      @include arabic-font-properties();
       color: $content-heading-dark;
     }
   }
@@ -45,6 +35,11 @@ h3.persian,
 h5.arabic,
 h5.persian {
   font-weight: $thick;
+  color: $content-heading;
+  &-dark {
+    @include arabic-font-properties();
+    color: $content-heading-dark;
+  }
 }
 
 // Text weight regular
@@ -53,6 +48,11 @@ h2.persian,
 h4.arabic,
 h4.persian {
   font-weight: $regular;
+  color: $content-text;
+  &-dark {
+    @include arabic-font-properties();
+    color: $content-text-dark;
+  }
 }
 
 // Text weight medium
@@ -65,6 +65,11 @@ small.persian,
 li.arabic,
 li.persian {
   font-weight: $medium;
+  color: $content-text;
+  &-dark {
+    @include arabic-font-properties();
+    color: $content-text-dark;
+  }
 }
 
 // Text weight light
