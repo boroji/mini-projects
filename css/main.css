@@ -30,6 +30,8 @@ p,
 small {
   font-family: "Noto Sans Display", sans-serif;
   text-align: left;
+  width: 90ch;
+  max-width: 100%;
 }
 
 .headline,
