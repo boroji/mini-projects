@@ -323,7 +323,7 @@ h6.arabic {
 
 .title {
   font-size: 1.125rem;
-  line-height: 2.25rem;
+  line-height: 2.75rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.0625rem;
 }
@@ -334,7 +334,7 @@ h6.arabic {
 }
 
 .title-persian {
-  line-height: 2.25rem;
+  line-height: 2.75rem;
   word-spacing: 0.125rem;
 }
 
