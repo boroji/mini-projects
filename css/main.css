@@ -14,389 +14,304 @@ body {
   font-family: sans-serif;
 }
 
-.headline,
-.lead,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.title,
-ul,
-ol,
-li,
-p,
-small {
-  font-family: "Noto Sans Display", sans-serif;
-  text-align: left;
+.headline-english, .headline-arabic, .headline-persian,
+.lead-english,
+.lead-arabic,
+.lead-persian,
+.h1-english,
+.h1-arabic,
+.h1-persian,
+.h2-english,
+.h2-arabic,
+.h2-persian,
+.h3-english,
+.h3-arabic,
+.h3-persian,
+.h4-english,
+.h4-arabic,
+.h4-persian,
+.h5-english,
+.h5-arabic,
+.h5-persian,
+.h6-english,
+.h6-arabic,
+.h6-persian,
+.title-english,
+.title-arabic,
+.title-persian,
+.ul-english,
+.ul-arabic,
+.ul-persian,
+.ol-english,
+.ol-arabic,
+.ol-persian,
+.li-english,
+.li-arabic,
+.li-persian,
+.p-english,
+.p-arabic,
+.p-persian,
+.small-english,
+.small-arabic,
+.small-persian {
   width: 90ch;
   max-width: 100%;
 }
 
-.headline,
-.lead,
-h1,
-h3,
-h5,
-.title,
-ul,
-ol {
-  color: #343d3c;
+.headline-english,
+.lead-english,
+.h1-english,
+.h2-english,
+.h3-english,
+.h4-english,
+.h5-english,
+.h6-english,
+.title-english,
+.ul-english,
+.ol-english,
+.li-english,
+.p-english,
+.small-english {
+  font-family: "Noto Sans Display", sans-serif;
+  text-align: left;
+  direction: ltr;
 }
 
-h2,
-h4,
-h6,
-li,
-p,
-small {
-  color: #637473;
-}
-
-.headline-dark,
-.lead-dark,
-.title-dark {
-  color: #fcfdfd;
-}
-
-.h1-dark,
-.h3-dark,
-.h5-dark,
-.ul-dark,
-.ol-dark {
-  color: #fcfdfd;
-}
-
-.h2-dark,
-.h4-dark,
-.h6-dark,
-.li-dark,
-.p-dark,
-.small-dark {
-  color: #dbe1e0;
-}
-
-.headline,
-h1,
-h3,
-h5 {
-  font-weight: 900;
-}
-
-.lead {
-  font-weight: 300;
-}
-
-h2,
-h4 {
-  font-weight: 400;
-}
-
-.title {
-  font-weight: 600;
-}
-
-h6,
-p,
-small,
-li {
-  font-weight: 500;
-}
-
-.persian,
-.arabic {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-}
-
-.headline-persian, .headline-arabic,
-.lead-persian,
+.headline-arabic, .headline-persian,
 .lead-arabic,
+.lead-persian,
+.h1-arabic,
+.h1-persian,
+.h2-arabic,
+.h2-persian,
+.h3-arabic,
+.h3-persian,
+.h4-arabic,
+.h4-persian,
+.h5-arabic,
+.h5-persian,
+.h6-arabic,
+.h6-persian,
+.title-arabic,
 .title-persian,
-.title-arabic {
+.ul-arabic,
+.ul-persian,
+.ol-arabic,
+.ol-persian,
+.li-arabic,
+.li-persian,
+.p-arabic,
+.p-persian,
+.small-arabic,
+.small-persian {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
   direction: rtl;
-  color: #343d3c;
 }
 
-.headline-persian-dark, .headline-arabic-dark,
-.lead-persian-dark,
-.lead-arabic-dark,
-.title-persian-dark,
-.title-arabic-dark {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-  color: #fcfdfd;
-}
-
-.headline-persian, .headline-arabic {
-  font-weight: 900;
-}
-
-h1.arabic,
-h1.persian,
-h3.arabic,
-h3.persian,
-h5.arabic,
-h5.persian {
-  font-weight: 900;
-  color: #343d3c;
-}
-
-h1.arabic-dark,
-h1.persian-dark,
-h3.arabic-dark,
-h3.persian-dark,
-h5.arabic-dark,
-h5.persian-dark {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-  color: #fcfdfd;
-}
-
-h2.arabic,
-h2.persian,
-h4.arabic,
-h4.persian {
-  font-weight: 400;
-  color: #637473;
-}
-
-h2.arabic-dark,
-h2.persian-dark,
-h4.arabic-dark,
-h4.persian-dark {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-  color: #dbe1e0;
-}
-
-h6.arabic,
-h6.persian,
-p.arabic,
-p.persian,
-small.arabic,
-small.persian,
-li.arabic,
-li.persian {
-  font-weight: 500;
-  color: #637473;
-}
-
-h6.arabic-dark,
-h6.persian-dark,
-p.arabic-dark,
-p.persian-dark,
-small.arabic-dark,
-small.persian-dark,
-li.arabic-dark,
-li.persian-dark {
-  font-family: "Noto Sans Arabic", sans-serif;
-  text-align: right;
-  direction: rtl;
-  color: #dbe1e0;
-}
-
-.lead-persian, .lead-arabic {
-  font-weight: 300;
-}
-
-.title-persian, .title-arabic {
-  font-weight: 600;
-}
-
-.headline {
+.headline-english, .headline-arabic, .headline-persian {
   font-size: 6rem;
+}
+
+.headline-english {
   line-height: 6.25rem;
   letter-spacing: -0.0625rem;
   word-spacing: 0.25rem;
 }
 
-.headline-persian, .headline-arabic {
-  font-size: 6rem;
+.headline-arabic, .headline-persian {
   letter-spacing: 0;
   word-spacing: 0.25rem;
-}
-
-.headline-persian {
-  line-height: 7.5rem;
 }
 
 .headline-arabic {
   line-height: 204px;
 }
 
-.lead {
+.headline-persian {
+  line-height: 7.5rem;
+}
+
+.lead-english, .lead-arabic, .lead-persian {
   font-size: 4.75rem;
+}
+
+.lead-english {
   line-height: 5.25rem;
   letter-spacing: -0.04688rem;
   word-spacing: 0.03125rem;
 }
 
-.lead-persian, .lead-arabic {
-  font-size: 4.75rem;
+.lead-arabic, .lead-persian {
   letter-spacing: 0;
   word-spacing: 0;
-}
-
-.lead-persian {
-  line-height: 6.25rem;
 }
 
 .lead-arabic {
   line-height: 10rem;
 }
 
-h1 {
+.lead-persian {
+  line-height: 6.25rem;
+}
+
+.h1-english, .h1-arabic, .h1-persian {
   font-size: 3.75rem;
+}
+
+.h1-english {
   line-height: 4.5rem;
   letter-spacing: -0.03125rem;
   word-spacing: 0.01562rem;
 }
 
-h1.persian,
-h1.arabic {
-  font-size: 3.75rem;
+.h1-arabic, .h1-persian {
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h1.persian {
-  line-height: 6rem;
-}
-
-h1.arabic {
+.h1-arabic {
   line-height: 8.5rem;
 }
 
-h2 {
+.h1-persian {
+  line-height: 6rem;
+}
+
+.h2-english, .h2-arabic, .h2-persian {
   font-size: 3rem;
+}
+
+.h2-english {
   line-height: 3.5rem;
   letter-spacing: -0.01562rem;
   word-spacing: 0.03125rem;
 }
 
-h2.persian,
-h2.arabic {
-  font-size: 3rem;
+.h2-arabic, .h2-persian {
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h2.persian {
-  line-height: 4.5rem;
-}
-
-h2.arabic {
+.h2-arabic {
   line-height: 7rem;
 }
 
-h3 {
+.h2-persian {
+  line-height: 4.5rem;
+}
+
+.h3-english, .h3-arabic, .h3-persian {
   font-size: 2.5rem;
+}
+
+.h3-english {
   line-height: 3.25rem;
   letter-spacing: -0.01562rem;
   word-spacing: 0.03125rem;
 }
 
-h3.persian,
-h3.arabic {
-  font-size: 2.5rem;
+.h3-arabic, .h3-persian {
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h3.persian {
-  line-height: 4.25rem;
-}
-
-h3.arabic {
+.h3-arabic {
   line-height: 6rem;
 }
 
-h4 {
+.h3-persian {
+  line-height: 4.25rem;
+}
+
+.h4-english, .h4-arabic, .h4-persian {
   font-size: 2rem;
+}
+
+.h4-english {
   line-height: 3rem;
   letter-spacing: -0.01562rem;
   word-spacing: 0.04688rem;
 }
 
-h4.persian,
-h4.arabic {
-  font-size: 2rem;
+.h4-arabic, .h4-persian {
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h4.persian {
-  line-height: 3.75rem;
-}
-
-h4.arabic {
+.h4-arabic {
   line-height: 5rem;
 }
 
-h5 {
+.h4-persian {
+  line-height: 3.75rem;
+}
+
+.h5-english, .h5-arabic, .h5-persian {
   font-size: 1.5rem;
+}
+
+.h5-english {
   line-height: 2.25rem;
   letter-spacing: 0;
   word-spacing: 0.01562rem;
 }
 
-h5.persian,
-h5.arabic {
-  font-size: 1.5rem;
+.h5-arabic, .h5-persian {
   letter-spacing: 0;
 }
 
-h5.persian {
-  line-height: 3rem;
-  word-spacing: 0.0625rem;
-}
-
-h5.arabic {
+.h5-arabic {
   line-height: 4.25rem;
   word-spacing: 0.125rem;
 }
 
-h6 {
+.h5-persian {
+  line-height: 3rem;
+  word-spacing: 0.0625rem;
+}
+
+.h6-english, .h6-arabic, .h6-persian {
   font-size: 1.25rem;
+}
+
+.h6-english {
   line-height: 2.5rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.03125rem;
 }
 
-h6.persian,
-h6.arabic {
-  font-size: 1.25rem;
+.h6-arabic, .h6-persian {
   letter-spacing: 0;
 }
 
-h6.persian {
-  line-height: 3.25rem;
-  word-spacing: 0.0625rem;
-}
-
-h6.arabic {
+.h6-arabic {
   line-height: 3.75rem;
   word-spacing: 0.25rem;
 }
 
-.title {
+.h6-persian {
+  line-height: 3.25rem;
+  word-spacing: 0.0625rem;
+}
+
+.title-english, .title-arabic, .title-persian {
   font-size: 1.125rem;
+}
+
+.title-english {
   line-height: 2.75rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.0625rem;
 }
 
-.title-persian, .title-arabic {
-  font-size: 1.125rem;
+.title-arabic, .title-persian {
   letter-spacing: 0;
+}
+
+.title-arabic {
+  line-height: 3rem;
+  word-spacing: 0.25rem;
 }
 
 .title-persian {
@@ -404,59 +319,52 @@ h6.arabic {
   word-spacing: 0.125rem;
 }
 
-.title-arabic {
-  line-height: 3rem;
-  word-spacing: 0.25rem;
+.body-english, .body-arabic, .body-persian {
+  font-size: 1rem;
 }
 
-p {
-  font-size: 1rem;
+.body-english {
   line-height: 2.75rem;
   letter-spacing: 0.01562rem;
   word-spacing: 0.125rem;
 }
 
-p.persian,
-p.arabic {
-  font-size: 1rem;
+.body-arabic, .body-persian {
   letter-spacing: 0;
 }
 
-p.persian {
-  line-height: 3.5rem;
-  word-spacing: 0.25rem;
-}
-
-p.arabic {
+.body-arabic {
   line-height: 3.25rem;
   word-spacing: 0.5rem;
 }
 
-small,
-li {
+.body-persian {
+  line-height: 3.5rem;
+  word-spacing: 0.25rem;
+}
+
+.caption-english, .caption-arabic, .caption-persian {
   font-size: 0.875rem;
+}
+
+.caption-english {
   line-height: 3rem;
   letter-spacing: 0.03125rem;
   word-spacing: 0.25rem;
 }
 
-small.persian,
-small.arabic {
-  font-size: 0.875rem;
+.caption-arabic, .caption-persian {
   letter-spacing: 0;
-  word-spacing: 0.25rem;
 }
 
-small.persian,
-li.persian {
+.caption-arabic {
   line-height: 3.75rem;
-  word-spacing: 0.25rem;
+  word-spacing: 0.5rem;
 }
 
-small.arabic,
-li.arabic {
+.caption-persian {
   line-height: 3rem;
-  word-spacing: 0.5rem;
+  word-spacing: 0.25rem;
 }
 
 a,

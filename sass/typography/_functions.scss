@@ -4,3 +4,46 @@
   text-align: right;
   direction: rtl;
 }
+
+@mixin font-size-all($font-size-all) {
+  &-english,
+  &-arabic,
+  &-persian {
+    font-size: $font-size-all;
+  }
+}
+
+.headline,
+.lead,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.title,
+.ul,
+.ol,
+.li,
+.p,
+.small {
+  &-english,
+  &-arabic,
+  &-persian {
+    width: 90ch;
+    max-width: 100%;
+  }
+
+  &-english {
+    font-family: $english;
+    text-align: left;
+    direction: ltr;
+  }
+
+  &-arabic,
+  &-persian {
+    font-family: $arabic;
+    text-align: right;
+    direction: rtl;
+  }
+}

@@ -1,21 +1,24 @@
-h4 {
-  font-size: $h4;
-  line-height: $pd-48;
-  letter-spacing: $pd-025-negative;
-  word-spacing: $pd-075;
-}
+.h4 {
+  @include font-size-all($h4);
 
-h4.persian,
-h4.arabic {
-  font-size: $h4;
-  letter-spacing: $pd-0;
-  word-spacing: $pd-1;
-}
+  &-english {
+    line-height: $pd-48;
+    letter-spacing: $pd-025-negative;
+    word-spacing: $pd-075;
+  }
 
-h4.persian {
-  line-height: $pd-60;
-}
+  &-arabic,
+  &-persian {
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
 
-h4.arabic {
-  line-height: $pd-80;
+  // Line height
+  &-arabic {
+    line-height: $pd-80;
+  }
+
+  &-persian {
+    line-height: $pd-60;
+  }
 }

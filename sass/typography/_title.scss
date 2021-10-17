@@ -1,19 +1,25 @@
 .title {
-  font-size: $title;
-  line-height: $pd-44;
-  letter-spacing: $pd-025;
-  word-spacing: $pd-1;
-  &-persian,
-  &-arabic {
-    font-size: $title;
+  @include font-size-all($title);
+
+  &-english {
+    line-height: $pd-44;
+    letter-spacing: $pd-025;
+    word-spacing: $pd-1;
+  }
+
+  &-arabic,
+  &-persian {
     letter-spacing: $pd-0;
   }
-  &-persian {
-    line-height: $pd-44;
-    word-spacing: $pd-2;
-  }
+
+  // Line height
   &-arabic {
     line-height: $pd-48;
     word-spacing: $pd-4;
+  }
+
+  &-persian {
+    line-height: $pd-44;
+    word-spacing: $pd-2;
   }
 }

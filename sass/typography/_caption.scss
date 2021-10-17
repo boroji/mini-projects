@@ -1,26 +1,25 @@
-small,
-li {
-  font-size: $caption;
-  line-height: $pd-48;
-  letter-spacing: $pd-050;
-  word-spacing: $pd-4;
-}
+.caption {
+  @include font-size-all($caption);
 
-small.persian,
-small.arabic {
-  font-size: $caption;
-  letter-spacing: $pd-0;
-  word-spacing: $pd-4;
-}
+  &-english {
+    line-height: $pd-48;
+    letter-spacing: $pd-050;
+    word-spacing: $pd-4;
+  }
 
-small.persian,
-li.persian {
-  line-height: $pd-60;
-  word-spacing: $pd-4;
-}
+  &-arabic,
+  &-persian {
+    letter-spacing: $pd-0;
+  }
 
-small.arabic,
-li.arabic {
-  line-height: $pd-48;
-  word-spacing: $pd-8;
+  // Line height
+  &-arabic {
+    line-height: $pd-60;
+    word-spacing: $pd-8;
+  }
+
+  &-persian {
+    line-height: $pd-48;
+    word-spacing: $pd-4;
+  }
 }

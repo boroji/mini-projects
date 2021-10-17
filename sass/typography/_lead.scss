@@ -1,18 +1,24 @@
 .lead {
-  font-size: $lead;
-  line-height: $pd-84;
-  letter-spacing: $pd-075-negative;
-  word-spacing: $pd-050;
-  &-persian,
-  &-arabic {
-    font-size: $lead;
+  @include font-size-all($lead);
+
+  &-english {
+    line-height: $pd-84;
+    letter-spacing: $pd-075-negative;
+    word-spacing: $pd-050;
+  }
+
+  &-arabic,
+  &-persian {
     letter-spacing: $pd-0;
     word-spacing: $pd-0;
   }
-  &-persian {
-    line-height: $pd-100;
-  }
+
+  // Line height
   &-arabic {
     line-height: $pd-160;
+  }
+
+  &-persian {
+    line-height: $pd-100;
   }
 }
