@@ -207,6 +207,27 @@ small .arabic {
   line-height: 7.5rem;
 }
 
+.lead {
+  font-size: 4.75rem;
+  line-height: 5.75rem;
+  letter-spacing: -0.04688rem;
+  word-spacing: 0.03125rem;
+}
+
+.lead-persian, .lead-arabic {
+  font-size: 4.75rem;
+  letter-spacing: 0;
+  word-spacing: 0;
+}
+
+.lead-persian {
+  line-height: 6.25rem;
+}
+
+.lead-arabic {
+  line-height: 6.25rem;
+}
+
 h1 {
   font-size: 3.75rem;
   line-height: 4.5rem;
@@ -2750,25 +2771,5 @@ body .container {
   margin-top: 1.5rem;
   padding: 1.5rem;
   background-color: white;
-}
-
-body .container-type {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-body .container-arabic {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
 }
 /*# sourceMappingURL=main.css.map */

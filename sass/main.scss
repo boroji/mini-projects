@@ -40,13 +40,5 @@ body {
   .container {
     @include container();
     background-color: $negative-white;
-    &-type {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    &-arabic {
-      flex-direction: column;
-      align-items: flex-end;
-    }
   }
 }
