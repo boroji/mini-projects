@@ -1,0 +1,260 @@
+// Font family
+.headline,
+.lead,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title,
+p,
+small {
+  font-family: $english;
+  text-align: left;
+}
+
+// Text color and weight
+.headline h1,
+h3,
+h5 {
+  font-weight: $thick;
+  color: $content-heading;
+}
+
+// Text color
+.lead,
+h2,
+h4,
+h6,
+p,
+small {
+  color: $content-text;
+}
+
+// Text weight
+h2,
+h4 {
+  font-weight: $regular;
+}
+
+// Text weight
+h6,
+p,
+small {
+  font-weight: $medium;
+}
+
+// Custom size, kerning, line height
+.headline {
+  font-size: $headline;
+  line-height: $pd-100;
+  letter-spacing: $pd-1-negative;
+  word-spacing: $pd-4;
+  &-persian,
+  &-arabic {
+    font-size: $headline;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-4;
+  }
+  &-persian {
+    line-height: $pd-120;
+  }
+  &-arabic {
+    line-height: $pd-120;
+  }
+}
+
+.lead {
+  font-size: $lead;
+  font-weight: $light;
+  line-height: $pd-92;
+  letter-spacing: $pd-075-negative;
+  word-spacing: $pd-050;
+  &-persian,
+  &-arabic {
+    font-size: $lead;
+    font-weight: $light;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-0;
+  }
+  &-persian {
+    line-height: $pd-100;
+  }
+  &-arabic {
+    line-height: $pd-100;
+  }
+}
+
+h1 {
+  font-size: $h1;
+  line-height: $pd-72;
+  letter-spacing: $pd-050-negative;
+  word-spacing: $pd-025;
+  .persian,
+  .arabic {
+    font-size: $h1;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-88;
+  }
+  .arabic {
+    line-height: $pd-88;
+  }
+}
+
+h2 {
+  font-size: $h2;
+  line-height: $pd-64;
+  letter-spacing: $pd-025-negative;
+  word-spacing: $pd-050;
+  .persian,
+  .arabic {
+    font-size: $h2;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-64;
+  }
+  .arabic {
+    line-height: $pd-64;
+  }
+}
+
+h3 {
+  font-size: $h3;
+  line-height: $pd-52;
+  letter-spacing: $pd-025-negative;
+  word-spacing: $pd-050;
+  .persian,
+  .arabic {
+    font-size: $h3;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-56;
+  }
+  .arabic {
+    line-height: $pd-56;
+  }
+}
+
+h4 {
+  font-size: $h4;
+  line-height: $pd-48;
+  letter-spacing: $pd-025-negative;
+  word-spacing: $pd-075;
+  .persian,
+  .arabic {
+    font-size: $h4;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-52;
+  }
+  .arabic {
+    line-height: $pd-52;
+  }
+}
+
+h5 {
+  font-size: $h5;
+  line-height: $pd-32;
+  letter-spacing: $pd-0;
+  word-spacing: $pd-025;
+  .persian,
+  .arabic {
+    font-size: $h5;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-36;
+  }
+  .arabic {
+    line-height: $pd-36;
+  }
+}
+
+h6 {
+  font-size: $h6;
+  line-height: $pd-28;
+  letter-spacing: $pd-025;
+  word-spacing: $pd-050;
+  .persian,
+  .arabic {
+    font-size: $h6;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-36;
+  }
+  .arabic {
+    line-height: $pd-36;
+  }
+}
+
+.title {
+  font-size: $title;
+  font-weight: $semi-bold;
+  line-height: $pd-24;
+  letter-spacing: $pd-025;
+  word-spacing: $pd-1;
+  &-persian,
+  &-arabic {
+    font-size: $title;
+    font-weight: $semi-bold;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-2;
+  }
+  &-persian {
+    line-height: $pd-32;
+  }
+  &-arabic {
+    line-height: $pd-32;
+  }
+}
+
+p {
+  font-size: $body;
+  line-height: $pd-28;
+  letter-spacing: $pd-1;
+  word-spacing: $pd-2;
+  .persian,
+  .arabic {
+    font-size: $body;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-4;
+  }
+  .persian {
+    line-height: $pd-36;
+  }
+  .arabic {
+    line-height: $pd-36;
+  }
+}
+
+small {
+  font-size: $caption;
+  line-height: $pd-32;
+  letter-spacing: $pd-1;
+  word-spacing: $pd-4;
+  .persian,
+  .arabic {
+    font-size: $caption;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-4;
+  }
+  .persian {
+    line-height: $pd-40;
+  }
+  .arabic {
+    line-height: $pd-40;
+  }
+}
