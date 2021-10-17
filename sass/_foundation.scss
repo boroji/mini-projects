@@ -1,16 +1,26 @@
-a,
-button,
-input {
+@mixin cta-language($cta-language) {
   display: flex;
   align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: $semi-bold;
-  font-family: $english;
+  font-family: $cta-language;
   line-height: $pd-24;
   border: none;
   outline: none;
   box-shadow: none;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
+  text-align: center;
+}
+a,
+button,
+input {
+  @include cta-language($english);
+}
+
+a.persian,
+button.persian,
+input.persian {
+  @include cta-language($arabic);
 }
