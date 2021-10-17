@@ -76,7 +76,8 @@ h4 {
 
 h6,
 p,
-small {
+small,
+li {
   font-weight: 500;
 }
 
@@ -107,6 +108,33 @@ small {
 
 .headline-persian, .headline-arabic {
   font-weight: 900;
+}
+
+h1.arabic,
+h1.persian,
+h3.arabic,
+h3.persian,
+h5.arabic,
+h5.persian {
+  font-weight: 900;
+}
+
+h2.arabic,
+h2.persian,
+h4.arabic,
+h4.persian {
+  font-weight: 400;
+}
+
+h6.arabic,
+h6.persian,
+p.arabic,
+p.persian,
+small.arabic,
+small.persian,
+li.arabic,
+li.persian {
+  font-weight: 500;
 }
 
 .lead-persian, .lead-arabic {
