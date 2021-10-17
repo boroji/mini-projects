@@ -85,12 +85,14 @@ small {
 .title-arabic {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
+  direction: rtl;
 }
 
 .persian,
 .arabic {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
+  direction: rtl;
 }
 
 .headline-persian, .headline-arabic,
