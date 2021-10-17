@@ -1,4 +1,4 @@
-// Font family
+// English font family
 .headline,
 .lead,
 h1,
@@ -8,37 +8,57 @@ h4,
 h5,
 h6,
 .title,
+ul,
+ol,
+li,
 p,
 small {
   font-family: $english;
   text-align: left;
 }
 
-// Text color and weight
-.headline h1,
+// Text color
+.headline,
+.lead,
+h1,
 h3,
-h5 {
-  font-weight: $thick;
+h5,
+.title,
+ul,
+ol {
   color: $content-heading;
 }
 
-// Text color
-.lead,
 h2,
 h4,
 h6,
+li,
 p,
 small {
   color: $content-text;
 }
 
 // Text weight
+.headline,
+h1,
+h3,
+h5 {
+  font-weight: $thick;
+}
+
+.lead {
+  font-weight: $light;
+}
+
 h2,
 h4 {
   font-weight: $regular;
 }
 
-// Text weight
+.title {
+  font-weight: $semi-bold;
+}
+
 h6,
 p,
 small {
