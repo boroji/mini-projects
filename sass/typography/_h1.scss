@@ -1,0 +1,18 @@
+h1 {
+  font-size: $h1;
+  line-height: $pd-72;
+  letter-spacing: $pd-050-negative;
+  word-spacing: $pd-025;
+  .persian,
+  .arabic {
+    font-size: $h1;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-1;
+  }
+  .persian {
+    line-height: $pd-88;
+  }
+  .arabic {
+    line-height: $pd-88;
+  }
+}

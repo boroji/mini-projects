@@ -1,0 +1,20 @@
+.title {
+  font-size: $title;
+  font-weight: $semi-bold;
+  line-height: $pd-24;
+  letter-spacing: $pd-025;
+  word-spacing: $pd-1;
+  &-persian,
+  &-arabic {
+    font-size: $title;
+    font-weight: $semi-bold;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-2;
+  }
+  &-persian {
+    line-height: $pd-32;
+  }
+  &-arabic {
+    line-height: $pd-32;
+  }
+}

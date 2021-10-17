@@ -1,0 +1,18 @@
+.headline {
+  font-size: $headline;
+  line-height: $pd-100;
+  letter-spacing: $pd-1-negative;
+  word-spacing: $pd-4;
+  &-persian,
+  &-arabic {
+    font-size: $headline;
+    letter-spacing: $pd-0;
+    word-spacing: $pd-4;
+  }
+  &-persian {
+    line-height: $pd-120;
+  }
+  &-arabic {
+    line-height: $pd-120;
+  }
+}
