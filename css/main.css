@@ -87,28 +87,8 @@ small {
   text-align: right;
 }
 
-h1 .persian,
-h1 .arabic,
-h2 .persian,
-h2 .arabic,
-h3 .persian,
-h3 .arabic,
-h4 .persian,
-h4 .arabic,
-h5 .persian,
-h5 .arabic,
-h6 .persian,
-h6 .arabic,
-ul .persian,
-ul .arabic,
-ol .persian,
-ol .arabic,
-li .persian,
-li .arabic,
-p .persian,
-p .arabic,
-small .persian,
-small .arabic {
+.persian,
+.arabic {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
 }
@@ -121,44 +101,7 @@ small .arabic {
   color: #343d3c;
 }
 
-h1 .persian,
-h1 .arabic,
-h3 .persian,
-h3 .arabic,
-h5 .persian,
-h5 .arabic,
-ul .persian,
-ul .arabic,
-ol .persian,
-ol .arabic {
-  color: #343d3c;
-}
-
-h2 .persian,
-h2 .arabic,
-h4 .persian,
-h4 .arabic,
-h6 .persian,
-h6 .arabic,
-li .persian,
-li .arabic,
-p .persian,
-p .arabic,
-small .persian,
-small .arabic {
-  color: #637473;
-}
-
 .headline-persian, .headline-arabic {
-  font-weight: 900;
-}
-
-h1 .persian,
-h1 .arabic,
-h3 .persian,
-h3 .arabic,
-h5 .persian,
-h5 .arabic {
   font-weight: 900;
 }
 
@@ -166,24 +109,8 @@ h5 .arabic {
   font-weight: 300;
 }
 
-h2 .persian,
-h2 .arabic,
-h4 .persian,
-h4 .arabic {
-  font-weight: 400;
-}
-
 .title-persian, .title-arabic {
   font-weight: 600;
-}
-
-h6 .persian,
-h6 .arabic,
-p .persian,
-p .arabic,
-small .persian,
-small .arabic {
-  font-weight: 500;
 }
 
 .headline {

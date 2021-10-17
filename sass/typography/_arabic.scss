@@ -9,22 +9,10 @@
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-li,
-p,
-small {
-  .persian,
-  .arabic {
-    font-family: $arabic;
-    text-align: right;
-  }
+.persian,
+.arabic {
+  font-family: $arabic;
+  text-align: right;
 }
 
 // Text color
@@ -37,41 +25,10 @@ small {
   }
 }
 
-h1,
-h3,
-h5,
-ul,
-ol {
-  .persian,
-  .arabic {
-    color: $content-heading;
-  }
-}
-
-h2,
-h4,
-h6,
-li,
-p,
-small {
-  .persian,
-  .arabic {
-    color: $content-text;
-  }
-}
-
 // Text weight thick
 .headline {
   &-persian,
   &-arabic {
-    font-weight: $thick;
-  }
-}
-h1,
-h3,
-h5 {
-  .persian,
-  .arabic {
     font-weight: $thick;
   }
 }
@@ -84,26 +41,9 @@ h5 {
   }
 }
 
-h2,
-h4 {
-  .persian,
-  .arabic {
-    font-weight: $regular;
-  }
-}
-
 .title {
   &-persian,
   &-arabic {
     font-weight: $semi-bold;
-  }
-}
-
-h6,
-p,
-small {
-  .persian,
-  .arabic {
-    font-weight: $medium;
   }
 }
