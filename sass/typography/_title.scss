@@ -1,6 +1,6 @@
 .title {
   font-size: $title;
-  line-height: $pd-32;
+  line-height: $pd-36;
   letter-spacing: $pd-025;
   word-spacing: $pd-1;
   &-persian,
@@ -9,7 +9,7 @@
     letter-spacing: $pd-0;
   }
   &-persian {
-    line-height: $pd-32;
+    line-height: $pd-36;
     word-spacing: $pd-2;
   }
   &-arabic {

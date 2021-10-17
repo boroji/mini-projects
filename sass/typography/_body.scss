@@ -1,7 +1,7 @@
 p {
   font-size: $body;
   line-height: $pd-44;
-  letter-spacing: $pd-1;
+  letter-spacing: $pd-025;
   word-spacing: $pd-2;
 }
 
@@ -12,7 +12,7 @@ p.arabic {
 }
 
 p.persian {
-  line-height: $pd-36;
+  line-height: $pd-56;
   word-spacing: $pd-4;
 }
 
