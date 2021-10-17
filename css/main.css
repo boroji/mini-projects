@@ -161,6 +161,32 @@ body {
   color: #dbe1e0;
 }
 
+.headline,
+.h1,
+.h3,
+.h5 {
+  font-weight: 900;
+}
+
+.lead {
+  font-weight: 300;
+}
+
+.h2,
+.h4 {
+  font-weight: 400;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.h6,
+.p,
+.caption {
+  font-weight: 500;
+}
+
 .headline-english, .headline-arabic, .headline-persian {
   font-size: 6rem;
 }

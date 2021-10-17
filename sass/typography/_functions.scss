@@ -81,3 +81,29 @@
   @include font-color-all($content-text);
   @include font-color-all-dark($content-text-dark);
 }
+
+.headline,
+.h1,
+.h3,
+.h5 {
+  font-weight: $thick;
+}
+
+.lead {
+  font-weight: $light;
+}
+
+.h2,
+.h4 {
+  font-weight: $regular;
+}
+
+.title {
+  font-weight: $semi-bold;
+}
+
+.h6,
+.p,
+.caption {
+  font-weight: $medium;
+}
