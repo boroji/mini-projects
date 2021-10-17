@@ -166,18 +166,18 @@ h1 {
   word-spacing: 0.01562rem;
 }
 
-h1 .persian,
-h1 .arabic {
+h1.persian,
+h1.arabic {
   font-size: 3.75rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h1 .persian {
+h1.persian {
   line-height: 5.5rem;
 }
 
-h1 .arabic {
+h1.arabic {
   line-height: 5.5rem;
 }
 
@@ -188,18 +188,18 @@ h2 {
   word-spacing: 0.03125rem;
 }
 
-h2 .persian,
-h2 .arabic {
+h2.persian,
+h2.arabic {
   font-size: 3rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h2 .persian {
+h2.persian {
   line-height: 4rem;
 }
 
-h2 .arabic {
+h2.arabic {
   line-height: 4rem;
 }
 
@@ -210,18 +210,18 @@ h3 {
   word-spacing: 0.03125rem;
 }
 
-h3 .persian,
-h3 .arabic {
+h3.persian,
+h3.arabic {
   font-size: 2.5rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h3 .persian {
+h3.persian {
   line-height: 3.5rem;
 }
 
-h3 .arabic {
+h3.arabic {
   line-height: 3.5rem;
 }
 
@@ -232,18 +232,18 @@ h4 {
   word-spacing: 0.04688rem;
 }
 
-h4 .persian,
-h4 .arabic {
+h4.persian,
+h4.arabic {
   font-size: 2rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h4 .persian {
+h4.persian {
   line-height: 3.25rem;
 }
 
-h4 .arabic {
+h4.arabic {
   line-height: 3.25rem;
 }
 
@@ -254,18 +254,18 @@ h5 {
   word-spacing: 0.01562rem;
 }
 
-h5 .persian,
-h5 .arabic {
+h5.persian,
+h5.arabic {
   font-size: 1.5rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h5 .persian {
+h5.persian {
   line-height: 2.25rem;
 }
 
-h5 .arabic {
+h5.arabic {
   line-height: 2.25rem;
 }
 
@@ -276,18 +276,18 @@ h6 {
   word-spacing: 0.03125rem;
 }
 
-h6 .persian,
-h6 .arabic {
+h6.persian,
+h6.arabic {
   font-size: 1.25rem;
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
 
-h6 .persian {
+h6.persian {
   line-height: 2.25rem;
 }
 
-h6 .arabic {
+h6.arabic {
   line-height: 2.25rem;
 }
 
@@ -319,18 +319,18 @@ p {
   word-spacing: 0.125rem;
 }
 
-p .persian,
-p .arabic {
+p.persian,
+p.arabic {
   font-size: 1rem;
   letter-spacing: 0;
   word-spacing: 0.25rem;
 }
 
-p .persian {
+p.persian {
   line-height: 2.25rem;
 }
 
-p .arabic {
+p.arabic {
   line-height: 2.25rem;
 }
 
@@ -341,18 +341,18 @@ small {
   word-spacing: 0.25rem;
 }
 
-small .persian,
-small .arabic {
+small.persian,
+small.arabic {
   font-size: 0.875rem;
   letter-spacing: 0;
   word-spacing: 0.25rem;
 }
 
-small .persian {
+small.persian {
   line-height: 2.5rem;
 }
 
-small .arabic {
+small.arabic {
   line-height: 2.5rem;
 }
 

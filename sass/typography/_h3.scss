@@ -3,16 +3,19 @@ h3 {
   line-height: $pd-52;
   letter-spacing: $pd-025-negative;
   word-spacing: $pd-050;
-  .persian,
-  .arabic {
-    font-size: $h3;
-    letter-spacing: $pd-0;
-    word-spacing: $pd-1;
-  }
-  .persian {
-    line-height: $pd-56;
-  }
-  .arabic {
-    line-height: $pd-56;
-  }
+}
+
+h3.persian,
+h3.arabic {
+  font-size: $h3;
+  letter-spacing: $pd-0;
+  word-spacing: $pd-1;
+}
+
+h3.persian {
+  line-height: $pd-56;
+}
+
+h3.arabic {
+  line-height: $pd-56;
 }

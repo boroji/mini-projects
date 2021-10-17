@@ -3,16 +3,19 @@ small {
   line-height: $pd-32;
   letter-spacing: $pd-1;
   word-spacing: $pd-4;
-  .persian,
-  .arabic {
-    font-size: $caption;
-    letter-spacing: $pd-0;
-    word-spacing: $pd-4;
-  }
-  .persian {
-    line-height: $pd-40;
-  }
-  .arabic {
-    line-height: $pd-40;
-  }
+}
+
+small.persian,
+small.arabic {
+  font-size: $caption;
+  letter-spacing: $pd-0;
+  word-spacing: $pd-4;
+}
+
+small.persian {
+  line-height: $pd-40;
+}
+
+small.arabic {
+  line-height: $pd-40;
 }
