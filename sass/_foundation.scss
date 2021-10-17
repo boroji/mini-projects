@@ -1,6 +1,5 @@
 @mixin cta-language($cta-language) {
   display: flex;
-  align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: $semi-bold;
@@ -16,11 +15,20 @@
 a,
 button,
 input {
+  text-align: center;
   @include cta-language($english);
 }
 
+input {
+  text-align: left;
+}
+
 a.persian,
-button.persian,
-input.persian {
+button.persian {
+  text-align: center;
   @include cta-language($arabic);
+}
+
+input.persian {
+  align-items: right;
 }

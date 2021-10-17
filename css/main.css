@@ -396,12 +396,10 @@ li.arabic {
 a,
 button,
 input {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -417,15 +415,16 @@ input {
   text-align: center;
 }
 
+input {
+  text-align: left;
+}
+
 a.persian,
-button.persian,
-input.persian {
+button.persian {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -439,6 +438,12 @@ input.persian {
   transition: background-color 0.1s ease-out;
   cursor: pointer;
   text-align: center;
+}
+
+input.persian {
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
 }
 
 .large-primary svg, .large-secondary svg, .large-ghost svg, .large-outline svg,
