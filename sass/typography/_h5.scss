@@ -9,13 +9,14 @@ h5.persian,
 h5.arabic {
   font-size: $h5;
   letter-spacing: $pd-0;
-  word-spacing: $pd-1;
 }
 
 h5.persian {
   line-height: $pd-36;
+  word-spacing: $pd-1;
 }
 
 h5.arabic {
-  line-height: $pd-36;
+  line-height: $pd-68;
+  word-spacing: $pd-2;
 }

@@ -1,4 +1,5 @@
-small {
+small,
+li {
   font-size: $caption;
   line-height: $pd-32;
   letter-spacing: $pd-1;
@@ -12,10 +13,14 @@ small.arabic {
   word-spacing: $pd-4;
 }
 
-small.persian {
+small.persian,
+li.persian {
   line-height: $pd-40;
+  word-spacing: $pd-4;
 }
 
-small.arabic {
-  line-height: $pd-40;
+small.arabic,
+li.arabic {
+  line-height: $pd-48;
+  word-spacing: $pd-8;
 }

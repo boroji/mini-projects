@@ -9,13 +9,14 @@ p.persian,
 p.arabic {
   font-size: $body;
   letter-spacing: $pd-0;
-  word-spacing: $pd-4;
 }
 
 p.persian {
   line-height: $pd-36;
+  word-spacing: $pd-4;
 }
 
 p.arabic {
-  line-height: $pd-36;
+  line-height: $pd-52;
+  word-spacing: $pd-8;
 }

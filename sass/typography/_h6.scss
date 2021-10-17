@@ -9,13 +9,14 @@ h6.persian,
 h6.arabic {
   font-size: $h6;
   letter-spacing: $pd-0;
-  word-spacing: $pd-1;
 }
 
 h6.persian {
   line-height: $pd-36;
+  word-spacing: $pd-1;
 }
 
 h6.arabic {
-  line-height: $pd-36;
+  line-height: $pd-60;
+  word-spacing: $pd-4;
 }
