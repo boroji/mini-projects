@@ -45,6 +45,17 @@ ol {
   color: #343d3c;
 }
 
+.headline-dark,
+.lead-dark,
+h1-dark,
+h3-dark,
+h5-dark,
+.title-dark,
+ul-dark,
+ol-dark {
+  color: #fcfdfd;
+}
+
 h2,
 h4,
 h6,
@@ -52,6 +63,15 @@ li,
 p,
 small {
   color: #637473;
+}
+
+h2-dark,
+h4-dark,
+h6-dark,
+li-dark,
+p-dark,
+small-dark {
+  color: #dbe1e0;
 }
 
 .headline,
@@ -104,6 +124,14 @@ li {
 .title-persian,
 .title-arabic {
   color: #343d3c;
+}
+
+.headline-persian-dark, .headline-arabic-dark,
+.lead-persian-dark,
+.lead-arabic-dark,
+.title-persian-dark,
+.title-arabic-dark {
+  color: #fcfdfd;
 }
 
 .headline-persian, .headline-arabic {

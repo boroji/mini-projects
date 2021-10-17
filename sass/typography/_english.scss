@@ -29,6 +29,9 @@ h5,
 ul,
 ol {
   color: $content-heading;
+  &-dark {
+    color: $content-heading-dark;
+  }
 }
 
 h2,
@@ -38,6 +41,9 @@ li,
 p,
 small {
   color: $content-text;
+  &-dark {
+    color: $content-text-dark;
+  }
 }
 
 // Text weight

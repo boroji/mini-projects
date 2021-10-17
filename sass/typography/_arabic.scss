@@ -24,6 +24,9 @@
   &-persian,
   &-arabic {
     color: $content-heading;
+    &-dark {
+      color: $content-heading-dark;
+    }
   }
 }
 
