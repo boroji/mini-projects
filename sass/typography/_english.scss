@@ -29,9 +29,6 @@ h5,
 ul,
 ol {
   color: $content-heading;
-  &-dark {
-    color: $content-heading-dark;
-  }
 }
 
 h2,
@@ -41,6 +38,33 @@ li,
 p,
 small {
   color: $content-text;
+}
+
+// Dark text color
+.headline,
+.lead,
+.title {
+  &-dark {
+    color: $content-heading-dark;
+  }
+}
+
+.h1,
+.h3,
+.h5,
+.ul,
+.ol {
+  &-dark {
+    color: $content-heading-dark;
+  }
+}
+
+.h2,
+.h4,
+.h6,
+.li,
+.p,
+.small {
   &-dark {
     color: $content-text-dark;
   }

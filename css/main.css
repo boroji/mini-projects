@@ -45,17 +45,6 @@ ol {
   color: #343d3c;
 }
 
-.headline-dark,
-.lead-dark,
-h1-dark,
-h3-dark,
-h5-dark,
-.title-dark,
-ul-dark,
-ol-dark {
-  color: #fcfdfd;
-}
-
 h2,
 h4,
 h6,
@@ -65,12 +54,26 @@ small {
   color: #637473;
 }
 
-h2-dark,
-h4-dark,
-h6-dark,
-li-dark,
-p-dark,
-small-dark {
+.headline-dark,
+.lead-dark,
+.title-dark {
+  color: #fcfdfd;
+}
+
+.h1-dark,
+.h3-dark,
+.h5-dark,
+.ul-dark,
+.ol-dark {
+  color: #fcfdfd;
+}
+
+.h2-dark,
+.h4-dark,
+.h6-dark,
+.li-dark,
+.p-dark,
+.small-dark {
   color: #dbe1e0;
 }
 
