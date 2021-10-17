@@ -39,21 +39,12 @@ body {
 .title-english,
 .title-arabic,
 .title-persian,
-.ul-english,
-.ul-arabic,
-.ul-persian,
-.ol-english,
-.ol-arabic,
-.ol-persian,
-.li-english,
-.li-arabic,
-.li-persian,
 .p-english,
 .p-arabic,
 .p-persian,
-.small-english,
-.small-arabic,
-.small-persian {
+.caption-english,
+.caption-arabic,
+.caption-persian {
   width: 90ch;
   max-width: 100%;
 }
@@ -67,11 +58,8 @@ body {
 .h5-english,
 .h6-english,
 .title-english,
-.ul-english,
-.ol-english,
-.li-english,
 .p-english,
-.small-english {
+.caption-english {
   font-family: "Noto Sans Display", sans-serif;
   text-align: left;
   direction: ltr;
@@ -94,19 +82,83 @@ body {
 .h6-persian,
 .title-arabic,
 .title-persian,
-.ul-arabic,
-.ul-persian,
-.ol-arabic,
-.ol-persian,
-.li-arabic,
-.li-persian,
 .p-arabic,
 .p-persian,
-.small-arabic,
-.small-persian {
+.caption-arabic,
+.caption-persian {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
   direction: rtl;
+}
+
+.headline-english, .headline-arabic, .headline-persian,
+.h1-english,
+.h1-arabic,
+.h1-persian,
+.h3-english,
+.h3-arabic,
+.h3-persian,
+.h5-english,
+.h5-arabic,
+.h5-persian,
+.title-english,
+.title-arabic,
+.title-persian {
+  color: #343d3c;
+}
+
+.headline-english-dark, .headline-arabic-dark, .headline-persian-dark,
+.h1-english-dark,
+.h1-arabic-dark,
+.h1-persian-dark,
+.h3-english-dark,
+.h3-arabic-dark,
+.h3-persian-dark,
+.h5-english-dark,
+.h5-arabic-dark,
+.h5-persian-dark,
+.title-english-dark,
+.title-arabic-dark,
+.title-persian-dark {
+  color: #fcfdfd;
+}
+
+.lead-english, .lead-arabic, .lead-persian,
+.h2-english,
+.h2-arabic,
+.h2-persian,
+.h4-english,
+.h4-arabic,
+.h4-persian,
+.h6-english,
+.h6-arabic,
+.h6-persian,
+.p-english,
+.p-arabic,
+.p-persian,
+.caption-english,
+.caption-arabic,
+.caption-persian {
+  color: #637473;
+}
+
+.lead-english-dark, .lead-arabic-dark, .lead-persian-dark,
+.h2-english-dark,
+.h2-arabic-dark,
+.h2-persian-dark,
+.h4-english-dark,
+.h4-arabic-dark,
+.h4-persian-dark,
+.h6-english-dark,
+.h6-arabic-dark,
+.h6-persian-dark,
+.p-english-dark,
+.p-arabic-dark,
+.p-persian-dark,
+.caption-english-dark,
+.caption-arabic-dark,
+.caption-persian-dark {
+  color: #dbe1e0;
 }
 
 .headline-english, .headline-arabic, .headline-persian {

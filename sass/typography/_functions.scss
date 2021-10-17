@@ -13,6 +13,24 @@
   }
 }
 
+@mixin font-color-all($font-color-all) {
+  &-english,
+  &-arabic,
+  &-persian {
+    color: $font-color-all;
+  }
+}
+
+@mixin font-color-all-dark($font-color-all-dark) {
+  &-english,
+  &-arabic,
+  &-persian {
+    &-dark {
+      color: $font-color-all-dark;
+    }
+  }
+}
+
 .headline,
 .lead,
 .h1,
@@ -22,11 +40,8 @@
 .h5,
 .h6,
 .title,
-.ul,
-.ol,
-.li,
 .p,
-.small {
+.caption {
   &-english,
   &-arabic,
   &-persian {
@@ -46,4 +61,23 @@
     text-align: right;
     direction: rtl;
   }
+}
+
+.headline,
+.h1,
+.h3,
+.h5,
+.title {
+  @include font-color-all($content-heading);
+  @include font-color-all-dark($content-heading-dark);
+}
+
+.lead,
+.h2,
+.h4,
+.h6,
+.p,
+.caption {
+  @include font-color-all($content-text);
+  @include font-color-all-dark($content-text-dark);
 }
