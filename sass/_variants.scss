@@ -302,5 +302,37 @@
         @include svg-fill-hover($tertiary-hover);
       }
     }
+    &-success {
+      @include svg-fill($success-text);
+      @include svg-fill-hover($success-text-hover);
+      &-dark {
+        @include svg-fill($success-text-dark);
+        @include svg-fill-hover($success-text-dark);
+      }
+    }
+    &-error {
+      @include svg-fill($error-text);
+      @include svg-fill-hover($error-text-hover);
+      &-dark {
+        @include svg-fill($error-text-dark);
+        @include svg-fill-hover($error-text-dark);
+      }
+    }
+    &-warning {
+      @include svg-fill($warning-text);
+      @include svg-fill-hover($warning-text-hover);
+      &-dark {
+        @include svg-fill($warning-text-dark);
+        @include svg-fill-hover($warning-text-dark);
+      }
+    }
+    &-progress {
+      @include svg-fill($progress-text);
+      @include svg-fill-hover($progress-text-hover);
+      &-dark {
+        @include svg-fill($progress-text-dark);
+        @include svg-fill-hover($progress-text-dark);
+      }
+    }
   }
 }

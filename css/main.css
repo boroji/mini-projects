@@ -3211,6 +3211,70 @@ input.persian {
   fill: #00e6de;
 }
 
+.input-large-success svg path, .input-regular-success svg path, .input-small-success svg path, .input-mini-success svg path {
+  fill: #288500;
+}
+
+.input-large-success:hover svg path, .input-regular-success:hover svg path, .input-small-success:hover svg path, .input-mini-success:hover svg path {
+  fill: #1f6600;
+}
+
+.input-large-success-dark svg path, .input-regular-success-dark svg path, .input-small-success-dark svg path, .input-mini-success-dark svg path {
+  fill: #bbff9e;
+}
+
+.input-large-success-dark:hover svg path, .input-regular-success-dark:hover svg path, .input-small-success-dark:hover svg path, .input-mini-success-dark:hover svg path {
+  fill: #bbff9e;
+}
+
+.input-large-error svg path, .input-regular-error svg path, .input-small-error svg path, .input-mini-error svg path {
+  fill: #d60000;
+}
+
+.input-large-error:hover svg path, .input-regular-error:hover svg path, .input-small-error:hover svg path, .input-mini-error:hover svg path {
+  fill: #b30000;
+}
+
+.input-large-error-dark svg path, .input-regular-error-dark svg path, .input-small-error-dark svg path, .input-mini-error-dark svg path {
+  fill: #ffc2c2;
+}
+
+.input-large-error-dark:hover svg path, .input-regular-error-dark:hover svg path, .input-small-error-dark:hover svg path, .input-mini-error-dark:hover svg path {
+  fill: #ffc2c2;
+}
+
+.input-large-warning svg path, .input-regular-warning svg path, .input-small-warning svg path, .input-mini-warning svg path {
+  fill: #a36200;
+}
+
+.input-large-warning:hover svg path, .input-regular-warning:hover svg path, .input-small-warning:hover svg path, .input-mini-warning:hover svg path {
+  fill: #804d00;
+}
+
+.input-large-warning-dark svg path, .input-regular-warning-dark svg path, .input-small-warning-dark svg path, .input-mini-warning-dark svg path {
+  fill: #ffdaa3;
+}
+
+.input-large-warning-dark:hover svg path, .input-regular-warning-dark:hover svg path, .input-small-warning-dark:hover svg path, .input-mini-warning-dark:hover svg path {
+  fill: #ffdaa3;
+}
+
+.input-large-progress svg path, .input-regular-progress svg path, .input-small-progress svg path, .input-mini-progress svg path {
+  fill: #0060f0;
+}
+
+.input-large-progress:hover svg path, .input-regular-progress:hover svg path, .input-small-progress:hover svg path, .input-mini-progress:hover svg path {
+  fill: #0052cc;
+}
+
+.input-large-progress-dark svg path, .input-regular-progress-dark svg path, .input-small-progress-dark svg path, .input-mini-progress-dark svg path {
+  fill: #b8d4ff;
+}
+
+.input-large-progress-dark:hover svg path, .input-regular-progress-dark:hover svg path, .input-small-progress-dark:hover svg path, .input-mini-progress-dark:hover svg path {
+  fill: #b8d4ff;
+}
+
 .margin-top-4 {
   margin-top: 0.25rem;
 }
