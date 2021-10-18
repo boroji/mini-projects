@@ -721,7 +721,17 @@ body {
   word-spacing: 0.125rem;
 }
 
+.body-english-dark {
+  line-height: 2.75rem;
+  letter-spacing: 0.01562rem;
+  word-spacing: 0.125rem;
+}
+
 .body-arabic, .body-persian {
+  letter-spacing: 0;
+}
+
+.body-arabic-dark, .body-persian-dark {
   letter-spacing: 0;
 }
 
@@ -730,8 +740,24 @@ body {
   word-spacing: 0.5rem;
 }
 
+.body-arabic-dark {
+  line-height: 3.25rem;
+}
+
+.body-arabic-dark {
+  word-spacing: 0.5rem;
+}
+
 .body-persian {
   line-height: 3.5rem;
+  word-spacing: 0.25rem;
+}
+
+.body-persian-dark {
+  line-height: 3.5rem;
+}
+
+.body-persian-dark {
   word-spacing: 0.25rem;
 }
 
