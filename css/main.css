@@ -348,7 +348,15 @@ body {
   line-height: 204px;
 }
 
+.headline-arabic-dark {
+  line-height: 204px;
+}
+
 .headline-persian {
+  line-height: 7.5rem;
+}
+
+.headline-persian-dark {
   line-height: 7.5rem;
 }
 

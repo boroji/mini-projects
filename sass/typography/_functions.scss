@@ -56,3 +56,11 @@
     }
   }
 }
+
+// font height classes for dark
+@mixin font-height($font-height) {
+  line-height: $font-height;
+  &-dark {
+    line-height: $font-height;
+  }
+}

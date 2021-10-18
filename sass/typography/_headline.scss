@@ -29,10 +29,10 @@
 
   // Line height
   &-arabic {
-    line-height: 204px;
+    @include font-height(204px);
   }
 
   &-persian {
-    line-height: $pd-120;
+    @include font-height($pd-120);
   }
 }
