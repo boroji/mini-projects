@@ -6,7 +6,11 @@
   &-primary,
   &-secondary,
   &-ghost,
-  &-outline {
+  &-outline,
+  &-success,
+  &-error,
+  &-warning,
+  &-progress {
     @include svg-animation-hover();
     &-dark {
       @include svg-animation-hover();
@@ -19,7 +23,11 @@
   &-primary,
   &-secondary,
   &-ghost,
-  &-outline {
+  &-outline,
+  &-success,
+  &-error,
+  &-warning,
+  &-progress {
     @include large-size();
     &-dark {
       @include large-size();
@@ -34,7 +42,11 @@
   &-primary,
   &-secondary,
   &-ghost,
-  &-outline {
+  &-outline,
+  &-success,
+  &-error,
+  &-warning,
+  &-progress {
     @include regular-size();
     &-dark {
       @include regular-size();
@@ -49,7 +61,11 @@
   &-primary,
   &-secondary,
   &-ghost,
-  &-outline {
+  &-outline,
+  &-success,
+  &-error,
+  &-warning,
+  &-progress {
     @include small-size();
     &-dark {
       @include small-size();
@@ -64,7 +80,11 @@
   &-primary,
   &-secondary,
   &-ghost,
-  &-outline {
+  &-outline,
+  &-success,
+  &-error,
+  &-warning,
+  &-progress {
     @include mini-size();
     &-dark {
       @include mini-size();
@@ -121,6 +141,46 @@
       @include outline-styles-active-dark();
     }
   }
+  &-success {
+    @include success-styles();
+    @include success-styles-hover();
+    @include success-styles-active();
+    &-dark {
+      @include success-styles-dark();
+      @include success-styles-hover-dark();
+      @include success-styles-active-dark();
+    }
+  }
+  &-error {
+    @include error-styles();
+    @include error-styles-hover();
+    @include error-styles-active();
+    &-dark {
+      @include error-styles-dark();
+      @include error-styles-hover-dark();
+      @include error-styles-active-dark();
+    }
+  }
+  &-warning {
+    @include warning-styles();
+    @include warning-styles-hover();
+    @include warning-styles-active();
+    &-dark {
+      @include warning-styles-dark();
+      @include warning-styles-hover-dark();
+      @include warning-styles-active-dark();
+    }
+  }
+  &-progress {
+    @include progress-styles();
+    @include progress-styles-hover();
+    @include progress-styles-active();
+    &-dark {
+      @include progress-styles-dark();
+      @include progress-styles-hover-dark();
+      @include progress-styles-active-dark();
+    }
+  }
 }
 
 // Input group SVG icon positioning
@@ -133,7 +193,11 @@
     &-primary,
     &-secondary,
     &-ghost,
-    &-outline {
+    &-outline,
+    &-success,
+    &-error,
+    &-warning,
+    &-progress {
       @include input-position();
       @include input-svg-position();
       @include svg-animation-hover();
@@ -150,7 +214,11 @@
     &-primary,
     &-secondary,
     &-ghost,
-    &-outline {
+    &-outline,
+    &-success,
+    &-error,
+    &-warning,
+    &-progress {
       @include input-icon-padding($pd-32);
       @include english-placeholder-padding($pd-64);
       &-dark {
@@ -163,7 +231,11 @@
     &-primary,
     &-secondary,
     &-ghost,
-    &-outline {
+    &-outline,
+    &-success,
+    &-error,
+    &-warning,
+    &-progress {
       @include input-icon-padding($pd-24);
       @include english-placeholder-padding($pd-56);
       &-dark {
@@ -176,7 +248,11 @@
     &-primary,
     &-secondary,
     &-ghost,
-    &-outline {
+    &-outline,
+    &-success,
+    &-error,
+    &-warning,
+    &-progress {
       @include input-icon-padding($pd-12);
       @include english-placeholder-padding($pd-40);
       &-dark {
@@ -189,7 +265,11 @@
     &-primary,
     &-secondary,
     &-ghost,
-    &-outline {
+    &-outline,
+    &-success,
+    &-error,
+    &-warning,
+    &-progress {
       @include input-icon-padding($pd-4);
       @include english-placeholder-padding($pd-32);
       &-dark {
