@@ -109,20 +109,24 @@
 }
 
 .lead {
-  font-weight: $light;
+  @include font-weight-all($light);
+  @include font-weight-all-dark($light);
 }
 
 .h2,
 .h4 {
-  font-weight: $regular;
+  @include font-weight-all($regular);
+  @include font-weight-all-dark($regular);
 }
 
 .title {
-  font-weight: $semi-bold;
+  @include font-weight-all($semi-bold);
+  @include font-weight-all-dark($semi-bold);
 }
 
 .h6,
 .p,
 .caption {
-  font-weight: $medium;
+  @include font-weight-all($medium);
+  @include font-weight-all-dark($medium);
 }

@@ -187,22 +187,53 @@ body {
   font-weight: 900;
 }
 
-.lead {
+.lead-english, .lead-arabic, .lead-persian {
   font-weight: 300;
 }
 
-.h2,
-.h4 {
+.lead-english-dark, .lead-arabic-dark, .lead-persian-dark {
+  font-weight: 300;
+}
+
+.h2-english, .h2-arabic, .h2-persian,
+.h4-english,
+.h4-arabic,
+.h4-persian {
   font-weight: 400;
 }
 
-.title {
+.h2-english-dark, .h2-arabic-dark, .h2-persian-dark,
+.h4-english-dark,
+.h4-arabic-dark,
+.h4-persian-dark {
+  font-weight: 400;
+}
+
+.title-english, .title-arabic, .title-persian {
   font-weight: 600;
 }
 
-.h6,
-.p,
-.caption {
+.title-english-dark, .title-arabic-dark, .title-persian-dark {
+  font-weight: 600;
+}
+
+.h6-english, .h6-arabic, .h6-persian,
+.p-english,
+.p-arabic,
+.p-persian,
+.caption-english,
+.caption-arabic,
+.caption-persian {
+  font-weight: 500;
+}
+
+.h6-english-dark, .h6-arabic-dark, .h6-persian-dark,
+.p-english-dark,
+.p-arabic-dark,
+.p-persian-dark,
+.caption-english-dark,
+.caption-arabic-dark,
+.caption-persian-dark {
   font-weight: 500;
 }
 
