@@ -374,7 +374,18 @@ body {
   word-spacing: 0.03125rem;
 }
 
+.lead-english-dark {
+  line-height: 5.25rem;
+  letter-spacing: -0.04688rem;
+  word-spacing: 0.03125rem;
+}
+
 .lead-arabic, .lead-persian {
+  letter-spacing: 0;
+  word-spacing: 0;
+}
+
+.lead-arabic-dark, .lead-persian-dark {
   letter-spacing: 0;
   word-spacing: 0;
 }
@@ -383,7 +394,15 @@ body {
   line-height: 10rem;
 }
 
+.lead-arabic-dark {
+  line-height: 10rem;
+}
+
 .lead-persian {
+  line-height: 6.25rem;
+}
+
+.lead-persian-dark {
   line-height: 6.25rem;
 }
 
