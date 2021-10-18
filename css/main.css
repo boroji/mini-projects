@@ -876,8 +876,6 @@ button {
   line-height: 1.5rem;
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
@@ -898,8 +896,6 @@ input {
   line-height: 1.5rem;
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
@@ -921,8 +917,6 @@ button.persian {
   line-height: 1.5rem;
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
@@ -946,8 +940,6 @@ input.persian {
   line-height: 1.5rem;
   border: none;
   outline: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
