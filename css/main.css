@@ -161,10 +161,29 @@ body {
   color: #dbe1e0;
 }
 
-.headline,
-.h1,
-.h3,
-.h5 {
+.headline-english, .headline-arabic, .headline-persian,
+.h1-english,
+.h1-arabic,
+.h1-persian,
+.h3-english,
+.h3-arabic,
+.h3-persian,
+.h5-english,
+.h5-arabic,
+.h5-persian {
+  font-weight: 900;
+}
+
+.headline-english-dark, .headline-arabic-dark, .headline-persian-dark,
+.h1-english-dark,
+.h1-arabic-dark,
+.h1-persian-dark,
+.h3-english-dark,
+.h3-arabic-dark,
+.h3-persian-dark,
+.h5-english-dark,
+.h5-arabic-dark,
+.h5-persian-dark {
   font-weight: 900;
 }
 

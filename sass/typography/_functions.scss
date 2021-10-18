@@ -13,6 +13,24 @@
   }
 }
 
+@mixin font-weight-all($font-weight-all) {
+  &-english,
+  &-arabic,
+  &-persian {
+    font-weight: $font-weight-all;
+  }
+}
+
+@mixin font-weight-all-dark($font-weight-all-dark) {
+  &-english,
+  &-arabic,
+  &-persian {
+    &-dark {
+      font-weight: $font-weight-all-dark;
+    }
+  }
+}
+
 @mixin font-color-all($font-color-all) {
   &-english,
   &-arabic,
@@ -86,7 +104,8 @@
 .h1,
 .h3,
 .h5 {
-  font-weight: $thick;
+  @include font-weight-all($thick);
+  @include font-weight-all-dark($thick);
 }
 
 .lead {
