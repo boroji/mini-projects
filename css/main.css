@@ -608,6 +608,10 @@ body {
   line-height: 4.25rem;
 }
 
+.h5-arabic-dark {
+  word-spacing: 0.125rem;
+}
+
 .h5-persian {
   line-height: 3rem;
   word-spacing: 0.0625rem;
@@ -615,6 +619,10 @@ body {
 
 .h5-persian-dark {
   line-height: 3rem;
+}
+
+.h5-persian-dark {
+  word-spacing: 0.0625rem;
 }
 
 .h6-english, .h6-arabic, .h6-persian {
