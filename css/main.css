@@ -775,7 +775,17 @@ body {
   word-spacing: 0.25rem;
 }
 
+.caption-english-dark {
+  line-height: 3rem;
+  letter-spacing: 0.03125rem;
+  word-spacing: 0.25rem;
+}
+
 .caption-arabic, .caption-persian {
+  letter-spacing: 0;
+}
+
+.caption-arabic-dark, .caption-persian-dark {
   letter-spacing: 0;
 }
 
@@ -784,8 +794,24 @@ body {
   word-spacing: 0.5rem;
 }
 
+.caption-arabic-dark {
+  line-height: 3.75rem;
+}
+
+.caption-arabic-dark {
+  word-spacing: 0.5rem;
+}
+
 .caption-persian {
   line-height: 3rem;
+  word-spacing: 0.25rem;
+}
+
+.caption-persian-dark {
+  line-height: 3rem;
+}
+
+.caption-persian-dark {
   word-spacing: 0.25rem;
 }
 
