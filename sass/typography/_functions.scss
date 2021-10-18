@@ -5,6 +5,7 @@
   direction: rtl;
 }
 
+// font size for all languages
 @mixin font-size-all($font-size-all) {
   &-english,
   &-arabic,
@@ -13,6 +14,7 @@
   }
 }
 
+// font weight for all languages
 @mixin font-weight-all($font-weight-all) {
   &-english,
   &-arabic,
@@ -21,6 +23,7 @@
   }
 }
 
+// font weight for dark classes in all languages
 @mixin font-weight-all-dark($font-weight-all-dark) {
   &-english,
   &-arabic,
@@ -31,6 +34,7 @@
   }
 }
 
+// font color for all languages
 @mixin font-color-all($font-color-all) {
   &-english,
   &-arabic,
@@ -39,6 +43,7 @@
   }
 }
 
+// font color for dark classes in all languages
 @mixin font-color-all-dark($font-color-all-dark) {
   &-english,
   &-arabic,
@@ -49,6 +54,7 @@
   }
 }
 
+// Width and character limit for all classes
 .headline,
 .lead,
 .h1,
