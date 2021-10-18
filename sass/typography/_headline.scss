@@ -1,10 +1,16 @@
+@mixin headline-english {
+  line-height: $pd-100;
+  letter-spacing: $pd-1-negative;
+  word-spacing: $pd-4;
+}
 .headline {
   @include font-size-all($headline);
 
   &-english {
-    line-height: $pd-100;
-    letter-spacing: $pd-1-negative;
-    word-spacing: $pd-4;
+    @include headline-english();
+    &-dark {
+      @include headline-english();
+    }
   }
 
   &-arabic,

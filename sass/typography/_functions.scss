@@ -11,6 +11,9 @@
   &-arabic,
   &-persian {
     font-size: $font-size-all;
+    &-dark {
+      font-size: $font-size-all;
+    }
   }
 }
 

@@ -318,7 +318,17 @@ body {
   font-size: 6rem;
 }
 
+.headline-english-dark, .headline-arabic-dark, .headline-persian-dark {
+  font-size: 6rem;
+}
+
 .headline-english {
+  line-height: 6.25rem;
+  letter-spacing: -0.0625rem;
+  word-spacing: 0.25rem;
+}
+
+.headline-english-dark {
   line-height: 6.25rem;
   letter-spacing: -0.0625rem;
   word-spacing: 0.25rem;
@@ -338,6 +348,10 @@ body {
 }
 
 .lead-english, .lead-arabic, .lead-persian {
+  font-size: 4.75rem;
+}
+
+.lead-english-dark, .lead-arabic-dark, .lead-persian-dark {
   font-size: 4.75rem;
 }
 
@@ -364,6 +378,10 @@ body {
   font-size: 3.75rem;
 }
 
+.h1-english-dark, .h1-arabic-dark, .h1-persian-dark {
+  font-size: 3.75rem;
+}
+
 .h1-english {
   line-height: 4.5rem;
   letter-spacing: -0.03125rem;
@@ -384,6 +402,10 @@ body {
 }
 
 .h2-english, .h2-arabic, .h2-persian {
+  font-size: 3rem;
+}
+
+.h2-english-dark, .h2-arabic-dark, .h2-persian-dark {
   font-size: 3rem;
 }
 
@@ -410,6 +432,10 @@ body {
   font-size: 2.5rem;
 }
 
+.h3-english-dark, .h3-arabic-dark, .h3-persian-dark {
+  font-size: 2.5rem;
+}
+
 .h3-english {
   line-height: 3.25rem;
   letter-spacing: -0.01562rem;
@@ -433,6 +459,10 @@ body {
   font-size: 2rem;
 }
 
+.h4-english-dark, .h4-arabic-dark, .h4-persian-dark {
+  font-size: 2rem;
+}
+
 .h4-english {
   line-height: 3rem;
   letter-spacing: -0.01562rem;
@@ -453,6 +483,10 @@ body {
 }
 
 .h5-english, .h5-arabic, .h5-persian {
+  font-size: 1.5rem;
+}
+
+.h5-english-dark, .h5-arabic-dark, .h5-persian-dark {
   font-size: 1.5rem;
 }
 
@@ -480,6 +514,10 @@ body {
   font-size: 1.25rem;
 }
 
+.h6-english-dark, .h6-arabic-dark, .h6-persian-dark {
+  font-size: 1.25rem;
+}
+
 .h6-english {
   line-height: 2.5rem;
   letter-spacing: 0.01562rem;
@@ -501,6 +539,10 @@ body {
 }
 
 .title-english, .title-arabic, .title-persian {
+  font-size: 1.125rem;
+}
+
+.title-english-dark, .title-arabic-dark, .title-persian-dark {
   font-size: 1.125rem;
 }
 
@@ -528,6 +570,10 @@ body {
   font-size: 1rem;
 }
 
+.body-english-dark, .body-arabic-dark, .body-persian-dark {
+  font-size: 1rem;
+}
+
 .body-english {
   line-height: 2.75rem;
   letter-spacing: 0.01562rem;
@@ -549,6 +595,10 @@ body {
 }
 
 .caption-english, .caption-arabic, .caption-persian {
+  font-size: 0.875rem;
+}
+
+.caption-english-dark, .caption-arabic-dark, .caption-persian-dark {
   font-size: 0.875rem;
 }
 
