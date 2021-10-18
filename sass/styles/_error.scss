@@ -1,0 +1,64 @@
+@mixin error-styles {
+  color: $error-text;
+  background-color: $error-background;
+  @include svg-fill($error-text);
+  @include placeholder-text-color($error-text);
+  &:link,
+  &:visited {
+    color: $error-text;
+    background-color: $error-background;
+  }
+}
+
+@mixin error-styles-hover {
+  &:hover {
+    color: $error-text-hover;
+    background-color: $error-background-hover;
+    @include svg-fill($error-text-hover);
+    @include placeholder-text-color($error-text-hover);
+  }
+}
+
+@mixin error-styles-active {
+  &:active,
+  &:focus {
+    color: $error-text;
+    background-color: $error-background;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
+@mixin error-styles-dark {
+  color: $error-text-dark;
+  background-color: $error-background-dark;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $error-text-dark;
+  @include svg-fill($error-text-dark);
+  @include placeholder-text-color($error-text-dark);
+  &:link,
+  &:visited {
+    color: $error-text-dark;
+    background-color: $error-background-dark;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $error-text-dark;
+  }
+}
+
+@mixin error-styles-hover-dark {
+  &:hover {
+    color: $error-text-dark;
+    background-color: $negative-white-5;
+    @include svg-fill($error-text-dark);
+    @include placeholder-text-color($error-text-dark);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $error-text-dark;
+  }
+}
+
+@mixin error-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $error-text-dark;
+    background-color: $error-background-dark;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
+  }
+}

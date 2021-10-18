@@ -1,0 +1,64 @@
+@mixin warning-styles {
+  color: $warning-text;
+  background-color: $warning-background;
+  @include svg-fill($warning-text);
+  @include placeholder-text-color($warning-text);
+  &:link,
+  &:visited {
+    color: $warning-text;
+    background-color: $warning-background;
+  }
+}
+
+@mixin warning-styles-hover {
+  &:hover {
+    color: $warning-text-hover;
+    background-color: $warning-background-hover;
+    @include svg-fill($warning-text-hover);
+    @include placeholder-text-color($warning-text-hover);
+  }
+}
+
+@mixin warning-styles-active {
+  &:active,
+  &:focus {
+    color: $warning-text;
+    background-color: $warning-background;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
+@mixin warning-styles-dark {
+  color: $warning-text-dark;
+  background-color: $warning-background-dark;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $warning-text-dark;
+  @include svg-fill($warning-text-dark);
+  @include placeholder-text-color($warning-text-dark);
+  &:link,
+  &:visited {
+    color: $warning-text-dark;
+    background-color: $warning-background-dark;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $warning-text-dark;
+  }
+}
+
+@mixin warning-styles-hover-dark {
+  &:hover {
+    color: $warning-text-dark;
+    background-color: $negative-white-5;
+    @include svg-fill($warning-text-dark);
+    @include placeholder-text-color($warning-text-dark);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $warning-text-dark;
+  }
+}
+
+@mixin warning-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $warning-text-dark;
+    background-color: $warning-background-dark;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
+  }
+}

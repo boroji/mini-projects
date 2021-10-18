@@ -1,0 +1,64 @@
+@mixin progress-styles {
+  color: $progress-text;
+  background-color: $progress-background;
+  @include svg-fill($progress-text);
+  @include placeholder-text-color($progress-text);
+  &:link,
+  &:visited {
+    color: $progress-text;
+    background-color: $progress-background;
+  }
+}
+
+@mixin progress-styles-hover {
+  &:hover {
+    color: $progress-text-hover;
+    background-color: $progress-background-hover;
+    @include svg-fill($progress-text-hover);
+    @include placeholder-text-color($progress-text-hover);
+  }
+}
+
+@mixin progress-styles-active {
+  &:active,
+  &:focus {
+    color: $progress-text;
+    background-color: $progress-background;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
+@mixin progress-styles-dark {
+  color: $progress-text-dark;
+  background-color: $progress-background-dark;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $progress-text-dark;
+  @include svg-fill($progress-text-dark);
+  @include placeholder-text-color($progress-text-dark);
+  &:link,
+  &:visited {
+    color: $progress-text-dark;
+    background-color: $progress-background-dark;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $progress-text-dark;
+  }
+}
+
+@mixin progress-styles-hover-dark {
+  &:hover {
+    color: $progress-text-dark;
+    background-color: $negative-white-5;
+    @include svg-fill($progress-text-dark);
+    @include placeholder-text-color($progress-text-dark);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $progress-text-dark;
+  }
+}
+
+@mixin progress-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $progress-text-dark;
+    background-color: $progress-background-dark;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
+  }
+}

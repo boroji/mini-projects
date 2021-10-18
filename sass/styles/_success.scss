@@ -1,0 +1,64 @@
+@mixin success-styles {
+  color: $success-text;
+  background-color: $success-background;
+  @include svg-fill($success-text);
+  @include placeholder-text-color($success-text);
+  &:link,
+  &:visited {
+    color: $success-text;
+    background-color: $success-background;
+  }
+}
+
+@mixin success-styles-hover {
+  &:hover {
+    color: $success-text-hover;
+    background-color: $success-background-hover;
+    @include svg-fill($success-text-hover);
+    @include placeholder-text-color($success-text-hover);
+  }
+}
+
+@mixin success-styles-active {
+  &:active,
+  &:focus {
+    color: $success-text;
+    background-color: $success-background;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $secondary-focus;
+  }
+}
+
+@mixin success-styles-dark {
+  color: $success-text-dark;
+  background-color: $success-background-dark;
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $success-text-dark;
+  @include svg-fill($success-text-dark);
+  @include placeholder-text-color($success-text-dark);
+  &:link,
+  &:visited {
+    color: $success-text-dark;
+    background-color: $success-background-dark;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $success-text-dark;
+  }
+}
+
+@mixin success-styles-hover-dark {
+  &:hover {
+    color: $success-text-dark;
+    background-color: $negative-white-5;
+    @include svg-fill($success-text-dark);
+    @include placeholder-text-color($success-text-dark);
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $success-text-dark;
+  }
+}
+
+@mixin success-styles-active-dark {
+  &:active,
+  &:focus {
+    color: $success-text-dark;
+    background-color: $success-background-dark;
+    outline: none;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
+  }
+}
