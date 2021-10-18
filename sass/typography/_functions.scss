@@ -64,3 +64,11 @@
     line-height: $font-height;
   }
 }
+
+// font height classes for dark
+@mixin word-spacing($word-spacing) {
+  word-spacing: $word-spacing;
+  &-dark {
+    word-spacing: $word-spacing;
+  }
+}

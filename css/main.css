@@ -585,7 +585,17 @@ body {
   word-spacing: 0.01562rem;
 }
 
+.h5-english-dark {
+  line-height: 2.25rem;
+  letter-spacing: 0;
+  word-spacing: 0.01562rem;
+}
+
 .h5-arabic, .h5-persian {
+  letter-spacing: 0;
+}
+
+.h5-arabic-dark, .h5-persian-dark {
   letter-spacing: 0;
 }
 
@@ -594,9 +604,17 @@ body {
   word-spacing: 0.125rem;
 }
 
+.h5-arabic-dark {
+  line-height: 4.25rem;
+}
+
 .h5-persian {
   line-height: 3rem;
   word-spacing: 0.0625rem;
+}
+
+.h5-persian-dark {
+  line-height: 3rem;
 }
 
 .h6-english, .h6-arabic, .h6-persian {

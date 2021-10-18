@@ -1,25 +1,35 @@
+@mixin h5-english {
+  line-height: $pd-36;
+  letter-spacing: $pd-0;
+  word-spacing: $pd-025;
+}
+
 .h5 {
   @include font-size-all($h5);
 
   &-english {
-    line-height: $pd-36;
-    letter-spacing: $pd-0;
-    word-spacing: $pd-025;
+    @include h5-english();
+    &-dark {
+      @include h5-english();
+    }
   }
 
   &-arabic,
   &-persian {
     letter-spacing: $pd-0;
+    &-dark {
+      letter-spacing: $pd-0;
+    }
   }
 
   // Line height
   &-arabic {
-    line-height: $pd-68;
+    @include font-height($pd-68);
     word-spacing: $pd-2;
   }
 
   &-persian {
-    line-height: $pd-48;
+    @include font-height($pd-48);
     word-spacing: $pd-1;
   }
 }
