@@ -10,11 +10,10 @@
   box-shadow: none;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
-  text-align: center;
 }
+
 a,
-button,
-input {
+button {
   text-align: center;
   justify-content: center;
   @include cta-language($english);
@@ -23,6 +22,7 @@ input {
 input {
   justify-content: flex-start;
   text-align: left;
+  @include cta-language($english);
 }
 
 a.persian,
@@ -34,5 +34,7 @@ button.persian {
 
 input.persian {
   justify-content: flex-end;
-  align-items: right;
+  align-items: flex-end;
+  text-align: right;
+  @include cta-language($arabic);
 }

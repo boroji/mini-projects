@@ -861,8 +861,7 @@ body {
 }
 
 a,
-button,
-input {
+button {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -882,7 +881,6 @@ input {
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
-  text-align: center;
 }
 
 input {
@@ -890,6 +888,21 @@ input {
       -ms-flex-pack: start;
           justify-content: flex-start;
   text-align: left;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Display", sans-serif;
+  line-height: 1.5rem;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  cursor: pointer;
 }
 
 a.persian,
@@ -913,16 +926,31 @@ button.persian {
   -webkit-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out;
   cursor: pointer;
-  text-align: center;
 }
 
 input.persian {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Noto Sans Arabic", sans-serif;
+  line-height: 1.5rem;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  cursor: pointer;
 }
 
 .large-primary svg, .large-secondary svg, .large-ghost svg, .large-outline svg, .large-success svg, .large-error svg, .large-warning svg, .large-progress svg,
