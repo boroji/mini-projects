@@ -39,9 +39,9 @@ body {
 .title-english,
 .title-arabic,
 .title-persian,
-.p-english,
-.p-arabic,
-.p-persian,
+.body-english,
+.body-arabic,
+.body-persian,
 .caption-english,
 .caption-arabic,
 .caption-persian {
@@ -74,9 +74,9 @@ body {
 .title-english-dark,
 .title-arabic-dark,
 .title-persian-dark,
-.p-english-dark,
-.p-arabic-dark,
-.p-persian-dark,
+.body-english-dark,
+.body-arabic-dark,
+.body-persian-dark,
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
@@ -93,7 +93,7 @@ body {
 .h5-english,
 .h6-english,
 .title-english,
-.p-english,
+.body-english,
 .caption-english {
   font-family: "Noto Sans Display", sans-serif;
   text-align: left;
@@ -109,7 +109,7 @@ body {
 .h5-english-dark,
 .h6-english-dark,
 .title-english-dark,
-.p-english-dark,
+.body-english-dark,
 .caption-english-dark {
   font-family: "Noto Sans Display", sans-serif;
   text-align: left;
@@ -133,8 +133,8 @@ body {
 .h6-persian,
 .title-arabic,
 .title-persian,
-.p-arabic,
-.p-persian,
+.body-arabic,
+.body-persian,
 .caption-arabic,
 .caption-persian {
   font-family: "Noto Sans Arabic", sans-serif;
@@ -159,8 +159,8 @@ body {
 .h6-persian-dark,
 .title-arabic-dark,
 .title-persian-dark,
-.p-arabic-dark,
-.p-persian-dark,
+.body-arabic-dark,
+.body-persian-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
   font-family: "Noto Sans Arabic", sans-serif;
@@ -210,9 +210,9 @@ body {
 .h6-english,
 .h6-arabic,
 .h6-persian,
-.p-english,
-.p-arabic,
-.p-persian,
+.body-english,
+.body-arabic,
+.body-persian,
 .caption-english,
 .caption-arabic,
 .caption-persian {
@@ -229,9 +229,9 @@ body {
 .h6-english-dark,
 .h6-arabic-dark,
 .h6-persian-dark,
-.p-english-dark,
-.p-arabic-dark,
-.p-persian-dark,
+.body-english-dark,
+.body-arabic-dark,
+.body-persian-dark,
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
@@ -295,9 +295,9 @@ body {
 }
 
 .h6-english, .h6-arabic, .h6-persian,
-.p-english,
-.p-arabic,
-.p-persian,
+.body-english,
+.body-arabic,
+.body-persian,
 .caption-english,
 .caption-arabic,
 .caption-persian {
@@ -305,9 +305,9 @@ body {
 }
 
 .h6-english-dark, .h6-arabic-dark, .h6-persian-dark,
-.p-english-dark,
-.p-arabic-dark,
-.p-persian-dark,
+.body-english-dark,
+.body-arabic-dark,
+.body-persian-dark,
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
