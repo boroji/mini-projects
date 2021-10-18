@@ -1,24 +1,37 @@
+@mixin h1-english {
+  line-height: $pd-72;
+  letter-spacing: $pd-050-negative;
+  word-spacing: $pd-025;
+}
+
+@mixin h1-arabic-persian {
+  letter-spacing: $pd-0;
+  word-spacing: $pd-1;
+}
 .h1 {
   @include font-size-all($h1);
 
   &-english {
-    line-height: $pd-72;
-    letter-spacing: $pd-050-negative;
-    word-spacing: $pd-025;
+    @include h1-english();
+    &-dark {
+      @include h1-english();
+    }
   }
 
   &-arabic,
   &-persian {
-    letter-spacing: $pd-0;
-    word-spacing: $pd-1;
+    @include h1-arabic-persian();
+    &-dark {
+      @include h1-arabic-persian();
+    }
   }
 
   // Line height
   &-arabic {
-    line-height: $pd-136;
+    @include font-height($pd-136);
   }
 
   &-persian {
-    line-height: $pd-96;
+    @include font-height($pd-96);
   }
 }

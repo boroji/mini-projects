@@ -401,7 +401,18 @@ body {
   word-spacing: 0.01562rem;
 }
 
+.h1-english-dark {
+  line-height: 4.5rem;
+  letter-spacing: -0.03125rem;
+  word-spacing: 0.01562rem;
+}
+
 .h1-arabic, .h1-persian {
+  letter-spacing: 0;
+  word-spacing: 0.0625rem;
+}
+
+.h1-arabic-dark, .h1-persian-dark {
   letter-spacing: 0;
   word-spacing: 0.0625rem;
 }
@@ -410,7 +421,15 @@ body {
   line-height: 8.5rem;
 }
 
+.h1-arabic-dark {
+  line-height: 8.5rem;
+}
+
 .h1-persian {
+  line-height: 6rem;
+}
+
+.h1-persian-dark {
   line-height: 6rem;
 }
 
