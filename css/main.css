@@ -49,6 +49,41 @@ body {
   max-width: 100%;
 }
 
+.headline-english-dark, .headline-arabic-dark, .headline-persian-dark,
+.lead-english-dark,
+.lead-arabic-dark,
+.lead-persian-dark,
+.h1-english-dark,
+.h1-arabic-dark,
+.h1-persian-dark,
+.h2-english-dark,
+.h2-arabic-dark,
+.h2-persian-dark,
+.h3-english-dark,
+.h3-arabic-dark,
+.h3-persian-dark,
+.h4-english-dark,
+.h4-arabic-dark,
+.h4-persian-dark,
+.h5-english-dark,
+.h5-arabic-dark,
+.h5-persian-dark,
+.h6-english-dark,
+.h6-arabic-dark,
+.h6-persian-dark,
+.title-english-dark,
+.title-arabic-dark,
+.title-persian-dark,
+.p-english-dark,
+.p-arabic-dark,
+.p-persian-dark,
+.caption-english-dark,
+.caption-arabic-dark,
+.caption-persian-dark {
+  width: 90ch;
+  max-width: 100%;
+}
+
 .headline-english,
 .lead-english,
 .h1-english,
@@ -60,6 +95,22 @@ body {
 .title-english,
 .p-english,
 .caption-english {
+  font-family: "Noto Sans Display", sans-serif;
+  text-align: left;
+  direction: ltr;
+}
+
+.headline-english-dark,
+.lead-english-dark,
+.h1-english-dark,
+.h2-english-dark,
+.h3-english-dark,
+.h4-english-dark,
+.h5-english-dark,
+.h6-english-dark,
+.title-english-dark,
+.p-english-dark,
+.caption-english-dark {
   font-family: "Noto Sans Display", sans-serif;
   text-align: left;
   direction: ltr;
@@ -86,6 +137,32 @@ body {
 .p-persian,
 .caption-arabic,
 .caption-persian {
+  font-family: "Noto Sans Arabic", sans-serif;
+  text-align: right;
+  direction: rtl;
+}
+
+.headline-arabic-dark, .headline-persian-dark,
+.lead-arabic-dark,
+.lead-persian-dark,
+.h1-arabic-dark,
+.h1-persian-dark,
+.h2-arabic-dark,
+.h2-persian-dark,
+.h3-arabic-dark,
+.h3-persian-dark,
+.h4-arabic-dark,
+.h4-persian-dark,
+.h5-arabic-dark,
+.h5-persian-dark,
+.h6-arabic-dark,
+.h6-persian-dark,
+.title-arabic-dark,
+.title-persian-dark,
+.p-arabic-dark,
+.p-persian-dark,
+.caption-arabic-dark,
+.caption-persian-dark {
   font-family: "Noto Sans Arabic", sans-serif;
   text-align: right;
   direction: rtl;

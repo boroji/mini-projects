@@ -71,22 +71,39 @@
   &-persian {
     width: 90ch;
     max-width: 100%;
+    &-dark {
+      width: 90ch;
+      max-width: 100%;
+    }
   }
 
+  // Wriring directions
   &-english {
     font-family: $english;
     text-align: left;
     direction: ltr;
+    &-dark {
+      font-family: $english;
+      text-align: left;
+      direction: ltr;
+    }
   }
 
+  // Writing directions
   &-arabic,
   &-persian {
     font-family: $arabic;
     text-align: right;
     direction: rtl;
+    &-dark {
+      font-family: $arabic;
+      text-align: right;
+      direction: rtl;
+    }
   }
 }
 
+// Font color
 .headline,
 .h1,
 .h3,
@@ -96,6 +113,7 @@
   @include font-color-all-dark($content-heading-dark);
 }
 
+// Font color
 .lead,
 .h2,
 .h4,
@@ -106,6 +124,7 @@
   @include font-color-all-dark($content-text-dark);
 }
 
+// Font weight
 .headline,
 .h1,
 .h3,
@@ -114,22 +133,26 @@
   @include font-weight-all-dark($thick);
 }
 
+// Font weight
 .lead {
   @include font-weight-all($light);
   @include font-weight-all-dark($light);
 }
 
+// Font weight
 .h2,
 .h4 {
   @include font-weight-all($regular);
   @include font-weight-all-dark($regular);
 }
 
+// Font weight
 .title {
   @include font-weight-all($semi-bold);
   @include font-weight-all-dark($semi-bold);
 }
 
+// Font weight
 .h6,
 .p,
 .caption {
