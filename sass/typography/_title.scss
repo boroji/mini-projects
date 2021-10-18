@@ -1,25 +1,35 @@
+@mixin title-english {
+  line-height: $pd-44;
+  letter-spacing: $pd-025;
+  word-spacing: $pd-1;
+}
+
 .title {
   @include font-size-all($title);
 
   &-english {
-    line-height: $pd-44;
-    letter-spacing: $pd-025;
-    word-spacing: $pd-1;
+    @include title-english();
+    &-dark {
+      @include title-english();
+    }
   }
 
   &-arabic,
   &-persian {
     letter-spacing: $pd-0;
+    &-dark {
+      letter-spacing: $pd-0;
+    }
   }
 
   // Line height
   &-arabic {
-    line-height: $pd-48;
-    word-spacing: $pd-4;
+    @include font-height($pd-48);
+    @include word-spacing($pd-4);
   }
 
   &-persian {
-    line-height: $pd-44;
-    word-spacing: $pd-2;
+    @include font-height($pd-44);
+    @include word-spacing($pd-2);
   }
 }
