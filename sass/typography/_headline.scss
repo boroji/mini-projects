@@ -3,6 +3,12 @@
   letter-spacing: $pd-1-negative;
   word-spacing: $pd-4;
 }
+
+@mixin headline-arabic-persian {
+  letter-spacing: $pd-0;
+  word-spacing: $pd-4;
+}
+
 .headline {
   @include font-size-all($headline);
 
@@ -15,8 +21,10 @@
 
   &-arabic,
   &-persian {
-    letter-spacing: $pd-0;
-    word-spacing: $pd-4;
+    @include headline-arabic-persian();
+    &-dark {
+      @include headline-arabic-persian();
+    }
   }
 
   // Line height

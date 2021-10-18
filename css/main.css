@@ -339,6 +339,11 @@ body {
   word-spacing: 0.25rem;
 }
 
+.headline-arabic-dark, .headline-persian-dark {
+  letter-spacing: 0;
+  word-spacing: 0.25rem;
+}
+
 .headline-arabic {
   line-height: 204px;
 }
