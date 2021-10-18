@@ -9,7 +9,7 @@
         "../sass/typography/_accumulate.scss",
         "../sass/typography/_tokens.scss",
         "../sass/typography/_functions.scss",
-        "../sass/typography/_simple.scss",
+        "../sass/typography/_base.scss",
         "../sass/typography/_headline.scss",
         "../sass/typography/_lead.scss",
         "../sass/typography/_h1.scss",
