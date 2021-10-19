@@ -8,7 +8,7 @@
 @import "./sizes/accumulate";
 @import "./styles/accumulate";
 @import "variants";
-@import "utilities";
+@import "./utilities/accumulate";
 
 @mixin container {
   width: 100%;
