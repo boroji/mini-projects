@@ -379,4 +379,10 @@
       border-bottom-left-radius: $pd-120;
     }
   }
+  &-chip {
+    border-top-left-radius: $pd-160;
+    border-top-right-radius: $pd-160;
+    border-bottom-right-radius: $pd-160;
+    border-bottom-left-radius: $pd-160;
+  }
 }
