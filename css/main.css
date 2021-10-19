@@ -2109,43 +2109,43 @@ input.persian {
 .regular-success,
 .small-success,
 .mini-success {
-  color: #288500;
-  background-color: #edffe6;
+  color: #268000;
+  background-color: #eefce8;
 }
 
 .large-success svg path,
 .regular-success svg path,
 .small-success svg path,
 .mini-success svg path {
-  fill: #288500;
+  fill: #268000;
 }
 
 .large-success::-webkit-input-placeholder,
 .regular-success::-webkit-input-placeholder,
 .small-success::-webkit-input-placeholder,
 .mini-success::-webkit-input-placeholder {
-  color: #288500;
+  color: #268000;
 }
 
 .large-success:-ms-input-placeholder,
 .regular-success:-ms-input-placeholder,
 .small-success:-ms-input-placeholder,
 .mini-success:-ms-input-placeholder {
-  color: #288500;
+  color: #268000;
 }
 
 .large-success::-ms-input-placeholder,
 .regular-success::-ms-input-placeholder,
 .small-success::-ms-input-placeholder,
 .mini-success::-ms-input-placeholder {
-  color: #288500;
+  color: #268000;
 }
 
 .large-success::placeholder,
 .regular-success::placeholder,
 .small-success::placeholder,
 .mini-success::placeholder {
-  color: #288500;
+  color: #268000;
 }
 
 .large-success:link, .large-success:visited,
@@ -2155,8 +2155,8 @@ input.persian {
 .small-success:visited,
 .mini-success:link,
 .mini-success:visited {
-  color: #288500;
-  background-color: #edffe6;
+  color: #268000;
+  background-color: #eefce8;
 }
 
 .large-success:hover,
@@ -2164,7 +2164,7 @@ input.persian {
 .small-success:hover,
 .mini-success:hover {
   color: #1f6600;
-  background-color: #dbffcc;
+  background-color: #dcfccf;
 }
 
 .large-success:hover svg path,
@@ -2209,8 +2209,8 @@ input.persian {
 .small-success:focus,
 .mini-success:active,
 .mini-success:focus {
-  color: #288500;
-  background-color: #edffe6;
+  color: #268000;
+  background-color: #eefce8;
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem #dff5d6;
           box-shadow: 0 0 0 0.25rem #dff5d6;
@@ -3240,7 +3240,7 @@ input.persian {
 }
 
 .input-large-success svg path, .input-regular-success svg path, .input-small-success svg path, .input-mini-success svg path {
-  fill: #288500;
+  fill: #268000;
 }
 
 .input-large-success:hover svg path, .input-regular-success:hover svg path, .input-small-success:hover svg path, .input-mini-success:hover svg path {
