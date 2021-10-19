@@ -3303,6 +3303,10 @@ input.persian {
   fill: #b8d4ff;
 }
 
+.margin-top-0 {
+  margin-top: 0;
+}
+
 .margin-top-4 {
   margin-top: 0.25rem;
 }
@@ -3421,6 +3425,10 @@ input.persian {
 
 .margin-top-120 {
   margin-top: 7.5rem;
+}
+
+.margin-right-0 {
+  margin-right: 0;
 }
 
 .margin-right-4 {
@@ -3543,6 +3551,10 @@ input.persian {
   margin-right: 7.5rem;
 }
 
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
 .margin-bottom-4 {
   margin-bottom: 0.25rem;
 }
@@ -3661,6 +3673,10 @@ input.persian {
 
 .margin-bottom-120 {
   margin-bottom: 7.5rem;
+}
+
+.margin-left-0 {
+  margin-left: 0;
 }
 
 .margin-left-4 {
