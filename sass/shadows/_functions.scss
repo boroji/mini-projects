@@ -1,0 +1,10 @@
+@mixin shadow-base($shadow-base) {
+  transition: box-shadow 180ms ease-out;
+  box-shadow: $shadow-base;
+}
+
+@mixin shadow-base-hover($shadow-base-hover) {
+  &:hover {
+    box-shadow: $shadow-base-hover;
+  }
+}

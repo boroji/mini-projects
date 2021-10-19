@@ -861,53 +861,143 @@ body {
 }
 
 .shadow-all {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
           box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
 }
 
+.shadow-all:hover {
+  -webkit-box-shadow: 0px 0px 44px 2px rgba(33, 69, 68, 0.16);
+          box-shadow: 0px 0px 44px 2px rgba(33, 69, 68, 0.16);
+}
+
 .shadow-all-dark {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
           box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
 }
 
+.shadow-all-dark:hover {
+  -webkit-box-shadow: 0px 0px 44px 2px rgba(47, 55, 55, 0.8);
+          box-shadow: 0px 0px 44px 2px rgba(47, 55, 55, 0.8);
+}
+
 .shadow-top {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px -24px 48px 0px rgba(50, 103, 101, 0.08);
           box-shadow: 0px -24px 48px 0px rgba(50, 103, 101, 0.08);
 }
 
+.shadow-top:hover {
+  -webkit-box-shadow: 0px -20px 44px 0px rgba(33, 69, 68, 0.16);
+          box-shadow: 0px -20px 44px 0px rgba(33, 69, 68, 0.16);
+}
+
 .shadow-top-dark {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px -24px 48px 0px rgba(70, 83, 82, 0.6);
           box-shadow: 0px -24px 48px 0px rgba(70, 83, 82, 0.6);
 }
 
+.shadow-top-dark:hover {
+  -webkit-box-shadow: 0px -20px 44px 0px rgba(47, 55, 55, 0.8);
+          box-shadow: 0px -20px 44px 0px rgba(47, 55, 55, 0.8);
+}
+
 .shadow-right {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
           box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
 }
 
+.shadow-right:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+          box-shadow: 20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+}
+
 .shadow-right-dark {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
           box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
 }
 
+.shadow-right-dark:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+          box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+}
+
 .shadow-bottom {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: 0px 24px 48px 0px rgba(50, 103, 101, 0.08);
           box-shadow: 0px 24px 48px 0px rgba(50, 103, 101, 0.08);
 }
 
+.shadow-bottom:hover {
+  -webkit-box-shadow: 0px 20px 44px 0px rgba(33, 69, 68, 0.16);
+          box-shadow: 0px 20px 44px 0px rgba(33, 69, 68, 0.16);
+}
+
 .shadow-bottom-dark {
-  -webkit-box-shadow: 0px 24px 48px 0px rgba(70, 83, 82, 0.6);
-          box-shadow: 0px 24px 48px 0px rgba(70, 83, 82, 0.6);
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+          box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+}
+
+.shadow-bottom-dark:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+          box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
 }
 
 .shadow-left {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
   -webkit-box-shadow: -24px 0px 48px 0px rgba(50, 103, 101, 0.08);
           box-shadow: -24px 0px 48px 0px rgba(50, 103, 101, 0.08);
 }
 
+.shadow-left:hover {
+  -webkit-box-shadow: -20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+          box-shadow: -20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+}
+
 .shadow-left-dark {
-  -webkit-box-shadow: -24px 0px 48px 0px rgba(70, 83, 82, 0.6);
-          box-shadow: -24px 0px 48px 0px rgba(70, 83, 82, 0.6);
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+          box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+}
+
+.shadow-left-dark:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+          box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
 }
 
 a,
