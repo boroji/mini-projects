@@ -1,0 +1,32 @@
+.shadow {
+  &-all {
+    box-shadow: $shadow-main-all;
+    &-dark {
+      box-shadow: $shadow-main-all-dark;
+    }
+  }
+  &-top {
+    box-shadow: $shadow-main-top;
+    &-dark {
+      box-shadow: $shadow-main-top-dark;
+    }
+  }
+  &-right {
+    box-shadow: $shadow-main-right;
+    &-dark {
+      box-shadow: $shadow-main-right-dark;
+    }
+  }
+  &-bottom {
+    box-shadow: $shadow-main-bottom;
+    &-dark {
+      box-shadow: $shadow-main-bottom-dark;
+    }
+  }
+  &-left {
+    box-shadow: $shadow-main-left;
+    &-dark {
+      box-shadow: $shadow-main-left-dark;
+    }
+  }
+}
