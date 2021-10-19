@@ -4,7 +4,10 @@
   padding-right: $pd-12;
   padding-bottom: $pd-12;
   padding-left: $pd-12;
-  border-radius: $pd-18;
+  border-top-left-radius: $pd-18;
+  border-top-right-radius: $pd-18;
+  border-bottom-right-radius: $pd-18;
+  border-bottom-left-radius: $pd-18;
 }
 
 @mixin small-cta {

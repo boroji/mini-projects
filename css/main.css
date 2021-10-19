@@ -1075,7 +1075,10 @@ input.persian {
   padding-right: 2rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
-  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .large-primary-dark, .large-secondary-dark, .large-ghost-dark, .large-outline-dark, .large-success-dark, .large-error-dark, .large-warning-dark, .large-progress-dark {
@@ -1084,7 +1087,10 @@ input.persian {
   padding-right: 2rem;
   padding-bottom: 2rem;
   padding-left: 2rem;
-  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .large-cta {
@@ -1102,7 +1108,10 @@ input.persian {
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
-  border-radius: 1.75rem;
+  border-top-left-radius: 1.75rem;
+  border-top-right-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
+  border-bottom-left-radius: 1.75rem;
 }
 
 .regular-primary-dark, .regular-secondary-dark, .regular-ghost-dark, .regular-outline-dark, .regular-success-dark, .regular-error-dark, .regular-warning-dark, .regular-progress-dark {
@@ -1111,7 +1120,10 @@ input.persian {
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 1.5rem;
-  border-radius: 1.75rem;
+  border-top-left-radius: 1.75rem;
+  border-top-right-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
+  border-bottom-left-radius: 1.75rem;
 }
 
 .regular-cta {
@@ -1129,7 +1141,10 @@ input.persian {
   padding-right: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
-  border-radius: 1.125rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .small-primary-dark, .small-secondary-dark, .small-ghost-dark, .small-outline-dark, .small-success-dark, .small-error-dark, .small-warning-dark, .small-progress-dark {
@@ -1138,7 +1153,10 @@ input.persian {
   padding-right: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 0.75rem;
-  border-radius: 1.125rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .small-cta {
@@ -1156,7 +1174,10 @@ input.persian {
   padding-right: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .mini-primary-dark, .mini-secondary-dark, .mini-ghost-dark, .mini-outline-dark, .mini-success-dark, .mini-error-dark, .mini-warning-dark, .mini-progress-dark {
@@ -1165,7 +1186,10 @@ input.persian {
   padding-right: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.25rem;
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .mini-cta {
