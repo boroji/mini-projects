@@ -1,9 +1,9 @@
 @mixin regular-size {
   font-size: $pd-18;
-  padding-top: $pd-24;
-  padding-right: $pd-24;
-  padding-bottom: $pd-24;
-  padding-left: $pd-24;
+  padding-top: $pd-12;
+  padding-right: $pd-16;
+  padding-bottom: $pd-12;
+  padding-left: $pd-16;
   border-top-left-radius: $pd-28;
   border-top-right-radius: $pd-28;
   border-bottom-right-radius: $pd-28;
