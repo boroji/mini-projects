@@ -2188,8 +2188,8 @@ input.persian {
   color: #288500;
   background-color: #edffe6;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #dbffcc;
+          box-shadow: 0 0 0 0.25rem #dbffcc;
 }
 
 .large-success-dark,
@@ -2416,8 +2416,8 @@ input.persian {
   color: #d60000;
   background-color: #ffe6e6;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #ffcccc;
+          box-shadow: 0 0 0 0.25rem #ffcccc;
 }
 
 .large-error-dark,
@@ -2644,8 +2644,8 @@ input.persian {
   color: #a36200;
   background-color: #fff5e6;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #ffebcc;
+          box-shadow: 0 0 0 0.25rem #ffebcc;
 }
 
 .large-warning-dark,
@@ -2872,8 +2872,8 @@ input.persian {
   color: #0060f0;
   background-color: #e6f0ff;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #cce0ff;
+          box-shadow: 0 0 0 0.25rem #cce0ff;
 }
 
 .large-progress-dark,
