@@ -181,7 +181,7 @@ body {
 .title-english,
 .title-arabic,
 .title-persian {
-  color: #343d3c;
+  color: #38343d;
 }
 
 .headline-english-dark, .headline-arabic-dark, .headline-persian-dark,
@@ -197,7 +197,7 @@ body {
 .title-english-dark,
 .title-arabic-dark,
 .title-persian-dark {
-  color: #fcfdfd;
+  color: #fcfcfd;
 }
 
 .lead-english, .lead-arabic, .lead-persian,
@@ -216,7 +216,7 @@ body {
 .caption-english,
 .caption-arabic,
 .caption-persian {
-  color: #637473;
+  color: #6b6374;
 }
 
 .lead-english-dark, .lead-arabic-dark, .lead-persian-dark,
@@ -235,7 +235,7 @@ body {
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
-  color: #dbe1e0;
+  color: #dedbe1;
 }
 
 .headline-english, .headline-arabic, .headline-persian,
@@ -865,13 +865,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
-          box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(51, 47, 55, 0.7);
+          box-shadow: 0px 0px 48px 2px rgba(51, 47, 55, 0.7);
 }
 
 .shadow-dark:hover {
-  -webkit-box-shadow: 0px 0px 44px 2px rgba(47, 55, 55, 0.8);
-          box-shadow: 0px 0px 44px 2px rgba(47, 55, 55, 0.8);
+  -webkit-box-shadow: 0px 0px 44px 2px #332f37;
+          box-shadow: 0px 0px 44px 2px #332f37;
 }
 
 .shadow-dark-top {
@@ -879,13 +879,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px -24px 48px 0px rgba(47, 55, 55, 0.4);
-          box-shadow: 0px -24px 48px 0px rgba(47, 55, 55, 0.4);
+  -webkit-box-shadow: 0px -24px 48px 0px rgba(51, 47, 55, 0.7);
+          box-shadow: 0px -24px 48px 0px rgba(51, 47, 55, 0.7);
 }
 
 .shadow-dark-top:hover {
-  -webkit-box-shadow: 0px -20px 44px 0px rgba(47, 55, 55, 0.8);
-          box-shadow: 0px -20px 44px 0px rgba(47, 55, 55, 0.8);
+  -webkit-box-shadow: 0px -20px 44px 0px #332f37;
+          box-shadow: 0px -20px 44px 0px #332f37;
 }
 
 .shadow-dark-right {
@@ -893,13 +893,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
-          box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(51, 47, 55, 0.7);
+          box-shadow: 0px 0px 48px 2px rgba(51, 47, 55, 0.7);
 }
 
 .shadow-dark-right:hover {
-  -webkit-box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
-          box-shadow: 20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+  -webkit-box-shadow: 20px 0px 44px 0px #332f37;
+          box-shadow: 20px 0px 44px 0px #332f37;
 }
 
 .shadow-dark-bottom {
@@ -907,13 +907,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 24px 48px 0px rgba(47, 55, 55, 0.4);
-          box-shadow: 0px 24px 48px 0px rgba(47, 55, 55, 0.4);
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(51, 47, 55, 0.7);
+          box-shadow: 0px 24px 48px 0px rgba(51, 47, 55, 0.7);
 }
 
 .shadow-dark-bottom:hover {
-  -webkit-box-shadow: 0px 20px 44px 0px rgba(47, 55, 55, 0.8);
-          box-shadow: 0px 20px 44px 0px rgba(47, 55, 55, 0.8);
+  -webkit-box-shadow: 0px 20px 44px 0px #332f37;
+          box-shadow: 0px 20px 44px 0px #332f37;
 }
 
 .shadow-dark-left {
@@ -921,13 +921,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: -24px 0px 48px 0px rgba(47, 55, 55, 0.4);
-          box-shadow: -24px 0px 48px 0px rgba(47, 55, 55, 0.4);
+  -webkit-box-shadow: -24px 0px 48px 0px rgba(51, 47, 55, 0.7);
+          box-shadow: -24px 0px 48px 0px rgba(51, 47, 55, 0.7);
 }
 
 .shadow-dark-left:hover {
-  -webkit-box-shadow: -20px 0px 44px 0px rgba(47, 55, 55, 0.8);
-          box-shadow: -20px 0px 44px 0px rgba(47, 55, 55, 0.8);
+  -webkit-box-shadow: -20px 0px 44px 0px #332f37;
+          box-shadow: -20px 0px 44px 0px #332f37;
 }
 
 .shadow-light {
@@ -935,13 +935,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
-          box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
 }
 
 .shadow-light:hover {
-  -webkit-box-shadow: 0px 0px 44px 2px rgba(33, 69, 68, 0.16);
-          box-shadow: 0px 0px 44px 2px rgba(33, 69, 68, 0.16);
+  -webkit-box-shadow: 0px 0px 44px 2px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px 0px 44px 2px rgba(50, 33, 69, 0.16);
 }
 
 .shadow-light-top {
@@ -949,13 +949,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px -24px 48px 0px rgba(50, 103, 101, 0.08);
-          box-shadow: 0px -24px 48px 0px rgba(50, 103, 101, 0.08);
+  -webkit-box-shadow: 0px -24px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px -24px 48px 0px rgba(75, 50, 103, 0.08);
 }
 
 .shadow-light-top:hover {
-  -webkit-box-shadow: 0px -20px 44px 0px rgba(33, 69, 68, 0.16);
-          box-shadow: 0px -20px 44px 0px rgba(33, 69, 68, 0.16);
+  -webkit-box-shadow: 0px -20px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px -20px 44px 0px rgba(50, 33, 69, 0.16);
 }
 
 .shadow-light-right {
@@ -963,13 +963,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
-          box-shadow: 0px 0px 48px 2px rgba(50, 103, 101, 0.08);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
 }
 
 .shadow-light-right:hover {
-  -webkit-box-shadow: 20px 0px 44px 0px rgba(33, 69, 68, 0.16);
-          box-shadow: 20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 20px 0px 44px 0px rgba(50, 33, 69, 0.16);
 }
 
 .shadow-light-bottom {
@@ -977,13 +977,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 24px 48px 0px rgba(50, 103, 101, 0.08);
-          box-shadow: 0px 24px 48px 0px rgba(50, 103, 101, 0.08);
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 24px 48px 0px rgba(75, 50, 103, 0.08);
 }
 
 .shadow-light-bottom:hover {
-  -webkit-box-shadow: 0px 20px 44px 0px rgba(33, 69, 68, 0.16);
-          box-shadow: 0px 20px 44px 0px rgba(33, 69, 68, 0.16);
+  -webkit-box-shadow: 0px 20px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px 20px 44px 0px rgba(50, 33, 69, 0.16);
 }
 
 .shadow-light-left {
@@ -991,13 +991,13 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: -24px 0px 48px 0px rgba(50, 103, 101, 0.08);
-          box-shadow: -24px 0px 48px 0px rgba(50, 103, 101, 0.08);
+  -webkit-box-shadow: -24px 0px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: -24px 0px 48px 0px rgba(75, 50, 103, 0.08);
 }
 
 .shadow-light-left:hover {
-  -webkit-box-shadow: -20px 0px 44px 0px rgba(33, 69, 68, 0.16);
-          box-shadow: -20px 0px 44px 0px rgba(33, 69, 68, 0.16);
+  -webkit-box-shadow: -20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: -20px 0px 44px 0px rgba(50, 33, 69, 0.16);
 }
 
 a,
@@ -1346,7 +1346,7 @@ input.persian {
 .small-primary,
 .mini-primary {
   color: white;
-  background-color: #007a76;
+  background-color: #39007a;
 }
 
 .large-primary svg path,
@@ -1392,7 +1392,7 @@ input.persian {
 .mini-primary:link,
 .mini-primary:visited {
   color: white;
-  background-color: #007a76;
+  background-color: #39007a;
 }
 
 .large-primary:hover,
@@ -1400,7 +1400,7 @@ input.persian {
 .small-primary:hover,
 .mini-primary:hover {
   color: #ededed;
-  background-color: #006663;
+  background-color: #300066;
 }
 
 .large-primary:hover svg path,
@@ -1446,10 +1446,10 @@ input.persian {
 .mini-primary:active,
 .mini-primary:focus {
   color: white;
-  background-color: #007a76;
+  background-color: #39007a;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #eae7ef;
+          box-shadow: 0 0 0 0.25rem #eae7ef;
 }
 
 .large-primary-dark,
@@ -1457,9 +1457,9 @@ input.persian {
 .small-primary-dark,
 .mini-primary-dark {
   color: white;
-  background-color: rgba(77, 255, 249, 0.25);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
+  background-color: rgba(160, 77, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125rem #a04dff;
+          box-shadow: 0 0 0 0.125rem #a04dff;
 }
 
 .large-primary-dark svg path,
@@ -1505,7 +1505,7 @@ input.persian {
 .mini-primary-dark:link,
 .mini-primary-dark:visited {
   color: white;
-  background-color: rgba(77, 255, 249, 0.25);
+  background-color: rgba(160, 77, 255, 0.25);
 }
 
 .large-primary-dark:hover,
@@ -1513,9 +1513,9 @@ input.persian {
 .small-primary-dark:hover,
 .mini-primary-dark:hover {
   color: #f7f7f7;
-  background-color: rgba(0, 230, 222, 0.25);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
+  background-color: rgba(107, 0, 230, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125rem #6b00e6;
+          box-shadow: 0 0 0 0.125rem #6b00e6;
 }
 
 .large-primary-dark:hover svg path,
@@ -1561,53 +1561,53 @@ input.persian {
 .mini-primary-dark:active,
 .mini-primary-dark:focus {
   color: white;
-  background-color: rgba(77, 255, 249, 0.25);
+  background-color: rgba(160, 77, 255, 0.25);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #4dfff9;
-          box-shadow: 0 0 0 0.25rem #4dfff9;
+  -webkit-box-shadow: 0 0 0 0.25rem #a04dff;
+          box-shadow: 0 0 0 0.25rem #a04dff;
 }
 
 .large-secondary,
 .regular-secondary,
 .small-secondary,
 .mini-secondary {
-  color: #007a76;
-  background-color: #f6f9f9;
+  color: #39007a;
+  background-color: #f7f6f9;
 }
 
 .large-secondary svg path,
 .regular-secondary svg path,
 .small-secondary svg path,
 .mini-secondary svg path {
-  fill: #007a76;
+  fill: #39007a;
 }
 
 .large-secondary::-webkit-input-placeholder,
 .regular-secondary::-webkit-input-placeholder,
 .small-secondary::-webkit-input-placeholder,
 .mini-secondary::-webkit-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-secondary:-ms-input-placeholder,
 .regular-secondary:-ms-input-placeholder,
 .small-secondary:-ms-input-placeholder,
 .mini-secondary:-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-secondary::-ms-input-placeholder,
 .regular-secondary::-ms-input-placeholder,
 .small-secondary::-ms-input-placeholder,
 .mini-secondary::-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-secondary::placeholder,
 .regular-secondary::placeholder,
 .small-secondary::placeholder,
 .mini-secondary::placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-secondary:link, .large-secondary:visited,
@@ -1617,51 +1617,51 @@ input.persian {
 .small-secondary:visited,
 .mini-secondary:link,
 .mini-secondary:visited {
-  color: #007a76;
-  background-color: #f6f9f9;
+  color: #39007a;
+  background-color: #f7f6f9;
 }
 
 .large-secondary:hover,
 .regular-secondary:hover,
 .small-secondary:hover,
 .mini-secondary:hover {
-  color: #006663;
-  background-color: #eaf1f0;
+  color: #300066;
+  background-color: #edeaf1;
 }
 
 .large-secondary:hover svg path,
 .regular-secondary:hover svg path,
 .small-secondary:hover svg path,
 .mini-secondary:hover svg path {
-  fill: #006663;
+  fill: #300066;
 }
 
 .large-secondary:hover::-webkit-input-placeholder,
 .regular-secondary:hover::-webkit-input-placeholder,
 .small-secondary:hover::-webkit-input-placeholder,
 .mini-secondary:hover::-webkit-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-secondary:hover:-ms-input-placeholder,
 .regular-secondary:hover:-ms-input-placeholder,
 .small-secondary:hover:-ms-input-placeholder,
 .mini-secondary:hover:-ms-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-secondary:hover::-ms-input-placeholder,
 .regular-secondary:hover::-ms-input-placeholder,
 .small-secondary:hover::-ms-input-placeholder,
 .mini-secondary:hover::-ms-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-secondary:hover::placeholder,
 .regular-secondary:hover::placeholder,
 .small-secondary:hover::placeholder,
 .mini-secondary:hover::placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-secondary:active, .large-secondary:focus,
@@ -1671,18 +1671,18 @@ input.persian {
 .small-secondary:focus,
 .mini-secondary:active,
 .mini-secondary:focus {
-  color: #007a76;
-  background-color: #f6f9f9;
+  color: #39007a;
+  background-color: #f7f6f9;
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #eae7ef;
+          box-shadow: 0 0 0 0.25rem #eae7ef;
 }
 
 .large-secondary-dark,
 .regular-secondary-dark,
 .small-secondary-dark,
 .mini-secondary-dark {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -1690,35 +1690,35 @@ input.persian {
 .regular-secondary-dark svg path,
 .small-secondary-dark svg path,
 .mini-secondary-dark svg path {
-  fill: #4dfff9;
+  fill: #a04dff;
 }
 
 .large-secondary-dark::-webkit-input-placeholder,
 .regular-secondary-dark::-webkit-input-placeholder,
 .small-secondary-dark::-webkit-input-placeholder,
 .mini-secondary-dark::-webkit-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-secondary-dark:-ms-input-placeholder,
 .regular-secondary-dark:-ms-input-placeholder,
 .small-secondary-dark:-ms-input-placeholder,
 .mini-secondary-dark:-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-secondary-dark::-ms-input-placeholder,
 .regular-secondary-dark::-ms-input-placeholder,
 .small-secondary-dark::-ms-input-placeholder,
 .mini-secondary-dark::-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-secondary-dark::placeholder,
 .regular-secondary-dark::placeholder,
 .small-secondary-dark::placeholder,
 .mini-secondary-dark::placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-secondary-dark:link, .large-secondary-dark:visited,
@@ -1728,7 +1728,7 @@ input.persian {
 .small-secondary-dark:visited,
 .mini-secondary-dark:link,
 .mini-secondary-dark:visited {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -1736,7 +1736,7 @@ input.persian {
 .regular-secondary-dark:hover,
 .small-secondary-dark:hover,
 .mini-secondary-dark:hover {
-  color: #00e6de;
+  color: #6b00e6;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -1744,35 +1744,35 @@ input.persian {
 .regular-secondary-dark:hover svg path,
 .small-secondary-dark:hover svg path,
 .mini-secondary-dark:hover svg path {
-  fill: #00e6de;
+  fill: #6b00e6;
 }
 
 .large-secondary-dark:hover::-webkit-input-placeholder,
 .regular-secondary-dark:hover::-webkit-input-placeholder,
 .small-secondary-dark:hover::-webkit-input-placeholder,
 .mini-secondary-dark:hover::-webkit-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-secondary-dark:hover:-ms-input-placeholder,
 .regular-secondary-dark:hover:-ms-input-placeholder,
 .small-secondary-dark:hover:-ms-input-placeholder,
 .mini-secondary-dark:hover:-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-secondary-dark:hover::-ms-input-placeholder,
 .regular-secondary-dark:hover::-ms-input-placeholder,
 .small-secondary-dark:hover::-ms-input-placeholder,
 .mini-secondary-dark:hover::-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-secondary-dark:hover::placeholder,
 .regular-secondary-dark:hover::placeholder,
 .small-secondary-dark:hover::placeholder,
 .mini-secondary-dark:hover::placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-secondary-dark:active, .large-secondary-dark:focus,
@@ -1782,18 +1782,18 @@ input.persian {
 .small-secondary-dark:focus,
 .mini-secondary-dark:active,
 .mini-secondary-dark:focus {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0.05);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(77, 255, 249, 0.25);
-          box-shadow: 0 0 0 0.25rem rgba(77, 255, 249, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(160, 77, 255, 0.25);
+          box-shadow: 0 0 0 0.25rem rgba(160, 77, 255, 0.25);
 }
 
 .large-ghost,
 .regular-ghost,
 .small-ghost,
 .mini-ghost {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
 }
 
@@ -1801,35 +1801,35 @@ input.persian {
 .regular-ghost svg path,
 .small-ghost svg path,
 .mini-ghost svg path {
-  fill: #007a76;
+  fill: #39007a;
 }
 
 .large-ghost::-webkit-input-placeholder,
 .regular-ghost::-webkit-input-placeholder,
 .small-ghost::-webkit-input-placeholder,
 .mini-ghost::-webkit-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:-ms-input-placeholder,
 .regular-ghost:-ms-input-placeholder,
 .small-ghost:-ms-input-placeholder,
 .mini-ghost:-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost::-ms-input-placeholder,
 .regular-ghost::-ms-input-placeholder,
 .small-ghost::-ms-input-placeholder,
 .mini-ghost::-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost::placeholder,
 .regular-ghost::placeholder,
 .small-ghost::placeholder,
 .mini-ghost::placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:link, .large-ghost:visited,
@@ -1839,7 +1839,7 @@ input.persian {
 .small-ghost:visited,
 .mini-ghost:link,
 .mini-ghost:visited {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
 }
 
@@ -1847,43 +1847,43 @@ input.persian {
 .regular-ghost:hover,
 .small-ghost:hover,
 .mini-ghost:hover {
-  color: #006663;
-  background-color: #f6f9f9;
+  color: #300066;
+  background-color: #f7f6f9;
 }
 
 .large-ghost:hover svg path,
 .regular-ghost:hover svg path,
 .small-ghost:hover svg path,
 .mini-ghost:hover svg path {
-  fill: #006663;
+  fill: #300066;
 }
 
 .large-ghost:hover::-webkit-input-placeholder,
 .regular-ghost:hover::-webkit-input-placeholder,
 .small-ghost:hover::-webkit-input-placeholder,
 .mini-ghost:hover::-webkit-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:hover:-ms-input-placeholder,
 .regular-ghost:hover:-ms-input-placeholder,
 .small-ghost:hover:-ms-input-placeholder,
 .mini-ghost:hover:-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:hover::-ms-input-placeholder,
 .regular-ghost:hover::-ms-input-placeholder,
 .small-ghost:hover::-ms-input-placeholder,
 .mini-ghost:hover::-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:hover::placeholder,
 .regular-ghost:hover::placeholder,
 .small-ghost:hover::placeholder,
 .mini-ghost:hover::placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-ghost:active, .large-ghost:focus,
@@ -1893,18 +1893,18 @@ input.persian {
 .small-ghost:focus,
 .mini-ghost:active,
 .mini-ghost:focus {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #eae7ef;
+          box-shadow: 0 0 0 0.25rem #eae7ef;
 }
 
 .large-ghost-dark,
 .regular-ghost-dark,
 .small-ghost-dark,
 .mini-ghost-dark {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
 }
 
@@ -1912,35 +1912,35 @@ input.persian {
 .regular-ghost-dark svg path,
 .small-ghost-dark svg path,
 .mini-ghost-dark svg path {
-  fill: #4dfff9;
+  fill: #a04dff;
 }
 
 .large-ghost-dark::-webkit-input-placeholder,
 .regular-ghost-dark::-webkit-input-placeholder,
 .small-ghost-dark::-webkit-input-placeholder,
 .mini-ghost-dark::-webkit-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-ghost-dark:-ms-input-placeholder,
 .regular-ghost-dark:-ms-input-placeholder,
 .small-ghost-dark:-ms-input-placeholder,
 .mini-ghost-dark:-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-ghost-dark::-ms-input-placeholder,
 .regular-ghost-dark::-ms-input-placeholder,
 .small-ghost-dark::-ms-input-placeholder,
 .mini-ghost-dark::-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-ghost-dark::placeholder,
 .regular-ghost-dark::placeholder,
 .small-ghost-dark::placeholder,
 .mini-ghost-dark::placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-ghost-dark:link, .large-ghost-dark:visited,
@@ -1950,7 +1950,7 @@ input.persian {
 .small-ghost-dark:visited,
 .mini-ghost-dark:link,
 .mini-ghost-dark:visited {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
 }
 
@@ -1958,7 +1958,7 @@ input.persian {
 .regular-ghost-dark:hover,
 .small-ghost-dark:hover,
 .mini-ghost-dark:hover {
-  color: #00e6de;
+  color: #6b00e6;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
@@ -1966,35 +1966,35 @@ input.persian {
 .regular-ghost-dark:hover svg path,
 .small-ghost-dark:hover svg path,
 .mini-ghost-dark:hover svg path {
-  fill: #00e6de;
+  fill: #6b00e6;
 }
 
 .large-ghost-dark:hover::-webkit-input-placeholder,
 .regular-ghost-dark:hover::-webkit-input-placeholder,
 .small-ghost-dark:hover::-webkit-input-placeholder,
 .mini-ghost-dark:hover::-webkit-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-ghost-dark:hover:-ms-input-placeholder,
 .regular-ghost-dark:hover:-ms-input-placeholder,
 .small-ghost-dark:hover:-ms-input-placeholder,
 .mini-ghost-dark:hover:-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-ghost-dark:hover::-ms-input-placeholder,
 .regular-ghost-dark:hover::-ms-input-placeholder,
 .small-ghost-dark:hover::-ms-input-placeholder,
 .mini-ghost-dark:hover::-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-ghost-dark:hover::placeholder,
 .regular-ghost-dark:hover::placeholder,
 .small-ghost-dark:hover::placeholder,
 .mini-ghost-dark:hover::placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-ghost-dark:active, .large-ghost-dark:focus,
@@ -2004,7 +2004,7 @@ input.persian {
 .small-ghost-dark:focus,
 .mini-ghost-dark:active,
 .mini-ghost-dark:focus {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
   outline: none;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
@@ -2015,45 +2015,45 @@ input.persian {
 .regular-outline,
 .small-outline,
 .mini-outline {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
+  -webkit-box-shadow: 0 0 0 0.125rem #39007a;
+          box-shadow: 0 0 0 0.125rem #39007a;
 }
 
 .large-outline svg path,
 .regular-outline svg path,
 .small-outline svg path,
 .mini-outline svg path {
-  fill: #007a76;
+  fill: #39007a;
 }
 
 .large-outline::-webkit-input-placeholder,
 .regular-outline::-webkit-input-placeholder,
 .small-outline::-webkit-input-placeholder,
 .mini-outline::-webkit-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-outline:-ms-input-placeholder,
 .regular-outline:-ms-input-placeholder,
 .small-outline:-ms-input-placeholder,
 .mini-outline:-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-outline::-ms-input-placeholder,
 .regular-outline::-ms-input-placeholder,
 .small-outline::-ms-input-placeholder,
 .mini-outline::-ms-input-placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-outline::placeholder,
 .regular-outline::placeholder,
 .small-outline::placeholder,
 .mini-outline::placeholder {
-  color: #007a76;
+  color: #39007a;
 }
 
 .large-outline:link, .large-outline:visited,
@@ -2063,55 +2063,55 @@ input.persian {
 .small-outline:visited,
 .mini-outline:link,
 .mini-outline:visited {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #007a76;
-          box-shadow: 0 0 0 0.125rem #007a76;
+  -webkit-box-shadow: 0 0 0 0.125rem #39007a;
+          box-shadow: 0 0 0 0.125rem #39007a;
 }
 
 .large-outline:hover,
 .regular-outline:hover,
 .small-outline:hover,
 .mini-outline:hover {
-  color: #006663;
-  background-color: #f6f9f9;
-  -webkit-box-shadow: 0 0 0 0.125rem #006663;
-          box-shadow: 0 0 0 0.125rem #006663;
+  color: #300066;
+  background-color: #f7f6f9;
+  -webkit-box-shadow: 0 0 0 0.125rem #300066;
+          box-shadow: 0 0 0 0.125rem #300066;
 }
 
 .large-outline:hover svg path,
 .regular-outline:hover svg path,
 .small-outline:hover svg path,
 .mini-outline:hover svg path {
-  fill: #006663;
+  fill: #300066;
 }
 
 .large-outline:hover::-webkit-input-placeholder,
 .regular-outline:hover::-webkit-input-placeholder,
 .small-outline:hover::-webkit-input-placeholder,
 .mini-outline:hover::-webkit-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-outline:hover:-ms-input-placeholder,
 .regular-outline:hover:-ms-input-placeholder,
 .small-outline:hover:-ms-input-placeholder,
 .mini-outline:hover:-ms-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-outline:hover::-ms-input-placeholder,
 .regular-outline:hover::-ms-input-placeholder,
 .small-outline:hover::-ms-input-placeholder,
 .mini-outline:hover::-ms-input-placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-outline:hover::placeholder,
 .regular-outline:hover::placeholder,
 .small-outline:hover::placeholder,
 .mini-outline:hover::placeholder {
-  color: #006663;
+  color: #300066;
 }
 
 .large-outline:active, .large-outline:focus,
@@ -2121,56 +2121,56 @@ input.persian {
 .small-outline:focus,
 .mini-outline:active,
 .mini-outline:focus {
-  color: #007a76;
+  color: #39007a;
   background-color: rgba(255, 255, 255, 0);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #e7efee;
-          box-shadow: 0 0 0 0.25rem #e7efee;
+  -webkit-box-shadow: 0 0 0 0.25rem #eae7ef;
+          box-shadow: 0 0 0 0.25rem #eae7ef;
 }
 
 .large-outline-dark,
 .regular-outline-dark,
 .small-outline-dark,
 .mini-outline-dark {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
+  -webkit-box-shadow: 0 0 0 0.125rem #a04dff;
+          box-shadow: 0 0 0 0.125rem #a04dff;
 }
 
 .large-outline-dark svg path,
 .regular-outline-dark svg path,
 .small-outline-dark svg path,
 .mini-outline-dark svg path {
-  fill: #4dfff9;
+  fill: #a04dff;
 }
 
 .large-outline-dark::-webkit-input-placeholder,
 .regular-outline-dark::-webkit-input-placeholder,
 .small-outline-dark::-webkit-input-placeholder,
 .mini-outline-dark::-webkit-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-outline-dark:-ms-input-placeholder,
 .regular-outline-dark:-ms-input-placeholder,
 .small-outline-dark:-ms-input-placeholder,
 .mini-outline-dark:-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-outline-dark::-ms-input-placeholder,
 .regular-outline-dark::-ms-input-placeholder,
 .small-outline-dark::-ms-input-placeholder,
 .mini-outline-dark::-ms-input-placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-outline-dark::placeholder,
 .regular-outline-dark::placeholder,
 .small-outline-dark::placeholder,
 .mini-outline-dark::placeholder {
-  color: #4dfff9;
+  color: #a04dff;
 }
 
 .large-outline-dark:link, .large-outline-dark:visited,
@@ -2180,55 +2180,55 @@ input.persian {
 .small-outline-dark:visited,
 .mini-outline-dark:link,
 .mini-outline-dark:visited {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 0 0 0.125rem #4dfff9;
-          box-shadow: 0 0 0 0.125rem #4dfff9;
+  -webkit-box-shadow: 0 0 0 0.125rem #a04dff;
+          box-shadow: 0 0 0 0.125rem #a04dff;
 }
 
 .large-outline-dark:hover,
 .regular-outline-dark:hover,
 .small-outline-dark:hover,
 .mini-outline-dark:hover {
-  color: #00e6de;
+  color: #6b00e6;
   background-color: rgba(255, 255, 255, 0.05);
-  -webkit-box-shadow: 0 0 0 0.125rem #00e6de;
-          box-shadow: 0 0 0 0.125rem #00e6de;
+  -webkit-box-shadow: 0 0 0 0.125rem #6b00e6;
+          box-shadow: 0 0 0 0.125rem #6b00e6;
 }
 
 .large-outline-dark:hover svg path,
 .regular-outline-dark:hover svg path,
 .small-outline-dark:hover svg path,
 .mini-outline-dark:hover svg path {
-  fill: #00e6de;
+  fill: #6b00e6;
 }
 
 .large-outline-dark:hover::-webkit-input-placeholder,
 .regular-outline-dark:hover::-webkit-input-placeholder,
 .small-outline-dark:hover::-webkit-input-placeholder,
 .mini-outline-dark:hover::-webkit-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-outline-dark:hover:-ms-input-placeholder,
 .regular-outline-dark:hover:-ms-input-placeholder,
 .small-outline-dark:hover:-ms-input-placeholder,
 .mini-outline-dark:hover:-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-outline-dark:hover::-ms-input-placeholder,
 .regular-outline-dark:hover::-ms-input-placeholder,
 .small-outline-dark:hover::-ms-input-placeholder,
 .mini-outline-dark:hover::-ms-input-placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-outline-dark:hover::placeholder,
 .regular-outline-dark:hover::placeholder,
 .small-outline-dark:hover::placeholder,
 .mini-outline-dark:hover::placeholder {
-  color: #00e6de;
+  color: #6b00e6;
 }
 
 .large-outline-dark:active, .large-outline-dark:focus,
@@ -2238,11 +2238,11 @@ input.persian {
 .small-outline-dark:focus,
 .mini-outline-dark:active,
 .mini-outline-dark:focus {
-  color: #4dfff9;
+  color: #a04dff;
   background-color: rgba(255, 255, 255, 0);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem #4dfff9;
-          box-shadow: 0 0 0 0.25rem #4dfff9;
+  -webkit-box-shadow: 0 0 0 0.25rem #a04dff;
+          box-shadow: 0 0 0 0.25rem #a04dff;
 }
 
 .large-success,
@@ -3364,19 +3364,19 @@ input.persian {
 }
 
 .input-large-secondary svg path, .input-large-ghost svg path, .input-large-outline svg path, .input-regular-secondary svg path, .input-regular-ghost svg path, .input-regular-outline svg path, .input-small-secondary svg path, .input-small-ghost svg path, .input-small-outline svg path, .input-mini-secondary svg path, .input-mini-ghost svg path, .input-mini-outline svg path {
-  fill: #007a76;
+  fill: #39007a;
 }
 
 .input-large-secondary:hover svg path, .input-large-ghost:hover svg path, .input-large-outline:hover svg path, .input-regular-secondary:hover svg path, .input-regular-ghost:hover svg path, .input-regular-outline:hover svg path, .input-small-secondary:hover svg path, .input-small-ghost:hover svg path, .input-small-outline:hover svg path, .input-mini-secondary:hover svg path, .input-mini-ghost:hover svg path, .input-mini-outline:hover svg path {
-  fill: #006663;
+  fill: #300066;
 }
 
 .input-large-secondary-dark svg path, .input-large-ghost-dark svg path, .input-large-outline-dark svg path, .input-regular-secondary-dark svg path, .input-regular-ghost-dark svg path, .input-regular-outline-dark svg path, .input-small-secondary-dark svg path, .input-small-ghost-dark svg path, .input-small-outline-dark svg path, .input-mini-secondary-dark svg path, .input-mini-ghost-dark svg path, .input-mini-outline-dark svg path {
-  fill: #4dfff9;
+  fill: #a04dff;
 }
 
 .input-large-secondary-dark:hover svg path, .input-large-ghost-dark:hover svg path, .input-large-outline-dark:hover svg path, .input-regular-secondary-dark:hover svg path, .input-regular-ghost-dark:hover svg path, .input-regular-outline-dark:hover svg path, .input-small-secondary-dark:hover svg path, .input-small-ghost-dark:hover svg path, .input-small-outline-dark:hover svg path, .input-mini-secondary-dark:hover svg path, .input-mini-ghost-dark:hover svg path, .input-mini-outline-dark:hover svg path {
-  fill: #00e6de;
+  fill: #6b00e6;
 }
 
 .input-large-success svg path, .input-regular-success svg path, .input-small-success svg path, .input-mini-success svg path {
@@ -4973,7 +4973,7 @@ body .container-dark {
   gap: 1.5rem;
   margin-top: 1.5rem;
   padding: 1.5rem;
-  background-color: #334d4c;
+  background-color: #3f334d;
 }
 
 body .container {
