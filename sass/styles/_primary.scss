@@ -31,20 +31,22 @@
 
 @mixin primary-styles-dark {
   color: $negative-white;
-  background-color: $negative-white-25;
+  background-color: $tertiary-main-dark;
   @include svg-fill($negative-white);
   @include placeholder-text-color($negative-white);
+  box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-main;
   &:link,
   &:visited {
     color: $negative-white;
-    background-color: $negative-white-25;
+    background-color: $tertiary-main-dark;
   }
 }
 
 @mixin primary-styles-hover-dark {
   &:hover {
     color: $grey-highlight;
-    background-color: $negative-white-15;
+    background-color: $tertiary-hover-dark;
+    box-shadow: $pd-0 $pd-0 $pd-0 $pd-2 $tertiary-hover;
     @include svg-fill($grey-highlight);
     @include placeholder-text-color($grey-highlight);
   }
@@ -54,7 +56,7 @@
   &:active,
   &:focus {
     color: $negative-white;
-    background-color: $negative-white-25;
+    background-color: $tertiary-main-dark;
     outline: none;
     box-shadow: $pd-0 $pd-0 $pd-0 $pd-4 $negative-white-20;
   }
