@@ -1,14 +1,34 @@
-$shadow-main-dark: hsla(178, 8%, 30%, 0.6);
-$shadow-hover-dark: hsla(178, 8%, 20%, 0.8);
+$shadow-dark-all: 0px 0px 48px 2px hsla(178, 8%, 30%, 0.6);
+$shadow-dark-top: 0px -24px 48px 0px hsla(178, 8%, 30%, 0.6);
+$shadow-dark-right: 0px 0px 48px 2px hsla(178, 8%, 30%, 0.6);
+$shadow-dark-bottom: 0px 24px 48px 0px hsla(178, 8%, 30%, 0.6);
+$shadow-dark-left: -24px 0px 48px 0px hsla(178, 8%, 30%, 0.6);
 
-$shadow-main-all-dark: 0px 0px 48px 2px $shadow-main-dark;
-$shadow-main-top-dark: 0px -24px 48px 0px $shadow-main-dark;
-$shadow-main-right-dark: 0px 0px 48px 2px $shadow-main-dark;
-$shadow-main-bottom-dark: 0px 24px 48px 0px $shadow-main-dark;
-$shadow-main-left-dark: -24px 0px 48px 0px $shadow-main-dark;
+$shadow-dark-hover-all: 0px 0px 44px 2px hsla(178, 8%, 20%, 0.8);
+$shadow-dark-hover-top: 0px -20px 44px 0px hsla(178, 8%, 20%, 0.8);
+$shadow-dark-hover-right: 20px 0px 44px 0px hsla(178, 8%, 20%, 0.8);
+$shadow-dark-hover-bottom: 0px 20px 44px 0px hsla(178, 8%, 20%, 0.8);
+$shadow-dark-hover-left: -20px 0px 44px 0px hsla(178, 8%, 20%, 0.8);
 
-$shadow-hover-all-dark: 0px 0px 44px 2px $shadow-hover-dark;
-$shadow-hover-top-dark: 0px -20px 44px 0px $shadow-hover-dark;
-$shadow-hover-right-dark: 20px 0px 44px 0px $shadow-hover-dark;
-$shadow-hover-bottom-dark: 0px 20px 44px 0px $shadow-hover-dark;
-$shadow-hover-left-dark: -20px 0px 44px 0px $shadow-hover-dark;
+.shadow {
+  &-dark {
+    @include shadow-base($shadow-dark-all);
+    @include shadow-base-hover($shadow-dark-hover-all);
+    &-top {
+      @include shadow-base($shadow-dark-top);
+      @include shadow-base-hover($shadow-dark-hover-top);
+    }
+    &-right {
+      @include shadow-base($shadow-dark-right);
+      @include shadow-base-hover($shadow-dark-hover-right);
+    }
+    &-bottom {
+      @include shadow-base($shadow-dark-bottom);
+      @include shadow-base-hover($shadow-dark-hover-bottom);
+    }
+    &-left {
+      @include shadow-base($shadow-dark-left);
+      @include shadow-base-hover($shadow-dark-hover-left);
+    }
+  }
+}

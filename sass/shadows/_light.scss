@@ -1,14 +1,34 @@
-$shadow-main: hsla(178, 35%, 30%, 0.08);
-$shadow-hover: hsla(178, 35%, 20%, 0.16);
+$shadow-light-all: 0px 0px 48px 2px hsla(178, 35%, 30%, 0.08);
+$shadow-light-top: 0px -24px 48px 0px hsla(178, 35%, 30%, 0.08);
+$shadow-light-right: 0px 0px 48px 2px hsla(178, 35%, 30%, 0.08);
+$shadow-light-bottom: 0px 24px 48px 0px hsla(178, 35%, 30%, 0.08);
+$shadow-light-left: -24px 0px 48px 0px hsla(178, 35%, 30%, 0.08);
 
-$shadow-main-all: 0px 0px 48px 2px $shadow-main;
-$shadow-main-top: 0px -24px 48px 0px $shadow-main;
-$shadow-main-right: 0px 0px 48px 2px $shadow-main;
-$shadow-main-bottom: 0px 24px 48px 0px $shadow-main;
-$shadow-main-left: -24px 0px 48px 0px $shadow-main;
+$shadow-light-hover-all: 0px 0px 44px 2px hsla(178, 35%, 20%, 0.16);
+$shadow-light-hover-top: 0px -20px 44px 0px hsla(178, 35%, 20%, 0.16);
+$shadow-light-hover-right: 20px 0px 44px 0px hsla(178, 35%, 20%, 0.16);
+$shadow-light-hover-bottom: 0px 20px 44px 0px hsla(178, 35%, 20%, 0.16);
+$shadow-light-hover-left: -20px 0px 44px 0px hsla(178, 35%, 20%, 0.16);
 
-$shadow-hover-all: 0px 0px 44px 2px $shadow-hover;
-$shadow-hover-top: 0px -20px 44px 0px $shadow-hover;
-$shadow-hover-right: 20px 0px 44px 0px $shadow-hover;
-$shadow-hover-bottom: 0px 20px 44px 0px $shadow-hover;
-$shadow-hover-left: -20px 0px 44px 0px $shadow-hover;
+.shadow {
+  &-light {
+    @include shadow-base($shadow-light-all);
+    @include shadow-base-hover($shadow-light-hover-all);
+    &-top {
+      @include shadow-base($shadow-light-top);
+      @include shadow-base-hover($shadow-light-hover-top);
+    }
+    &-right {
+      @include shadow-base($shadow-light-right);
+      @include shadow-base-hover($shadow-light-hover-right);
+    }
+    &-bottom {
+      @include shadow-base($shadow-light-bottom);
+      @include shadow-base-hover($shadow-light-hover-bottom);
+    }
+    &-left {
+      @include shadow-base($shadow-light-left);
+      @include shadow-base-hover($shadow-light-hover-left);
+    }
+  }
+}
