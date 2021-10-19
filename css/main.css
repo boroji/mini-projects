@@ -865,8 +865,8 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
-          box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
+          box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
 }
 
 .shadow-dark:hover {
@@ -879,8 +879,8 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px -24px 48px 0px rgba(70, 83, 82, 0.6);
-          box-shadow: 0px -24px 48px 0px rgba(70, 83, 82, 0.6);
+  -webkit-box-shadow: 0px -24px 48px 0px rgba(47, 55, 55, 0.4);
+          box-shadow: 0px -24px 48px 0px rgba(47, 55, 55, 0.4);
 }
 
 .shadow-dark-top:hover {
@@ -893,8 +893,8 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
-          box-shadow: 0px 0px 48px 2px rgba(70, 83, 82, 0.6);
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
+          box-shadow: 0px 0px 48px 2px rgba(47, 55, 55, 0.4);
 }
 
 .shadow-dark-right:hover {
@@ -907,8 +907,8 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: 0px 24px 48px 0px rgba(70, 83, 82, 0.6);
-          box-shadow: 0px 24px 48px 0px rgba(70, 83, 82, 0.6);
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(47, 55, 55, 0.4);
+          box-shadow: 0px 24px 48px 0px rgba(47, 55, 55, 0.4);
 }
 
 .shadow-dark-bottom:hover {
@@ -921,8 +921,8 @@ body {
   transition: -webkit-box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out;
   transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
-  -webkit-box-shadow: -24px 0px 48px 0px rgba(70, 83, 82, 0.6);
-          box-shadow: -24px 0px 48px 0px rgba(70, 83, 82, 0.6);
+  -webkit-box-shadow: -24px 0px 48px 0px rgba(47, 55, 55, 0.4);
+          box-shadow: -24px 0px 48px 0px rgba(47, 55, 55, 0.4);
 }
 
 .shadow-dark-left:hover {
