@@ -2305,8 +2305,8 @@ input.persian {
   color: #bbff9e;
   background-color: rgba(187, 255, 158, 0.1);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.25rem #bbff9e;
+          box-shadow: 0 0 0 0.25rem #bbff9e;
 }
 
 .large-error,
@@ -2533,8 +2533,8 @@ input.persian {
   color: #ffc2c2;
   background-color: rgba(255, 194, 194, 0.1);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.25rem #ffc2c2;
+          box-shadow: 0 0 0 0.25rem #ffc2c2;
 }
 
 .large-warning,
@@ -2761,8 +2761,8 @@ input.persian {
   color: #ffdaa3;
   background-color: rgba(255, 218, 163, 0.1);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.25rem #ffdaa3;
+          box-shadow: 0 0 0 0.25rem #ffdaa3;
 }
 
 .large-progress,
@@ -2989,8 +2989,8 @@ input.persian {
   color: #b8d4ff;
   background-color: rgba(184, 212, 255, 0.1);
   outline: none;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 0 0.25rem #b8d4ff;
+          box-shadow: 0 0 0 0.25rem #b8d4ff;
 }
 
 .input-large-primary, .input-large-secondary, .input-large-ghost, .input-large-outline, .input-large-success, .input-large-error, .input-large-warning, .input-large-progress, .input-regular-primary, .input-regular-secondary, .input-regular-ghost, .input-regular-outline, .input-regular-success, .input-regular-error, .input-regular-warning, .input-regular-progress, .input-small-primary, .input-small-secondary, .input-small-ghost, .input-small-outline, .input-small-success, .input-small-error, .input-small-warning, .input-small-progress, .input-mini-primary, .input-mini-secondary, .input-mini-ghost, .input-mini-outline, .input-mini-success, .input-mini-error, .input-mini-warning, .input-mini-progress {
