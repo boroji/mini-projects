@@ -1,5 +1,7 @@
 @mixin large-size {
-  font-size: $pd-20;
+  font-size: $pd-18;
+  letter-spacing: $pd-0;
+  word-spacing: $pd-0;
   padding-top: $pd-16;
   padding-right: $pd-24;
   padding-bottom: $pd-16;

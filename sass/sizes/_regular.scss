@@ -1,5 +1,7 @@
 @mixin regular-size {
-  font-size: $pd-18;
+  font-size: $pd-16;
+  letter-spacing: $pd-025;
+  word-spacing: $pd-025;
   padding-top: $pd-12;
   padding-right: $pd-16;
   padding-bottom: $pd-12;

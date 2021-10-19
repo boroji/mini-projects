@@ -1,5 +1,7 @@
 @mixin small-size {
-  font-size: $pd-16;
+  font-size: $pd-14;
+  letter-spacing: $pd-050;
+  word-spacing: $pd-050;
   padding-top: $pd-8;
   padding-right: $pd-12;
   padding-bottom: $pd-8;

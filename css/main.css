@@ -1210,7 +1210,9 @@ input.persian {
 }
 
 .large-primary, .large-secondary, .large-ghost, .large-outline, .large-success, .large-error, .large-warning, .large-progress {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  letter-spacing: 0;
+  word-spacing: 0;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -1222,7 +1224,9 @@ input.persian {
 }
 
 .large-primary-dark, .large-secondary-dark, .large-ghost-dark, .large-outline-dark, .large-success-dark, .large-error-dark, .large-warning-dark, .large-progress-dark {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  letter-spacing: 0;
+  word-spacing: 0;
   padding-top: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -1243,7 +1247,9 @@ input.persian {
 }
 
 .regular-primary, .regular-secondary, .regular-ghost, .regular-outline, .regular-success, .regular-error, .regular-warning, .regular-progress {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  letter-spacing: 0.01562rem;
+  word-spacing: 0.01562rem;
   padding-top: 0.75rem;
   padding-right: 1rem;
   padding-bottom: 0.75rem;
@@ -1255,7 +1261,9 @@ input.persian {
 }
 
 .regular-primary-dark, .regular-secondary-dark, .regular-ghost-dark, .regular-outline-dark, .regular-success-dark, .regular-error-dark, .regular-warning-dark, .regular-progress-dark {
-  font-size: 1.125rem;
+  font-size: 1rem;
+  letter-spacing: 0.01562rem;
+  word-spacing: 0.01562rem;
   padding-top: 0.75rem;
   padding-right: 1rem;
   padding-bottom: 0.75rem;
@@ -1276,7 +1284,9 @@ input.persian {
 }
 
 .small-primary, .small-secondary, .small-ghost, .small-outline, .small-success, .small-error, .small-warning, .small-progress {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.03125rem;
+  word-spacing: 0.03125rem;
   padding-top: 0.5rem;
   padding-right: 0.75rem;
   padding-bottom: 0.5rem;
@@ -1288,7 +1298,9 @@ input.persian {
 }
 
 .small-primary-dark, .small-secondary-dark, .small-ghost-dark, .small-outline-dark, .small-success-dark, .small-error-dark, .small-warning-dark, .small-progress-dark {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.03125rem;
+  word-spacing: 0.03125rem;
   padding-top: 0.5rem;
   padding-right: 0.75rem;
   padding-bottom: 0.5rem;
@@ -1309,7 +1321,9 @@ input.persian {
 }
 
 .mini-primary, .mini-secondary, .mini-ghost, .mini-outline, .mini-success, .mini-error, .mini-warning, .mini-progress {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.0625rem;
   padding-top: 0.25rem;
   padding-right: 0.5rem;
   padding-bottom: 0.25rem;
@@ -1321,7 +1335,9 @@ input.persian {
 }
 
 .mini-primary-dark, .mini-secondary-dark, .mini-ghost-dark, .mini-outline-dark, .mini-success-dark, .mini-error-dark, .mini-warning-dark, .mini-progress-dark {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.0625rem;
+  word-spacing: 0.0625rem;
   padding-top: 0.25rem;
   padding-right: 0.5rem;
   padding-bottom: 0.25rem;
