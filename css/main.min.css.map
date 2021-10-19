@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../all-projects/00-boilerplate/sass/main.scss",
+        "../all-projects/01-travel-website/sass/main.scss",
         "../sass/_colors.scss"
     ],
     "names": [],
