@@ -1,5 +1,8 @@
 .padding {
   &-top {
+    &-0 {
+      padding-top: $pd-0;
+    }
     &-4 {
       padding-top: $pd-4;
     }
@@ -92,6 +95,9 @@
     }
   }
   &-right {
+    &-0 {
+      padding-right: $pd-0;
+    }
     &-4 {
       padding-right: $pd-4;
     }
@@ -184,6 +190,9 @@
     }
   }
   &-bottom {
+    &-0 {
+      padding-bottom: $pd-0;
+    }
     &-4 {
       padding-bottom: $pd-4;
     }
@@ -276,6 +285,9 @@
     }
   }
   &-left {
+    &-0 {
+      padding-left: $pd-0;
+    }
     &-4 {
       padding-left: $pd-4;
     }

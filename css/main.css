@@ -3799,6 +3799,10 @@ input.persian {
   margin-left: 7.5rem;
 }
 
+.padding-top-0 {
+  padding-top: 0;
+}
+
 .padding-top-4 {
   padding-top: 0.25rem;
 }
@@ -3917,6 +3921,10 @@ input.persian {
 
 .padding-top-120 {
   padding-top: 7.5rem;
+}
+
+.padding-right-0 {
+  padding-right: 0;
 }
 
 .padding-right-4 {
@@ -4039,6 +4047,10 @@ input.persian {
   padding-right: 7.5rem;
 }
 
+.padding-bottom-0 {
+  padding-bottom: 0;
+}
+
 .padding-bottom-4 {
   padding-bottom: 0.25rem;
 }
@@ -4157,6 +4169,10 @@ input.persian {
 
 .padding-bottom-120 {
   padding-bottom: 7.5rem;
+}
+
+.padding-left-0 {
+  padding-left: 0;
 }
 
 .padding-left-4 {
