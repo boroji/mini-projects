@@ -2,14 +2,14 @@
   font-size: $pd-18;
   letter-spacing: $pd-0;
   word-spacing: $pd-0;
-  padding-top: $pd-16;
-  padding-right: $pd-24;
-  padding-bottom: $pd-16;
-  padding-left: $pd-24;
-  border-top-left-radius: $pd-16;
-  border-top-right-radius: $pd-16;
-  border-bottom-right-radius: $pd-16;
-  border-bottom-left-radius: $pd-16;
+  padding-top: $pd-32;
+  padding-right: $pd-32;
+  padding-bottom: $pd-32;
+  padding-left: $pd-32;
+  border-top-left-radius: $pd-32;
+  border-top-right-radius: $pd-32;
+  border-bottom-right-radius: $pd-32;
+  border-bottom-left-radius: $pd-32;
 }
 
 @mixin large-cta {

@@ -45,7 +45,7 @@ body {
 .caption-english,
 .caption-arabic,
 .caption-persian {
-  max-width: 100%;
+  width: 100%;
 }
 
 .headline-english-dark, .headline-arabic-dark, .headline-persian-dark,
@@ -79,7 +79,7 @@ body {
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
-  max-width: 100%;
+  width: 100%;
 }
 
 .headline-english,
@@ -1211,28 +1211,28 @@ input.persian {
   font-size: 1.125rem;
   letter-spacing: 0;
   word-spacing: 0;
-  padding-top: 1rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
-  padding-left: 1.5rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .large-primary-dark, .large-secondary-dark, .large-ghost-dark, .large-outline-dark, .large-success-dark, .large-error-dark, .large-warning-dark, .large-progress-dark {
   font-size: 1.125rem;
   letter-spacing: 0;
   word-spacing: 0;
-  padding-top: 1rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1rem;
-  padding-left: 1.5rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .large-cta {
@@ -1249,13 +1249,13 @@ input.persian {
   letter-spacing: 0.01562rem;
   word-spacing: 0.01562rem;
   padding-top: 0.75rem;
-  padding-right: 1rem;
+  padding-right: 0.75rem;
   padding-bottom: 0.75rem;
-  padding-left: 1rem;
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
+  padding-left: 0.75rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .regular-primary-dark, .regular-secondary-dark, .regular-ghost-dark, .regular-outline-dark, .regular-success-dark, .regular-error-dark, .regular-warning-dark, .regular-progress-dark {
@@ -1263,13 +1263,13 @@ input.persian {
   letter-spacing: 0.01562rem;
   word-spacing: 0.01562rem;
   padding-top: 0.75rem;
-  padding-right: 1rem;
+  padding-right: 0.75rem;
   padding-bottom: 0.75rem;
-  padding-left: 1rem;
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-  border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
+  padding-left: 0.75rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .regular-cta {
@@ -1285,28 +1285,28 @@ input.persian {
   font-size: 0.875rem;
   letter-spacing: 0.03125rem;
   word-spacing: 0.03125rem;
-  padding-top: 0.5rem;
+  padding-top: 0.75rem;
   padding-right: 0.75rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
   padding-left: 0.75rem;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .small-primary-dark, .small-secondary-dark, .small-ghost-dark, .small-outline-dark, .small-success-dark, .small-error-dark, .small-warning-dark, .small-progress-dark {
   font-size: 0.875rem;
   letter-spacing: 0.03125rem;
   word-spacing: 0.03125rem;
-  padding-top: 0.5rem;
+  padding-top: 0.75rem;
   padding-right: 0.75rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
   padding-left: 0.75rem;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1.125rem;
+  border-top-right-radius: 1.125rem;
+  border-bottom-right-radius: 1.125rem;
+  border-bottom-left-radius: 1.125rem;
 }
 
 .small-cta {
@@ -1323,13 +1323,13 @@ input.persian {
   letter-spacing: 0.0625rem;
   word-spacing: 0.0625rem;
   padding-top: 0.25rem;
-  padding-right: 0.5rem;
+  padding-right: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  padding-left: 0.25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .mini-primary-dark, .mini-secondary-dark, .mini-ghost-dark, .mini-outline-dark, .mini-success-dark, .mini-error-dark, .mini-warning-dark, .mini-progress-dark {
@@ -1337,13 +1337,13 @@ input.persian {
   letter-spacing: 0.0625rem;
   word-spacing: 0.0625rem;
   padding-top: 0.25rem;
-  padding-right: 0.5rem;
+  padding-right: 0.25rem;
   padding-bottom: 0.25rem;
-  padding-left: 0.5rem;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  padding-left: 0.25rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .mini-cta {
@@ -1414,7 +1414,7 @@ input.persian {
 .small-primary:hover,
 .mini-primary:hover {
   color: #ededed;
-  background-color: #6b00e6;
+  background-color: #7700ff;
 }
 
 .large-primary:hover svg path,
@@ -1639,7 +1639,7 @@ input.persian {
 .regular-secondary:hover,
 .small-secondary:hover,
 .mini-secondary:hover {
-  color: #6b00e6;
+  color: #7700ff;
   background-color: #edeaf1;
 }
 
@@ -1647,35 +1647,35 @@ input.persian {
 .regular-secondary:hover svg path,
 .small-secondary:hover svg path,
 .mini-secondary:hover svg path {
-  fill: #6b00e6;
+  fill: #7700ff;
 }
 
 .large-secondary:hover::-webkit-input-placeholder,
 .regular-secondary:hover::-webkit-input-placeholder,
 .small-secondary:hover::-webkit-input-placeholder,
 .mini-secondary:hover::-webkit-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-secondary:hover:-ms-input-placeholder,
 .regular-secondary:hover:-ms-input-placeholder,
 .small-secondary:hover:-ms-input-placeholder,
 .mini-secondary:hover:-ms-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-secondary:hover::-ms-input-placeholder,
 .regular-secondary:hover::-ms-input-placeholder,
 .small-secondary:hover::-ms-input-placeholder,
 .mini-secondary:hover::-ms-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-secondary:hover::placeholder,
 .regular-secondary:hover::placeholder,
 .small-secondary:hover::placeholder,
 .mini-secondary:hover::placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-secondary:active, .large-secondary:focus,
@@ -1861,7 +1861,7 @@ input.persian {
 .regular-ghost:hover,
 .small-ghost:hover,
 .mini-ghost:hover {
-  color: #6b00e6;
+  color: #7700ff;
   background-color: #f7f6f9;
 }
 
@@ -1869,7 +1869,7 @@ input.persian {
 .regular-ghost:hover svg path,
 .small-ghost:hover svg path,
 .mini-ghost:hover svg path {
-  fill: #6b00e6;
+  fill: #7700ff;
 }
 
 .large-ghost:hover::-webkit-input-placeholder,
@@ -2087,45 +2087,45 @@ input.persian {
 .regular-outline:hover,
 .small-outline:hover,
 .mini-outline:hover {
-  color: #6b00e6;
+  color: #7700ff;
   background-color: #f7f6f9;
-  -webkit-box-shadow: 0 0 0 0.125rem #6b00e6;
-          box-shadow: 0 0 0 0.125rem #6b00e6;
+  -webkit-box-shadow: 0 0 0 0.125rem #7700ff;
+          box-shadow: 0 0 0 0.125rem #7700ff;
 }
 
 .large-outline:hover svg path,
 .regular-outline:hover svg path,
 .small-outline:hover svg path,
 .mini-outline:hover svg path {
-  fill: #6b00e6;
+  fill: #7700ff;
 }
 
 .large-outline:hover::-webkit-input-placeholder,
 .regular-outline:hover::-webkit-input-placeholder,
 .small-outline:hover::-webkit-input-placeholder,
 .mini-outline:hover::-webkit-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-outline:hover:-ms-input-placeholder,
 .regular-outline:hover:-ms-input-placeholder,
 .small-outline:hover:-ms-input-placeholder,
 .mini-outline:hover:-ms-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-outline:hover::-ms-input-placeholder,
 .regular-outline:hover::-ms-input-placeholder,
 .small-outline:hover::-ms-input-placeholder,
 .mini-outline:hover::-ms-input-placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-outline:hover::placeholder,
 .regular-outline:hover::placeholder,
 .small-outline:hover::placeholder,
 .mini-outline:hover::placeholder {
-  color: #6b00e6;
+  color: #7700ff;
 }
 
 .large-outline:active, .large-outline:focus,
@@ -3382,7 +3382,7 @@ input.persian {
 }
 
 .input-large-secondary:hover svg path, .input-large-ghost:hover svg path, .input-large-outline:hover svg path, .input-regular-secondary:hover svg path, .input-regular-ghost:hover svg path, .input-regular-outline:hover svg path, .input-small-secondary:hover svg path, .input-small-ghost:hover svg path, .input-small-outline:hover svg path, .input-mini-secondary:hover svg path, .input-mini-ghost:hover svg path, .input-mini-outline:hover svg path {
-  fill: #6b00e6;
+  fill: #7700ff;
 }
 
 .input-large-secondary-dark svg path, .input-large-ghost-dark svg path, .input-large-outline-dark svg path, .input-regular-secondary-dark svg path, .input-regular-ghost-dark svg path, .input-regular-outline-dark svg path, .input-small-secondary-dark svg path, .input-small-ghost-dark svg path, .input-small-outline-dark svg path, .input-mini-secondary-dark svg path, .input-mini-ghost-dark svg path, .input-mini-outline-dark svg path {
