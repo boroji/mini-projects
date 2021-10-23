@@ -52,5 +52,10 @@ body {
   width: 100%;
   height: 250px;
   border-radius: 3rem;
+  background-color: #f7f6f9;
+}
+
+.container .hex h3 {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
