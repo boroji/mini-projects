@@ -5,5 +5,6 @@ const hexValue = document.querySelector("#hex-value");
 const box = document.querySelector(".box");
 
 button.addEventListener("click", function () {
-  console.log("test button");
+  hexValue.textContent = "#000000";
+  box.style.backgroundColor = "#000";
 });
