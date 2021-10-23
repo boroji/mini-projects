@@ -5,9 +5,12 @@ const hexValue = document.querySelector("#hex-value");
 const box = document.querySelector(".box");
 
 button.addEventListener("click", function () {
-  hexValue.textContent = "#000000";
-  box.style.backgroundColor = "#000";
-  console.log(generateRandomNumber());
+  let hexUpdate = "#";
+  for (let i = 0; i < 6; i++) {
+    hexUpdate += hexCode[generateRandomNumber()];
+  }
+  hexValue.textContent = hexUpdate;
+  box.style.backgroundColor = hexUpdate;
 });
 
 function generateRandomNumber() {
