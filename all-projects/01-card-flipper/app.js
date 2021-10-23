@@ -1,7 +1,9 @@
+const hexCode = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
+
 const button = document.querySelector("#generate-color");
 const hexValue = document.querySelector("#hex-value");
 const box = document.querySelector(".box");
 
-console.log(button);
-console.log(hexValue);
-console.log(box);
+button.addEventListener("click", function () {
+  console.log("test button");
+});
