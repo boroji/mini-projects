@@ -7,4 +7,9 @@ const box = document.querySelector(".box");
 button.addEventListener("click", function () {
   hexValue.textContent = "#000000";
   box.style.backgroundColor = "#000";
+  console.log(generateRandomNumber());
 });
+
+function generateRandomNumber() {
+  return Math.floor(Math.random() * hexCode.length);
+}
