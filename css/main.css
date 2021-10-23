@@ -45,7 +45,6 @@ body {
 .caption-english,
 .caption-arabic,
 .caption-persian {
-  width: 90ch;
   max-width: 100%;
 }
 
@@ -80,7 +79,6 @@ body {
 .caption-english-dark,
 .caption-arabic-dark,
 .caption-persian-dark {
-  width: 90ch;
   max-width: 100%;
 }
 
