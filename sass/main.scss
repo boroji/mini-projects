@@ -9,30 +9,3 @@
 @import "./styles/accumulate";
 @import "variants";
 @import "./utilities/accumulate";
-
-@mixin container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: $pd-24;
-  margin-top: $pd-24;
-  padding: $pd-24;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: $pd-8;
-  .container-dark {
-    @include container();
-    background-color: $secondary-background;
-  }
-  .container {
-    @include container();
-    background-color: $negative-white;
-  }
-}
