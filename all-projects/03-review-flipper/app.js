@@ -125,7 +125,14 @@ window.addEventListener("DOMContentLoaded", function () {
   buttons.forEach(function (singleBtn) {
     singleBtn.addEventListener("click", function (event) {
       let saveClasses = event.currentTarget.classList;
-      console.log(saveClasses);
+      if (saveClasses.contains("chevron-left")) {
+        counter--;
+        reviewBlock();
+      }
+      if (saveClasses.contains("chevron-right")) {
+        counter++;
+        reviewBlock();
+      }
     });
   });
 });
