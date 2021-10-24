@@ -149,6 +149,11 @@ window.addEventListener("DOMContentLoaded", function () {
         }
         reviewBlock(counter);
       }
+      // Checking if class exists
+      if (saveClasses.contains("random-review")) {
+        counter = Math.floor(Math.random() * reviews.length);
+        reviewBlock(counter);
+      }
       reviewNumber.textContent = `Review #: ${counter}`;
     });
   });
