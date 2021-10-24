@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAUA,AAAA,IAAI,AAAC,CANH,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,KAAK,CAKW,IAAI,CAJpB,eAAe,CAAE,MAAM,CAKvB,MAAM,CAAE,KAAK,CACd,AACD,AAAA,UAAU,AAAC,CAVT,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,KAAK,CASW,IAAI,CARpB,eAAe,CAAE,MAAM,CASvB,cAAc,CAAE,MAAM,CAMvB,AARD,AAGE,UAHQ,CAGR,KAAK,AAAC,CACJ,KAAK,CAAE,GAAG,CACV,OAAO,CCqCH,IAAI,CDpCR,aAAa,CCoCT,IAAI,CDnCT",
+    "sources": [
+        "sass/main.scss",
+        "../../sass/_spaces.scss",
+        "../../sass/_colors.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

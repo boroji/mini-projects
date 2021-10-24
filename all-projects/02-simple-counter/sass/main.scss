@@ -1,1 +1,23 @@
+@import "../../../sass/spaces";
 @import "../../../sass/colors";
+
+@mixin center($custom-width) {
+  display: flex;
+  align-items: center;
+  width: $custom-width;
+  justify-content: center;
+}
+
+body {
+  @include center(100%);
+  height: 100vh;
+}
+.container {
+  @include center(100%);
+  flex-direction: column;
+  .card {
+    width: 80%;
+    padding: $pd-48;
+    border-radius: $pd-48;
+  }
+}
