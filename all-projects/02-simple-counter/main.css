@@ -33,7 +33,7 @@ main header {
   position: relative;
 }
 
-main #counter {
+main .counter {
   position: absolute;
   width: -webkit-fit-content;
   width: -moz-fit-content;
