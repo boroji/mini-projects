@@ -12,7 +12,7 @@ body {
   height: 100vh;
 }
 
-.container {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,9 +29,31 @@ body {
           flex-direction: column;
 }
 
-.container .card {
+main header {
+  position: relative;
+}
+
+main #counter {
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 0;
+  right: 0;
+}
+
+main section {
   width: 80%;
   padding: 3rem;
   border-radius: 3rem;
+}
+
+main footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
