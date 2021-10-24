@@ -114,40 +114,49 @@ const reviews = [
   },
 ];
 
+// Selecting all the DOM elements
 const firstName = document.querySelector("article .h5-english");
 const reviewText = document.querySelector("article .body-english");
 const image = document.querySelector("article img");
 const reviewNumber = document.querySelector("article .caption-english");
 const buttons = document.querySelectorAll("button");
 
+// Initializing the loop array counter
 let counter = 0;
 
+// DOM window event loading
 window.addEventListener("DOMContentLoaded", function () {
+  // Looping over buttons
   buttons.forEach(function (singleBtn) {
     singleBtn.addEventListener("click", function (event) {
+      // Saving the classes name into variable
       let saveClasses = event.currentTarget.classList;
+      // Checking if class exists
       if (saveClasses.contains("chevron-left")) {
         counter--;
+        // Reseting the array value
         if (counter < 0) {
           counter = reviews.length - 1;
         }
-        reviewBlock();
+        reviewBlock(counter);
       }
+      // Checking if class exists
       if (saveClasses.contains("chevron-right")) {
         counter++;
-        console.log(counter);
+        // Reseting the array value
         if (counter > reviews.length - 1) {
           counter = 0;
         }
-        reviewBlock();
+        reviewBlock(counter);
       }
       reviewNumber.textContent = `Review #: ${counter}`;
     });
   });
 });
 
-function reviewBlock() {
-  const singleReview = reviews[counter];
+// Looping around review blocks
+function reviewBlock(counterLoop) {
+  const singleReview = reviews[counterLoop];
   image.src = singleReview.star;
   reviewText.textContent = singleReview.review;
   firstName.textContent = singleReview.firstName;
