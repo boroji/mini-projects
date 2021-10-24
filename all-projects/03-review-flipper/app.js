@@ -119,7 +119,8 @@ const reviewText = document.querySelector("article .body-english");
 const image = document.querySelector("article img");
 const buttons = document.querySelectorAll("button");
 
-console.log(buttons);
-console.log(reviewText);
-console.log(firstName);
-console.log(image);
+let counter = 0;
+
+window.addEventListener("DOMContentLoaded", function () {
+  console.log("Testing");
+});
