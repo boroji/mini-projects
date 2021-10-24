@@ -28,12 +28,12 @@ main {
     font-size: $h2;
   }
   section {
-    width: 80%;
+    width: 50%;
     padding: $pd-48;
     border-radius: $pd-48;
   }
   footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
 }

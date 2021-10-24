@@ -44,7 +44,7 @@ main .counter {
 }
 
 main section {
-  width: 80%;
+  width: 50%;
   padding: 3rem;
   border-radius: 3rem;
 }
@@ -53,8 +53,8 @@ main footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=main.css.map */
