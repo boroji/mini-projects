@@ -122,8 +122,17 @@ const buttons = document.querySelectorAll("button");
 let counter = 0;
 
 window.addEventListener("DOMContentLoaded", function () {
+  buttons.forEach(function (singleBtn) {
+    singleBtn.addEventListener("click", function (event) {
+      let saveClasses = event.currentTarget.classList;
+      console.log(saveClasses);
+    });
+  });
+});
+
+function reviewBlock() {
   const singleReview = reviews[counter];
   image.src = singleReview.star;
   reviewText.textContent = singleReview.review;
   firstName.textContent = singleReview.firstName;
-});
+}
