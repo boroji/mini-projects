@@ -1,5 +1,6 @@
 @import "../../../sass/spaces";
 @import "../../../sass/colors";
+@import "../../../sass/typography/tokens";
 
 @mixin center($custom-width) {
   display: flex;
@@ -24,6 +25,7 @@ main {
     width: fit-content;
     top: 0;
     right: 0;
+    font-size: $h2;
   }
   section {
     width: 80%;
