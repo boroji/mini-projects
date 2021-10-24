@@ -1,4 +1,4 @@
-const review = [
+const reviews = [
   {
     firstName: "Angela",
     review: "This is a perfect match for me big time. i thought i have lost it.",
@@ -122,5 +122,8 @@ const buttons = document.querySelectorAll("button");
 let counter = 0;
 
 window.addEventListener("DOMContentLoaded", function () {
-  console.log("Testing");
+  const singleReview = reviews[counter];
+  image.src = singleReview.star;
+  reviewText.textContent = singleReview.review;
+  firstName.textContent = singleReview.firstName;
 });
