@@ -112,6 +112,63 @@ const reviews = [
       "This course is the best Web Designers course I have seen on the web period. Almost immediate feedback from the tutor on all my queries! It really expanded my understanding of design principles and application of those principles for someone coming from a backend developer role. Thank you Hossein for making this an awesome course with interesting commentary!! This was worth my money! More content expected.",
     star: "./img/review-50.svg",
   },
+  {
+    firstName: "Jesús",
+    review:
+      "It was an excellent choice, now I can have a high-level view on product and process development.",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "Madhavi",
+    review:
+      "This course is very very interesting and the learning experience is great! Hossein Boroji is an excellent instructor.",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "Sandeep",
+    review: "Nice course of UI UX Responsive design",
+    star: "./img/review-35.svg",
+  },
+  {
+    firstName: "Sumit",
+    review: "Yes, Matched my needs",
+    star: "./img/review-30.svg",
+  },
+  {
+    firstName: "Ebru",
+    review:
+      "Awesome course! I have already had some knowledge on the coding side of web development but I felt that I needed some UX/UI point of view, so I ended up at Hossein's course and I couldn't be more happier! He expanded my imagination with especially the SVG section and the 10 great projects at the end. I also got to brush up on my skills of CSS & JavaScript with his elaborately structured teaching style. I will definitely keep the notes I received from this course by my side while working on further projects. I definitely recommend! Thanks a lot, Hossein!",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "David",
+    review:
+      "Thought the theory may be a bit boring but I have found it interesting so far. Very well delivered by the lecturer",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "Ebe",
+    review:
+      "In this course, I got the kind of frontend development designs I have never come across before in the projects. If you're looking for new type of designs produced with good css and javascript, this is the course for you.",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "Hkbu",
+    review:
+      "Great efforts have been spent on the course materials. A unique course that covers everything needed for web designer, in my view.",
+    star: "./img/review-50.svg",
+  },
+  {
+    firstName: "Jose",
+    review: "I guess a little more samples would be great!",
+    star: "./img/review-40.svg",
+  },
+  {
+    firstName: "Jessica",
+    review:
+      "This course is great, i'm a front end developer who has had to learn web design/UI design for my current job. This course explains everything with good detail and has lots of mini projects to complete so you can get a better understanding of what you're being taught. I recommend this course 100%!",
+    star: "./img/review-50.svg",
+  },
 ];
 
 // Selecting all the DOM elements
