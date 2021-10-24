@@ -33,6 +33,10 @@ main header {
   position: relative;
 }
 
+main header .h6-english {
+  width: 80%;
+}
+
 main .counter {
   position: absolute;
   width: -webkit-fit-content;
@@ -44,7 +48,7 @@ main .counter {
 }
 
 main section {
-  width: 50%;
+  width: 70%;
   padding: 3rem;
   border-radius: 3rem;
 }

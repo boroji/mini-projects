@@ -19,6 +19,9 @@ main {
   flex-direction: column;
   header {
     position: relative;
+    .h6-english {
+      width: 80%;
+    }
   }
   .counter {
     position: absolute;
@@ -28,7 +31,7 @@ main {
     font-size: $h2;
   }
   section {
-    width: 50%;
+    width: 70%;
     padding: $pd-48;
     border-radius: $pd-48;
   }
