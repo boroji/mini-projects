@@ -13,9 +13,11 @@
   &-english,
   &-arabic,
   &-persian {
-    width: 100%;
+    max-width: 100%;
+    width: 90ch;
     &-dark {
-      width: 100%;
+      max-width: 100%;
+      width: 90ch;
     }
   }
 
