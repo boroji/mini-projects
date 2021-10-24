@@ -92,25 +92,25 @@ const reviews = [
     firstName: "Burcu",
     review:
       "I thought I might get bored as I knew some of the context and used them professionally, but I was pleasantly surprised. So far very energetic and informative.",
-    star: "./img/review-00.svg",
+    star: "./img/review-50.svg",
   },
   {
     firstName: "Ajay",
     review:
       "This course is well optimized, categorized that even beginners could understand. Overall a great package.",
-    star: "./img/review-00.svg",
+    star: "./img/review-50.svg",
   },
   {
     firstName: "Joanna",
     review:
       "I must admire, the section about JS is perfect. Explained in the most clear way Ive ever seen or experienced. I love the fact there are neat and tidy pdf presentation available, which I could downloaded on my iPad and made my own notes to understand even more the presented concept (and write down ideas how to use some methods in my own projects). Projects are as well designed in a nice and modern manner and could be a good start of amazing portfolio. The only thing which made me to give 4.5 out of 5 stars is that sometimes Hossein sounds a bit.. boring? Like I feel there is not enough excitement(?) in a voice and way of explaining, even tho the content is great :) I recommend to anyone, who is like me more in front-end web development and care about good design skills as well.",
-    star: "./img/review-00.svg",
+    star: "./img/review-45.svg",
   },
   {
     firstName: "Faleke",
     review:
       "This course is the best Web Designers course I have seen on the web period. Almost immediate feedback from the tutor on all my queries! It really expanded my understanding of design principles and application of those principles for someone coming from a backend developer role. Thank you Hossein for making this an awesome course with interesting commentary!! This was worth my money! More content expected.",
-    star: "./img/review-00.svg",
+    star: "./img/review-50.svg",
   },
 ];
 
@@ -131,6 +131,10 @@ window.addEventListener("DOMContentLoaded", function () {
       }
       if (saveClasses.contains("chevron-right")) {
         counter++;
+        console.log(counter);
+        if (counter > reviews.length - 1) {
+          counter = 0;
+        }
         reviewBlock();
       }
     });
