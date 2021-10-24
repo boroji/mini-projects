@@ -8,6 +8,12 @@ buttons.forEach(function (eachButton) {
     if (saveClasses.contains("chevron-left")) {
       countValue--;
     }
+    if (saveClasses.contains("chevron-right")) {
+      countValue++;
+    }
+    if (saveClasses.contains("reset-counter")) {
+      countValue = 0;
+    }
     updateCounter.textContent = countValue;
   });
 });
