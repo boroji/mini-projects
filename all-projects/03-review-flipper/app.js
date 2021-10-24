@@ -117,6 +117,7 @@ const reviews = [
 const firstName = document.querySelector("article .h5-english");
 const reviewText = document.querySelector("article .body-english");
 const image = document.querySelector("article img");
+const reviewNumber = document.querySelector("article .caption-english");
 const buttons = document.querySelectorAll("button");
 
 let counter = 0;
@@ -127,6 +128,9 @@ window.addEventListener("DOMContentLoaded", function () {
       let saveClasses = event.currentTarget.classList;
       if (saveClasses.contains("chevron-left")) {
         counter--;
+        if (counter < 0) {
+          counter = reviews.length - 1;
+        }
         reviewBlock();
       }
       if (saveClasses.contains("chevron-right")) {
@@ -137,6 +141,7 @@ window.addEventListener("DOMContentLoaded", function () {
         }
         reviewBlock();
       }
+      reviewNumber.textContent = `Review #: ${counter}`;
     });
   });
 });
