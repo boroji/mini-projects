@@ -113,3 +113,13 @@ const review = [
     star: "./img/review-00.svg",
   },
 ];
+
+const firstName = document.querySelector("article .h5-english");
+const reviewText = document.querySelector("article .body-english");
+const image = document.querySelector("article img");
+const buttons = document.querySelectorAll("button");
+
+console.log(buttons);
+console.log(reviewText);
+console.log(firstName);
+console.log(image);
