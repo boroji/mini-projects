@@ -4,15 +4,17 @@ const button = document.querySelector("#generate-color");
 const hexValue = document.querySelector("#hex-value");
 const box = document.querySelector(".box");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", updateHexCode);
+
+function generateRandomNumber() {
+  return Math.floor(Math.random() * hexCode.length);
+}
+
+function updateHexCode() {
   let hexUpdate = "#";
   for (let i = 0; i < 6; i++) {
     hexUpdate += hexCode[generateRandomNumber()];
   }
   hexValue.textContent = hexUpdate;
   box.style.backgroundColor = hexUpdate;
-});
-
-function generateRandomNumber() {
-  return Math.floor(Math.random() * hexCode.length);
 }
