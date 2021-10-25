@@ -9,6 +9,9 @@ nav {
   section {
     a {
       margin-left: $pd-16;
+      svg {
+        margin-right: $pd-8;
+      }
     }
   }
 }

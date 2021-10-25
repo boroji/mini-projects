@@ -11,4 +11,8 @@ nav {
 nav section a {
   margin-left: 1rem;
 }
+
+nav section a svg {
+  margin-right: 0.5rem;
+}
 /*# sourceMappingURL=main.css.map */
