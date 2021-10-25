@@ -1,3 +1,14 @@
 @import "../../../sass/spaces";
 @import "../../../sass/colors";
 @import "../../../sass/typography/tokens";
+
+nav {
+  padding: $pd-48;
+  display: flex;
+  justify-content: space-between;
+  section {
+    a {
+      margin-left: $pd-16;
+    }
+  }
+}
