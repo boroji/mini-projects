@@ -39,6 +39,7 @@ nav section a svg {
 .show-nav {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
+  opacity: 1;
 }
 
 @media (max-width: 823px) {
@@ -66,6 +67,7 @@ nav section a svg {
     transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
     -webkit-transform: translateY(-200%);
             transform: translateY(-200%);
+    opacity: 0;
   }
   nav section a {
     margin-left: 0;
