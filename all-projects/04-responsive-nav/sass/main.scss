@@ -7,6 +7,9 @@ nav {
   display: flex;
   justify-content: space-between;
   section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     a {
       margin-left: $pd-16;
       svg {
@@ -14,4 +17,8 @@ nav {
       }
     }
   }
+}
+
+.toggle {
+  display: none;
 }

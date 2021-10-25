@@ -8,11 +8,25 @@ nav {
           justify-content: space-between;
 }
 
+nav section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 nav section a {
   margin-left: 1rem;
 }
 
 nav section a svg {
   margin-right: 0.5rem;
+}
+
+.toggle {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

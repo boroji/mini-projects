@@ -1,2 +1,2 @@
-nav{padding:3rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}nav section a{margin-left:1rem}nav section a svg{margin-right:.5rem}
+nav{padding:3rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}nav section{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}nav section a{margin-left:1rem}nav section a svg{margin-right:.5rem}.toggle{display:none}
 /*# sourceMappingURL=main.min.css.map */
