@@ -8,4 +8,57 @@ nav {
   left: 0;
   background-color: $negative-white;
   height: 100vh;
+  padding: $pd-24;
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    a {
+      margin-top: $pd-16;
+    }
+  }
+}
+
+.expand {
+  width: 286px;
+}
+
+.collapse {
+  width: 96px;
+}
+
+@mixin animation-icon($animation-name-icon) {
+  animation: $animation-name-icon 100ms ease-out 0s 1 normal forwards;
+}
+
+@keyframes slide-right {
+  from {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-right {
+  @include animation-icon(slide-right);
+  display: block;
+}
+
+.slide-left {
+  @include animation-icon(slide-left);
+  display: none;
 }
