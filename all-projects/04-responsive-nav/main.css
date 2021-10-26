@@ -129,4 +129,71 @@ nav section a {
 nav section a svg {
   margin-right: 0.5rem;
 }
+
+@-webkit-keyframes slide-up {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  -webkit-animation: slide-down 100ms ease-out 0s 1 normal forwards;
+          animation: slide-down 100ms ease-out 0s 1 normal forwards;
+}
+
+.slide-up {
+  -webkit-animation: slide-up 100ms ease-out 0s 1 normal forwards;
+          animation: slide-up 100ms ease-out 0s 1 normal forwards;
+}
+
+.triple-line,
+.remove-line {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

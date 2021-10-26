@@ -13,3 +13,10 @@ button.addEventListener("click", function () {
     navigation.classList.remove("hide-nav");
   }
 });
+
+button.addEventListener("mouseover", function () {
+  tripleLine.style.display = "block";
+  tripleLine.classList.add("slide-down");
+  doubleLine.style.display = "none";
+  doubleLine.classList.add("slide-up");
+});

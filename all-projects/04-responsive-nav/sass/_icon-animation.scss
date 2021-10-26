@@ -1,3 +1,7 @@
+@mixin animation-icon($animation-name-icon) {
+  animation: $animation-name-icon 100ms ease-out 0s 1 normal forwards;
+}
+
 @keyframes slide-up {
   from {
     transform: translateY(0%);
@@ -21,9 +25,9 @@
 }
 
 .slide-down {
-  @include animation(slide-down);
+  @include animation-icon(slide-down);
 }
 
 .slide-up {
-  @include animation(slide-up);
+  @include animation-icon(slide-up);
 }
