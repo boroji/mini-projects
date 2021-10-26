@@ -13,7 +13,3 @@ button.addEventListener("click", function () {
     navigation.classList.remove("hide-nav");
   }
 });
-
-console.log(doubleLine);
-console.log(tripleLine);
-console.log(removeLine);

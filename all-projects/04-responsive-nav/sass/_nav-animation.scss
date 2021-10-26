@@ -1,0 +1,33 @@
+@mixin animation($animation-name) {
+  animation: $animation-name 500ms ease-out 0s 1 normal forwards;
+}
+
+@keyframes nav-slide-up {
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+}
+
+@keyframes nav-slide-down {
+  from {
+    transform: translateY(-200%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.show-nav {
+  @include animation(nav-slide-down);
+}
+
+.hide-nav {
+  @include animation(nav-slide-up);
+}
