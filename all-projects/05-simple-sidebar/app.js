@@ -10,4 +10,8 @@ hambugerButton.addEventListener("click", function () {
   hambugerButton.classList.remove("slide-right");
   removeButton.classList.add("slide-right");
   removeButton.classList.remove("slide-left");
+  navParagraph.forEach(function (allParagraph) {
+    allParagraph.classList.add("slide-right");
+    allParagraph.classList.remove("slide-left");
+  });
 });
