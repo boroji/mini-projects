@@ -185,15 +185,12 @@ nav section a svg {
 .slide-down {
   -webkit-animation: slide-down 100ms ease-out 0s 1 normal forwards;
           animation: slide-down 100ms ease-out 0s 1 normal forwards;
+  display: block;
 }
 
 .slide-up {
   -webkit-animation: slide-up 100ms ease-out 0s 1 normal forwards;
           animation: slide-up 100ms ease-out 0s 1 normal forwards;
-}
-
-.triple-line,
-.remove-line {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */

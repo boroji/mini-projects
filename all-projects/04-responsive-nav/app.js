@@ -15,19 +15,15 @@ button.addEventListener("click", function () {
 });
 
 button.addEventListener("mouseover", function () {
-  tripleLine.style.display = "block";
   tripleLine.classList.add("slide-down");
   tripleLine.classList.remove("slide-up");
-  doubleLine.style.display = "none";
   doubleLine.classList.add("slide-up");
   doubleLine.classList.remove("slide-down");
 });
 
 button.addEventListener("mouseout", function () {
-  doubleLine.style.display = "block";
   doubleLine.classList.add("slide-down");
   doubleLine.classList.remove("slide-up");
-  tripleLine.style.display = "none";
   tripleLine.classList.add("slide-up");
   tripleLine.classList.remove("slide-down");
 });

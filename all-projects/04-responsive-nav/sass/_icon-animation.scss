@@ -26,8 +26,10 @@
 
 .slide-down {
   @include animation-icon(slide-down);
+  display: block;
 }
 
 .slide-up {
   @include animation-icon(slide-up);
+  display: none;
 }
