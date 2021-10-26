@@ -2,6 +2,10 @@
 @import "../../../sass/colors";
 @import "../../../sass/typography/tokens";
 
+@mixin animation($animation-name) {
+  animation: $animation-name 500ms ease-out 0s 1 normal forwards;
+}
+
 nav {
   width: 100%;
   position: fixed;
@@ -30,11 +34,11 @@ nav {
 }
 
 .show-nav {
-  animation: slide-down 400ms ease-in-out 0s 1 normal forwards;
+  @include animation(slide-down);
 }
 
 .hide-nav {
-  animation: slide-up 400ms ease-in-out 0s 1 normal forwards;
+  @include animation(slide-up);
 }
 
 @keyframes slide-up {
@@ -73,7 +77,6 @@ nav {
       background-color: $negative-white;
       border-radius: 0px 0px 48px 48px;
       box-shadow: 0px 24px 48px rgba(102, 102, 102, 0.16);
-      transition: transform 300ms ease-in-out;
       transform: translateY(-200%);
       opacity: 0;
       a {
