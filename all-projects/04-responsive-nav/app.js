@@ -5,6 +5,8 @@ const tripleLine = document.querySelector(".triple-line");
 const hambugerButton = document.querySelector(".hamburger-button");
 const removeButton = document.querySelector(".remove-button");
 
+removeButton.style.display = "none";
+
 hambugerButton.addEventListener("click", function () {
   if (navigation.classList.contains("show-nav")) {
     navigation.classList.remove("show-nav");
@@ -13,6 +15,8 @@ hambugerButton.addEventListener("click", function () {
     navigation.classList.add("show-nav");
     navigation.classList.remove("hide-nav");
   }
+  hambugerButton.style.display = "none";
+  removeButton.style.display = "flex";
 });
 
 button.addEventListener("mouseover", function () {
@@ -28,4 +32,16 @@ button.addEventListener("mouseout", function () {
   doubleLine.classList.remove("slide-up");
   tripleLine.classList.add("slide-up");
   tripleLine.classList.remove("slide-down");
+});
+
+removeButton.addEventListener("click", function () {
+  if (navigation.classList.contains("show-nav")) {
+    navigation.classList.remove("show-nav");
+    navigation.classList.add("hide-nav");
+  } else {
+    navigation.classList.add("show-nav");
+    navigation.classList.remove("hide-nav");
+  }
+  hambugerButton.style.display = "flex";
+  removeButton.style.display = "none";
 });
