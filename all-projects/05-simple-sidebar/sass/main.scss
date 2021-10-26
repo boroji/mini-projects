@@ -20,6 +20,13 @@ nav {
       margin-top: $pd-16;
     }
   }
+
+  .toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .expand {
@@ -61,6 +68,7 @@ nav {
 .slide-right {
   @include animation-icon(slide-right);
   display: flex;
+  align-items: center;
 }
 
 .slide-left {
