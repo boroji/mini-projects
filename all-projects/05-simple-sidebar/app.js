@@ -15,3 +15,16 @@ hambugerButton.addEventListener("click", function () {
     allParagraph.classList.remove("slide-left");
   });
 });
+
+removeButton.addEventListener("click", function () {
+  navigation.classList.remove("expand");
+  navigation.classList.add("collapse");
+  hambugerButton.classList.remove("slide-left");
+  hambugerButton.classList.add("slide-right");
+  removeButton.classList.remove("slide-right");
+  removeButton.classList.add("slide-left");
+  navParagraph.forEach(function (allParagraph) {
+    allParagraph.classList.remove("slide-right");
+    allParagraph.classList.add("slide-left");
+  });
+});
