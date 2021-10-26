@@ -8,19 +8,12 @@ const removeButton = document.querySelector(".remove-button");
 removeButton.style.display = "none";
 
 hambugerButton.addEventListener("click", function () {
-  if (navigation.classList.contains("show-nav")) {
-    navigation.classList.remove("show-nav");
-    navigation.classList.add("hide-nav");
-  } else {
-    navigation.classList.add("show-nav");
-    navigation.classList.remove("hide-nav");
-  }
+  checkClassLogic();
   hambugerButton.style.display = "none";
   removeButton.style.display = "flex";
 });
 
 button.addEventListener("mouseover", function () {
-  doubleLine.insertBefore;
   tripleLine.classList.add("slide-down");
   tripleLine.classList.remove("slide-up");
   doubleLine.classList.add("slide-up");
@@ -35,6 +28,12 @@ button.addEventListener("mouseout", function () {
 });
 
 removeButton.addEventListener("click", function () {
+  checkClassLogic();
+  hambugerButton.style.display = "flex";
+  removeButton.style.display = "none";
+});
+
+function checkClassLogic() {
   if (navigation.classList.contains("show-nav")) {
     navigation.classList.remove("show-nav");
     navigation.classList.add("hide-nav");
@@ -42,6 +41,4 @@ removeButton.addEventListener("click", function () {
     navigation.classList.add("show-nav");
     navigation.classList.remove("hide-nav");
   }
-  hambugerButton.style.display = "flex";
-  removeButton.style.display = "none";
-});
+}
