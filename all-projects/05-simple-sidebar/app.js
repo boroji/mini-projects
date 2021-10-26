@@ -1,9 +1,9 @@
-const navigation = document.querySelector("section");
+const navigation = document.querySelector("nav");
 const navParagraph = document.querySelectorAll("section p");
 const hambugerButton = document.querySelector(".hamburger-button");
 const removeButton = document.querySelector(".remove-button");
 
-console.log(navigation);
-console.log(navParagraph);
-console.log(hambugerButton);
-console.log(removeButton);
+hambugerButton.addEventListener("click", function () {
+  navigation.classList.add("expand");
+  navigation.classList.remove("collapse");
+});
