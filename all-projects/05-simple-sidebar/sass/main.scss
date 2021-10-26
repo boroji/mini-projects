@@ -13,6 +13,7 @@ nav {
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
+  transition: width 200ms ease-in-out;
   section {
     display: flex;
     flex-direction: column;
@@ -24,10 +25,12 @@ nav {
 
 .expand {
   width: 286px;
+  transition: width 200ms ease-in-out;
 }
 
 .collapse {
   width: 96px;
+  transition: width 200ms ease-in-out;
 }
 
 @mixin animation-icon($animation-name-icon) {

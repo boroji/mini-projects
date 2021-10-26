@@ -1,5 +1,5 @@
 const navigation = document.querySelector("nav");
-const navParagraph = document.querySelectorAll("section p");
+const navParagraph = document.querySelectorAll("p");
 const hambugerButton = document.querySelector(".hamburger-button");
 const removeButton = document.querySelector(".remove-button");
 

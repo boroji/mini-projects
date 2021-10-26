@@ -18,6 +18,8 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: width 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
 }
 
 nav section {
@@ -36,10 +38,14 @@ nav section a {
 
 .expand {
   width: 286px;
+  -webkit-transition: width 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
 }
 
 .collapse {
   width: 96px;
+  -webkit-transition: width 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
 }
 
 @-webkit-keyframes slide-right {
