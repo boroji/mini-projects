@@ -9,10 +9,13 @@ nav {
   background-color: $negative-white;
   height: 100vh;
   padding: $pd-24;
-  .mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  section {
     display: flex;
     flex-direction: column;
-    height: 100%;
     a {
       margin-top: $pd-16;
     }
@@ -33,29 +36,29 @@ nav {
 
 @keyframes slide-right {
   from {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-  to {
     transform: translateX(-100%);
     opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
   }
 }
 
 @keyframes slide-left {
   from {
     transform: translateX(-100%);
-    opacity: 0;
+    opacity: 1;
   }
   to {
     transform: translateX(0%);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .slide-right {
   @include animation-icon(slide-right);
-  display: block;
+  display: flex;
 }
 
 .slide-left {

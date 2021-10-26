@@ -5,9 +5,22 @@ nav {
   background-color: white;
   height: 100vh;
   padding: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-nav .mobile-nav {
+nav section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,10 +28,9 @@ nav .mobile-nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
 }
 
-nav .mobile-nav a {
+nav section a {
   margin-top: 1rem;
 }
 
@@ -32,27 +44,27 @@ nav .mobile-nav a {
 
 @-webkit-keyframes slide-right {
   from {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    opacity: 1;
-  }
-  to {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
   }
 }
 
 @keyframes slide-right {
   from {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
-    opacity: 1;
-  }
-  to {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
   }
 }
 
@@ -60,12 +72,12 @@ nav .mobile-nav a {
   from {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    opacity: 0;
+    opacity: 1;
   }
   to {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
@@ -73,19 +85,21 @@ nav .mobile-nav a {
   from {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
-    opacity: 0;
+    opacity: 1;
   }
   to {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
-    opacity: 1;
+    opacity: 0;
   }
 }
 
 .slide-right {
   -webkit-animation: slide-right 100ms ease-out 0s 1 normal forwards;
           animation: slide-right 100ms ease-out 0s 1 normal forwards;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .slide-left {
