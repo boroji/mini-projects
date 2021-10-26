@@ -37,9 +37,65 @@ nav section a svg {
 }
 
 .show-nav {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-  opacity: 1;
+  -webkit-animation: slide-down 400ms ease-in-out 0s 1 normal forwards;
+          animation: slide-down 400ms ease-in-out 0s 1 normal forwards;
+}
+
+.hide-nav {
+  -webkit-animation: slide-up 400ms ease-in-out 0s 1 normal forwards;
+          animation: slide-up 400ms ease-in-out 0s 1 normal forwards;
+}
+
+@-webkit-keyframes slide-up {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 823px) {
