@@ -6,3 +6,10 @@
 @import "nav-styles";
 @import "icon-animation";
 @import "button-animation";
+
+@media (min-width: 961px) {
+  .hide-nav,
+  .show-nav {
+    animation: always-show-nav 1ms ease-out 0s 1 normal forwards;
+  }
+}

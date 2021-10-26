@@ -24,6 +24,17 @@
   }
 }
 
+@keyframes always-show-nav {
+  from {
+    opacity: 0;
+    display: none;
+  }
+  to {
+    opacity: 1;
+    display: flex;
+  }
+}
+
 .show-nav {
   @include animation(nav-slide-down);
 }
