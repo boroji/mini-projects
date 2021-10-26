@@ -1,37 +1,3 @@
-nav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  padding: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: white;
-}
-
-nav section {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-nav section a {
-  margin-left: 1rem;
-}
-
-nav section a svg {
-  margin-right: 0.5rem;
-}
-
 @-webkit-keyframes nav-slide-up {
   from {
     -webkit-transform: translateY(0%);
@@ -128,5 +94,39 @@ nav section a svg {
   .toggle {
     display: block;
   }
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+nav section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav section a {
+  margin-left: 1rem;
+}
+
+nav section a svg {
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */
