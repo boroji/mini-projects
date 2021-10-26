@@ -1,7 +1,10 @@
 const button = document.querySelector(".toggle");
 const navigation = document.querySelector(".mobile-nav");
 const doubleLine = document.querySelector(".double-line");
-const tripleLine = document.querySelector(".triple-line");
+const hambugerButton = document.querySelector(".hamburger-button");
+const removeButton = document.querySelector(".remove-button");
+console.log(hambugerButton);
+console.log(removeButton);
 
 button.addEventListener("click", function () {
   if (navigation.classList.contains("show-nav")) {
