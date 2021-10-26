@@ -193,4 +193,52 @@ nav section a svg {
           animation: slide-up 100ms ease-out 0s 1 normal forwards;
   display: none;
 }
+
+@-webkit-keyframes show-button {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes show-button {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes hide-button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hide-button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.show-button {
+  -webkit-animation: slide-down 100ms ease-out 0s 1 normal forwards;
+          animation: slide-down 100ms ease-out 0s 1 normal forwards;
+  display: block;
+}
+
+.hide-button {
+  -webkit-animation: slide-up 100ms ease-out 0s 1 normal forwards;
+          animation: slide-up 100ms ease-out 0s 1 normal forwards;
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
