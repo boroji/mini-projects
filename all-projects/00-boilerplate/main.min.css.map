@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "sass/main.scss",
+        "../../sass/_spaces.scss",
+        "../../sass/_colors.scss",
+        "../../sass/typography/_tokens.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
