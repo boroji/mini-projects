@@ -89,7 +89,7 @@
   display: none;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   nav section {
     position: fixed;
     top: 144px;
@@ -267,7 +267,7 @@ nav section a svg {
   display: none;
 }
 
-@media (min-width: 961px) {
+@media screen and (min-width: 961px) {
   .hide-nav,
   .show-nav {
     -webkit-animation: always-show-nav 1ms ease-out 0s 1 normal forwards;

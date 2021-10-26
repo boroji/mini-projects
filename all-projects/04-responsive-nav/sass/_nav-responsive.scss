@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 960px) {
+@media screen and (max-width: 960px) {
   nav {
     section {
       position: fixed;
