@@ -1,5 +1,8 @@
 const button = document.querySelector(".toggle");
 const navigation = document.querySelector(".mobile-nav");
+const doubleLine = document.querySelector(".double-line");
+const tripleLine = document.querySelector(".triple-line");
+const removeLine = document.querySelector(".remove-line");
 
 button.addEventListener("click", function () {
   if (navigation.classList.contains("show-nav")) {
@@ -10,3 +13,7 @@ button.addEventListener("click", function () {
     navigation.classList.remove("hide-nav");
   }
 });
+
+console.log(doubleLine);
+console.log(tripleLine);
+console.log(removeLine);
