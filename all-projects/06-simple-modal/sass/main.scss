@@ -24,8 +24,6 @@ body {
 main {
   @include center(100%);
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: -99;
   visibility: hidden;
   section {
@@ -46,9 +44,21 @@ main {
   }
 }
 
+@keyframes modal-animation {
+  from {
+    opacity: 0;
+    z-index: -99;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    z-index: 99;
+    visibility: visible;
+  }
+}
+
 .active {
-  z-index: 99;
-  visibility: visible;
+  animation: modal-animation 200ms ease-in-out 0s 1 normal forwards;
 }
 
 .overlay-color {
