@@ -30,8 +30,17 @@ main {
 }
 
 main section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 50%;
   border-radius: 3rem;
+  z-index: 99;
+  background-color: white;
+  overflow-y: auto;
+  height: auto;
 }
 
 main header {
@@ -45,5 +54,17 @@ main header {
 
 main footer {
   border-top: 0.125rem solid #f7f7f7;
+}
+
+.overlay-color {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgba(214, 179, 255, 0.25);
+  width: 100%;
+  height: 100vh;
+  z-index: -99;
 }
 /*# sourceMappingURL=main.css.map */
