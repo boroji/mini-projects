@@ -11,7 +11,7 @@
 
 body {
   @include center(100%);
-  padding: $pd-96 0;
+  height: 100vh;
 }
 
 @mixin modal {
@@ -23,7 +23,11 @@ body {
 
 main {
   @include center(100%);
-  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -99;
+  visibility: hidden;
   section {
     @include modal();
     width: 50%;
@@ -40,6 +44,11 @@ main {
   footer {
     border-top: $pd-2 solid $grey-highlight;
   }
+}
+
+.active {
+  z-index: 99;
+  visibility: visible;
 }
 
 .overlay-color {
