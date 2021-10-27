@@ -18,7 +18,14 @@ main {
   @include center(100%);
   flex-direction: column;
   section {
-    width: 65%;
+    width: 50%;
     border-radius: $pd-48;
+  }
+  header {
+    display: flex;
+    align-items: center;
+  }
+  footer {
+    border-top: $pd-2 solid $grey-highlight;
   }
 }
