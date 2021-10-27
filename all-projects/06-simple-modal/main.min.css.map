@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAWA,AAAA,IAAI,AAAC,CANH,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,KAAK,CAKW,IAAI,CAJpB,eAAe,CAAE,MAAM,CAKvB,OAAO,CC+ED,IAAI,CD/EM,CAAC,CAClB,AAED,AAAA,IAAI,AAAC,CAXH,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,KAAK,CAUW,IAAI,CATpB,eAAe,CAAE,MAAM,CAUvB,cAAc,CAAE,MAAM,CAKvB,AAPD,AAGE,IAHE,CAGF,OAAO,AAAC,CACN,KAAK,CAAE,GAAG,CACV,aAAa,CCmCT,IAAI,CDlCT",
+    "sources": [
+        "sass/main.scss",
+        "../../sass/_spaces.scss",
+        "../../sass/_colors.scss",
+        "../../sass/typography/_tokens.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
