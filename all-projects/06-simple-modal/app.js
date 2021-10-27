@@ -8,6 +8,7 @@ overlayColor.addEventListener("mousedown", modalInit);
 removeButton.addEventListener("mousedown", modalInit);
 
 function modalInit() {
+  main.classList.remove("default-state");
   main.classList.toggle("active");
   main.classList.toggle("inactive");
 }
