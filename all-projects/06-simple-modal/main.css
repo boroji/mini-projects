@@ -24,8 +24,6 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  z-index: -99;
-  visibility: hidden;
 }
 
 main section {
@@ -55,7 +53,7 @@ main footer {
   border-top: 0.125rem solid #f7f7f7;
 }
 
-@-webkit-keyframes modal-animation {
+@-webkit-keyframes active-animation {
   from {
     opacity: 0;
     z-index: -99;
@@ -68,7 +66,7 @@ main footer {
   }
 }
 
-@keyframes modal-animation {
+@keyframes active-animation {
   from {
     opacity: 0;
     z-index: -99;
@@ -78,12 +76,43 @@ main footer {
     opacity: 1;
     z-index: 99;
     visibility: visible;
+  }
+}
+
+@-webkit-keyframes close-animation {
+  from {
+    opacity: 1;
+    z-index: 99;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    z-index: -99;
+    visibility: hidden;
+  }
+}
+
+@keyframes close-animation {
+  from {
+    opacity: 1;
+    z-index: 99;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    z-index: -99;
+    visibility: hidden;
   }
 }
 
 .active {
-  -webkit-animation: modal-animation 200ms ease-in-out 0s 1 normal forwards;
-          animation: modal-animation 200ms ease-in-out 0s 1 normal forwards;
+  -webkit-animation: active-animation 200ms ease-in-out 0s 1 normal forwards;
+          animation: active-animation 200ms ease-in-out 0s 1 normal forwards;
+}
+
+.inactive {
+  -webkit-animation: close-animation 200ms ease-in-out 0s 1 normal forwards;
+          animation: close-animation 200ms ease-in-out 0s 1 normal forwards;
 }
 
 .overlay-color {

@@ -3,10 +3,11 @@ const removeButton = document.querySelector(".remove-button");
 const openModal = document.querySelector(".modal-open");
 const main = document.querySelector("main");
 
-openModal.addEventListener("mousedown", closeModal);
-overlayColor.addEventListener("mousedown", closeModal);
-removeButton.addEventListener("mousedown", closeModal);
+openModal.addEventListener("mousedown", modalInit);
+overlayColor.addEventListener("mousedown", modalInit);
+removeButton.addEventListener("mousedown", modalInit);
 
-function closeModal() {
+function modalInit() {
   main.classList.toggle("active");
+  main.classList.toggle("inactive");
 }
