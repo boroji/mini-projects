@@ -1,10 +1,5 @@
-*main.css.map
-*main.min.css.map
-*main.min.css
-
-/all-projects/*main.css.map
-/all-projects/*main.min.css.map
-/all-projects/*main.min.css
-
-!.gitignore
+main.css.map
+main.min.css.map
+main.min.css
+html/
 .vscode
