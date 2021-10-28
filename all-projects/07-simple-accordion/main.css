@@ -14,6 +14,8 @@ body {
 
 main section {
   margin-bottom: 1.5rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 main section header {
@@ -31,6 +33,15 @@ main section header {
 .inactive {
   padding: 1.5rem;
   border-radius: 1.5rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.active {
+  padding: 3rem;
+  border-radius: 2rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .hidden {
@@ -38,9 +49,7 @@ main section header {
 }
 
 .visibile {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .rotate svg {
