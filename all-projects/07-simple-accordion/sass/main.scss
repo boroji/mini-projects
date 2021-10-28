@@ -11,10 +11,11 @@
 
 body {
   @include center(100%);
-  padding: $pd-96 0;
+  padding: $pd-160;
 }
 
 main {
+  width: 100%;
   section {
     margin-bottom: $pd-24;
     transition: all 300ms ease-in-out;
@@ -26,8 +27,13 @@ main {
   }
 }
 
+.h6-english,
+.h5-english {
+  transition: all 100ms ease-in-out;
+}
+
 .inactive {
-  padding: $pd-24;
+  padding: $pd-48;
   border-radius: $pd-24;
   transition: all 300ms ease-in-out;
 }

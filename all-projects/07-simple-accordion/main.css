@@ -9,7 +9,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 6rem 0;
+  padding: 10rem;
+}
+
+main {
+  width: 100%;
 }
 
 main section {
@@ -30,8 +34,14 @@ main section header {
           align-items: center;
 }
 
+.h6-english,
+.h5-english {
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
 .inactive {
-  padding: 1.5rem;
+  padding: 3rem;
   border-radius: 1.5rem;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
