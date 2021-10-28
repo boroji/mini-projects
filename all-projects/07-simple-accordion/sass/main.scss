@@ -16,6 +16,7 @@ body {
 
 main {
   section {
+    margin-bottom: $pd-24;
     header {
       display: flex;
       justify-content: space-between;
@@ -31,4 +32,8 @@ main {
 
 .hidden {
   display: none;
+}
+
+.visibile {
+  display: flex;
 }
