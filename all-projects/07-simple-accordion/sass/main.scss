@@ -13,3 +13,22 @@ body {
   @include center(100%);
   padding: $pd-96 0;
 }
+
+main {
+  section {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.inactive {
+  padding: $pd-24;
+  border-radius: $pd-24;
+}
+
+.hidden {
+  display: none;
+}
