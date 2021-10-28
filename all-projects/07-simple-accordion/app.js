@@ -5,5 +5,7 @@ buttons.forEach(function (singleButton) {
   singleButton.addEventListener("click", function (event) {
     let saveParagraph =
       event.currentTarget.parentElement.parentElement.nextElementSibling;
+    saveParagraph.classList.toggle("hidden");
+    saveParagraph.classList.toggle("visible");
   });
 });
