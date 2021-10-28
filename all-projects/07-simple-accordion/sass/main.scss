@@ -37,3 +37,9 @@ main {
 .visibile {
   display: flex;
 }
+
+.rotate {
+  svg {
+    transform: rotate(180deg);
+  }
+}

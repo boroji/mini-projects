@@ -42,4 +42,9 @@ main section header {
   display: -ms-flexbox;
   display: flex;
 }
+
+.rotate svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 /*# sourceMappingURL=main.css.map */
