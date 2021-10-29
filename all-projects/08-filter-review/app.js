@@ -180,7 +180,7 @@ window.addEventListener("DOMContentLoaded", function () {
       <article>
         <img src="${singleReview.star}" alt="${singleReview.star}" />
         <p class="h5-english padding-top-16">${singleReview.firstName}</p>
-        <p class="caption-english">Review #: 0</p>
+        <p class="caption-english">Review #: ${reviews.indexOf(singleReview)}</p>
         <p class="body-english">${singleReview.review}</p>
       </article>
     </section>`;
