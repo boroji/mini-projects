@@ -170,3 +170,7 @@ const reviews = [
     star: "../03-review-flipper/img/review-50.svg",
   },
 ];
+
+window.addEventListener("DOMContentLoaded", function () {
+  console.log("check");
+});
