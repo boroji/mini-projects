@@ -172,5 +172,7 @@ const reviews = [
 ];
 
 window.addEventListener("DOMContentLoaded", function () {
-  console.log("check");
+  reviews.map(function (singleReview) {
+    console.log(singleReview);
+  });
 });
