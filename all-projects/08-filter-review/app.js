@@ -173,6 +173,25 @@ const reviews = [
 
 window.addEventListener("DOMContentLoaded", function () {
   reviews.map(function (singleReview) {
-    console.log(singleReview);
+    return;
+    `
+    <main class="container">
+      <section class="shadow-light">
+        <header class="padding-bottom-48">
+          <p class="h3-english padding-bottom-16">Filter reviews</p>
+        </header>
+        <footer>
+          <button class="regular-secondary">Review Filters</button>
+        </footer>
+        <article class="padding-top-48">
+          <img src="${reviews.star}" alt="reviews" />
+          <p class="h5-english padding-top-4">Angela</p>
+          <p class="caption-english">Review #: 0</p>
+          <p class="body-english">${reviews.review}</p>
+        </article>
+      </section>
+    </main>
+    
+    `;
   });
 });
