@@ -176,17 +176,15 @@ const container = document.querySelector(".container");
 window.addEventListener("DOMContentLoaded", function () {
   let allReviews = reviews.map(function (singleReview) {
     return `
-    <section class="shadow-light">
-      <footer>
-        <button class="regular-secondary">Review Filters</button>
-      </footer>
-      <article class="padding-top-48">
-        <img src="${reviews.star}" alt="reviews" />
+    <section class="shadow-light margin-bottom-24">
+      <article>
+        <img src="${singleReview.star}" alt="reviews" />
         <p class="h5-english padding-top-4">Angela</p>
         <p class="caption-english">Review #: 0</p>
-        <p class="body-english">${reviews.review}</p>
+        <p class="body-english">${singleReview.review}</p>
       </article>
     </section>`;
   });
   allReviews = allReviews.join("");
+  container.innerHTML = allReviews;
 });

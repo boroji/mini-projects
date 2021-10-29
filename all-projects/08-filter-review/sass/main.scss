@@ -15,10 +15,11 @@ body {
 }
 
 main {
-  @include center(100%);
-  flex-direction: column;
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: $pd-48;
   section {
-    width: 65%;
     padding: $pd-48;
     border-radius: $pd-48;
   }
