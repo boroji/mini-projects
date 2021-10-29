@@ -1,0 +1,30 @@
+@import "../../../sass/spaces";
+@import "../../../sass/colors";
+@import "../../../sass/typography/tokens";
+
+@mixin center($custom-width) {
+  display: flex;
+  align-items: center;
+  width: $custom-width;
+  justify-content: center;
+}
+
+body {
+  @include center(100%);
+  padding: $pd-96 0;
+}
+
+main {
+  @include center(100%);
+  flex-direction: column;
+  section {
+    width: 65%;
+    padding: $pd-48;
+    border-radius: $pd-48;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $pd-16;
+  }
+}
