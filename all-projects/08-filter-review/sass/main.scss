@@ -11,7 +11,8 @@
 
 body {
   @include center(100%);
-  padding: $pd-96 0;
+  padding: $pd-96;
+  flex-direction: column;
 }
 
 main {
