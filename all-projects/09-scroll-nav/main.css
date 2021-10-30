@@ -25,6 +25,22 @@ main p {
   text-transform: capitalize;
 }
 
+.visible {
+  position: fixed;
+  z-index: 99;
+  visibility: visible;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.hidden {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: -99;
+  visibility: hidden;
+}
+
 .inactive {
   -webkit-box-shadow: none;
           box-shadow: none;

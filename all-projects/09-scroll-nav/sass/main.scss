@@ -28,6 +28,22 @@ main {
   }
 }
 
+.visible {
+  position: fixed;
+  z-index: 99;
+  visibility: visible;
+  bottom: $pd-24;
+  right: $pd-24;
+}
+
+.hidden {
+  position: fixed;
+  bottom: $pd-24;
+  right: $pd-24;
+  z-index: -99;
+  visibility: hidden;
+}
+
 .inactive {
   box-shadow: none;
 }
