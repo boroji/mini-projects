@@ -38,4 +38,8 @@ main footer {
       flex-wrap: wrap;
   gap: 1rem;
 }
+
+#filter-reviews {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
