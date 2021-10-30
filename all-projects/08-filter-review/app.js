@@ -225,13 +225,12 @@ window.addEventListener("DOMContentLoaded", function () {
     loopOverButtons.addEventListener("click", function (event) {
       const saveFilterDateset = event.currentTarget.dataset.stars;
       const convertToNumber = parseFloat(saveFilterDateset);
-      console.log(typeof convertToNumber);
       let reviewStars = reviews.filter(function (singleReviewFilter) {
-        if (singleReviewFilter.filterStar === saveFilterDateset) {
+        if (singleReviewFilter.filterStar === convertToNumber) {
           return singleReviewFilter;
         }
       });
-      // console.log(reviewStars);
+      displayAllReviews(reviewStars);
     });
   });
 });
