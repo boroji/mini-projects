@@ -56,4 +56,5 @@ main {
   z-index: 999;
   height: $pd-8;
   background-color: $primary-main;
+  transition: width 200ms ease-out;
 }

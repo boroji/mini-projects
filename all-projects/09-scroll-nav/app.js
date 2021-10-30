@@ -2,6 +2,7 @@ const nav = document.querySelector("nav");
 const firstSection = document.querySelector(".container main:nth-child(1)");
 const buttonTop = document.querySelector("#button-top");
 const progressBar = document.querySelector(".progress-bar");
+const container = document.querySelector(".container");
 
 window.addEventListener("scroll", function () {
   const viewportScroll = window.pageYOffset;
@@ -29,5 +30,10 @@ window.addEventListener("scroll", function () {
     buttonTop.classList.remove("visible");
   }
 
-  progressBar.style.width = `${viewportScroll}%`;
+  let docHeight = document.documentElement.clientHeight;
+  let scrollDistance = -document.documentElement.getBoundingClientRect().top;
+  let containerheight = container.getBoundingClientRect().height;
+  let scrollWidth = (scrollDistance * 100) / containerheight;
+
+  progressBar.style.width = `${scrollWidth}%`;
 });

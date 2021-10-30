@@ -54,5 +54,7 @@ main p {
   z-index: 999;
   height: 0.5rem;
   background-color: #9233ff;
+  -webkit-transition: width 200ms ease-out;
+  transition: width 200ms ease-out;
 }
 /*# sourceMappingURL=main.css.map */
