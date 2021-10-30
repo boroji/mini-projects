@@ -2,13 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 main {
   display: -ms-grid;
   display: grid;
@@ -16,6 +9,10 @@ main {
   height: 100vh;
   place-items: center;
   scroll-snap-align: start;
+}
+
+main:nth-child(2n) {
+  background: #f7f6f9;
 }
 
 main p {
@@ -26,5 +23,10 @@ main p {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: capitalize;
+}
+
+.inactive {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=main.css.map */
