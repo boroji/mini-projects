@@ -206,13 +206,16 @@ const header = document.querySelector("header");
 
 window.addEventListener("DOMContentLoaded", function () {
   displayAllReviews(reviews);
-  const filterReviews = reviews.reduce(function (accumulateReviews, currentReview) {
-    if (!accumulateReviews.includes(currentReview.filterStar)) {
-      accumulateReviews.push(currentReview.filterStar);
-      accumulateReviews.sort();
-    }
-    return accumulateReviews;
-  }, []);
+  const filterReviews = reviews.reduce(
+    function (accumulateReviews, currentReview) {
+      if (!accumulateReviews.includes(currentReview.filterStar)) {
+        accumulateReviews.push(currentReview.filterStar);
+        accumulateReviews.sort();
+      }
+      return accumulateReviews;
+    },
+    ["All Review"],
+  );
 
   let reviewStarButtons = filterReviews.map(function (singleButtons) {
     return `<button data-stars="${singleButtons}" class="regular-secondary margin-right-16">${singleButtons} Stars</button>`;
@@ -230,7 +233,11 @@ window.addEventListener("DOMContentLoaded", function () {
           return singleReviewFilter;
         }
       });
-      displayAllReviews(reviewStars);
+      if (saveFilterDateset === "All Review") {
+        displayAllReviews(reviews);
+      } else {
+        displayAllReviews(reviewStars);
+      }
     });
   });
 });
