@@ -2,12 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 main {
   display: -ms-grid;
   display: grid;
   width: 100%;
   height: 100vh;
   place-items: center;
+  scroll-snap-align: start;
 }
 
 main p {
