@@ -215,7 +215,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }, []);
 
   let reviewStarButtons = filterReviews.map(function (singleButtons) {
-    return `<button class="regular-secondary margin-right-16">${singleButtons} Stars</button>`;
+    return `<button data-stars="${singleButtons}" class="regular-secondary margin-right-16">${singleButtons} Stars</button>`;
   });
   reviewStarButtons = reviewStarButtons.join("");
   header.innerHTML = reviewStarButtons;
@@ -224,6 +224,14 @@ window.addEventListener("DOMContentLoaded", function () {
   selectButtons.forEach(function (loopOverButtons) {
     loopOverButtons.addEventListener("click", function (event) {
       const saveFilterDateset = event.currentTarget.dataset.stars;
+      const convertToNumber = parseFloat(saveFilterDateset);
+      console.log(typeof convertToNumber);
+      let reviewStars = reviews.filter(function (singleReviewFilter) {
+        if (singleReviewFilter.filterStar === saveFilterDateset) {
+          return singleReviewFilter;
+        }
+      });
+      // console.log(reviewStars);
     });
   });
 });
