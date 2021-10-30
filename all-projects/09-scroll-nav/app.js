@@ -14,6 +14,12 @@ window.addEventListener("scroll", function () {
     nav.classList.remove("shadow-light-bottom");
   }
 
+  buttonTop.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+    });
+  });
+
   if (viewportScroll > heightFirstSection) {
     buttonTop.classList.remove("hidden");
     buttonTop.classList.add("visible");
