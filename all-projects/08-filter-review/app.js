@@ -204,7 +204,11 @@ const reviews = [
 const container = document.querySelector(".container");
 
 window.addEventListener("DOMContentLoaded", function () {
-  let allReviews = reviews.map(function (singleReview) {
+  displayAllReviews(reviews);
+});
+
+function displayAllReviews(reviewVariable) {
+  let allReviews = reviewVariable.map(function (singleReview) {
     return `
     <section class="shadow-light margin-bottom-24">
       <article>
@@ -217,4 +221,4 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   allReviews = allReviews.join("");
   container.innerHTML = allReviews;
-});
+}
