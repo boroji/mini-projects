@@ -202,6 +202,7 @@ const reviews = [
 ];
 
 const container = document.querySelector(".container");
+const header = document.querySelector("header");
 
 window.addEventListener("DOMContentLoaded", function () {
   displayAllReviews(reviews);
@@ -213,7 +214,12 @@ window.addEventListener("DOMContentLoaded", function () {
     return accumulateReviews;
   }, []);
 
-  console.log(filterReviews);
+  let reviewStarButtons = filterReviews.map(function (singleButtons) {
+    return `<button class="regular-secondary margin-right-16">${singleButtons} Stars</button>`;
+  });
+  reviewStarButtons = reviewStarButtons.join("");
+  header.innerHTML = reviewStarButtons;
+  console.log(reviewStarButtons);
 });
 
 function displayAllReviews(reviewVariable) {
