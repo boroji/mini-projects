@@ -35,7 +35,5 @@ window.addEventListener("scroll", function () {
   let containerheight = container.getBoundingClientRect().height;
   let scrollWidth = (scrollDistance / (containerheight - docHeight)) * 100;
   let floorNum = Math.floor(scrollWidth);
-
-  console.log(floorNum);
   progressBar.style.width = `${floorNum}%`;
 });
