@@ -208,6 +208,7 @@ window.addEventListener("DOMContentLoaded", function () {
   const filterReviews = reviews.reduce(function (accumulateReviews, currentReview) {
     if (!accumulateReviews.includes(currentReview.filterStar)) {
       accumulateReviews.push(currentReview.filterStar);
+      accumulateReviews.sort();
     }
     return accumulateReviews;
   }, []);
