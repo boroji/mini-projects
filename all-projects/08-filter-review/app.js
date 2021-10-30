@@ -219,7 +219,13 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   reviewStarButtons = reviewStarButtons.join("");
   header.innerHTML = reviewStarButtons;
-  console.log(reviewStarButtons);
+
+  const selectButtons = header.querySelectorAll("button");
+  selectButtons.forEach(function (loopOverButtons) {
+    loopOverButtons.addEventListener("click", function (event) {
+      const saveFilterDateset = event.currentTarget.dataset.stars;
+    });
+  });
 });
 
 function displayAllReviews(reviewVariable) {
