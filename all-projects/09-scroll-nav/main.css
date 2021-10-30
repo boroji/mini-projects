@@ -50,7 +50,7 @@ main p {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 0%;
   z-index: 999;
   height: 0.5rem;
   background-color: #9233ff;

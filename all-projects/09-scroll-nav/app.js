@@ -1,6 +1,7 @@
 const nav = document.querySelector("nav");
 const firstSection = document.querySelector(".container main:nth-child(1)");
 const buttonTop = document.querySelector("#button-top");
+const progressBar = document.querySelector(".progress-bar");
 
 window.addEventListener("scroll", function () {
   const viewportScroll = window.pageYOffset;
@@ -27,6 +28,6 @@ window.addEventListener("scroll", function () {
     buttonTop.classList.add("hidden");
     buttonTop.classList.remove("visible");
   }
-});
 
-console.log(document.body.getBoundingClientRect().height);
+  progressBar.style.width = `${viewportScroll}%`;
+});
