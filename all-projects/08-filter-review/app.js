@@ -205,6 +205,10 @@ const container = document.querySelector(".container");
 
 window.addEventListener("DOMContentLoaded", function () {
   displayAllReviews(reviews);
+  const filterReviews = reviews.reduce(function (accumulateReviews, currentReview) {
+    console.log(currentReview.filterStar);
+    return accumulateReviews;
+  }, []);
 });
 
 function displayAllReviews(reviewVariable) {
