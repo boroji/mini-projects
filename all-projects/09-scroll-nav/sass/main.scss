@@ -6,12 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-// .container {
-//   scroll-snap-type: y mandatory;
-//   overflow-y: scroll;
-//   height: 100vh;
-// }
-
 main {
   &:nth-child(2n) {
     background: $secondary-highlight;
@@ -20,7 +14,6 @@ main {
   width: 100%;
   height: 100vh;
   place-items: center;
-  scroll-snap-align: start;
   p {
     display: flex;
     justify-content: center;

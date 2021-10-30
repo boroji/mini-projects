@@ -5,6 +5,11 @@ const progressBar = document.querySelector(".progress-bar");
 const container = document.querySelector(".container");
 
 window.addEventListener("scroll", function () {
+  dynamicNavigation();
+  scrollProgress();
+});
+
+function dynamicNavigation() {
   const viewportScroll = window.pageYOffset;
   const heightNav = nav.getBoundingClientRect().height;
   const heightFirstSection = firstSection.getBoundingClientRect().height;
@@ -29,11 +34,13 @@ window.addEventListener("scroll", function () {
     buttonTop.classList.add("hidden");
     buttonTop.classList.remove("visible");
   }
+}
 
+function scrollProgress() {
   let docHeight = document.documentElement.clientHeight;
   let scrollDistance = -document.documentElement.getBoundingClientRect().top;
   let containerheight = container.getBoundingClientRect().height;
   let scrollWidth = (scrollDistance / (containerheight - docHeight)) * 100;
   let floorNum = Math.floor(scrollWidth);
   progressBar.style.width = `${floorNum}%`;
-});
+}
