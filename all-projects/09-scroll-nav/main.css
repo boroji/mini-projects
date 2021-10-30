@@ -45,4 +45,14 @@ main p {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  height: 0.5rem;
+  background-color: #9233ff;
+}
 /*# sourceMappingURL=main.css.map */

@@ -126,7 +126,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 800;
   padding: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;

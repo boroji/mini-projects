@@ -28,3 +28,5 @@ window.addEventListener("scroll", function () {
     buttonTop.classList.remove("visible");
   }
 });
+
+console.log(document.body.getBoundingClientRect().height);
