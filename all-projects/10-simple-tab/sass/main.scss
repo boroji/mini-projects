@@ -1,3 +1,7 @@
 @import "../../../sass/spaces";
 @import "../../../sass/colors";
 @import "../../../sass/typography/tokens";
+
+body {
+  padding: $pd-96;
+}
