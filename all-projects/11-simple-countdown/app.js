@@ -22,3 +22,10 @@ const weekdays = [
   "Friday",
   "Saturday",
 ];
+
+const day = document.querySelector(".day");
+const hour = document.querySelector(".hour");
+const minute = document.querySelector(".minute");
+const second = document.querySelector(".second");
+
+console.log(day, hour, minute, second);
