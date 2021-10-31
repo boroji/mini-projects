@@ -1,3 +1,33 @@
 @import "../../../sass/spaces";
 @import "../../../sass/colors";
 @import "../../../sass/typography/tokens";
+
+body {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: $pd-48;
+  padding: $pd-48;
+  border-radius: $pd-48;
+}
+
+p {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  span {
+    &:first-child {
+      font-weight: $semi-bold;
+      font-size: $pd-48;
+    }
+    &:last-child {
+      font-weight: $regular;
+      font-size: $pd-20;
+    }
+  }
+}

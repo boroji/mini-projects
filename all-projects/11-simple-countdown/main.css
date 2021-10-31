@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  padding: 3rem;
+  border-radius: 3rem;
+}
+
+p {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+p span:first-child {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+p span:last-child {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+/*# sourceMappingURL=main.css.map */
