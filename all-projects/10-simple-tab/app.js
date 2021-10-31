@@ -11,5 +11,10 @@ main.addEventListener("click", function (event) {
       event.target.classList.add("large-primary");
       event.target.classList.remove("large-secondary");
     });
+    articles.forEach(function (artic) {
+      artic.style.cssText = `display: none;`;
+    });
+    const element = document.getElementById(targetID);
+    element.style.cssText = `display: block;`;
   }
 });
