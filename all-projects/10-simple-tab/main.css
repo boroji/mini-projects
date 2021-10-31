@@ -1,4 +1,8 @@
 body {
   padding: 6rem;
 }
+
+article:nth-child(2), article:last-child {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
