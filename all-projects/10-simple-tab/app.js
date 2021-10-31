@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll("button");
 const articles = document.querySelectorAll("article");
-const main = document.querySelectorAll("main");
+const main = document.querySelector("main");
 
-console.log(buttons);
-console.log(articles);
-console.log(main);
+main.addEventListener("click", function (event) {
+  console.log("ssssss");
+});
