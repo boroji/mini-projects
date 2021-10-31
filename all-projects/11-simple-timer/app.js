@@ -15,7 +15,7 @@ months = [
   "Dec",
 ];
 
-weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+weekdays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 year = document.querySelector(".year");
 month = document.querySelector(".month");
@@ -28,3 +28,5 @@ date = new Date();
 
 year.textContent = date.getFullYear();
 month.textContent = months[date.getMonth()].toLocaleUpperCase();
+day.textContent = weekdays[date.getDay()].toLocaleUpperCase();
+hour.textContent = date.getHours();
