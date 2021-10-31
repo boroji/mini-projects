@@ -10,10 +10,15 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: $pd-48;
+  grid-template-rows: repeat(2, 1fr);
+  gap: $pd-24;
   padding: $pd-48;
   border-radius: $pd-48;
+  div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $pd-24;
+  }
 }
 
 p {
