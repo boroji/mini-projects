@@ -202,6 +202,8 @@ const reviews = [
 ];
 
 const main = document.querySelector("main");
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
 
 window.addEventListener("DOMContentLoaded", function () {
   displayAllReviews(reviews);
@@ -224,5 +226,22 @@ function displayAllReviews(reviewVariable) {
   const slides = main.querySelectorAll("section");
   slides.forEach(function (slide, idx) {
     slide.style.left = `${idx * 100}%`;
+  });
+
+  let counter = 0;
+  function translateCounter() {
+    slides.forEach(function (slide) {
+      slide.style.transform = `translateX(-${counter * 100}%)`;
+    });
+  }
+  prev.addEventListener("click", function () {
+    counter--;
+    console.log("prev");
+    translateCounter();
+  });
+  next.addEventListener("click", function () {
+    counter++;
+    console.log("next");
+    translateCounter();
   });
 }
