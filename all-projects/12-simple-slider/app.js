@@ -210,7 +210,7 @@ window.addEventListener("DOMContentLoaded", function () {
 function displayAllReviews(reviewVariable) {
   let allReviews = reviewVariable.map(function (singleReview) {
     return `
-    <section class="shadow-light margin-bottom-24">
+    <section>
       <article>
         <img src="${singleReview.star}" alt="${singleReview.star}" />
         <p class="h5-english padding-top-16">${singleReview.firstName}</p>
@@ -221,4 +221,8 @@ function displayAllReviews(reviewVariable) {
   });
   allReviews = allReviews.join("");
   main.innerHTML = allReviews;
+  const slides = main.querySelectorAll("section");
+  slides.forEach(function (slide, idx) {
+    slide.style.left = `${idx * 100}%`;
+  });
 }
