@@ -10,7 +10,7 @@ body {
 
 main {
   width: 80%;
-  height: 50vh;
+  height: 40vh;
   position: relative;
   border-radius: $pd-48;
   // overflow: hidden;
@@ -19,5 +19,17 @@ main {
     width: 100%;
     height: 100%;
     padding: $pd-48;
+  }
+}
+
+footer {
+  width: 80%;
+  display: flex;
+  gap: $pd-24;
+  justify-content: space-between;
+
+  .prev,
+  .next {
+    gap: $pd-16;
   }
 }

@@ -7,7 +7,7 @@ body {
 
 main {
   width: 80%;
-  height: 50vh;
+  height: 40vh;
   position: relative;
   border-radius: 3rem;
 }
@@ -17,5 +17,21 @@ main section {
   width: 100%;
   height: 100%;
   padding: 3rem;
+}
+
+footer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .prev,
+footer .next {
+  gap: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
