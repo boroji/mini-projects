@@ -35,5 +35,16 @@ Functions
 */
 function addItemLogic(event) {
   event.preventDefault();
-  console.log(writeItem.value);
+  const inputValue = writeItem.value;
+  // Generate unique ID
+  const generateUniqueID = new Date().getTime().toString();
+  console.log(generateUniqueID);
+  // Input logic
+  if (inputValue !== "" && editToggle === false) {
+    console.log("Item added");
+  } else if (inputValue !== "" && editToggle === true) {
+    console.log("We are in edit more");
+  } else {
+    console.log("Empty value");
+  }
 }
