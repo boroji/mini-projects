@@ -107,11 +107,24 @@ function setBackToDefault() {
 function editItemLogic() {
   console.log("item edited");
 }
-function deleteItemLogic() {
-  console.log("item deleted");
+function deleteItemLogic(event) {
+  // Select parent list when clicking on delete
+  const selectUniqueList = event.currentTarget.parentElement.parentElement;
+  const id = selectUniqueList.dataset.id;
+  listAll.removeChild(selectUniqueList);
+  if (listAll.children.length === 0) {
+    deleteAll.style.display = "none";
+  }
+  displayAlert("Item successfully removed", "danger");
+
+  setBackToDefault();
+  // removeFromLocalStorage(id)
 }
 
 // Local storage
 function addToLocalStorage() {
   console.log("addToLocalStorage");
+}
+function removeFromLocalStorage() {
+  console.log("Remove from local storage");
 }
