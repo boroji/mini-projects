@@ -32,3 +32,33 @@ main {
   display: flex;
   gap: $pd-16;
 }
+
+.alert {
+  &-success,
+  &-delete {
+    position: fixed;
+    top: 48px;
+    padding: $pd-24;
+    border-radius: $pd-24;
+    display: flex;
+    align-items: center;
+  }
+  &-success {
+    background-color: $success-background;
+    p {
+      color: $success-text;
+    }
+    svg path {
+      fill: $success-text;
+    }
+  }
+  &-delete {
+    background-color: $error-background;
+    p {
+      color: $error-text;
+    }
+    svg path {
+      fill: $error-text;
+    }
+  }
+}
