@@ -97,7 +97,9 @@ function displayAlert(dynamicText, cssClass) {
 }
 
 function setBackToDefault() {
-  console.log("setBackToDefault");
+  writeItem.value = "";
+  editToggle = false;
+  editID = "";
 }
 /* 
 ===============================
