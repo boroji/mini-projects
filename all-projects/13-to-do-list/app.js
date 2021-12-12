@@ -11,8 +11,8 @@ const editItem = document.querySelector(".edit-item");
 const deleteItem = document.querySelector(".delete-item");
 const deleteAll = document.querySelector(".delete-all");
 const listAll = document.querySelector(".list-all");
-const alertSuccess = document.querySelector(".alert-success");
-const alertDelete = document.querySelector(".alert-delete");
+const alertContainer = document.querySelector(".alert");
+const alertText = document.querySelector(".alert p");
 
 /* 
 ===============================
@@ -38,13 +38,17 @@ function addItemLogic(event) {
   const inputValue = writeItem.value;
   // Generate unique ID
   const generateUniqueID = new Date().getTime().toString();
-  console.log(generateUniqueID);
   // Input logic
   if (inputValue !== "" && editToggle === false) {
     console.log("Item added");
   } else if (inputValue !== "" && editToggle === true) {
     console.log("We are in edit more");
   } else {
-    console.log("Empty value");
+    displayAlert("Please enter value here", "error");
   }
+}
+
+function displayAlert(dynamicText, cssClass) {
+  alertText.textContent = dynamicText;
+  alertContainer.classList.add(`alert-${cssClass}`);
 }

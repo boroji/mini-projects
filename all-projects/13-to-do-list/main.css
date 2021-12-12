@@ -43,7 +43,7 @@ main section article {
   gap: 1rem;
 }
 
-.alert-success, .alert-delete {
+.alert {
   position: fixed;
   top: 48px;
   padding: 1.5rem;
@@ -54,6 +54,9 @@ main section article {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.alert-success, .alert-error {
   -webkit-animation: slide 200ms ease-out 2s 1 normal forwards;
           animation: slide 200ms ease-out 2s 1 normal forwards;
 }
@@ -70,15 +73,15 @@ main section article {
   fill: #268000;
 }
 
-.alert-delete {
+.alert-error {
   background-color: #ffe6e6;
 }
 
-.alert-delete p {
+.alert-error p {
   color: #d60000;
 }
 
-.alert-delete svg path {
+.alert-error svg path {
   fill: #d60000;
 }
 

@@ -34,16 +34,18 @@ main {
 }
 
 .alert {
+  position: fixed;
+  top: 48px;
+  padding: $pd-24;
+  border-radius: $pd-24;
+  display: flex;
+  align-items: center;
+
   &-success,
-  &-delete {
-    position: fixed;
-    top: 48px;
-    padding: $pd-24;
-    border-radius: $pd-24;
-    display: flex;
-    align-items: center;
+  &-error {
     animation: slide 200ms ease-out 2s 1 normal forwards;
   }
+
   &-success {
     background-color: $success-background;
     p {
@@ -53,7 +55,7 @@ main {
       fill: $success-text;
     }
   }
-  &-delete {
+  &-error {
     background-color: $error-background;
     p {
       color: $error-text;
