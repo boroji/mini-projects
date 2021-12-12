@@ -19,6 +19,13 @@ main {
       width: 75%;
     }
   }
+  section {
+    article {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }
 
 .button-wrapper {
