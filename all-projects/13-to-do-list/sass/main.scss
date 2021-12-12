@@ -40,9 +40,11 @@ main {
   border-radius: $pd-24;
   display: flex;
   align-items: center;
+  visibility: hidden;
 
   &-success,
   &-error {
+    visibility: visible;
     animation: slide 200ms ease-out 2s 1 normal forwards;
   }
 

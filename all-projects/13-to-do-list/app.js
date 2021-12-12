@@ -51,4 +51,9 @@ function addItemLogic(event) {
 function displayAlert(dynamicText, cssClass) {
   alertText.textContent = dynamicText;
   alertContainer.classList.add(`alert-${cssClass}`);
+
+  setTimeout(function () {
+    alertText.textContent = "";
+    alertContainer.classList.remove(`alert-${cssClass}`);
+  }, 3000);
 }
