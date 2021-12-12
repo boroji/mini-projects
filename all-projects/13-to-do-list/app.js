@@ -69,12 +69,13 @@ function addItemLogic(event) {
        </button>
      </div>`;
 
-    // Attach the element to the HTML
+    // Attach the element to the HTML and display
     listAll.append(newElement);
+    displayAlert("Item is successfully added, keep adding more items", "success");
   } else if (inputValue !== "" && editToggle === true) {
     console.log("We are in edit more");
   } else {
-    displayAlert("Please enter value here", "error");
+    displayAlert("Cannot add empty item to the list", "error");
   }
 }
 
