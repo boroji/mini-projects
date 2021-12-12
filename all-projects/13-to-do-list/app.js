@@ -104,8 +104,10 @@ function setBackToDefault() {
   editToggle = false;
   editID = "";
 }
-function editItemLogic() {
-  console.log("item edited");
+function editItemLogic(event) {
+  const selectUniqueList = event.currentTarget.parentElement.parentElement;
+  editItemInitial = event.currentTarget.parentElement.previousElementSibling;
+  writeItem.value = editItemInitial.innerHTML;
 }
 function deleteItemLogic(event) {
   // Select parent list when clicking on delete
