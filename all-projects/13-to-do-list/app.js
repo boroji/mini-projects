@@ -2,8 +2,6 @@
 const form = document.querySelector("form");
 const writeItem = document.querySelector(".write-item");
 const addItem = document.querySelector(".add-item");
-const editItem = document.querySelector(".edit-item");
-const deleteItem = document.querySelector(".delete-item");
 const deleteAll = document.querySelector(".delete-all");
 const listAll = document.querySelector(".list-all");
 const alertContainer = document.querySelector(".alert");
@@ -56,8 +54,14 @@ function addItemLogic(event) {
        </button>
      </div>`;
 
-    // Add delete all button
+    // Add delete all button and select delete and edit buttons
+    const editItem = newElement.querySelector(".edit-item");
+    const deleteItem = newElement.querySelector(".delete-item");
     deleteAll.style.display = "flex";
+
+    // event listener for edit and delete buttons
+    editItem.addEventListener("click", editItemLogic);
+    deleteItem.addEventListener("click", deleteItemLogic);
 
     // Attach the element to the HTML and display
     listAll.append(newElement);
@@ -82,6 +86,9 @@ function clearItemLogic() {
     });
   }
   deleteAll.style.display = "none";
+  displayAlert("To do list items are successfully deleted", "error");
+  setBackToDefault();
+  // localStorage.removeItem('')
 }
 function displayAlert(dynamicText, cssClass) {
   alertText.textContent = dynamicText;
@@ -96,6 +103,12 @@ function setBackToDefault() {
   writeItem.value = "";
   editToggle = false;
   editID = "";
+}
+function editItemLogic() {
+  console.log("item edited");
+}
+function deleteItemLogic() {
+  console.log("item deleted");
 }
 
 // Local storage
