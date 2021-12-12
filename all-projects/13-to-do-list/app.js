@@ -38,7 +38,8 @@ function addItemLogic(event) {
   const inputValue = writeItem.value;
   // Generate unique ID
   const generateUniqueID = new Date().getTime().toString();
-  // Input logic
+
+  // Logic #1 begins here
   if (inputValue !== "" && editToggle === false) {
     // Create element and add class to it
     const newElement = document.createElement("article");
@@ -72,6 +73,12 @@ function addItemLogic(event) {
     // Attach the element to the HTML and display
     listAll.append(newElement);
     displayAlert("Item is successfully added, keep adding more items", "success");
+
+    // Set back to default and add to local storage
+    addToLocalStorage(generateUniqueID, inputValue);
+    setBackToDefault();
+
+    // Logic #2 begins here
   } else if (inputValue !== "" && editToggle === true) {
     console.log("We are in edit more");
   } else {
@@ -87,4 +94,16 @@ function displayAlert(dynamicText, cssClass) {
     alertText.textContent = "";
     alertContainer.classList.remove(`alert-${cssClass}`);
   }, 3000);
+}
+
+function setBackToDefault() {
+  console.log("setBackToDefault");
+}
+/* 
+===============================
+Local storage
+===============================
+*/
+function addToLocalStorage() {
+  console.log("addToLocalStorage");
 }
