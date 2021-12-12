@@ -1,3 +1,22 @@
 @import "../../../sass/spaces";
 @import "../../../sass/colors";
 @import "../../../sass/typography/tokens";
+
+body {
+  padding: $pd-120;
+}
+
+main {
+  padding: $pd-48;
+  border-radius: $pd-24;
+  header {
+    display: flex;
+    justify-content: space-between;
+    button {
+      width: 25%;
+    }
+    input {
+      width: 75%;
+    }
+  }
+}

@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  padding: 7.5rem;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main header button {
+  width: 25%;
+}
+
+main header input {
+  width: 75%;
+}
+/*# sourceMappingURL=main.css.map */
