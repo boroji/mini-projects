@@ -42,6 +42,7 @@ main {
     border-radius: $pd-24;
     display: flex;
     align-items: center;
+    animation: slide 200ms ease-out 2s 1 normal forwards;
   }
   &-success {
     background-color: $success-background;
@@ -60,5 +61,16 @@ main {
     svg path {
       fill: $error-text;
     }
+  }
+}
+
+@keyframes slide {
+  from {
+    top: 48px;
+    opacity: 1;
+  }
+  to {
+    top: -48px;
+    opacity: 0;
   }
 }

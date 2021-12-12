@@ -54,6 +54,8 @@ main section article {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: slide 200ms ease-out 2s 1 normal forwards;
+          animation: slide 200ms ease-out 2s 1 normal forwards;
 }
 
 .alert-success {
@@ -78,5 +80,27 @@ main section article {
 
 .alert-delete svg path {
   fill: #d60000;
+}
+
+@-webkit-keyframes slide {
+  from {
+    top: 48px;
+    opacity: 1;
+  }
+  to {
+    top: -48px;
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  from {
+    top: 48px;
+    opacity: 1;
+  }
+  to {
+    top: -48px;
+    opacity: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
