@@ -1,3 +1,9 @@
+/* 
+===============================
+Selecting all items
+===============================
+*/
+const form = document.querySelector("form");
 const listItem = document.querySelector(".list-item");
 const writeItem = document.querySelector(".write-item");
 const addItem = document.querySelector(".add-item");
@@ -8,12 +14,26 @@ const listAll = document.querySelector(".list-all");
 const alertSuccess = document.querySelector(".alert-success");
 const alertDelete = document.querySelector(".alert-delete");
 
-console.log(listItem);
-console.log(writeItem);
-console.log(addItem);
-console.log(editItem);
-console.log(deleteItem);
-console.log(deleteAll);
-console.log(listAll);
-console.log(alertDelete);
-console.log(alertSuccess);
+/* 
+===============================
+Adding inital value
+===============================
+*/
+let editItemInitial, editToggle, editID;
+editToggle = false;
+editID = "";
+/* 
+===============================
+Event listeners
+===============================
+*/
+form.addEventListener("submit", addItemLogic);
+/* 
+===============================
+Functions
+===============================
+*/
+function addItemLogic(event) {
+  event.preventDefault();
+  console.log(writeItem.value);
+}

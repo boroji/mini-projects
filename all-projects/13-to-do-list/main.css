@@ -7,7 +7,7 @@ main {
   border-radius: 1.5rem;
 }
 
-main header {
+main form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,11 +16,11 @@ main header {
           justify-content: space-between;
 }
 
-main header button {
+main form button {
   width: 25%;
 }
 
-main header input {
+main form input {
   width: 75%;
 }
 
