@@ -1,10 +1,5 @@
-/* 
-===============================
-Selecting all items
-===============================
-*/
+// Selecting all items
 const form = document.querySelector("form");
-const listItem = document.querySelector(".list-item");
 const writeItem = document.querySelector(".write-item");
 const addItem = document.querySelector(".add-item");
 const editItem = document.querySelector(".edit-item");
@@ -14,25 +9,16 @@ const listAll = document.querySelector(".list-all");
 const alertContainer = document.querySelector(".alert");
 const alertText = document.querySelector(".alert p");
 
-/* 
-===============================
-Adding inital value
-===============================
-*/
+// Adding inital value
 let editItemInitial, editToggle, editID;
 editToggle = false;
 editID = "";
-/* 
-===============================
-Event listeners
-===============================
-*/
+
+// Event listeners
 form.addEventListener("submit", addItemLogic);
-/* 
-===============================
-Functions
-===============================
-*/
+deleteAll.addEventListener("click", clearItemLogic);
+
+// Functions
 function addItemLogic(event) {
   event.preventDefault();
   const inputValue = writeItem.value;
@@ -70,6 +56,9 @@ function addItemLogic(event) {
        </button>
      </div>`;
 
+    // Add delete all button
+    deleteAll.style.display = "flex";
+
     // Attach the element to the HTML and display
     listAll.append(newElement);
     displayAlert("Item is successfully added, keep adding more items", "success");
@@ -85,7 +74,15 @@ function addItemLogic(event) {
     displayAlert("Cannot add empty item to the list", "error");
   }
 }
-
+function clearItemLogic() {
+  const listItem = document.querySelectorAll(".list-item");
+  if (listItem.length > 0) {
+    listItem.forEach(function (singleList) {
+      listAll.removeChild(singleList);
+    });
+  }
+  deleteAll.style.display = "none";
+}
 function displayAlert(dynamicText, cssClass) {
   alertText.textContent = dynamicText;
   alertContainer.classList.add(`alert-${cssClass}`);
@@ -95,17 +92,13 @@ function displayAlert(dynamicText, cssClass) {
     alertContainer.classList.remove(`alert-${cssClass}`);
   }, 3000);
 }
-
 function setBackToDefault() {
   writeItem.value = "";
   editToggle = false;
   editID = "";
 }
-/* 
-===============================
-Local storage
-===============================
-*/
+
+// Local storage
 function addToLocalStorage() {
   console.log("addToLocalStorage");
 }

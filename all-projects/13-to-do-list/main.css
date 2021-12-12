@@ -36,6 +36,10 @@ main section article {
           align-items: center;
 }
 
+.delete-all {
+  display: none;
+}
+
 .button-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
