@@ -73,7 +73,9 @@ function addItemLogic(event) {
 
     // Logic #2 begins here
   } else if (inputValue !== "" && editToggle === true) {
-    console.log("We are in edit more");
+    editItemInitial.innerHTML = inputValue;
+    displayAlert("Item edited successfully", "success");
+    setBackToDefault();
   } else {
     displayAlert("Cannot add empty item to the list", "error");
   }
@@ -97,7 +99,7 @@ function displayAlert(dynamicText, cssClass) {
   setTimeout(function () {
     alertText.textContent = "";
     alertContainer.classList.remove(`alert-${cssClass}`);
-  }, 3000);
+  }, 2200);
 }
 function setBackToDefault() {
   writeItem.value = "";
@@ -108,6 +110,8 @@ function editItemLogic(event) {
   const selectUniqueList = event.currentTarget.parentElement.parentElement;
   editItemInitial = event.currentTarget.parentElement.previousElementSibling;
   writeItem.value = editItemInitial.innerHTML;
+  editToggle = true;
+  editID = selectUniqueList.dataset.id;
 }
 function deleteItemLogic(event) {
   // Select parent list when clicking on delete
@@ -118,7 +122,6 @@ function deleteItemLogic(event) {
     deleteAll.style.display = "none";
   }
   displayAlert("Item successfully removed", "danger");
-
   setBackToDefault();
   // removeFromLocalStorage(id)
 }
