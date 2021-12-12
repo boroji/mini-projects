@@ -20,3 +20,8 @@ main {
     }
   }
 }
+
+.button-wrapper {
+  display: flex;
+  gap: $pd-16;
+}

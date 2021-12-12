@@ -23,4 +23,11 @@ main header button {
 main header input {
   width: 75%;
 }
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
