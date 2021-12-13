@@ -124,19 +124,26 @@ function deleteItemLogic(event) {
   }
   displayAlert("Item successfully removed", "danger");
   setBackToDefault();
-  // removeFromLocalStorage(id)
+  removeFromLocalStorage(id);
 }
 
 // Local storage
+function getLocalStorage() {
+  return localStorage.getItem("list") ? JSON.parse(localStorage.getItem("list")) : [];
+}
 function addToLocalStorage(id, value) {
   const item = { id: id, value: value };
-  let allItems = localStorage.getItem("list")
-    ? JSON.parse(localStorage.getItem("list"))
-    : [];
+  let allItems = getLocalStorage();
   allItems.push(item);
   localStorage.setItem("list", JSON.stringify(allItems));
 }
 function removeFromLocalStorage(id) {
-  console.log("Remove from local storage");
+  let allItems = getLocalStorage();
+  allItems = allItems.filter(function (item) {
+    if (item.id !== id) {
+      return item;
+    }
+  });
+  localStorage.setItem("list", JSON.stringify(allItems));
 }
 function editLocalStorage(id, value) {}
