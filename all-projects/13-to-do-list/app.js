@@ -76,6 +76,7 @@ function addItemLogic(event) {
     editItemInitial.innerHTML = inputValue;
     displayAlert("Item edited successfully", "success");
     setBackToDefault();
+    // editLocalStorage(editID, inputValue)
   } else {
     displayAlert("Cannot add empty item to the list", "error");
   }
@@ -127,9 +128,15 @@ function deleteItemLogic(event) {
 }
 
 // Local storage
-function addToLocalStorage() {
-  console.log("addToLocalStorage");
+function addToLocalStorage(id, value) {
+  const item = { id: id, value: value };
+  let allItems = localStorage.getItem("list")
+    ? JSON.parse(localStorage.getItem("list"))
+    : [];
+  allItems.push(item);
+  localStorage.setItem("list", JSON.stringify(allItems));
 }
-function removeFromLocalStorage() {
+function removeFromLocalStorage(id) {
   console.log("Remove from local storage");
 }
+function editLocalStorage(id, value) {}
