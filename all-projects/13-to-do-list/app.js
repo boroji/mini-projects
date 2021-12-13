@@ -15,7 +15,7 @@ editID = "";
 // Event listeners
 form.addEventListener("submit", addItemLogic);
 deleteAll.addEventListener("click", clearItemLogic);
-
+window.addEventListener("DOMContentLoaded", fetchDisplayItems);
 // Functions
 function addItemLogic(event) {
   event.preventDefault();
@@ -25,46 +25,7 @@ function addItemLogic(event) {
 
   // Logic #1 begins here
   if (inputValue !== "" && editToggle === false) {
-    // Create element and add class to it
-    const newElement = document.createElement("article");
-    newElement.classList.add("list-item", "padding-top-16");
-
-    // Create attribute and attach it to the element
-    const newAttributeID = document.createAttribute("data-id");
-    newAttributeID.value = generateUniqueID;
-    newElement.setAttributeNode(newAttributeID);
-
-    // Add HTML content within it
-    newElement.innerHTML = `
-    <p class="h6-english">${inputValue}</p>
-     <div class="button-wrapper">
-       <button class="large-progress edit-item">
-         <svg width="24" height="24" viewBox="0 0 24 24">
-           <path
-             d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM20.71 7.04C21.1 6.65 21.1 6.02 20.71 5.63L18.37 3.29C17.98 2.9 17.35 2.9 16.96 3.29L15.13 5.12L18.88 8.87L20.71 7.04V7.04Z"
-           />
-         </svg>
-       </button>
-       <button class="large-warning delete-item">
-         <svg width="24" height="24" viewBox="0 0 24 24">
-           <path
-             d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19ZM19 4H15.5L14.5 3H9.5L8.5 4H5V6H19V4Z"
-           />
-         </svg>
-       </button>
-     </div>`;
-
-    // Add delete all button and select delete and edit buttons
-    const editItem = newElement.querySelector(".edit-item");
-    const deleteItem = newElement.querySelector(".delete-item");
-    deleteAll.style.display = "flex";
-
-    // event listener for edit and delete buttons
-    editItem.addEventListener("click", editItemLogic);
-    deleteItem.addEventListener("click", deleteItemLogic);
-
-    // Attach the element to the HTML and display
-    listAll.append(newElement);
+    generateListItem(generateUniqueID, inputValue);
     displayAlert("Item is successfully added, keep adding more items", "success");
 
     // Set back to default and add to local storage
@@ -126,6 +87,48 @@ function deleteItemLogic(event) {
   setBackToDefault();
   removeFromLocalStorage(id);
 }
+function generateListItem(id, value) {
+  // Create element and add class to it
+  const newElement = document.createElement("article");
+  newElement.classList.add("list-item", "padding-top-16");
+
+  // Create attribute and attach it to the element
+  const newAttributeID = document.createAttribute("data-id");
+  newAttributeID.value = id;
+  newElement.setAttributeNode(newAttributeID);
+
+  // Add HTML content within it
+  newElement.innerHTML = `
+ <p class="h6-english">${value}</p>
+  <div class="button-wrapper">
+    <button class="large-progress edit-item">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <path
+          d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25ZM20.71 7.04C21.1 6.65 21.1 6.02 20.71 5.63L18.37 3.29C17.98 2.9 17.35 2.9 16.96 3.29L15.13 5.12L18.88 8.87L20.71 7.04V7.04Z"
+        />
+      </svg>
+    </button>
+    <button class="large-warning delete-item">
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <path
+          d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19ZM19 4H15.5L14.5 3H9.5L8.5 4H5V6H19V4Z"
+        />
+      </svg>
+    </button>
+  </div>`;
+
+  // Add delete all button and select delete and edit buttons
+  const editItem = newElement.querySelector(".edit-item");
+  const deleteItem = newElement.querySelector(".delete-item");
+  deleteAll.style.display = "flex";
+
+  // event listener for edit and delete buttons
+  editItem.addEventListener("click", editItemLogic);
+  deleteItem.addEventListener("click", deleteItemLogic);
+
+  // Attach the element to the HTML and display
+  listAll.append(newElement);
+}
 
 // Local storage
 function getLocalStorage() {
@@ -155,4 +158,12 @@ function editLocalStorage(id, value) {
     return item;
   });
   localStorage.setItem("list", JSON.stringify(allItems));
+}
+function fetchDisplayItems() {
+  let allItems = getLocalStorage();
+  if (allItems.length > 0) {
+    allItems.forEach(function (item) {
+      generateListItem(item.id, item.value);
+    });
+  }
 }
