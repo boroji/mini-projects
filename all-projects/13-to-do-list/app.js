@@ -75,8 +75,8 @@ function addItemLogic(event) {
   } else if (inputValue !== "" && editToggle === true) {
     editItemInitial.innerHTML = inputValue;
     displayAlert("Item edited successfully", "success");
+    editLocalStorage(editID, inputValue);
     setBackToDefault();
-    // editLocalStorage(editID, inputValue)
   } else {
     displayAlert("Cannot add empty item to the list", "error");
   }
@@ -91,7 +91,7 @@ function clearItemLogic() {
   deleteAll.style.display = "none";
   displayAlert("To do list items are successfully deleted", "error");
   setBackToDefault();
-  // localStorage.removeItem('')
+  localStorage.removeItem("list");
 }
 function displayAlert(dynamicText, cssClass) {
   alertText.textContent = dynamicText;
@@ -146,4 +146,13 @@ function removeFromLocalStorage(id) {
   });
   localStorage.setItem("list", JSON.stringify(allItems));
 }
-function editLocalStorage(id, value) {}
+function editLocalStorage(id, value) {
+  let allItems = getLocalStorage();
+  allItems = allItems.map(function (item) {
+    if (item.id === id) {
+      item.value = value;
+    }
+    return item;
+  });
+  localStorage.setItem("list", JSON.stringify(allItems));
+}
