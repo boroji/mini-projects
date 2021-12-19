@@ -21,11 +21,24 @@ CounterGenerator.prototype.counterUp = function () {
   this.value.textContent = this.initialValue;
 };
 
+CounterGenerator.prototype.counterDown = function () {
+  this.initialValue--;
+  this.value.textContent = this.initialValue;
+};
+
+CounterGenerator.prototype.counterZero = function () {
+  this.initialValue = 0;
+  this.value.textContent = this.initialValue;
+};
+
 const oop1 = new CounterGenerator(isSelected("1"), 100);
 const oop2 = new CounterGenerator(isSelected("2"), 200);
 
 oop1.counterUp();
 oop2.counterUp();
+oop2.counterDown();
+oop2.counterDown();
+oop2.counterDown();
 
 // function counterChangeStyles() {
 //   if (countValue === 0) {
