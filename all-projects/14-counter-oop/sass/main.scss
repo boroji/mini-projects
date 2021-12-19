@@ -1,0 +1,42 @@
+@import "../../../sass/spaces";
+@import "../../../sass/colors";
+@import "../../../sass/typography/tokens";
+
+@mixin center($custom-width) {
+  display: flex;
+  align-items: center;
+  width: $custom-width;
+  justify-content: center;
+}
+
+body {
+  @include center(100%);
+  height: 100vh;
+}
+
+main {
+  @include center(100%);
+  flex-direction: column;
+  header {
+    position: relative;
+    .h6-english {
+      width: 80%;
+    }
+  }
+  .counter {
+    position: absolute;
+    width: fit-content;
+    top: 0;
+    right: 0;
+    font-size: $h2;
+  }
+  section {
+    width: 70%;
+    padding: $pd-48;
+    border-radius: $pd-48;
+  }
+  footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
