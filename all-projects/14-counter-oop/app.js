@@ -14,6 +14,14 @@ function CounterGenerator(element, initialValue) {
   this.decrease = element.querySelector(".chevron-left");
   this.value = element.querySelector(".counter");
   this.value.textContent = this.initialValue;
+  // bind functions to the CounterGenerator
+  this.counterUp = this.counterUp.bind(this);
+  this.counterDown = this.counterDown.bind(this);
+  this.counterZero = this.counterZero.bind(this);
+  // add event listeners
+  this.increase.addEventListener("click", this.counterUp);
+  this.decrease.addEventListener("click", this.counterDown);
+  this.reset.addEventListener("click", this.counterZero);
 }
 
 CounterGenerator.prototype.counterUp = function () {
@@ -33,12 +41,6 @@ CounterGenerator.prototype.counterZero = function () {
 
 const oop1 = new CounterGenerator(isSelected("1"), 100);
 const oop2 = new CounterGenerator(isSelected("2"), 200);
-
-oop1.counterUp();
-oop2.counterUp();
-oop2.counterDown();
-oop2.counterDown();
-oop2.counterDown();
 
 // function counterChangeStyles() {
 //   if (countValue === 0) {
