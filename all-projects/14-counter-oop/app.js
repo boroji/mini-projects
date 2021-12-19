@@ -5,7 +5,6 @@ function isSelected(selection) {
   }
   throw new Error(`Your selection is not valid, please check your ${selection}`);
 }
-
 function CounterGenerator(element, initialValue) {
   this.element = element;
   this.initialValue = initialValue;
@@ -27,35 +26,32 @@ function CounterGenerator(element, initialValue) {
 CounterGenerator.prototype.counterUp = function () {
   this.initialValue++;
   this.value.textContent = this.initialValue;
+  if (this.initialValue > 0) {
+    this.value.classList.add("large-success");
+    this.value.classList.remove("large-progress");
+    this.value.classList.remove("large-error");
+  }
 };
 
 CounterGenerator.prototype.counterDown = function () {
   this.initialValue--;
   this.value.textContent = this.initialValue;
+  if (this.initialValue < 0) {
+    this.value.classList.add("large-error");
+    this.value.classList.remove("large-progress");
+    this.value.classList.remove("large-success");
+  }
 };
 
 CounterGenerator.prototype.counterZero = function () {
   this.initialValue = 0;
   this.value.textContent = this.initialValue;
+  if (this.initialValue === 0) {
+    this.value.classList.add("large-progress");
+    this.value.classList.remove("large-error");
+    this.value.classList.remove("large-success");
+  }
 };
 
-const oop1 = new CounterGenerator(isSelected("1"), 100);
+const oop1 = new CounterGenerator(isSelected("1"), 0);
 const oop2 = new CounterGenerator(isSelected("2"), 200);
-
-// function counterChangeStyles() {
-//   if (countValue === 0) {
-//     updateCounter.classList.add("large-progress");
-//     updateCounter.classList.remove("large-error");
-//     updateCounter.classList.remove("large-success");
-//   }
-//   if (countValue < 0) {
-//     updateCounter.classList.add("large-error");
-//     updateCounter.classList.remove("large-progress");
-//     updateCounter.classList.remove("large-success");
-//   }
-//   if (countValue > 0) {
-//     updateCounter.classList.add("large-success");
-//     updateCounter.classList.remove("large-progress");
-//     updateCounter.classList.remove("large-error");
-//   }
-// }
