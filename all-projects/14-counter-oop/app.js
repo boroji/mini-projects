@@ -1,14 +1,14 @@
 function CounterGenerator(element, initialValue) {
-  console.log(element, initialValue);
+  this.element = element;
+  this.initialValue = initialValue;
 }
 
-isSelected("1");
-isSelected("2");
+const oop1 = new CounterGenerator(isSelected("1"), 100);
+const oop2 = new CounterGenerator(isSelected("2"), 200);
 
 function isSelected(selection) {
   const element = document.querySelector(`.oop-${selection}`);
   if (element) {
-    console.log(element);
     return element;
   }
   throw new Error(`Your selection is not valid, please check your ${selection}`);
