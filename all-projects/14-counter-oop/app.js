@@ -109,4 +109,5 @@ class CounterGenerator {
 }
 
 const oop1 = new CounterGenerator(isSelected("1"), 0);
-const oop2 = new CounterGenerator(isSelected("2"), 200);
+const oop2 = new CounterGenerator(isSelected("2"), 0);
+const oop3 = new CounterGenerator(isSelected("3"), 0);

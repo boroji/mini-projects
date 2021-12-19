@@ -11,7 +11,8 @@
 
 body {
   @include center(100%);
-  height: 100vh;
+  padding-top: $pd-48;
+  padding-bottom: $pd-48;
 }
 
 main {
