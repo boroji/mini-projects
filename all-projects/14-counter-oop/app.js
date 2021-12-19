@@ -1,3 +1,11 @@
+function isSelected(selection) {
+  const element = document.querySelector(`.oop-${selection}`);
+  if (element) {
+    return element;
+  }
+  throw new Error(`Your selection is not valid, please check your ${selection}`);
+}
+
 function CounterGenerator(element, initialValue) {
   this.element = element;
   this.initialValue = initialValue;
@@ -6,22 +14,18 @@ function CounterGenerator(element, initialValue) {
   this.decrease = element.querySelector(".chevron-left");
   this.value = element.querySelector(".counter");
   this.value.textContent = this.initialValue;
-  console.log(this.reset);
-  console.log(this.increase);
-  console.log(this.decrease);
-  console.log(this.value);
 }
+
+CounterGenerator.prototype.counterUp = function () {
+  this.initialValue++;
+  this.value.textContent = this.initialValue;
+};
 
 const oop1 = new CounterGenerator(isSelected("1"), 100);
 const oop2 = new CounterGenerator(isSelected("2"), 200);
 
-function isSelected(selection) {
-  const element = document.querySelector(`.oop-${selection}`);
-  if (element) {
-    return element;
-  }
-  throw new Error(`Your selection is not valid, please check your ${selection}`);
-}
+oop1.counterUp();
+oop2.counterUp();
 
 // function counterChangeStyles() {
 //   if (countValue === 0) {
