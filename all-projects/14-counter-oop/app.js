@@ -1,6 +1,15 @@
 function CounterGenerator(element, initialValue) {
   this.element = element;
   this.initialValue = initialValue;
+  this.reset = element.querySelector(".reset-counter");
+  this.increase = element.querySelector(".chevron-right");
+  this.decrease = element.querySelector(".chevron-left");
+  this.value = element.querySelector(".counter");
+  this.value.textContent = this.initialValue;
+  console.log(this.reset);
+  console.log(this.increase);
+  console.log(this.decrease);
+  console.log(this.value);
 }
 
 const oop1 = new CounterGenerator(isSelected("1"), 100);
