@@ -28,12 +28,12 @@ class Gallery {
     );
   }
   openModal(selectedImage, list) {
-    console.log(selectedImage);
-    console.log(list);
+    this.setMainImage(selectedImage);
     this.modal.classList.add("open");
   }
-  setMainImage() {
-    console.log("placeholder");
+  setMainImage(selectedImage) {
+    this.modalImg.src = selectedImage.src;
+    this.imageName.textContent = selectedImage.title;
   }
   closeImage() {
     console.log("placeholder");
