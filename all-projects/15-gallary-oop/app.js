@@ -59,10 +59,18 @@ class Gallery {
     this.modalImages.removeEventListener("click", this.chooseImage);
   }
   nextImage() {
-    console.log("placeholder");
+    const selected = this.modalImages.querySelector(".selected");
+    const next = selected.nextElementSibling || this.modalImages.firstElementChild;
+    selected.classList.remove("selected");
+    next.classList.add("selected");
+    this.setMainImage(next);
   }
   prevImage() {
-    console.log("placeholder");
+    const selected = this.modalImages.querySelector(".selected");
+    const prev = selected.previousElementSibling || this.modalImages.lastElementChild;
+    selected.classList.remove("selected");
+    prev.classList.add("selected");
+    this.setMainImage(prev);
   }
   chooseImage() {
     console.log("placeholder");
