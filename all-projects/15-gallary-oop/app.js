@@ -29,6 +29,17 @@ class Gallery {
   }
   openModal(selectedImage, list) {
     this.setMainImage(selectedImage);
+    this.modalImages.innerHTML = list
+      .map(function (image) {
+        return `<img 
+      src="${image.src}" 
+      title="${image.title}" 
+      data-id="${image.dataset.id}" 
+      class="${
+        selectedImage.dataset.id === image.dataset.id ? "modal-img selected" : "modal-img"
+      } />`;
+      })
+      .join("");
     this.modal.classList.add("open");
   }
   setMainImage(selectedImage) {
