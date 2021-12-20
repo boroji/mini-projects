@@ -1,1 +1,304 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.shadow-dark {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+          box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+}
+
+.shadow-dark:hover {
+  -webkit-box-shadow: 0px 0px 44px 2px #19171c;
+          box-shadow: 0px 0px 44px 2px #19171c;
+}
+
+.shadow-dark-top {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px -24px 48px 0px rgba(25, 23, 28, 0.6);
+          box-shadow: 0px -24px 48px 0px rgba(25, 23, 28, 0.6);
+}
+
+.shadow-dark-top:hover {
+  -webkit-box-shadow: 0px -20px 44px 0px #19171c;
+          box-shadow: 0px -20px 44px 0px #19171c;
+}
+
+.shadow-dark-right {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+          box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+}
+
+.shadow-dark-right:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px #19171c;
+          box-shadow: 20px 0px 44px 0px #19171c;
+}
+
+.shadow-dark-bottom {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(25, 23, 28, 0.6);
+          box-shadow: 0px 24px 48px 0px rgba(25, 23, 28, 0.6);
+}
+
+.shadow-dark-bottom:hover {
+  -webkit-box-shadow: 0px 20px 44px 0px #19171c;
+          box-shadow: 0px 20px 44px 0px #19171c;
+}
+
+.shadow-dark-left {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: -24px 0px 48px 0px rgba(25, 23, 28, 0.6);
+          box-shadow: -24px 0px 48px 0px rgba(25, 23, 28, 0.6);
+}
+
+.shadow-dark-left:hover {
+  -webkit-box-shadow: -20px 0px 44px 0px #19171c;
+          box-shadow: -20px 0px 44px 0px #19171c;
+}
+
+.shadow-light {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+}
+
+.shadow-light:hover {
+  -webkit-box-shadow: 0px 0px 44px 2px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px 0px 44px 2px rgba(50, 33, 69, 0.16);
+}
+
+.shadow-light-top {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px -24px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px -24px 48px 0px rgba(75, 50, 103, 0.08);
+}
+
+.shadow-light-top:hover {
+  -webkit-box-shadow: 0px -20px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px -20px 44px 0px rgba(50, 33, 69, 0.16);
+}
+
+.shadow-light-right {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+}
+
+.shadow-light-right:hover {
+  -webkit-box-shadow: 20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+}
+
+.shadow-light-bottom {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 24px 48px 0px rgba(75, 50, 103, 0.08);
+}
+
+.shadow-light-bottom:hover {
+  -webkit-box-shadow: 0px 20px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: 0px 20px 44px 0px rgba(50, 33, 69, 0.16);
+}
+
+.shadow-light-left {
+  -webkit-transition: -webkit-box-shadow 180ms ease-out;
+  transition: -webkit-box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out;
+  transition: box-shadow 180ms ease-out, -webkit-box-shadow 180ms ease-out;
+  -webkit-box-shadow: -24px 0px 48px 0px rgba(75, 50, 103, 0.08);
+          box-shadow: -24px 0px 48px 0px rgba(75, 50, 103, 0.08);
+}
+
+.shadow-light-left:hover {
+  -webkit-box-shadow: -20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+          box-shadow: -20px 0px 44px 0px rgba(50, 33, 69, 0.16);
+}
+
+/* section */
+.section {
+  padding: 3rem 0;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 95vw;
+  }
+  .prev-btn {
+    left: -3rem;
+  }
+  .next-btn {
+    right: -3rem;
+  }
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+          box-shadow: 0px 0px 48px 2px rgba(75, 50, 103, 0.08);
+  height: 20rem;
+}
+
+.img:hover {
+  -webkit-box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+          box-shadow: 0px 0px 48px 2px rgba(25, 23, 28, 0.6);
+}
+
+/*
+=============== 
+Modal
+===============
+*/
+.modal {
+  position: fixed;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 8, 17, 0.95);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  opacity: 0;
+  min-height: 100vh;
+  overflow: scroll;
+}
+
+.modal .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.modal.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.modal-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.main-img {
+  width: 100%;
+  height: 24rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.image-name {
+  text-align: center;
+  margin: 0.25rem 0 0.5rem;
+  color: white;
+}
+
+.modal-images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  padding-top: 3rem;
+}
+
+.modal-img {
+  width: 100%;
+  height: 7.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.2;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.modal-img:hover {
+  opacity: 1;
+}
+
+.modal-img.selected {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */
