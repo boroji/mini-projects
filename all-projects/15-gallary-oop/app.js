@@ -20,12 +20,16 @@ class Gallery {
     this.prevBtn = getElement(".prev-btn");
     this.container.addEventListener(
       "click",
-      function () {
-        this.openModal();
+      function (event) {
+        if (event.target.classList.contains("img")) {
+          this.openModal(event.target, this.list);
+        }
       }.bind(this),
     );
   }
-  openModal() {
+  openModal(selectedImage, list) {
+    console.log(selectedImage);
+    console.log(list);
     this.modal.classList.add("open");
   }
   setMainImage() {
