@@ -18,6 +18,12 @@ class Gallery {
     this.closeBtn = getElement(".close-btn");
     this.nextBtn = getElement(".next-btn");
     this.prevBtn = getElement(".prev-btn");
+    // bind to gallery
+    this.closeModal = this.closeModal.bind(this);
+    this.nextImage = this.nextImage.bind(this);
+    this.prevImage = this.prevImage.bind(this);
+    this.chooseImage = this.chooseImage.bind(this);
+    // add event listener
     this.container.addEventListener(
       "click",
       function (event) {
@@ -37,13 +43,20 @@ class Gallery {
       })
       .join("");
     this.modal.classList.add("open");
+    this.closeBtn.addEventListener("click", this.closeModal);
+    this.nextBtn.addEventListener("click", this.nextImage);
+    this.prevBtn.addEventListener("click", this.prevImage);
   }
   setMainImage(selectedImage) {
     this.modalImg.src = selectedImage.src;
     this.imageName.textContent = selectedImage.title;
   }
-  closeImage() {
-    console.log("placeholder");
+  closeModal() {
+    this.modal.classList.remove("open");
+    this.closeBtn.removeEventListener("click", this.closeModal);
+    this.nextBtn.removeEventListener("click", this.nextImage);
+    this.prevBtn.removeEventListener("click", this.prevImage);
+    this.modalImages.removeEventListener("click", this.chooseImage);
   }
   nextImage() {
     console.log("placeholder");
