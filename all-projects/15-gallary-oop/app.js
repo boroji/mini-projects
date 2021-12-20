@@ -46,6 +46,7 @@ class Gallery {
     this.closeBtn.addEventListener("click", this.closeModal);
     this.nextBtn.addEventListener("click", this.nextImage);
     this.prevBtn.addEventListener("click", this.prevImage);
+    this.modalImages.addEventListener("click", this.chooseImage);
   }
   setMainImage(selectedImage) {
     this.modalImg.src = selectedImage.src;
@@ -56,6 +57,7 @@ class Gallery {
     this.closeBtn.removeEventListener("click", this.closeModal);
     this.nextBtn.removeEventListener("click", this.nextImage);
     this.prevBtn.removeEventListener("click", this.prevImage);
+    this.modalImages.removeEventListener("click", this.chooseImage);
     this.modalImages.removeEventListener("click", this.chooseImage);
   }
   nextImage() {
@@ -72,8 +74,14 @@ class Gallery {
     prev.classList.add("selected");
     this.setMainImage(prev);
   }
-  chooseImage() {
-    console.log("placeholder");
+  chooseImage(e) {
+    if (e.target.classList.contains("modal-img")) {
+      const selected = this.modalImages.querySelector(".selected");
+      selected.classList.remove("selected");
+
+      this.setMainImage(e.target);
+      e.target.classList.add("selected");
+    }
   }
 }
 
