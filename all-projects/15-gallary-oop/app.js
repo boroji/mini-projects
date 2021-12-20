@@ -9,6 +9,7 @@ function getElement(selection) {
 class Gallery {
   constructor(element) {
     // selecting elements
+    this.container = element;
     this.list = [...element.querySelectorAll(".img")];
     this.modal = getElement(".modal");
     this.modalImg = getElement(".main-img");
@@ -17,10 +18,11 @@ class Gallery {
     this.closeBtn = getElement(".close-btn");
     this.nextBtn = getElement(".next-btn");
     this.prevBtn = getElement(".prev-btn");
-    console.log(this.list);
+    this.container.addEventListener("click", this.openModal);
   }
   openModal() {
-    console.log("placeholder");
+    console.log(this);
+    console.log("open modal");
   }
   setMainImage() {
     console.log("placeholder");
