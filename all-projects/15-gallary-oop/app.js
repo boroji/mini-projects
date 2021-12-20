@@ -18,11 +18,15 @@ class Gallery {
     this.closeBtn = getElement(".close-btn");
     this.nextBtn = getElement(".next-btn");
     this.prevBtn = getElement(".prev-btn");
-    this.container.addEventListener("click", this.openModal);
+    this.container.addEventListener(
+      "click",
+      function () {
+        this.openModal();
+      }.bind(this),
+    );
   }
   openModal() {
-    console.log(this);
-    console.log("open modal");
+    this.modal.classList.add("open");
   }
   setMainImage() {
     console.log("placeholder");
