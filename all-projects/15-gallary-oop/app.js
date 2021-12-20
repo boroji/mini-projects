@@ -9,6 +9,7 @@ function getElement(selection) {
 class Gallery {
   constructor(element) {
     // selecting elements
+    this.list = [...element.querySelectorAll(".img")];
     this.modal = getElement(".modal");
     this.modalImg = getElement(".main-img");
     this.imageName = getElement(".image-name");
@@ -16,14 +17,7 @@ class Gallery {
     this.closeBtn = getElement(".close-btn");
     this.nextBtn = getElement(".next-btn");
     this.prevBtn = getElement(".prev-btn");
-
-    console.log(element);
-    console.log(this.modal);
-    console.log(this.imageName);
-    console.log(this.modalImages);
-    console.log(this.closeBtn);
-    console.log(this.nextBtn);
-    console.log(this.prevBtn);
+    console.log(this.list);
   }
   openModal() {
     console.log("placeholder");
