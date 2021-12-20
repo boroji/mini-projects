@@ -138,9 +138,13 @@
           box-shadow: -20px 0px 44px 0px rgba(50, 33, 69, 0.16);
 }
 
+.w-100 {
+  width: 100%;
+  text-align: center;
+}
+
 /* section */
 .section {
-  padding: 3rem 0;
   width: 90vw;
   margin: 0 auto;
   max-width: 1200px;
@@ -177,7 +181,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 3rem;
+  border-radius: 0.75rem;
   cursor: pointer;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
