@@ -28,6 +28,10 @@ main section button {
   width: 100%;
 }
 
+main section .body-english {
+  color: #d60000;
+}
+
 .h3-english {
   text-align: center;
 }
