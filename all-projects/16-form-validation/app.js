@@ -8,11 +8,17 @@ const password = selection(".password");
 const confirmPassword = selection(".confirm-password");
 const form = selection(".form");
 
+function allInputs(inputs) {
+  inputs.forEach((element) => {
+    if (element.value.trim() === "") {
+      error(element);
+    } else {
+      success(element);
+    }
+  });
+}
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  if (username.value === "") {
-    error(username);
-  } else {
-    success(username);
-  }
+  allInputs([email, username, password, confirmPassword]);
 });
