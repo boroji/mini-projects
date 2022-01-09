@@ -11,11 +11,15 @@ const form = selection(".form");
 function allInputs(inputs) {
   inputs.forEach((element) => {
     if (element.value.trim() === "") {
-      error(element);
+      error(element, `${getInputName(element)} field should not be empty`);
     } else {
       success(element);
     }
   });
+}
+
+function getInputName(element) {
+  return element.dataset.id;
 }
 
 form.addEventListener("submit", (e) => {
