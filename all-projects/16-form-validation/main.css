@@ -9,7 +9,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 1.5rem;
 }
 
 main {
@@ -18,8 +19,17 @@ main {
   width: 50%;
 }
 
-main section input {
+main section {
+  padding-top: 0.5rem;
+}
+
+main section input,
+main section button {
   width: 100%;
+}
+
+.h3-english {
+  text-align: center;
 }
 
 .visible {
