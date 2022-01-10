@@ -56,8 +56,4 @@ main section article p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-main section article p strong {
-  width: 100%;
-}
 /*# sourceMappingURL=main.css.map */

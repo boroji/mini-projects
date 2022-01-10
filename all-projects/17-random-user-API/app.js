@@ -26,19 +26,26 @@ const getUser = async () => {
     dob: { age },
   } = person;
   const { location: street } = person;
-  const { city, country, postcode, state, number, name } = street;
+  const { city, country, postcode, state } = street;
   return {
     phone,
     email,
     fullname: `${firstName} ${lastName}`,
-    address: `${number} ${name}, ${city}, ${state}, ${postcode}, ${country} `,
+    address: `${city}, ${state}, ${postcode}, ${country} `,
     image,
     password,
     age,
   };
 };
 const showUser = () => {
-  getUser();
+  getUser().then((data) => {
+    name.textContent = data.fullname;
+    email.textContent = data.email;
+    birthday.textContent = data.age;
+    address.textContent = data.address;
+    phone.textContent = data.phone;
+    password.textContent = data.password;
+  });
 };
 
 window.addEventListener("DOMContentLoaded", showUser);
