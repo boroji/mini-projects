@@ -18,5 +18,31 @@ body {
 main {
   padding: $pd-48;
   border-radius: $pd-16;
-  width: 50%;
+  width: 720px;
+  header {
+    display: flex;
+    div {
+      &:first-child {
+        padding-right: $pd-24;
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  section {
+    display: flex;
+    gap: $pd-24;
+    align-items: flex-start;
+    article {
+      width: 100%;
+      p {
+        display: flex;
+        justify-content: space-between;
+        strong {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

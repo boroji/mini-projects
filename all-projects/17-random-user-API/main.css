@@ -16,6 +16,48 @@ body {
 main {
   padding: 3rem;
   border-radius: 1rem;
-  width: 50%;
+  width: 720px;
+}
+
+main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main header div:first-child {
+  padding-right: 1.5rem;
+}
+
+main header div:first-child img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main section article {
+  width: 100%;
+}
+
+main section article p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main section article p strong {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
