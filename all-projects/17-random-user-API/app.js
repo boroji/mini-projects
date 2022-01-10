@@ -11,9 +11,30 @@ const btn = selection(".btn");
 const getUser = async () => {
   const response = await fetch(URL);
   const data = await response.json();
-  console.log(data);
+  const person = data.results[0];
+  const { cell: phone, email } = person;
+  const {
+    name: { first: firstName, last: lastName },
+  } = person;
+  const {
+    picture: { large: image },
+  } = person;
+  const {
+    login: { salt: password },
+  } = person;
+  const {
+    dob: { age },
+  } = person;
+  return {
+    phone,
+    email,
+    firstName,
+    lastName,
+    image,
+    password,
+    age,
+  };
 };
-
 const showUser = () => {
   getUser();
 };
