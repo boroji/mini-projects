@@ -25,11 +25,13 @@ const getUser = async () => {
   const {
     dob: { age },
   } = person;
+  const { location: street } = person;
+  const { city, country, postcode, state, number, name } = street;
   return {
     phone,
     email,
-    firstName,
-    lastName,
+    fullname: `${firstName} ${lastName}`,
+    address: `${number} ${name}, ${city}, ${state}, ${postcode}, ${country} `,
     image,
     password,
     age,
