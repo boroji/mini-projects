@@ -7,6 +7,7 @@ const address = selection(".address");
 const phone = selection(".phone");
 const password = selection(".password");
 const btn = selection(".btn");
+const image = selection(".user-image");
 
 const getUser = async () => {
   const response = await fetch(URL);
@@ -45,6 +46,7 @@ const showUser = () => {
     address.textContent = data.address;
     phone.textContent = data.phone;
     password.textContent = data.password;
+    image.src = data.image;
   });
 };
 
