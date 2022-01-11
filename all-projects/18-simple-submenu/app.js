@@ -22,8 +22,13 @@ btns.forEach((item) => {
 	item.addEventListener('mouseover', function(e) {
 		const currentTargetID = e.currentTarget.dataset.id;
 		data.forEach((item) => {
+			const { links } = item;
 			if (item.id === currentTargetID) {
-				submenu.innerHTML = `t`;
+				submenu.innerHTML = `${links
+					.map((singleLink) => {
+						return `<a class="large-secondary">${singleLink.label}</a>`;
+					})
+					.join('')}`;
 			}
 		});
 	});
