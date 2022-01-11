@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
