@@ -14,6 +14,9 @@
 .nav .submenu {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
   background-color: white;
   position: absolute;
   padding: 3rem;

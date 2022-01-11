@@ -12,6 +12,8 @@
 
  .submenu {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $pd-24;
   background-color: $negative-white;
 
   position: absolute;
