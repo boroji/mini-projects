@@ -22,6 +22,10 @@
   border-radius: $pd-16;
   z-index: 99;
   transform: translateX(-50%);
+
+  a {
+   text-transform: capitalize;
+  }
  }
 }
 
