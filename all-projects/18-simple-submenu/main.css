@@ -22,5 +22,6 @@
   padding: 3rem;
   border-radius: 1rem;
   z-index: 99;
+  visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */
