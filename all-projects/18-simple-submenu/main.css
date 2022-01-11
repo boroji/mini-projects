@@ -19,9 +19,19 @@
   gap: 1.5rem;
   background-color: white;
   position: absolute;
+  top: 80%;
   padding: 3rem;
   border-radius: 1rem;
   z-index: 99;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
   visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */

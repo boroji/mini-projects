@@ -17,9 +17,18 @@
   background-color: $negative-white;
 
   position: absolute;
+  top: 80%;
   padding: $pd-48;
   border-radius: $pd-16;
   z-index: 99;
-  visibility: hidden;
+  transform: translateX(-50%);
  }
+}
+
+.visible {
+ visibility: visible;
+}
+
+.hidden {
+ visibility: hidden;
 }
