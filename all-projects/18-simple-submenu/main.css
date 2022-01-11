@@ -8,5 +8,16 @@
           justify-content: center;
   gap: 1.5rem;
   padding: 1.5rem;
+  position: relative;
+}
+
+.nav .submenu {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  position: absolute;
+  padding: 3rem;
+  border-radius: 1rem;
+  z-index: 99;
 }
 /*# sourceMappingURL=main.css.map */

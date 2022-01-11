@@ -8,4 +8,15 @@
  justify-content: center;
  gap: $pd-24;
  padding: $pd-24;
+ position: relative;
+
+ .submenu {
+  display: grid;
+  background-color: $negative-white;
+
+  position: absolute;
+  padding: $pd-48;
+  border-radius: $pd-16;
+  z-index: 99;
+ }
 }
