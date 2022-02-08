@@ -4,15 +4,14 @@ import Timer from './utils/timer.js';
 const start = selection('#start');
 const end = selection('#end');
 const input = selection('#input');
+const progress = selection('#progress');
 
+let duration;
 const res = new Timer(start, end, input, {
-	onStart() {
-		console.log('start');
+	onStart(totalDuration) {
+		duration = totalDuration;
 	},
 	onTick() {
-		console.log('tick');
-	},
-	onComplete() {
-		console.log('end');
+		progress.style.width = `${input.value}%`;
 	},
 });
