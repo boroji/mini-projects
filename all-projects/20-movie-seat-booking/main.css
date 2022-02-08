@@ -1,0 +1,53 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+main {
+  border-radius: 1.5rem;
+  padding: 3rem;
+  width: 70%;
+}
+
+main .seat {
+  width: 3rem;
+  height: 3rem;
+  background-color: #eae7ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+main .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+#movie {
+  border: none;
+}
+
+#movie::-ms-expand, #movie::-webkit-ex {
+  display: none;
+}
+
+#movie select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+/*# sourceMappingURL=main.css.map */

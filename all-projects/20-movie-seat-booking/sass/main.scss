@@ -1,0 +1,46 @@
+@import "../../../sass/spaces";
+@import "../../../sass/colors";
+@import "../../../sass/typography/tokens";
+
+@mixin center($custom-width) {
+  display: flex;
+  align-items: center;
+  width: $custom-width;
+  justify-content: center;
+}
+
+body {
+  @include center(100%);
+  min-height: 100vh;
+  padding: $pd-24;
+} 
+
+main {
+  border-radius: $pd-24;
+  padding: $pd-48;
+  width: 70%;
+  .seat {
+    width: $pd-48;
+    height: $pd-48;
+    background-color: $secondary-focus;
+    display: flex;
+    border-radius: $pd-24 $pd-24 0 0;
+  }
+  .row {
+    display: flex;
+    gap: $pd-24;
+    padding-top: $pd-24;
+  }
+}
+
+#movie {
+  border: none;
+  &::-ms-expand, &::-webkit-ex {
+    display: none;
+  }
+  select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
