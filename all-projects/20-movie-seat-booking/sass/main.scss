@@ -19,6 +19,25 @@ main {
   padding: $pd-48;
   width: 60%;
 
+  .h3-english {
+    text-align: center;
+  }
+
+  .movie-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: $pd-24 0;
+    div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      .h6-english {
+        text-align: center;
+      }
+    }
+  }
+
   .container {
     margin: 0 auto;
     width: 100%;
@@ -55,6 +74,7 @@ main {
     padding-top: $pd-24;
     gap: $pd-48;
     li {
+      width: $pd-96;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -86,6 +106,21 @@ main {
 
   .text {
     text-align: center;
+    display: flex;
+    gap: $pd-16;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    span {
+      background-color: $progress-background;
+      color: $progress-text;
+      padding: $pd-8;
+      border-radius: $pd-96;
+    }
+    #total {
+      background-color: $success-background;
+      color: $success-text;
+    }
   }
 }
 

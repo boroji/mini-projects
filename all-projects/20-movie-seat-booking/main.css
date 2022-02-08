@@ -18,6 +18,38 @@ main {
   width: 60%;
 }
 
+main .h3-english {
+  text-align: center;
+}
+
+main .movie-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5rem 0;
+}
+
+main .movie-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .movie-container div .h6-english {
+  text-align: center;
+}
+
 main .container {
   margin: 0 auto;
   width: 100%;
@@ -60,6 +92,7 @@ main .showcase {
 }
 
 main .showcase li {
+  width: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,6 +138,29 @@ main .row {
 
 main .text {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .text span {
+  background-color: #e6f0ff;
+  color: #0060f0;
+  padding: 0.5rem;
+  border-radius: 6rem;
+}
+
+main .text #total {
+  background-color: #eefce8;
+  color: #268000;
 }
 
 #movie {
