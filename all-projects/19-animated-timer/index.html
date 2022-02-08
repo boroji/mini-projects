@@ -37,22 +37,52 @@
 
   <body>
     <main class="shadow-light">
-      <h3 class="h3-english padding-bottom-24">Animated Timer</h3>
-      <input
-        id="input"
-        type="text"
-        class="large-secondary"
-        value="30"
-        placeholder="Enter timer value"
-      >
-      <button
-        id="start"
-        class="large-primary"
-      >Start timer</button>
-      <button
-        id="end"
-        class="large-secondary"
-      >Pause timer</button>
+      <header>
+        <h3 class="h3-english">Animated Timer</h3>
+        <div>
+          <input
+            id="input"
+            type="text"
+            class="large-secondary"
+            value="30"
+          >
+          <button
+            id="end"
+            class="large-secondary"
+          ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M6 19H10V5H6V19ZM14 5V19H18V5H14Z"
+                fill="#9233FF"
+              />
+            </svg>
+          </button>
+
+          <button
+            id="start"
+            class="large-primary"
+          ><svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M8 5V19L19 12L8 5Z"
+                fill="#9233FF"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+      <footer>
+        <div></div>
+        <div></div>
+      </footer>
     </main>
     <script
       type="module"
