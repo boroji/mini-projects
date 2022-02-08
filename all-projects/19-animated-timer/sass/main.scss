@@ -1,0 +1,22 @@
+@import "../../../sass/spaces";
+@import "../../../sass/colors";
+@import "../../../sass/typography/tokens";
+
+@mixin center($custom-width) {
+  display: flex;
+  align-items: center;
+  width: $custom-width;
+  justify-content: center;
+}
+
+body {
+  @include center(100%);
+  min-height: 100vh;
+  padding: $pd-24;
+}
+
+main {
+  padding: $pd-48;
+  border-radius: $pd-16;
+  width: 50%;
+}

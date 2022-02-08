@@ -1,0 +1,21 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 1rem;
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
