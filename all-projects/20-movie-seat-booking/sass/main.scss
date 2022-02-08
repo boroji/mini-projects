@@ -11,36 +11,84 @@
 
 body {
   @include center(100%);
-  min-height: 100vh;
-  padding: $pd-24;
-} 
+  padding: $pd-96;
+}
 
 main {
   border-radius: $pd-24;
   padding: $pd-48;
-  width: 70%;
+  width: 60%;
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: $pd-48;
+  }
+
   .seat {
     width: $pd-48;
     height: $pd-48;
-    background-color: $secondary-focus;
+    background-color: $secondary-highlight;
     display: flex;
     border-radius: $pd-24 $pd-24 0 0;
+
+    &:not(.occupied) {
+      &:hover {
+        background-color: $secondary-focus;
+        cursor: pointer;
+      }
+    }
+
+    &.selected {
+      background-color: $primary-main;
+    }
+
+    &.occupied {
+      background-color: $error-focus;
+    }
   }
+
+  .showcase {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: $pd-24;
+    gap: $pd-48;
+    li {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      small {
+        text-align: center;
+      }
+    }
+    .selected {
+      background-color: $primary-main;
+      &:hover {
+        background-color: $primary-main;
+      }
+    }
+
+    .occupied {
+      background-color: $error-focus;
+      &:hover {
+        background-color: $error-focus;
+      }
+    }
+  }
+
   .row {
     display: flex;
+    justify-content: center;
     gap: $pd-24;
     padding-top: $pd-24;
+  }
+
+  .text {
+    text-align: center;
   }
 }
 
 #movie {
   border: none;
-  &::-ms-expand, &::-webkit-ex {
-    display: none;
-  }
-  select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
 }

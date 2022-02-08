@@ -9,45 +9,105 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100vh;
-  padding: 1.5rem;
+  padding: 6rem;
 }
 
 main {
   border-radius: 1.5rem;
   padding: 3rem;
-  width: 70%;
+  width: 60%;
+}
+
+main .container {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 3rem;
 }
 
 main .seat {
   width: 3rem;
   height: 3rem;
-  background-color: #eae7ef;
+  background-color: #f7f6f9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border-radius: 1.5rem 1.5rem 0 0;
 }
 
+main .seat:not(.occupied):hover {
+  background-color: #eae7ef;
+  cursor: pointer;
+}
+
+main .seat.selected {
+  background-color: #9233ff;
+}
+
+main .seat.occupied {
+  background-color: #ffcccc;
+}
+
+main .showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding-top: 1.5rem;
+  gap: 3rem;
+}
+
+main .showcase li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .showcase li small {
+  text-align: center;
+}
+
+main .showcase .selected {
+  background-color: #9233ff;
+}
+
+main .showcase .selected:hover {
+  background-color: #9233ff;
+}
+
+main .showcase .occupied {
+  background-color: #ffcccc;
+}
+
+main .showcase .occupied:hover {
+  background-color: #ffcccc;
+}
+
 main .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 1.5rem;
   padding-top: 1.5rem;
 }
 
+main .text {
+  text-align: center;
+}
+
 #movie {
   border: none;
-}
-
-#movie::-ms-expand, #movie::-webkit-ex {
-  display: none;
-}
-
-#movie select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
 }
 /*# sourceMappingURL=main.css.map */
