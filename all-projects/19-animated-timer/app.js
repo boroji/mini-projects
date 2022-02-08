@@ -11,10 +11,14 @@ class Timer {
 	}
 
 	start = () => {
-		console.log('this is starting');
+		this.tick();
+		this.interval = setInterval(this.tick, 1000);
 	};
 	pause = () => {
-		console.log('This is pausing');
+		clearInterval(this.interval);
+	};
+	tick = () => {
+		console.log('tick');
 	};
 }
 
