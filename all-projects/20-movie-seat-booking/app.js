@@ -1,17 +1,7 @@
-import selection from './utils/selection.js';
-import Timer from './utils/timer.js';
+import select from './utils/select.js';
+import selectAll from './utils/selectAll.js';
 
-const start = selection('#start');
-const end = selection('#end');
-const input = selection('#input');
-const progress = selection('#progress');
-
-let duration;
-const res = new Timer(start, end, input, {
-	onStart(totalDuration) {
-		duration = totalDuration;
-	},
-	onTick() {
-		progress.style.width = `${input.value}%`;
-	},
-});
+const container = select('.container');
+const seats = selectAll('.row .seat:not(.occupied)');
+const total = select('#total');
+const count = select('#count');
