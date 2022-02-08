@@ -14,13 +14,23 @@ class Timer {
 		this.tick();
 		this.interval = setInterval(this.tick, 1000);
 	};
+
 	pause = () => {
 		clearInterval(this.interval);
 	};
+
 	tick = () => {
-		const timeRemaining = parseFloat(this.inputChange.value);
-		this.inputChange.value = timeRemaining - 1;
+		const timeRemaining = this.time;
+		this.time = timeRemaining - 1;
 	};
+
+	get time() {
+		return parseFloat(this.inputChange.value);
+	}
+
+	set time(v) {
+		this.inputChange.value = v;
+	}
 }
 
 const start = selection('#start');
