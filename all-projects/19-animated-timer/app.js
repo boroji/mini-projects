@@ -20,15 +20,18 @@ class Timer {
 	};
 
 	tick = () => {
-		const timeRemaining = this.time;
-		this.time = timeRemaining - 1;
+		if (this.timeRemaning <= 0) {
+			this.pause();
+		} else {
+			this.timeRemaning = this.timeRemaning - 1;
+		}
 	};
 
-	get time() {
+	get timeRemaning() {
 		return parseFloat(this.inputChange.value);
 	}
 
-	set time(v) {
+	set timeRemaning(v) {
 		this.inputChange.value = v;
 	}
 }
