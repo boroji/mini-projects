@@ -57,6 +57,10 @@ main .seat.selected {
   background-color: #9233ff;
 }
 
+main .seat.selected:hover {
+  background-color: #9233ff;
+}
+
 main .seat.occupied {
   background-color: #ffcccc;
 }

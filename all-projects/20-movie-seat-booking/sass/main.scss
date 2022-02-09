@@ -50,6 +50,9 @@ main {
 
     &.selected {
       background-color: $primary-main;
+      &:hover {
+        background-color: $primary-main;
+      }
     }
 
     &.occupied {

@@ -7,10 +7,19 @@ const total = select('#total');
 const count = select('#count');
 const avengers = select('#avengers');
 
-const v = parseInt(avengers.value);
+const price = parseInt(avengers.value);
+
+const checkSeatCount = () => {
+	const selectSeats = selectAll('.row .seat.selected');
+	const seatCount = selectSeats.length;
+
+	total.innerText = seatCount * price;
+	count.innerText = seatCount;
+};
 
 container.addEventListener('click', e => {
 	if (e.target.classList.contains('seat') && !e.target.classList.contains('occupied')) {
 		e.target.classList.toggle('selected');
+		checkSeatCount();
 	}
 });
