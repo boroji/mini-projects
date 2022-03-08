@@ -23,7 +23,6 @@
 ### [14 Counter OOP Project](https://boroji.com/mini-projects/all-projects/14-counter-oop)
 ### [15 Gallary OOP Project](https://boroji.com/mini-projects/all-projects/15-gallary-oop)
 ### [16 Form Validation](https://boroji.com/mini-projects/all-projects/16-form-validation)
-### [16 Form Validation](https://boroji.com/mini-projects/all-projects/16-form-validation)
 ### [17 Random User API](https://boroji.com/mini-projects/all-projects/17-random-user-API)
 ### [18 Simple Submenu](https://boroji.com/mini-projects/all-projects/18-simple-submenu)
 ### [19 Animated Timer](https://boroji.com/mini-projects/all-projects/19-animated-timer)
