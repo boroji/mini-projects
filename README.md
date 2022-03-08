@@ -6,4 +6,4 @@
 
 ## Live Links to Mini Projects
 
-[https://boroji.com/mini-projects/all-projects/01-card-flipper/](01 Card Flipper)
+[01 Card Flipper](https://boroji.com/mini-projects/all-projects/01-card-flipper/)
