@@ -6,9 +6,8 @@
 
 # Live Links to Mini Projects
 
-## You can click or hover on either of the buttons to generate random colors
-[01 Card Flipper](https://boroji.com/mini-projects/all-projects/01-card-flipper/)
-## Click on the right and left chevron arrows to increase the counter. You can reset the counter by clicking on reset counter.
+
+### [01 Card Flipper](https://boroji.com/mini-projects/all-projects/01-card-flipper/)
 [02 Simple Counter](https://boroji.com/mini-projects/all-projects/02-simple-counter/)
 [03 Review Flipper](https://boroji.com/mini-projects/all-projects/03-review-flipper/)
 [04 Responsive Navigation Bar](https://boroji.com/mini-projects/all-projects/04-responsive-nav)
